@@ -314,33 +314,33 @@
   <configurable id="MavenSettings" configurable_name="Maven">
     <option name="-t" hit="-T option" />
     <option name="option" hit="-T option" />
+    <option name="" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
+    <option name="1" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
+    <option name="2019" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
+    <option name="3" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
+    <option name="5a74bbe98a814d61e6069abd0902b46668f1278c" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
+    <option name="caches" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
+    <option name="com" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
+    <option name="files-2" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
+    <option name="gradle" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
+    <option name="idea" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
+    <option name="ideaic" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
+    <option name="ideaic-2019" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
+    <option name="intellij" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
+    <option name="jetbrains" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
+    <option name="lib" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
+    <option name="maven" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
+    <option name="maven3" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
+    <option name="mc" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
+    <option name="modules-2" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
+    <option name="plugins" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
+    <option name="users" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
     <option name="always" hit="Always update snapshots" />
     <option name="snapshots" hit="Always update snapshots" />
     <option name="update" hit="Always update snapshots" />
     <option name="3" hit="Bundled (Maven 3)" />
     <option name="bundled" hit="Bundled (Maven 3)" />
     <option name="maven" hit="Bundled (Maven 3)" />
-    <option name="1" hit="C:/Users/Simone/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="2019" hit="C:/Users/Simone/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="3" hit="C:/Users/Simone/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="5a74bbe98a814d61e6069abd0902b46668f1278c" hit="C:/Users/Simone/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="c" hit="C:/Users/Simone/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="caches" hit="C:/Users/Simone/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="com" hit="C:/Users/Simone/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="files-2" hit="C:/Users/Simone/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="gradle" hit="C:/Users/Simone/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="idea" hit="C:/Users/Simone/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="ideaic" hit="C:/Users/Simone/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="ideaic-2019" hit="C:/Users/Simone/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="intellij" hit="C:/Users/Simone/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="jetbrains" hit="C:/Users/Simone/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="lib" hit="C:/Users/Simone/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="maven" hit="C:/Users/Simone/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="maven3" hit="C:/Users/Simone/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="modules-2" hit="C:/Users/Simone/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="plugins" hit="C:/Users/Simone/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="simone" hit="C:/Users/Simone/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="users" hit="C:/Users/Simone/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
     <option name="check" hit="Check For Updates" />
     <option name="for" hit="Check For Updates" />
     <option name="updates" hit="Check For Updates" />

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="it.unisa.casper.analysis.code_smell_detection.misplaced_class.StructuralMisplacedClassStrategyTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2022-05-05T17:00:45" hostname="AIR-DI-MARCO.station" time="0.515">
+  <properties/>
+  <testcase name="isSmellyMinThreshold" classname="it.unisa.casper.analysis.code_smell_detection.misplaced_class.StructuralMisplacedClassStrategyTest" time="0.001"/>
+  <testcase name="isSmellyFalse" classname="it.unisa.casper.analysis.code_smell_detection.misplaced_class.StructuralMisplacedClassStrategyTest" time="0.001"/>
+  <testcase name="isSmellyNearThreshold" classname="it.unisa.casper.analysis.code_smell_detection.misplaced_class.StructuralMisplacedClassStrategyTest" time="0.001"/>
+  <testcase name="isSmellyTrue" classname="it.unisa.casper.analysis.code_smell_detection.misplaced_class.StructuralMisplacedClassStrategyTest" time="0.001"/>
+  <testcase name="isSmellyMinThreshold" classname="it.unisa.casper.analysis.code_smell_detection.misplaced_class.StructuralMisplacedClassStrategyTest" time="0.001"/>
+  <testcase name="isSmellyFalse" classname="it.unisa.casper.analysis.code_smell_detection.misplaced_class.StructuralMisplacedClassStrategyTest" time="0.001"/>
+  <testcase name="isSmellyNearThreshold" classname="it.unisa.casper.analysis.code_smell_detection.misplaced_class.StructuralMisplacedClassStrategyTest" time="0.0"/>
+  <testcase name="isSmellyTrue" classname="it.unisa.casper.analysis.code_smell_detection.misplaced_class.StructuralMisplacedClassStrategyTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[mag 05, 2022 7:00:45 PM it.unisa.casper.analysis.code_smell_detection.misplaced_class.StructuralMisplacedClassStrategyTest isSmellyMinThreshold
+INFORMAZIONI: 
+false
+mag 05, 2022 7:00:45 PM it.unisa.casper.analysis.code_smell_detection.misplaced_class.StructuralMisplacedClassStrategyTest isSmellyFalse
+INFORMAZIONI: 
+false
+mag 05, 2022 7:00:45 PM it.unisa.casper.analysis.code_smell_detection.misplaced_class.StructuralMisplacedClassStrategyTest isSmellyNearThreshold
+INFORMAZIONI: 
+true
+mag 05, 2022 7:00:45 PM it.unisa.casper.analysis.code_smell_detection.misplaced_class.StructuralMisplacedClassStrategyTest isSmellyTrue
+INFORMAZIONI: 
+true
+mag 05, 2022 7:00:45 PM it.unisa.casper.analysis.code_smell_detection.misplaced_class.StructuralMisplacedClassStrategyTest isSmellyMinThreshold
+INFORMAZIONI: 
+false
+mag 05, 2022 7:00:45 PM it.unisa.casper.analysis.code_smell_detection.misplaced_class.StructuralMisplacedClassStrategyTest isSmellyFalse
+INFORMAZIONI: 
+false
+mag 05, 2022 7:00:45 PM it.unisa.casper.analysis.code_smell_detection.misplaced_class.StructuralMisplacedClassStrategyTest isSmellyNearThreshold
+INFORMAZIONI: 
+true
+mag 05, 2022 7:00:45 PM it.unisa.casper.analysis.code_smell_detection.misplaced_class.StructuralMisplacedClassStrategyTest isSmellyTrue
+INFORMAZIONI: 
+true
+]]></system-err>
+</testsuite>

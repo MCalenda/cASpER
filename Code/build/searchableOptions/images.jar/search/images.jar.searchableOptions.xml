@@ -184,12 +184,12 @@
     <option name="default" hit="Show transparency chessboard by default" />
     <option name="show" hit="Show transparency chessboard by default" />
     <option name="transparency" hit="Show transparency chessboard by default" />
-    <option name="ctrl" hit="Zoom image with  mouse wheel (Ctrl+Mouse Wheel)" />
-    <option name="image" hit="Zoom image with  mouse wheel (Ctrl+Mouse Wheel)" />
-    <option name="mouse" hit="Zoom image with  mouse wheel (Ctrl+Mouse Wheel)" />
-    <option name="wheel" hit="Zoom image with  mouse wheel (Ctrl+Mouse Wheel)" />
-    <option name="with" hit="Zoom image with  mouse wheel (Ctrl+Mouse Wheel)" />
-    <option name="zoom" hit="Zoom image with  mouse wheel (Ctrl+Mouse Wheel)" />
+    <option name="cmd" hit="Zoom image with  mouse wheel (Cmd+Mouse Wheel)" />
+    <option name="image" hit="Zoom image with  mouse wheel (Cmd+Mouse Wheel)" />
+    <option name="mouse" hit="Zoom image with  mouse wheel (Cmd+Mouse Wheel)" />
+    <option name="wheel" hit="Zoom image with  mouse wheel (Cmd+Mouse Wheel)" />
+    <option name="with" hit="Zoom image with  mouse wheel (Cmd+Mouse Wheel)" />
+    <option name="zoom" hit="Zoom image with  mouse wheel (Cmd+Mouse Wheel)" />
   </configurable>
 </options>
 

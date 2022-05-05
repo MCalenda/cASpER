@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="it.unisa.casper.refactor.SplitClassTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-05-05T17:00:45" hostname="AIR-DI-MARCO.station" time="0.304">
+  <properties/>
+  <testcase name="splitFalse" classname="it.unisa.casper.refactor.SplitClassTest" time="0.024"/>
+  <testcase name="splitTrue" classname="it.unisa.casper.refactor.SplitClassTest" time="0.021"/>
+  <testcase name="splitFalse" classname="it.unisa.casper.refactor.SplitClassTest" time="0.004"/>
+  <testcase name="splitTrue" classname="it.unisa.casper.refactor.SplitClassTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[mag 05, 2022 7:00:45 PM it.unisa.casper.refactor.SplitClassTest splitFalse
+INFORMAZIONI: 
+true
+mag 05, 2022 7:00:45 PM it.unisa.casper.refactor.SplitClassTest splitFalse
+INFORMAZIONI: 
+Error occurred:false
+mag 05, 2022 7:00:45 PM it.unisa.casper.refactor.SplitClassTest splitTrue
+INFORMAZIONI: 
+true
+mag 05, 2022 7:00:45 PM it.unisa.casper.refactor.SplitClassTest splitTrue
+INFORMAZIONI: 
+Error occurred:false
+mag 05, 2022 7:00:45 PM it.unisa.casper.refactor.SplitClassTest splitFalse
+INFORMAZIONI: 
+true
+mag 05, 2022 7:00:45 PM it.unisa.casper.refactor.SplitClassTest splitFalse
+INFORMAZIONI: 
+Error occurred:false
+mag 05, 2022 7:00:45 PM it.unisa.casper.refactor.SplitClassTest splitTrue
+INFORMAZIONI: 
+true
+mag 05, 2022 7:00:45 PM it.unisa.casper.refactor.SplitClassTest splitTrue
+INFORMAZIONI: 
+Error occurred:false
+]]></system-err>
+</testsuite>

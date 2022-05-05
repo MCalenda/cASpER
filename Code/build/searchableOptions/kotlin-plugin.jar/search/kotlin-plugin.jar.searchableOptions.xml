@@ -142,12 +142,10 @@
     <option name="file" path="ActionManager" hit="Run Scratch File" />
     <option name="run" path="ActionManager" hit="Run Scratch File" />
     <option name="scratch" path="ActionManager" hit="Run Scratch File" />
-    <option name="alt" path="ActionManager" hit="Run Scratch File (Ctrl+Alt+W)" />
-    <option name="ctrl" path="ActionManager" hit="Run Scratch File (Ctrl+Alt+W)" />
-    <option name="file" path="ActionManager" hit="Run Scratch File (Ctrl+Alt+W)" />
-    <option name="run" path="ActionManager" hit="Run Scratch File (Ctrl+Alt+W)" />
-    <option name="scratch" path="ActionManager" hit="Run Scratch File (Ctrl+Alt+W)" />
-    <option name="w" path="ActionManager" hit="Run Scratch File (Ctrl+Alt+W)" />
+    <option name="file" path="ActionManager" hit="Run Scratch File (⌥⌘W)" />
+    <option name="run" path="ActionManager" hit="Run Scratch File (⌥⌘W)" />
+    <option name="scratch" path="ActionManager" hit="Run Scratch File (⌥⌘W)" />
+    <option name="w" path="ActionManager" hit="Run Scratch File (⌥⌘W)" />
     <option name="candidates" path="ActionManager" hit="Search Not Property Candidates" />
     <option name="not" path="ActionManager" hit="Search Not Property Candidates" />
     <option name="property" path="ActionManager" hit="Search Not Property Candidates" />

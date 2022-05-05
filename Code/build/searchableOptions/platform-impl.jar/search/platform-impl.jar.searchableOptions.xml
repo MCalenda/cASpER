@@ -1445,14 +1445,14 @@
     <option name="path" path="ActionManager" hit="Copy Path..." />
     <option name="copy" path="ActionManager" hit="Copy Paths" />
     <option name="paths" path="ActionManager" hit="Copy Paths" />
+    <option name="copy" path="ActionManager" hit="Copy Preferences Path" />
+    <option name="path" path="ActionManager" hit="Copy Preferences Path" />
+    <option name="preferences" path="ActionManager" hit="Copy Preferences Path" />
     <option name="copy" path="ActionManager" hit="Copy Quick Doc" />
     <option name="doc" path="ActionManager" hit="Copy Quick Doc" />
     <option name="quick" path="ActionManager" hit="Copy Quick Doc" />
     <option name="copy" path="ActionManager" hit="Copy Reference" />
     <option name="reference" path="ActionManager" hit="Copy Reference" />
-    <option name="copy" path="ActionManager" hit="Copy Settings Path" />
-    <option name="path" path="ActionManager" hit="Copy Settings Path" />
-    <option name="settings" path="ActionManager" hit="Copy Settings Path" />
     <option name="copy" path="ActionManager" hit="Copy Stack" />
     <option name="stack" path="ActionManager" hit="Copy Stack" />
     <option name="copy" path="ActionManager" hit="Copy URL" />
@@ -1958,9 +1958,9 @@
     <option name="settings" path="ActionManager" hit="Edit Settings" />
     <option name="edit" path="ActionManager" hit="Edit Source" />
     <option name="source" path="ActionManager" hit="Edit Source" />
-    <option name="application" path="ActionManager" hit="Edit application settings" />
-    <option name="edit" path="ActionManager" hit="Edit application settings" />
-    <option name="settings" path="ActionManager" hit="Edit application settings" />
+    <option name="application" path="ActionManager" hit="Edit application preferences" />
+    <option name="edit" path="ActionManager" hit="Edit application preferences" />
+    <option name="preferences" path="ActionManager" hit="Edit application preferences" />
     <option name="breakpoint" path="ActionManager" hit="Edit breakpoint" />
     <option name="edit" path="ActionManager" hit="Edit breakpoint" />
     <option name="bookmark" path="ActionManager" hit="Edit description of this bookmark" />
@@ -2878,9 +2878,8 @@
     <option name="parameter" path="ActionManager" hit="Introduce Parameter..." />
     <option name="introduce" path="ActionManager" hit="Introduce Variable..." />
     <option name="variable" path="ActionManager" hit="Introduce Variable..." />
-    <option name="caches" path="ActionManager" hit="Invalidate Caches / Restart..." />
-    <option name="invalidate" path="ActionManager" hit="Invalidate Caches / Restart..." />
-    <option name="restart" path="ActionManager" hit="Invalidate Caches / Restart..." />
+    <option name="caches" path="ActionManager" hit="Invalidate Caches..." />
+    <option name="invalidate" path="ActionManager" hit="Invalidate Caches..." />
     <option name="boolean" path="ActionManager" hit="Invert Boolean..." />
     <option name="invert" path="ActionManager" hit="Invert Boolean..." />
     <option name="bound" path="ActionManager" hit="Invoke the live template that bound to 'Custom shortcut' with the prefix typed in the editor" />
@@ -3802,6 +3801,8 @@
     <option name="open" path="ActionManager" hit="Open Project Windows" />
     <option name="project" path="ActionManager" hit="Open Project Windows" />
     <option name="windows" path="ActionManager" hit="Open Project Windows" />
+    <option name="open" path="ActionManager" hit="Open Recent" />
+    <option name="recent" path="ActionManager" hit="Open Recent" />
     <option name="open" path="ActionManager" hit="Open Selected" />
     <option name="selected" path="ActionManager" hit="Open Selected" />
     <option name="as" path="ActionManager" hit="Open Selected Diff Request as Editor Tab" />
@@ -4118,6 +4119,11 @@
     <option name="other" path="ActionManager" hit="Power save mode disables background code analysis and other background operations" />
     <option name="power" path="ActionManager" hit="Power save mode disables background code analysis and other background operations" />
     <option name="save" path="ActionManager" hit="Power save mode disables background code analysis and other background operations" />
+    <option name="for" path="ActionManager" hit="Preferences for New Projects..." />
+    <option name="new" path="ActionManager" hit="Preferences for New Projects..." />
+    <option name="preferences" path="ActionManager" hit="Preferences for New Projects..." />
+    <option name="projects" path="ActionManager" hit="Preferences for New Projects..." />
+    <option name="preferences" path="ActionManager" hit="Preferences..." />
     <option name="parameter" path="ActionManager" hit="Prev Parameter" />
     <option name="prev" path="ActionManager" hit="Prev Parameter" />
     <option name="element" path="ActionManager" hit="Prev group element" />
@@ -4373,8 +4379,6 @@
     <option name="closed" path="ActionManager" hit="Reopen Closed Tab" />
     <option name="reopen" path="ActionManager" hit="Reopen Closed Tab" />
     <option name="tab" path="ActionManager" hit="Reopen Closed Tab" />
-    <option name="project" path="ActionManager" hit="Reopen Project" />
-    <option name="reopen" path="ActionManager" hit="Reopen Project" />
     <option name="direction" path="ActionManager" hit="Repeat the last Find/Replace operation in reverse direction, or moving to previous occurrence of selected text" />
     <option name="find" path="ActionManager" hit="Repeat the last Find/Replace operation in reverse direction, or moving to previous occurrence of selected text" />
     <option name="in" path="ActionManager" hit="Repeat the last Find/Replace operation in reverse direction, or moving to previous occurrence of selected text" />
@@ -4547,6 +4551,9 @@
     <option name="current" path="ActionManager" hit="Retype Current File" />
     <option name="file" path="ActionManager" hit="Retype Current File" />
     <option name="retype" path="ActionManager" hit="Retype Current File" />
+    <option name="finder" path="ActionManager" hit="Reveal in Finder" />
+    <option name="in" path="ActionManager" hit="Reveal in Finder" />
+    <option name="reveal" path="ActionManager" hit="Reveal in Finder" />
     <option name="lines" path="ActionManager" hit="Reverse Lines" />
     <option name="reverse" path="ActionManager" hit="Reverse Lines" />
     <option name="right" path="ActionManager" hit="Right" />
@@ -5343,11 +5350,6 @@
     <option name="simultaneously" path="ActionManager" hit="Set multiple cursors in the current file to edit multiple lines of code simultaneously." />
     <option name="the" path="ActionManager" hit="Set multiple cursors in the current file to edit multiple lines of code simultaneously." />
     <option name="to" path="ActionManager" hit="Set multiple cursors in the current file to edit multiple lines of code simultaneously." />
-    <option name="for" path="ActionManager" hit="Settings for New Projects..." />
-    <option name="new" path="ActionManager" hit="Settings for New Projects..." />
-    <option name="projects" path="ActionManager" hit="Settings for New Projects..." />
-    <option name="settings" path="ActionManager" hit="Settings for New Projects..." />
-    <option name="settings" path="ActionManager" hit="Settings..." />
     <option name="show" path="ActionManager" hit="Show" />
     <option name="about" path="ActionManager" hit="Show About Popup in Debug Mode" />
     <option name="debug" path="ActionManager" hit="Show About Popup in Debug Mode" />
@@ -5424,10 +5426,10 @@
     <option name="of" path="ActionManager" hit="Show List of Tabs" />
     <option name="show" path="ActionManager" hit="Show List of Tabs" />
     <option name="tabs" path="ActionManager" hit="Show List of Tabs" />
-    <option name="explorer" path="ActionManager" hit="Show Log in Explorer" />
-    <option name="in" path="ActionManager" hit="Show Log in Explorer" />
-    <option name="log" path="ActionManager" hit="Show Log in Explorer" />
-    <option name="show" path="ActionManager" hit="Show Log in Explorer" />
+    <option name="finder" path="ActionManager" hit="Show Log in Finder" />
+    <option name="in" path="ActionManager" hit="Show Log in Finder" />
+    <option name="log" path="ActionManager" hit="Show Log in Finder" />
+    <option name="show" path="ActionManager" hit="Show Log in Finder" />
     <option name="main" path="ActionManager" hit="Show Main Menu" />
     <option name="menu" path="ActionManager" hit="Show Main Menu" />
     <option name="show" path="ActionManager" hit="Show Main Menu" />
@@ -5575,9 +5577,6 @@
     <option name="files" path="ActionManager" hit="Show hidden files and directories" />
     <option name="hidden" path="ActionManager" hit="Show hidden files and directories" />
     <option name="show" path="ActionManager" hit="Show hidden files and directories" />
-    <option name="explorer" path="ActionManager" hit="Show in Explorer" />
-    <option name="in" path="ActionManager" hit="Show in Explorer" />
-    <option name="show" path="ActionManager" hit="Show in Explorer" />
     <option name="about" path="ActionManager" hit="Show information about the IDE" />
     <option name="ide" path="ActionManager" hit="Show information about the IDE" />
     <option name="information" path="ActionManager" hit="Show information about the IDE" />
@@ -6484,12 +6483,12 @@
     <option name="module" path="ActionManager" hit="_Move module" />
   </configurable>
   <configurable id="preferences.keymap" configurable_name="Keymap">
-    <option name="get" hit="Get more keymaps in Settings | Plugins" />
-    <option name="in" hit="Get more keymaps in Settings | Plugins" />
-    <option name="keymaps" hit="Get more keymaps in Settings | Plugins" />
-    <option name="more" hit="Get more keymaps in Settings | Plugins" />
-    <option name="plugins" hit="Get more keymaps in Settings | Plugins" />
-    <option name="settings" hit="Get more keymaps in Settings | Plugins" />
+    <option name="get" hit="Get more keymaps in Preferences | Plugins" />
+    <option name="in" hit="Get more keymaps in Preferences | Plugins" />
+    <option name="keymaps" hit="Get more keymaps in Preferences | Plugins" />
+    <option name="more" hit="Get more keymaps in Preferences | Plugins" />
+    <option name="plugins" hit="Get more keymaps in Preferences | Plugins" />
+    <option name="preferences" hit="Get more keymaps in Preferences | Plugins" />
     <option name="keymap" hit="Keymap" />
   </configurable>
   <configurable id="configurable.group.editor" configurable_name="Editor" />
@@ -6556,14 +6555,14 @@
     <option name="ms" hit="Autoreparse delay (ms):" />
     <option name="caret" hit="Caret Movement" />
     <option name="movement" hit="Caret Movement" />
-    <option name="change" hit="Change font size (Zoom) with Ctrl+Mouse Wheel" />
-    <option name="ctrl" hit="Change font size (Zoom) with Ctrl+Mouse Wheel" />
-    <option name="font" hit="Change font size (Zoom) with Ctrl+Mouse Wheel" />
-    <option name="mouse" hit="Change font size (Zoom) with Ctrl+Mouse Wheel" />
-    <option name="size" hit="Change font size (Zoom) with Ctrl+Mouse Wheel" />
-    <option name="wheel" hit="Change font size (Zoom) with Ctrl+Mouse Wheel" />
-    <option name="with" hit="Change font size (Zoom) with Ctrl+Mouse Wheel" />
-    <option name="zoom" hit="Change font size (Zoom) with Ctrl+Mouse Wheel" />
+    <option name="change" hit="Change font size (Zoom) with Command+Mouse Wheel" />
+    <option name="command" hit="Change font size (Zoom) with Command+Mouse Wheel" />
+    <option name="font" hit="Change font size (Zoom) with Command+Mouse Wheel" />
+    <option name="mouse" hit="Change font size (Zoom) with Command+Mouse Wheel" />
+    <option name="size" hit="Change font size (Zoom) with Command+Mouse Wheel" />
+    <option name="wheel" hit="Change font size (Zoom) with Command+Mouse Wheel" />
+    <option name="with" hit="Change font size (Zoom) with Command+Mouse Wheel" />
+    <option name="zoom" hit="Change font size (Zoom) with Command+Mouse Wheel" />
     <option name="color" hit="Color scheme:" />
     <option name="scheme" hit="Color scheme:" />
     <option name="as" hit="Copy as rich text by default" />
@@ -6804,6 +6803,10 @@
     <option name="use" hit="Use block caret" />
   </configurable>
   <configurable id="editor.preferences.completion" configurable_name="Code Completion">
+    <option name="" hit="  Space" />
+    <option name="space" hit="  Space" />
+    <option name="" hit=" Space" />
+    <option name="space" hit=" Space" />
     <option name="all" hit="All letters" />
     <option name="letters" hit="All letters" />
     <option name="automatically" hit="Automatically insert single suggestions for:" />
@@ -6815,13 +6818,6 @@
     <option name="completion" hit="Basic Completion" />
     <option name="code" hit="Code Completion" />
     <option name="completion" hit="Code Completion" />
-    <option name="barra" hit="Ctrl+Barra spaziatrice" />
-    <option name="ctrl" hit="Ctrl+Barra spaziatrice" />
-    <option name="spaziatrice" hit="Ctrl+Barra spaziatrice" />
-    <option name="barra" hit="Ctrl+Maiusc+Barra spaziatrice" />
-    <option name="ctrl" hit="Ctrl+Maiusc+Barra spaziatrice" />
-    <option name="maiusc" hit="Ctrl+Maiusc+Barra spaziatrice" />
-    <option name="spaziatrice" hit="Ctrl+Maiusc+Barra spaziatrice" />
     <option name="first" hit="First letter only  " />
     <option name="letter" hit="First letter only  " />
     <option name="only" hit="First letter only  " />
@@ -7089,15 +7085,14 @@
     <option name="tab" hit="Tab" />
   </configurable>
   <configurable id="editor.preferences.smartKeys" configurable_name="Smart Keys">
-    <option name="add" hit="Add multiple carets on double Ctrl with arrow keys" />
-    <option name="arrow" hit="Add multiple carets on double Ctrl with arrow keys" />
-    <option name="carets" hit="Add multiple carets on double Ctrl with arrow keys" />
-    <option name="ctrl" hit="Add multiple carets on double Ctrl with arrow keys" />
-    <option name="double" hit="Add multiple carets on double Ctrl with arrow keys" />
-    <option name="keys" hit="Add multiple carets on double Ctrl with arrow keys" />
-    <option name="multiple" hit="Add multiple carets on double Ctrl with arrow keys" />
-    <option name="on" hit="Add multiple carets on double Ctrl with arrow keys" />
-    <option name="with" hit="Add multiple carets on double Ctrl with arrow keys" />
+    <option name="add" hit="Add multiple carets on double   with arrow keys" />
+    <option name="arrow" hit="Add multiple carets on double   with arrow keys" />
+    <option name="carets" hit="Add multiple carets on double   with arrow keys" />
+    <option name="double" hit="Add multiple carets on double   with arrow keys" />
+    <option name="keys" hit="Add multiple carets on double   with arrow keys" />
+    <option name="multiple" hit="Add multiple carets on double   with arrow keys" />
+    <option name="on" hit="Add multiple carets on double   with arrow keys" />
+    <option name="with" hit="Add multiple carets on double   with arrow keys" />
     <option name="automatically" hit="Automatically insert closing tag in JavaDoc" />
     <option name="closing" hit="Automatically insert closing tag in JavaDoc" />
     <option name="in" hit="Automatically insert closing tag in JavaDoc" />
@@ -7663,8 +7658,6 @@
     <option name="color" hit="Color Scheme Font" />
     <option name="font" hit="Color Scheme Font" />
     <option name="scheme" hit="Color Scheme Font" />
-    <option name="13" hit="Consolas,13" />
-    <option name="consolas" hit="Consolas,13" />
     <option name="enable" hit="Enable font ligatures" />
     <option name="font" hit="Enable font ligatures" />
     <option name="ligatures" hit="Enable font ligatures" />
@@ -7681,6 +7674,8 @@
     <option name="the" hit="For symbols not supported by the main font" />
     <option name="line" hit="Line spacing:" />
     <option name="spacing" hit="Line spacing:" />
+    <option name="12" hit="Menlo,12" />
+    <option name="menlo" hit="Menlo,12" />
     <option name="fonts" hit="Show only monospaced fonts" />
     <option name="monospaced" hit="Show only monospaced fonts" />
     <option name="only" hit="Show only monospaced fonts" />
@@ -7696,8 +7691,6 @@
     <option name="default" hit="default" />
   </configurable>
   <configurable id="reference.settingsdialog.IDE.editor.colors.Console Font" configurable_name="Console Font">
-    <option name="13" hit="Consolas,13" />
-    <option name="consolas" hit="Consolas,13" />
     <option name="console" hit="Console Font" />
     <option name="font" hit="Console Font" />
     <option name="enable" hit="Enable font ligatures" />
@@ -7716,6 +7709,8 @@
     <option name="the" hit="For symbols not supported by the main font" />
     <option name="line" hit="Line spacing:" />
     <option name="spacing" hit="Line spacing:" />
+    <option name="12" hit="Menlo,12" />
+    <option name="menlo" hit="Menlo,12" />
     <option name="fonts" hit="Show only monospaced fonts" />
     <option name="monospaced" hit="Show only monospaced fonts" />
     <option name="only" hit="Show only monospaced fonts" />

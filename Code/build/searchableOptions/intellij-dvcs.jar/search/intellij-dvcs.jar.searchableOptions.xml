@@ -1145,12 +1145,12 @@
     <option name="options" hit="Show options before removing" />
     <option name="removing" hit="Show options before removing" />
     <option name="show" hit="Show options before removing" />
-    <option name="after" hit="Show patch in Explorer after creation:" />
-    <option name="creation" hit="Show patch in Explorer after creation:" />
-    <option name="explorer" hit="Show patch in Explorer after creation:" />
-    <option name="in" hit="Show patch in Explorer after creation:" />
-    <option name="patch" hit="Show patch in Explorer after creation:" />
-    <option name="show" hit="Show patch in Explorer after creation:" />
+    <option name="after" hit="Show patch in Finder after creation:" />
+    <option name="creation" hit="Show patch in Finder after creation:" />
+    <option name="finder" hit="Show patch in Finder after creation:" />
+    <option name="in" hit="Show patch in Finder after creation:" />
+    <option name="patch" hit="Show patch in Finder after creation:" />
+    <option name="show" hit="Show patch in Finder after creation:" />
     <option name="status" hit="Status" />
     <option name="update" hit="Update" />
     <option name="becomes" hit="When empty changelist becomes inactive" />
@@ -1196,10 +1196,10 @@
     <option name="change" hit="Change Shelves Location" />
     <option name="location" hit="Change Shelves Location" />
     <option name="shelves" hit="Change Shelves Location" />
-    <option name="default" hit="Default location is  \shelf" />
-    <option name="is" hit="Default location is  \shelf" />
-    <option name="location" hit="Default location is  \shelf" />
-    <option name="shelf" hit="Default location is  \shelf" />
+    <option name="default" hit="Default location is  /shelf" />
+    <option name="is" hit="Default location is  /shelf" />
+    <option name="location" hit="Default location is  /shelf" />
+    <option name="shelf" hit="Default location is  /shelf" />
     <option name="shelf" hit="Shelf" />
     <option name="base" hit="Shelve base revisions of files under distributed version control systems" />
     <option name="control" hit="Shelve base revisions of files under distributed version control systems" />

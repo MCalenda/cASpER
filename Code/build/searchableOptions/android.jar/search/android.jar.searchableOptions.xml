@@ -620,6 +620,15 @@
     <option name="vm" hit="VM options:" />
   </configurable>
   <configurable id="project.propDebugger" configurable_name="Debugger">
+    <option name="adb" hit="Android Debug Bridge (adb)" />
+    <option name="android" hit="Android Debug Bridge (adb)" />
+    <option name="bridge" hit="Android Debug Bridge (adb)" />
+    <option name="debug" hit="Android Debug Bridge (adb)" />
+    <option name="backend" hit="Use libusb backend" />
+    <option name="libusb" hit="Use libusb backend" />
+    <option name="use" hit="Use libusb backend" />
+  </configurable>
+  <configurable id="project.propDebugger" configurable_name="Debugger">
     <option name="logcat" hit="Logcat output" />
     <option name="output" hit="Logcat output" />
     <option name="application" hit="Show application logcat messages in Debug Console" />
