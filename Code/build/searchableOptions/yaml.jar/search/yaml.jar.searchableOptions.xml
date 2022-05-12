@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <options>
   <configurable id="editor.breadcrumbs" configurable_name="Breadcrumbs">
     <option name="yaml" hit="YAML" />
@@ -51,6 +50,7 @@
     <option name="set" hit="Set from..." />
     <option name="smart" path="Tabs and Indents" hit="Smart tabs" />
     <option name="tabs" path="Tabs and Indents" hit="Smart tabs" />
+    <option name="spaces" path="Spaces" hit="Spaces" />
     <option name="size" path="Tabs and Indents" hit="Tab size:" />
     <option name="tab" path="Tabs and Indents" hit="Tab size:" />
     <option name="and" path="Tabs and Indents" hit="Tabs and Indents" />
@@ -106,7 +106,9 @@
     <option name="statement" path="Wrapping and Braces" hit="'try' statement" />
     <option name="try" path="Wrapping and Braces" hit="'try' statement" />
     <option name="" path="Wrapping and Braces" hit="'try-with-resources'" />
-    <option name="try-with-resources" path="Wrapping and Braces" hit="'try-with-resources'" />
+    <option name="resources" path="Wrapping and Braces" hit="'try-with-resources'" />
+    <option name="try" path="Wrapping and Braces" hit="'try-with-resources'" />
+    <option name="with" path="Wrapping and Braces" hit="'try-with-resources'" />
     <option name="" path="Wrapping and Braces" hit="'while' on new line" />
     <option name="line" path="Wrapping and Braces" hit="'while' on new line" />
     <option name="new" path="Wrapping and Braces" hit="'while' on new line" />
@@ -164,6 +166,7 @@
     <option name="hyphen" path="Wrapping and Braces" hit="Automatically insert hyphen on enter" />
     <option name="insert" path="Wrapping and Braces" hit="Automatically insert hyphen on enter" />
     <option name="on" path="Wrapping and Braces" hit="Automatically insert hyphen on enter" />
+    <option name="before" path="Spaces" hit="Before ':'" />
     <option name="binary" path="Wrapping and Braces" hit="Binary expressions" />
     <option name="expressions" path="Wrapping and Braces" hit="Binary expressions" />
     <option name="block" path="Wrapping and Braces" hit="Block mapping on new line" />
@@ -173,11 +176,16 @@
     <option name="on" path="Wrapping and Braces" hit="Block mapping on new line" />
     <option name="braces" path="Wrapping and Braces" hit="Braces placement" />
     <option name="placement" path="Wrapping and Braces" hit="Braces placement" />
+    <option name="brackets" path="Spaces" hit="Brackets" />
+    <option name="builder" path="Wrapping and Braces" hit="Builder methods" />
+    <option name="methods" path="Wrapping and Braces" hit="Builder methods" />
     <option name="calls" path="Wrapping and Braces" hit="Chained method calls" />
     <option name="chained" path="Wrapping and Braces" hit="Chained method calls" />
     <option name="method" path="Wrapping and Braces" hit="Chained method calls" />
     <option name="annotations" path="Wrapping and Braces" hit="Class annotations" />
     <option name="class" path="Wrapping and Braces" hit="Class annotations" />
+    <option name="braces" path="Spaces" hit="Code braces" />
+    <option name="code" path="Spaces" hit="Code braces" />
     <option name="at" path="Wrapping and Braces" hit="Comment at first column" />
     <option name="column" path="Wrapping and Braces" hit="Comment at first column" />
     <option name="comment" path="Wrapping and Braces" hit="Comment at first column" />
@@ -214,9 +222,9 @@
     <option name="force" path="Wrapping and Braces" hit="Force braces" />
     <option name="declarations" path="Wrapping and Braces" hit="Group declarations" />
     <option name="group" path="Wrapping and Braces" hit="Group declarations" />
-    <option name="at" path="Wrapping and Braces" hit="Hard wrap at" />
-    <option name="hard" path="Wrapping and Braces" hit="Hard wrap at" />
-    <option name="wrap" path="Wrapping and Braces" hit="Hard wrap at" />
+    <option name="at" path="Wrapping and Braces" hit="Hard wrap at:" />
+    <option name="hard" path="Wrapping and Braces" hit="Hard wrap at:" />
+    <option name="wrap" path="Wrapping and Braces" hit="Hard wrap at:" />
     <option name="class" path="Wrapping and Braces" hit="In class declaration" />
     <option name="declaration" path="Wrapping and Braces" hit="In class declaration" />
     <option name="in" path="Wrapping and Braces" hit="In class declaration" />
@@ -233,6 +241,10 @@
     <option name="branches" path="Wrapping and Braces" hit="Indent 'case' branches" />
     <option name="case" path="Wrapping and Braces" hit="Indent 'case' branches" />
     <option name="indent" path="Wrapping and Braces" hit="Indent 'case' branches" />
+    <option name="builder" path="Wrapping and Braces" hit="Keep builder methods indents" />
+    <option name="indents" path="Wrapping and Braces" hit="Keep builder methods indents" />
+    <option name="keep" path="Wrapping and Braces" hit="Keep builder methods indents" />
+    <option name="methods" path="Wrapping and Braces" hit="Keep builder methods indents" />
     <option name="keep" path="Wrapping and Braces" hit="Keep when reformatting" />
     <option name="reformatting" path="Wrapping and Braces" hit="Keep when reformatting" />
     <option name="when" path="Wrapping and Braces" hit="Keep when reformatting" />
@@ -324,6 +336,7 @@
     <option name="throws" path="Wrapping and Braces" hit="Throws list" />
     <option name="guides" path="Wrapping and Braces" hit="Visual guides" />
     <option name="visual" path="Wrapping and Braces" hit="Visual guides" />
+    <option name="within" path="Spaces" hit="Within" />
     <option name="after" path="Wrapping and Braces" hit="Wrap after modifier list" />
     <option name="list" path="Wrapping and Braces" hit="Wrap after modifier list" />
     <option name="modifier" path="Wrapping and Braces" hit="Wrap after modifier list" />
@@ -340,4 +353,3 @@
     <option name="wrap" path="Wrapping and Braces" hit="Wrap on typing" />
   </configurable>
 </options>
-

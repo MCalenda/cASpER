@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2022-05-05T17:00:45" hostname="AIR-DI-MARCO.station" time="0.443">
+<testsuite name="it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2022-05-10T18:02:25" hostname="AIR-DI-MARCO.station" time="0.811">
   <properties/>
-  <testcase name="isSmellyMinThreshold" classname="it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest" time="0.029"/>
-  <testcase name="isSmellyFalse" classname="it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest" time="0.004"/>
-  <testcase name="isSmellyNearThreshold" classname="it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest" time="0.053"/>
-  <testcase name="isSmellyTrue" classname="it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest" time="0.046"/>
-  <testcase name="isSmellyMinThreshold" classname="it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest" time="0.016"/>
-  <testcase name="isSmellyFalse" classname="it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest" time="0.003"/>
-  <testcase name="isSmellyNearThreshold" classname="it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest" time="0.018"/>
-  <testcase name="isSmellyTrue" classname="it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest" time="0.02"/>
+  <testcase name="isSmellyMinThreshold" classname="it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest" time="0.028"/>
+  <testcase name="isSmellyFalse" classname="it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest" time="0.001"/>
+  <testcase name="isSmellyNearThreshold" classname="it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest" time="0.035"/>
+  <testcase name="isSmellyTrue" classname="it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest" time="0.073"/>
+  <testcase name="isSmellyMinThreshold" classname="it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest" time="0.161"/>
+  <testcase name="isSmellyFalse" classname="it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest" time="0.006"/>
+  <testcase name="isSmellyNearThreshold" classname="it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest" time="0.038"/>
+  <testcase name="isSmellyTrue" classname="it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest" time="0.06"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[mag 05, 2022 7:00:45 PM it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest isSmellyMinThreshold
-INFORMAZIONI: 
+  <system-err><![CDATA[mag 10, 2022 8:02:25 PM it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest isSmellyMinThreshold
+INFO: 
 false
-mag 05, 2022 7:00:45 PM it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest isSmellyFalse
-INFORMAZIONI: 
+mag 10, 2022 8:02:25 PM it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest isSmellyFalse
+INFO: 
 false
-mag 05, 2022 7:00:45 PM it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest isSmellyNearThreshold
-INFORMAZIONI: 
+mag 10, 2022 8:02:25 PM it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest isSmellyNearThreshold
+INFO: 
 true
-mag 05, 2022 7:00:45 PM it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest isSmellyTrue
-INFORMAZIONI: 
+mag 10, 2022 8:02:25 PM it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest isSmellyTrue
+INFO: 
 true
-mag 05, 2022 7:00:45 PM it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest isSmellyMinThreshold
-INFORMAZIONI: 
+mag 10, 2022 8:02:25 PM it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest isSmellyMinThreshold
+INFO: 
 false
-mag 05, 2022 7:00:45 PM it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest isSmellyFalse
-INFORMAZIONI: 
+mag 10, 2022 8:02:25 PM it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest isSmellyFalse
+INFO: 
 false
-mag 05, 2022 7:00:45 PM it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest isSmellyNearThreshold
-INFORMAZIONI: 
+mag 10, 2022 8:02:25 PM it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest isSmellyNearThreshold
+INFO: 
 true
-mag 05, 2022 7:00:45 PM it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest isSmellyTrue
-INFORMAZIONI: 
+mag 10, 2022 8:02:25 PM it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest isSmellyTrue
+INFO: 
 true
 ]]></system-err>
 </testsuite>

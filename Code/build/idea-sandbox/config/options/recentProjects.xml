@@ -2,36 +2,20 @@
   <component name="RecentProjectsManager">
     <option name="additionalInfo">
       <map>
-        <entry key="$USER_HOME$">
+        <entry key="$USER_HOME$/Documents/Università/OtticaCrisci">
           <value>
-            <RecentProjectMetaInfo projectWorkspaceId="1YdFHsBu07gw8rAWZjhwArIYppE">
+            <RecentProjectMetaInfo frameTitle="OtticaCrisci" projectWorkspaceId="28z4b4jgfLHT6WgW8kN3cRBaRgN">
+              <option name="activationTimestamp" value="1652208247839" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="IC-193.5233.102" />
-              <option name="buildTimestamp" value="1574898433123" />
+              <option name="build" value="IC-221.5080.210" />
+              <option name="buildTimestamp" value="1649734321214" />
+              <frame x="580" y="232" width="1400" height="1000" />
               <option name="productionCode" value="IC" />
-              <option name="projectOpenTimestamp" value="1583264481074" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
-        <entry key="$USER_HOME$/Desktop/Book-a-Book2">
-          <value>
-            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1YdFKRnNMrhOiuC2u4P3yJgenwX">
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="IC-193.5233.102" />
-              <option name="buildTimestamp" value="1574898433123" />
-              <frame x="-8" y="-8" width="1936" height="1056" extendedState="6" />
-              <option name="productionCode" value="IC" />
-              <option name="projectOpenTimestamp" value="1583264499593" />
+              <option name="projectOpenTimestamp" value="1652208097798" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
       </map>
-    </option>
-    <option name="recentPaths">
-      <list>
-        <option value="$USER_HOME$/Desktop/Book-a-Book2" />
-        <option value="$USER_HOME$" />
-      </list>
     </option>
   </component>
 </application>

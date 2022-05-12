@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <options>
   <configurable id="preferences.keymap" configurable_name="Keymap">
     <option name="" path="ActionManager" hit="" />
@@ -13,14 +12,6 @@
     <option name="propertymissing" path="ActionManager" hit="Action generates propertyMissing()" />
     <option name="build" path="ActionManager" hit="Build Resources" />
     <option name="resources" path="ActionManager" hit="Build Resources" />
-    <option name="change" path="ActionManager" hit="Change Grails/Griffon SDK version" />
-    <option name="grails" path="ActionManager" hit="Change Grails/Griffon SDK version" />
-    <option name="griffon" path="ActionManager" hit="Change Grails/Griffon SDK version" />
-    <option name="sdk" path="ActionManager" hit="Change Grails/Griffon SDK version" />
-    <option name="version" path="ActionManager" hit="Change Grails/Griffon SDK version" />
-    <option name="change" path="ActionManager" hit="Change SDK Version" />
-    <option name="sdk" path="ActionManager" hit="Change SDK Version" />
-    <option name="version" path="ActionManager" hit="Change SDK Version" />
     <option name="constructor" path="ActionManager" hit="Constructor" />
     <option name="compilestatic" path="ActionManager" hit="Convert Groovy files to @CompileStatic" />
     <option name="convert" path="ActionManager" hit="Convert Groovy files to @CompileStatic" />
@@ -38,18 +29,20 @@
     <option name="convert" path="ActionManager" hit="Convert to Java" />
     <option name="java" path="ActionManager" hit="Convert to Java" />
     <option name="to" path="ActionManager" hit="Convert to Java" />
-    <option name="create" path="ActionManager" hit="Create new Gant Script" />
-    <option name="gant" path="ActionManager" hit="Create new Gant Script" />
-    <option name="new" path="ActionManager" hit="Create new Gant Script" />
-    <option name="script" path="ActionManager" hit="Create new Gant Script" />
-    <option name="class" path="ActionManager" hit="Creates new Groovy Class" />
-    <option name="creates" path="ActionManager" hit="Creates new Groovy Class" />
-    <option name="groovy" path="ActionManager" hit="Creates new Groovy Class" />
-    <option name="new" path="ActionManager" hit="Creates new Groovy Class" />
-    <option name="creates" path="ActionManager" hit="Creates new Groovy Script" />
-    <option name="groovy" path="ActionManager" hit="Creates new Groovy Script" />
-    <option name="new" path="ActionManager" hit="Creates new Groovy Script" />
-    <option name="script" path="ActionManager" hit="Creates new Groovy Script" />
+    <option name="create" path="ActionManager" hit="Create new Gant script" />
+    <option name="gant" path="ActionManager" hit="Create new Gant script" />
+    <option name="new" path="ActionManager" hit="Create new Gant script" />
+    <option name="script" path="ActionManager" hit="Create new Gant script" />
+    <option name="a" path="ActionManager" hit="Creates a new Groovy Class" />
+    <option name="class" path="ActionManager" hit="Creates a new Groovy Class" />
+    <option name="creates" path="ActionManager" hit="Creates a new Groovy Class" />
+    <option name="groovy" path="ActionManager" hit="Creates a new Groovy Class" />
+    <option name="new" path="ActionManager" hit="Creates a new Groovy Class" />
+    <option name="a" path="ActionManager" hit="Creates a new Groovy Script" />
+    <option name="creates" path="ActionManager" hit="Creates a new Groovy Script" />
+    <option name="groovy" path="ActionManager" hit="Creates a new Groovy Script" />
+    <option name="new" path="ActionManager" hit="Creates a new Groovy Script" />
+    <option name="script" path="ActionManager" hit="Creates a new Groovy Script" />
     <option name="compilation" path="ActionManager" hit="Don't generate Java stubs for this Groovy file on compilation" />
     <option name="don" path="ActionManager" hit="Don't generate Java stubs for this Groovy file on compilation" />
     <option name="file" path="ActionManager" hit="Don't generate Java stubs for this Groovy file on compilation" />
@@ -71,8 +64,6 @@
     <option name="stub" path="ActionManager" hit="Exclude from Stub Generation" />
     <option name="gant" path="ActionManager" hit="Gant Script" />
     <option name="script" path="ActionManager" hit="Gant Script" />
-    <option name="generate" path="ActionManager" hit="Generate GroovyDoc..." />
-    <option name="groovydoc" path="ActionManager" hit="Generate GroovyDoc..." />
     <option name="generate" path="ActionManager" hit="Generate toString() method" />
     <option name="method" path="ActionManager" hit="Generate toString() method" />
     <option name="tostring" path="ActionManager" hit="Generate toString() method" />
@@ -82,44 +73,23 @@
     <option name="getter" path="ActionManager" hit="Generates getter" />
     <option name="generates" path="ActionManager" hit="Generates setter" />
     <option name="setter" path="ActionManager" hit="Generates setter" />
-    <option name="documentation" path="ActionManager" hit="Generating Groovy documentation" />
-    <option name="generating" path="ActionManager" hit="Generating Groovy documentation" />
-    <option name="groovy" path="ActionManager" hit="Generating Groovy documentation" />
     <option name="getter" path="ActionManager" hit="Getter" />
     <option name="and" path="ActionManager" hit="Getter and Setter" />
     <option name="getter" path="ActionManager" hit="Getter and Setter" />
     <option name="setter" path="ActionManager" hit="Getter and Setter" />
-    <option name="grails" path="ActionManager" hit="Grails/Griffon" />
-    <option name="griffon" path="ActionManager" hit="Grails/Griffon" />
     <option name="class" path="ActionManager" hit="Groovy Class" />
     <option name="groovy" path="ActionManager" hit="Groovy Class" />
-    <option name="console" path="ActionManager" hit="Groovy Console..." />
-    <option name="groovy" path="ActionManager" hit="Groovy Console..." />
-    <option name="groovy" path="ActionManager" hit="Groovy IDE Scripting Shell" />
-    <option name="ide" path="ActionManager" hit="Groovy IDE Scripting Shell" />
-    <option name="scripting" path="ActionManager" hit="Groovy IDE Scripting Shell" />
-    <option name="shell" path="ActionManager" hit="Groovy IDE Scripting Shell" />
+    <option name="console" path="ActionManager" hit="Groovy Console" />
+    <option name="groovy" path="ActionManager" hit="Groovy Console" />
     <option name="groovy" path="ActionManager" hit="Groovy Resources" />
     <option name="resources" path="ActionManager" hit="Groovy Resources" />
     <option name="groovy" path="ActionManager" hit="Groovy Script" />
     <option name="script" path="ActionManager" hit="Groovy Script" />
-    <option name="groovy" path="ActionManager" hit="Groovy Shell..." />
-    <option name="shell" path="ActionManager" hit="Groovy Shell..." />
     <option name="console" path="ActionManager" hit="Launch Groovy console" />
     <option name="groovy" path="ActionManager" hit="Launch Groovy console" />
     <option name="launch" path="ActionManager" hit="Launch Groovy console" />
-    <option name="groovy" path="ActionManager" hit="Launch Groovy shell" />
-    <option name="launch" path="ActionManager" hit="Launch Groovy shell" />
-    <option name="shell" path="ActionManager" hit="Launch Groovy shell" />
     <option name="rebuild" path="ActionManager" hit="Rebuild Resources" />
     <option name="resources" path="ActionManager" hit="Rebuild Resources" />
-    <option name="command" path="ActionManager" hit="Run Command" />
-    <option name="run" path="ActionManager" hit="Run Command" />
-    <option name="arbitrary" path="ActionManager" hit="Run arbitrary Grails/Griffon command" />
-    <option name="command" path="ActionManager" hit="Run arbitrary Grails/Griffon command" />
-    <option name="grails" path="ActionManager" hit="Run arbitrary Grails/Griffon command" />
-    <option name="griffon" path="ActionManager" hit="Run arbitrary Grails/Griffon command" />
-    <option name="run" path="ActionManager" hit="Run arbitrary Grails/Griffon command" />
     <option name="check" path="ActionManager" hit="Run the compiler for Groovy files in resource roots to check for compilation issues" />
     <option name="compilation" path="ActionManager" hit="Run the compiler for Groovy files in resource roots to check for compilation issues" />
     <option name="compiler" path="ActionManager" hit="Run the compiler for Groovy files in resource roots to check for compilation issues" />
@@ -333,14 +303,40 @@
     <option name="reassigned" hit="Variables and Parameters//Reassigned parameter" />
     <option name="variables" hit="Variables and Parameters//Reassigned parameter" />
   </configurable>
+  <configurable id="debugger.stepping" configurable_name="Stepping">
+    <option name="classes" hit="Do not step into specific Groovy classes" />
+    <option name="do" hit="Do not step into specific Groovy classes" />
+    <option name="groovy" hit="Do not step into specific Groovy classes" />
+    <option name="into" hit="Do not step into specific Groovy classes" />
+    <option name="not" hit="Do not step into specific Groovy classes" />
+    <option name="specific" hit="Do not step into specific Groovy classes" />
+    <option name="step" hit="Do not step into specific Groovy classes" />
+    <option name="groovy" hit="Groovy" />
+  </configurable>
+  <configurable id="debugger.hotswap" configurable_name="HotSwap">
+    <option name="agent" hit="Enable hot-swap agent for Groovy code" />
+    <option name="code" hit="Enable hot-swap agent for Groovy code" />
+    <option name="enable" hit="Enable hot-swap agent for Groovy code" />
+    <option name="for" hit="Enable hot-swap agent for Groovy code" />
+    <option name="groovy" hit="Enable hot-swap agent for Groovy code" />
+    <option name="hot" hit="Enable hot-swap agent for Groovy code" />
+    <option name="swap" hit="Enable hot-swap agent for Groovy code" />
+    <option name="groovy" hit="Groovy" />
+  </configurable>
   <configurable id="preferences.sourceCode.Groovy" configurable_name="Groovy">
     <option name="absolute" path="Tabs and Indents" hit="Absolute" />
-    <option name="a" path="Code Generation" hit="Add a space at comment start" />
-    <option name="add" path="Code Generation" hit="Add a space at comment start" />
-    <option name="at" path="Code Generation" hit="Add a space at comment start" />
-    <option name="comment" path="Code Generation" hit="Add a space at comment start" />
-    <option name="space" path="Code Generation" hit="Add a space at comment start" />
-    <option name="start" path="Code Generation" hit="Add a space at comment start" />
+    <option name="a" path="Code Generation" hit="Add a space at line comment start" />
+    <option name="add" path="Code Generation" hit="Add a space at line comment start" />
+    <option name="at" path="Code Generation" hit="Add a space at line comment start" />
+    <option name="comment" path="Code Generation" hit="Add a space at line comment start" />
+    <option name="line" path="Code Generation" hit="Add a space at line comment start" />
+    <option name="space" path="Code Generation" hit="Add a space at line comment start" />
+    <option name="start" path="Code Generation" hit="Add a space at line comment start" />
+    <option name="add" path="Code Generation" hit="Add spaces around block comments" />
+    <option name="around" path="Code Generation" hit="Add spaces around block comments" />
+    <option name="block" path="Code Generation" hit="Add spaces around block comments" />
+    <option name="comments" path="Code Generation" hit="Add spaces around block comments" />
+    <option name="spaces" path="Code Generation" hit="Add spaces around block comments" />
     <option name="after" path="Blank Lines" hit="After class header:" />
     <option name="class" path="Blank Lines" hit="After class header:" />
     <option name="header" path="Blank Lines" hit="After class header:" />
@@ -392,8 +388,15 @@
     <option name="continuation" path="Tabs and Indents" hit="Continuation indent:" />
     <option name="indent" path="Tabs and Indents" hit="Continuation indent:" />
     <option name="disable" hit="Disable" />
+    <option name="enable" path="GroovyDoc" hit="Enable GroovyDoc formatting" />
+    <option name="formatting" path="GroovyDoc" hit="Enable GroovyDoc formatting" />
+    <option name="groovydoc" path="GroovyDoc" hit="Enable GroovyDoc formatting" />
+    <option name="enforce" path="Code Generation" hit="Enforce on reformat" />
+    <option name="on" path="Code Generation" hit="Enforce on reformat" />
+    <option name="reformat" path="Code Generation" hit="Enforce on reformat" />
     <option name="general" path="Imports" hit="General" />
     <option name="groovy" hit="Groovy" />
+    <option name="groovydoc" path="GroovyDoc" hit="GroovyDoc" />
     <option name="import" path="Imports" hit="Import Layout" />
     <option name="layout" path="Imports" hit="Import Layout" />
     <option name="imports" path="Imports" hit="Imports" />
@@ -413,15 +416,15 @@
     <option name="imports" path="Imports" hit="Insert imports for inner classes" />
     <option name="inner" path="Imports" hit="Insert imports for inner classes" />
     <option name="insert" path="Imports" hit="Insert imports for inner classes" />
-    <option name="blank" path="Blank Lines" hit="Keep Maximum Blank Lines" />
-    <option name="keep" path="Blank Lines" hit="Keep Maximum Blank Lines" />
-    <option name="lines" path="Blank Lines" hit="Keep Maximum Blank Lines" />
-    <option name="maximum" path="Blank Lines" hit="Keep Maximum Blank Lines" />
     <option name="empty" path="Tabs and Indents" hit="Keep indents on empty lines" />
     <option name="indents" path="Tabs and Indents" hit="Keep indents on empty lines" />
     <option name="keep" path="Tabs and Indents" hit="Keep indents on empty lines" />
     <option name="lines" path="Tabs and Indents" hit="Keep indents on empty lines" />
     <option name="on" path="Tabs and Indents" hit="Keep indents on empty lines" />
+    <option name="blank" path="Blank Lines" hit="Keep maximum blank lines" />
+    <option name="keep" path="Blank Lines" hit="Keep maximum blank lines" />
+    <option name="lines" path="Blank Lines" hit="Keep maximum blank lines" />
+    <option name="maximum" path="Blank Lines" hit="Keep maximum blank lines" />
     <option name="indent" path="Tabs and Indents" hit="Label indent style:" />
     <option name="label" path="Tabs and Indents" hit="Label indent style:" />
     <option name="style" path="Tabs and Indents" hit="Label indent style:" />
@@ -437,9 +440,9 @@
     <option name="first" path="Code Generation" hit="Line comment at first column" />
     <option name="line" path="Code Generation" hit="Line comment at first column" />
     <option name="loading" hit="Loading..." />
-    <option name="blank" path="Blank Lines" hit="Minimum Blank Lines" />
-    <option name="lines" path="Blank Lines" hit="Minimum Blank Lines" />
-    <option name="minimum" path="Blank Lines" hit="Minimum Blank Lines" />
+    <option name="blank" path="Blank Lines" hit="Minimum blank lines" />
+    <option name="lines" path="Blank Lines" hit="Minimum blank lines" />
+    <option name="minimum" path="Blank Lines" hit="Minimum blank lines" />
     <option name="count" path="Imports" hit="Names count to use static import with '*':" />
     <option name="import" path="Imports" hit="Names count to use static import with '*':" />
     <option name="names" path="Imports" hit="Names count to use static import with '*':" />
@@ -589,7 +592,9 @@
     <option name="statement" path="Wrapping and Braces" hit="'try' statement" />
     <option name="try" path="Wrapping and Braces" hit="'try' statement" />
     <option name="" path="Wrapping and Braces" hit="'try-with-resources'" />
-    <option name="try-with-resources" path="Wrapping and Braces" hit="'try-with-resources'" />
+    <option name="resources" path="Wrapping and Braces" hit="'try-with-resources'" />
+    <option name="try" path="Wrapping and Braces" hit="'try-with-resources'" />
+    <option name="with" path="Wrapping and Braces" hit="'try-with-resources'" />
     <option name="" path="Spaces" hit="'while' keyword" />
     <option name="keyword" path="Spaces" hit="'while' keyword" />
     <option name="while" path="Spaces" hit="'while' keyword" />
@@ -608,7 +613,6 @@
     <option name="" path="Wrapping and Braces" hit="'while()' statement" />
     <option name="statement" path="Wrapping and Braces" hit="'while()' statement" />
     <option name="while" path="Wrapping and Braces" hit="'while()' statement" />
-    <option name="-" path="Spaces" hit="Additive operators (+, -)" />
     <option name="additive" path="Spaces" hit="Additive operators (+, -)" />
     <option name="operators" path="Spaces" hit="Additive operators (+, -)" />
     <option name="after" path="Spaces" hit="After ':'" />
@@ -664,8 +668,8 @@
     <option name="parameters" path="Spaces" hit="Annotation parameters" />
     <option name="annotation" path="Spaces" hit="Annotation parentheses" />
     <option name="parentheses" path="Spaces" hit="Annotation parentheses" />
-    <option name="around" path="Spaces" hit="Around Operators" />
-    <option name="operators" path="Spaces" hit="Around Operators" />
+    <option name="around" path="Spaces" hit="Around operators" />
+    <option name="operators" path="Spaces" hit="Around operators" />
     <option name="array" path="Wrapping and Braces" hit="Array initializer" />
     <option name="initializer" path="Wrapping and Braces" hit="Array initializer" />
     <option name="array" path="Spaces" hit="Array initializer braces" />
@@ -694,15 +698,19 @@
     <option name="before" path="Spaces" hit="Before 'for' semicolon" />
     <option name="for" path="Spaces" hit="Before 'for' semicolon" />
     <option name="semicolon" path="Spaces" hit="Before 'for' semicolon" />
-    <option name="before" path="Spaces" hit="Before Keywords" />
-    <option name="keywords" path="Spaces" hit="Before Keywords" />
-    <option name="before" path="Spaces" hit="Before Left Brace" />
-    <option name="brace" path="Spaces" hit="Before Left Brace" />
-    <option name="left" path="Spaces" hit="Before Left Brace" />
-    <option name="before" path="Spaces" hit="Before Parentheses" />
-    <option name="parentheses" path="Spaces" hit="Before Parentheses" />
     <option name="before" path="Spaces" hit="Before comma" />
     <option name="comma" path="Spaces" hit="Before comma" />
+    <option name="before" path="Spaces" hit="Before keywords" />
+    <option name="keywords" path="Spaces" hit="Before keywords" />
+    <option name="before" path="Spaces" hit="Before left brace" />
+    <option name="brace" path="Spaces" hit="Before left brace" />
+    <option name="left" path="Spaces" hit="Before left brace" />
+    <option name="before" path="Spaces" hit="Before parentheses" />
+    <option name="parentheses" path="Spaces" hit="Before parentheses" />
+    <option name="before" path="Spaces" hit="Before record parameter list" />
+    <option name="list" path="Spaces" hit="Before record parameter list" />
+    <option name="parameter" path="Spaces" hit="Before record parameter list" />
+    <option name="record" path="Spaces" hit="Before record parameter list" />
     <option name="binary" path="Wrapping and Braces" hit="Binary expressions" />
     <option name="expressions" path="Wrapping and Braces" hit="Binary expressions" />
     <option name="bitwise" path="Spaces" hit="Bitwise operators (&amp;, |, ^)" />
@@ -710,6 +718,8 @@
     <option name="braces" path="Wrapping and Braces" hit="Braces placement" />
     <option name="placement" path="Wrapping and Braces" hit="Braces placement" />
     <option name="brackets" path="Spaces" hit="Brackets" />
+    <option name="builder" path="Wrapping and Braces" hit="Builder methods" />
+    <option name="methods" path="Wrapping and Braces" hit="Builder methods" />
     <option name="calls" path="Wrapping and Braces" hit="Chained method calls" />
     <option name="chained" path="Wrapping and Braces" hit="Chained method calls" />
     <option name="method" path="Wrapping and Braces" hit="Chained method calls" />
@@ -777,14 +787,11 @@
     <option name="group" path="Wrapping and Braces" hit="Group declarations" />
     <option name="grouping" path="Spaces" hit="Grouping parentheses" />
     <option name="parentheses" path="Spaces" hit="Grouping parentheses" />
-    <option name="at" path="Wrapping and Braces" hit="Hard wrap at" />
-    <option name="hard" path="Wrapping and Braces" hit="Hard wrap at" />
-    <option name="wrap" path="Wrapping and Braces" hit="Hard wrap at" />
+    <option name="at" path="Wrapping and Braces" hit="Hard wrap at:" />
+    <option name="hard" path="Wrapping and Braces" hit="Hard wrap at:" />
+    <option name="wrap" path="Wrapping and Braces" hit="Hard wrap at:" />
     <option name="annotations" path="Wrapping and Braces" hit="Import annotations" />
     <option name="import" path="Wrapping and Braces" hit="Import annotations" />
-    <option name="in" path="Spaces" hit="In Ternary Operator (?:)" />
-    <option name="operator" path="Spaces" hit="In Ternary Operator (?:)" />
-    <option name="ternary" path="Spaces" hit="In Ternary Operator (?:)" />
     <option name="class" path="Wrapping and Braces" hit="In class declaration" />
     <option name="declaration" path="Wrapping and Braces" hit="In class declaration" />
     <option name="in" path="Wrapping and Braces" hit="In class declaration" />
@@ -802,6 +809,9 @@
     <option name="before" path="Spaces" hit="In named argument before ':'" />
     <option name="in" path="Spaces" hit="In named argument before ':'" />
     <option name="named" path="Spaces" hit="In named argument before ':'" />
+    <option name="in" path="Spaces" hit="In ternary operator (?:)" />
+    <option name="operator" path="Spaces" hit="In ternary operator (?:)" />
+    <option name="ternary" path="Spaces" hit="In ternary operator (?:)" />
     <option name="break" path="Wrapping and Braces" hit="Indent 'break' from 'case'" />
     <option name="case" path="Wrapping and Braces" hit="Indent 'break' from 'case'" />
     <option name="from" path="Wrapping and Braces" hit="Indent 'break' from 'case'" />
@@ -809,6 +819,10 @@
     <option name="branches" path="Wrapping and Braces" hit="Indent 'case' branches" />
     <option name="case" path="Wrapping and Braces" hit="Indent 'case' branches" />
     <option name="indent" path="Wrapping and Braces" hit="Indent 'case' branches" />
+    <option name="builder" path="Wrapping and Braces" hit="Keep builder methods indents" />
+    <option name="indents" path="Wrapping and Braces" hit="Keep builder methods indents" />
+    <option name="keep" path="Wrapping and Braces" hit="Keep builder methods indents" />
+    <option name="methods" path="Wrapping and Braces" hit="Keep builder methods indents" />
     <option name="keep" path="Wrapping and Braces" hit="Keep when reformatting" />
     <option name="reformatting" path="Wrapping and Braces" hit="Keep when reformatting" />
     <option name="when" path="Wrapping and Braces" hit="Keep when reformatting" />
@@ -927,8 +941,6 @@
     <option name="cast" path="Spaces" hit="Type cast parentheses" />
     <option name="parentheses" path="Spaces" hit="Type cast parentheses" />
     <option name="type" path="Spaces" hit="Type cast parentheses" />
-    <option name="-" path="Spaces" hit="Unary operators (!, -, +, ++, --, *)" />
-    <option name="--" path="Spaces" hit="Unary operators (!, -, +, ++, --, *)" />
     <option name="operators" path="Spaces" hit="Unary operators (!, -, +, ++, --, *)" />
     <option name="unary" path="Spaces" hit="Unary operators (!, -, +, ++, --, *)" />
     <option name="braces" path="Wrapping and Braces" hit="Use flying geese braces" />
@@ -938,9 +950,12 @@
     <option name="guides" path="Wrapping and Braces" hit="Visual guides" />
     <option name="visual" path="Wrapping and Braces" hit="Visual guides" />
     <option name="within" path="Spaces" hit="Within" />
-    <option name="arguments" path="Spaces" hit="Within Type Arguments" />
-    <option name="type" path="Spaces" hit="Within Type Arguments" />
-    <option name="within" path="Spaces" hit="Within Type Arguments" />
+    <option name="arguments" path="Spaces" hit="Within type arguments" />
+    <option name="type" path="Spaces" hit="Within type arguments" />
+    <option name="within" path="Spaces" hit="Within type arguments" />
+    <option name="after" path="Wrapping and Braces" hit="Wrap after dot" />
+    <option name="dot" path="Wrapping and Braces" hit="Wrap after dot" />
+    <option name="wrap" path="Wrapping and Braces" hit="Wrap after dot" />
     <option name="after" path="Wrapping and Braces" hit="Wrap after modifier list" />
     <option name="list" path="Wrapping and Braces" hit="Wrap after modifier list" />
     <option name="modifier" path="Wrapping and Braces" hit="Wrap after modifier list" />
@@ -983,18 +998,28 @@
     <option name="cleanup" hit="Spock cleanup Method" />
     <option name="method" hit="Spock cleanup Method" />
     <option name="spock" hit="Spock cleanup Method" />
-    <option name="spock_setup_method" hit="Spock_SetUp_Method" />
+    <option name="method" hit="Spock_SetUp_Method" />
+    <option name="setup" hit="Spock_SetUp_Method" />
+    <option name="spock" hit="Spock_SetUp_Method" />
+    <option name="template" hit="template" />
   </configurable>
   <configurable id="copyright.filetypes.Groovy" configurable_name="Groovy">
-    <option name="add" hit="Add blank line after" />
+    <option name="a" hit="Add blank line after" />
     <option name="after" hit="Add blank line after" />
     <option name="blank" hit="Add blank line after" />
+    <option name="dd" hit="Add blank line after" />
     <option name="line" hit="Add blank line after" />
-    <option name="after" hit="After other comments" />
+    <option name="add" hit="Add blank line before" />
+    <option name="before" hit="Add blank line before" />
+    <option name="blank" hit="Add blank line before" />
+    <option name="line" hit="Add blank line before" />
+    <option name="afte" hit="After other comments" />
     <option name="comments" hit="After other comments" />
     <option name="other" hit="After other comments" />
-    <option name="before" hit="Before other comments" />
+    <option name="r" hit="After other comments" />
+    <option name="bef" hit="Before other comments" />
     <option name="comments" hit="Before other comments" />
+    <option name="ore" hit="Before other comments" />
     <option name="other" hit="Before other comments" />
     <option name="borders" hit="Borders" />
     <option name="box" hit="Box" />
@@ -1028,11 +1053,6 @@
     <option name="line" hit="Use line comment" />
     <option name="use" hit="Use line comment" />
   </configurable>
-  <configurable id="reference.settingsdialog.project.gant" configurable_name="Gant">
-    <option name="gant" hit="Gant" />
-    <option name="gant" hit="Gant home:" />
-    <option name="home" hit="Gant home:" />
-  </configurable>
   <configurable id="reference.projectsettings.compiler.javacompiler" configurable_name="Java Compiler">
     <option name="additional" hit="Additional command line parameters:" />
     <option name="command" hit="Additional command line parameters:" />
@@ -1041,9 +1061,12 @@
     <option name="debug" hit="Generate debug info" />
     <option name="generate" hit="Generate debug info" />
     <option name="info" hit="Generate debug info" />
-    <option name="groovy-eclipse" hit="Groovy-Eclipse options" />
+    <option name="eclipse" hit="Groovy-Eclipse options" />
+    <option name="groovy" hit="Groovy-Eclipse options" />
     <option name="options" hit="Groovy-Eclipse options" />
-    <option name="groovy-eclipse-batch" hit="Path to groovy-eclipse-batch jar:" />
+    <option name="batch" hit="Path to groovy-eclipse-batch jar:" />
+    <option name="eclipse" hit="Path to groovy-eclipse-batch jar:" />
+    <option name="groovy" hit="Path to groovy-eclipse-batch jar:" />
     <option name="jar" hit="Path to groovy-eclipse-batch jar:" />
     <option name="path" hit="Path to groovy-eclipse-batch jar:" />
     <option name="to" hit="Path to groovy-eclipse-batch jar:" />
@@ -1062,32 +1085,9 @@
     <option name="path" hit="Path to configscript:" />
     <option name="to" hit="Path to configscript:" />
   </configurable>
-  <configurable id="debugger.stepping" configurable_name="Stepping">
-    <option name="classes" hit="Do not step into specific Groovy classes" />
-    <option name="do" hit="Do not step into specific Groovy classes" />
-    <option name="groovy" hit="Do not step into specific Groovy classes" />
-    <option name="into" hit="Do not step into specific Groovy classes" />
-    <option name="not" hit="Do not step into specific Groovy classes" />
-    <option name="specific" hit="Do not step into specific Groovy classes" />
-    <option name="step" hit="Do not step into specific Groovy classes" />
-    <option name="groovy" hit="Groovy" />
-  </configurable>
-  <configurable id="debugger.hotswap" configurable_name="HotSwap">
-    <option name="agent" hit="Enable hot-swap agent for Groovy code" />
-    <option name="code" hit="Enable hot-swap agent for Groovy code" />
-    <option name="enable" hit="Enable hot-swap agent for Groovy code" />
-    <option name="for" hit="Enable hot-swap agent for Groovy code" />
-    <option name="groovy" hit="Enable hot-swap agent for Groovy code" />
-    <option name="hot-swap" hit="Enable hot-swap agent for Groovy code" />
-    <option name="groovy" hit="Groovy" />
-    <option name="application" hit="May cause serialization issues in the debugged application" />
-    <option name="cause" hit="May cause serialization issues in the debugged application" />
-    <option name="debugged" hit="May cause serialization issues in the debugged application" />
-    <option name="in" hit="May cause serialization issues in the debugged application" />
-    <option name="issues" hit="May cause serialization issues in the debugged application" />
-    <option name="may" hit="May cause serialization issues in the debugged application" />
-    <option name="serialization" hit="May cause serialization issues in the debugged application" />
-    <option name="the" hit="May cause serialization issues in the debugged application" />
+  <configurable id="reference.settingsdialog.project.gant" configurable_name="Gant">
+    <option name="gant" hit="Gant" />
+    <option name="gant" hit="Gant home:" />
+    <option name="home" hit="Gant home:" />
   </configurable>
 </options>
-

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <options>
   <configurable id="preferences.keymap" configurable_name="Keymap">
     <option name="" path="ActionManager" hit="" />
@@ -67,18 +66,6 @@
     <option name="dialog" path="ActionManager" hit="Create Dialog Class" />
     <option name="create" path="ActionManager" hit="Create Listener" />
     <option name="listener" path="ActionManager" hit="Create Listener" />
-    <option name="a" path="ActionManager" hit="Create a GUI form based on the UI of a running Java application" />
-    <option name="application" path="ActionManager" hit="Create a GUI form based on the UI of a running Java application" />
-    <option name="based" path="ActionManager" hit="Create a GUI form based on the UI of a running Java application" />
-    <option name="create" path="ActionManager" hit="Create a GUI form based on the UI of a running Java application" />
-    <option name="form" path="ActionManager" hit="Create a GUI form based on the UI of a running Java application" />
-    <option name="gui" path="ActionManager" hit="Create a GUI form based on the UI of a running Java application" />
-    <option name="java" path="ActionManager" hit="Create a GUI form based on the UI of a running Java application" />
-    <option name="of" path="ActionManager" hit="Create a GUI form based on the UI of a running Java application" />
-    <option name="on" path="ActionManager" hit="Create a GUI form based on the UI of a running Java application" />
-    <option name="running" path="ActionManager" hit="Create a GUI form based on the UI of a running Java application" />
-    <option name="the" path="ActionManager" hit="Create a GUI form based on the UI of a running Java application" />
-    <option name="ui" path="ActionManager" hit="Create a GUI form based on the UI of a running Java application" />
     <option name="an" path="ActionManager" hit="Create an empty GUI form" />
     <option name="create" path="ActionManager" hit="Create an empty GUI form" />
     <option name="empty" path="ActionManager" hit="Create an empty GUI form" />
@@ -135,8 +122,6 @@
     <option name="selection" path="ActionManager" hit="Expand selection structurally" />
     <option name="structurally" path="ActionManager" hit="Expand selection structurally" />
     <option name="flatten" path="ActionManager" hit="Flatten" />
-    <option name="form" path="ActionManager" hit="Form Snapshot" />
-    <option name="snapshot" path="ActionManager" hit="Form Snapshot" />
     <option name="form" path="ActionManager" hit="Form Source" />
     <option name="source" path="ActionManager" hit="Form Source" />
     <option name="form" path="ActionManager" hit="Form main()" />
@@ -275,6 +260,12 @@
     <option name="ungroup" path="ActionManager" hit="Ungroup Buttons" />
   </configurable>
   <configurable id="project.propGUI" configurable_name="GUI Designer">
+    <option name="allow" hit="Allow changing locale at runtime (requires 2020.1)" />
+    <option name="at" hit="Allow changing locale at runtime (requires 2020.1)" />
+    <option name="changing" hit="Allow changing locale at runtime (requires 2020.1)" />
+    <option name="locale" hit="Allow changing locale at runtime (requires 2020.1)" />
+    <option name="requires" hit="Allow changing locale at runtime (requires 2020.1)" />
+    <option name="runtime" hit="Allow changing locale at runtime (requires 2020.1)" />
     <option name="automatically" hit="Automatically copy form runtime classes to the output directory" />
     <option name="classes" hit="Automatically copy form runtime classes to the output directory" />
     <option name="copy" hit="Automatically copy form runtime classes to the output directory" />
@@ -288,10 +279,11 @@
     <option name="class" hit="Binary class files" />
     <option name="files" hit="Binary class files" />
     <option name="accessibility" hit="Default accessibility for UI-bound fields:" />
+    <option name="bound" hit="Default accessibility for UI-bound fields:" />
     <option name="default" hit="Default accessibility for UI-bound fields:" />
     <option name="fields" hit="Default accessibility for UI-bound fields:" />
     <option name="for" hit="Default accessibility for UI-bound fields:" />
-    <option name="ui-bound" hit="Default accessibility for UI-bound fields:" />
+    <option name="ui" hit="Default accessibility for UI-bound fields:" />
     <option name="default" hit="Default layout manager:" />
     <option name="layout" hit="Default layout manager:" />
     <option name="manager" hit="Default layout manager:" />
@@ -310,10 +302,10 @@
     <option name="resize" hit="Resize column and row headers with mouse" />
     <option name="row" hit="Resize column and row headers with mouse" />
     <option name="with" hit="Resize column and row headers with mouse" />
-    <option name="package-private" hit="package-private" />
+    <option name="package" hit="package-private" />
+    <option name="private" hit="package-private" />
     <option name="private" hit="private" />
     <option name="protected" hit="protected" />
     <option name="public" hit="public" />
   </configurable>
 </options>
-

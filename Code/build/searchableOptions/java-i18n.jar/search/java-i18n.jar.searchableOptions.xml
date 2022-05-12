@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <options>
   <configurable id="preferences.keymap" configurable_name="Keymap">
     <option name="" path="ActionManager" hit="" />
@@ -17,5 +16,17 @@
     <option name="text" path="ActionManager" hit="Replace Java string literal or JSP text with internationalized expression" />
     <option name="with" path="ActionManager" hit="Replace Java string literal or JSP text with internationalized expression" />
   </configurable>
+  <configurable id="editor.preferences.folding" configurable_name="Code Folding">
+    <option name="code" hit="Fold '{0}', '{1}', ... placeholders to corresponding context expressions from Java/Kotlin code" />
+    <option name="context" hit="Fold '{0}', '{1}', ... placeholders to corresponding context expressions from Java/Kotlin code" />
+    <option name="corresponding" hit="Fold '{0}', '{1}', ... placeholders to corresponding context expressions from Java/Kotlin code" />
+    <option name="expressions" hit="Fold '{0}', '{1}', ... placeholders to corresponding context expressions from Java/Kotlin code" />
+    <option name="fold" hit="Fold '{0}', '{1}', ... placeholders to corresponding context expressions from Java/Kotlin code" />
+    <option name="from" hit="Fold '{0}', '{1}', ... placeholders to corresponding context expressions from Java/Kotlin code" />
+    <option name="java" hit="Fold '{0}', '{1}', ... placeholders to corresponding context expressions from Java/Kotlin code" />
+    <option name="kotlin" hit="Fold '{0}', '{1}', ... placeholders to corresponding context expressions from Java/Kotlin code" />
+    <option name="placeholders" hit="Fold '{0}', '{1}', ... placeholders to corresponding context expressions from Java/Kotlin code" />
+    <option name="to" hit="Fold '{0}', '{1}', ... placeholders to corresponding context expressions from Java/Kotlin code" />
+    <option name="properties" hit="Properties" />
+  </configurable>
 </options>
-

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <options>
   <configurable id="preferences.keymap" configurable_name="Keymap">
     <option name="" path="ActionManager" hit="" />
@@ -11,42 +10,28 @@
     <option name="settings" path="ActionManager" hit="Settings Repository…" />
   </configurable>
   <configurable id="ics" configurable_name="Settings Repository">
-    <option name="" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use File -&gt; Settings Repository... to configure   " />
-    <option name="-" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use File -&gt; Settings Repository... to configure   " />
-    <option name="589df6" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use File -&gt; Settings Repository... to configure   " />
-    <option name="800080" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use File -&gt; Settings Repository... to configure   " />
-    <option name="a" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use File -&gt; Settings Repository... to configure   " />
-    <option name="active" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use File -&gt; Settings Repository... to configure   " />
-    <option name="color" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use File -&gt; Settings Repository... to configure   " />
-    <option name="configure" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use File -&gt; Settings Repository... to configure   " />
-    <option name="f00000" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use File -&gt; Settings Repository... to configure   " />
-    <option name="file" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use File -&gt; Settings Repository... to configure   " />
-    <option name="hover" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use File -&gt; Settings Repository... to configure   " />
-    <option name="link" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use File -&gt; Settings Repository... to configure   " />
-    <option name="repository" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use File -&gt; Settings Repository... to configure   " />
-    <option name="settings" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use File -&gt; Settings Repository... to configure   " />
-    <option name="to" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use File -&gt; Settings Repository... to configure   " />
-    <option name="use" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use File -&gt; Settings Repository... to configure   " />
-    <option name="visited" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use File -&gt; Settings Repository... to configure   " />
-    <option name="" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use VCS -&gt; Sync Settings to sync when you want   " />
-    <option name="-" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use VCS -&gt; Sync Settings to sync when you want   " />
-    <option name="589df6" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use VCS -&gt; Sync Settings to sync when you want   " />
-    <option name="800080" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use VCS -&gt; Sync Settings to sync when you want   " />
-    <option name="a" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use VCS -&gt; Sync Settings to sync when you want   " />
-    <option name="active" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use VCS -&gt; Sync Settings to sync when you want   " />
-    <option name="color" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use VCS -&gt; Sync Settings to sync when you want   " />
-    <option name="f00000" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use VCS -&gt; Sync Settings to sync when you want   " />
-    <option name="hover" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use VCS -&gt; Sync Settings to sync when you want   " />
-    <option name="link" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use VCS -&gt; Sync Settings to sync when you want   " />
-    <option name="settings" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use VCS -&gt; Sync Settings to sync when you want   " />
-    <option name="sync" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use VCS -&gt; Sync Settings to sync when you want   " />
-    <option name="to" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use VCS -&gt; Sync Settings to sync when you want   " />
-    <option name="use" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use VCS -&gt; Sync Settings to sync when you want   " />
-    <option name="vcs" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use VCS -&gt; Sync Settings to sync when you want   " />
-    <option name="visited" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use VCS -&gt; Sync Settings to sync when you want   " />
-    <option name="want" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use VCS -&gt; Sync Settings to sync when you want   " />
-    <option name="when" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use VCS -&gt; Sync Settings to sync when you want   " />
-    <option name="you" hit="    a, a:link {color:#589df6;} a:visited {color:#800080;} a:hover {color:#589df6;} a:active {color:#f00000;}      Use VCS -&gt; Sync Settings to sync when you want   " />
+    <option name="" hit=" Use File -&gt; Manage IDE Settings -&gt; Settings Repository... to configure" />
+    <option name="configure" hit=" Use File -&gt; Manage IDE Settings -&gt; Settings Repository... to configure" />
+    <option name="file" hit=" Use File -&gt; Manage IDE Settings -&gt; Settings Repository... to configure" />
+    <option name="ide" hit=" Use File -&gt; Manage IDE Settings -&gt; Settings Repository... to configure" />
+    <option name="manage" hit=" Use File -&gt; Manage IDE Settings -&gt; Settings Repository... to configure" />
+    <option name="repository" hit=" Use File -&gt; Manage IDE Settings -&gt; Settings Repository... to configure" />
+    <option name="settings" hit=" Use File -&gt; Manage IDE Settings -&gt; Settings Repository... to configure" />
+    <option name="to" hit=" Use File -&gt; Manage IDE Settings -&gt; Settings Repository... to configure" />
+    <option name="use" hit=" Use File -&gt; Manage IDE Settings -&gt; Settings Repository... to configure" />
+    <option name="" hit=" Use File -&gt; Manage IDE Settings -&gt; Sync with Settings Repository to sync when you want" />
+    <option name="file" hit=" Use File -&gt; Manage IDE Settings -&gt; Sync with Settings Repository to sync when you want" />
+    <option name="ide" hit=" Use File -&gt; Manage IDE Settings -&gt; Sync with Settings Repository to sync when you want" />
+    <option name="manage" hit=" Use File -&gt; Manage IDE Settings -&gt; Sync with Settings Repository to sync when you want" />
+    <option name="repository" hit=" Use File -&gt; Manage IDE Settings -&gt; Sync with Settings Repository to sync when you want" />
+    <option name="settings" hit=" Use File -&gt; Manage IDE Settings -&gt; Sync with Settings Repository to sync when you want" />
+    <option name="sync" hit=" Use File -&gt; Manage IDE Settings -&gt; Sync with Settings Repository to sync when you want" />
+    <option name="to" hit=" Use File -&gt; Manage IDE Settings -&gt; Sync with Settings Repository to sync when you want" />
+    <option name="use" hit=" Use File -&gt; Manage IDE Settings -&gt; Sync with Settings Repository to sync when you want" />
+    <option name="want" hit=" Use File -&gt; Manage IDE Settings -&gt; Sync with Settings Repository to sync when you want" />
+    <option name="when" hit=" Use File -&gt; Manage IDE Settings -&gt; Sync with Settings Repository to sync when you want" />
+    <option name="with" hit=" Use File -&gt; Manage IDE Settings -&gt; Sync with Settings Repository to sync when you want" />
+    <option name="you" hit=" Use File -&gt; Manage IDE Settings -&gt; Sync with Settings Repository to sync when you want" />
     <option name="auto" hit="Auto Sync" />
     <option name="sync" hit="Auto Sync" />
     <option name="delete" hit="Delete" />
@@ -55,11 +40,11 @@
     <option name="include" hit="Include hostname into commit message" />
     <option name="into" hit="Include hostname into commit message" />
     <option name="message" hit="Include hostname into commit message" />
-    <option name="read-only" hit="Read-only sources:" />
+    <option name="only" hit="Read-only sources:" />
+    <option name="read" hit="Read-only sources:" />
     <option name="sources" hit="Read-only sources:" />
     <option name="repository" hit="Repository:" />
     <option name="repository" hit="Settings Repository" />
     <option name="settings" hit="Settings Repository" />
   </configurable>
 </options>
-

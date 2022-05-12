@@ -1,18 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <options>
   <configurable id="preferences.keymap" configurable_name="Keymap">
+    <option name="" path="ActionManager" hit="" />
     <option name="" path="ActionManager" hit=".editorconfig file" />
     <option name="editorconfig" path="ActionManager" hit=".editorconfig file" />
     <option name="file" path="ActionManager" hit=".editorconfig file" />
+    <option name="add" path="ActionManager" hit="Add language properties" />
+    <option name="language" path="ActionManager" hit="Add language properties" />
+    <option name="properties" path="ActionManager" hit="Add language properties" />
     <option name="create" path="ActionManager" hit="Create .editorconfig file" />
     <option name="editorconfig" path="ActionManager" hit="Create .editorconfig file" />
     <option name="file" path="ActionManager" hit="Create .editorconfig file" />
-    <option name="create" path="ActionManager" hit="Create new EditorConfig file" />
-    <option name="editorconfig" path="ActionManager" hit="Create new EditorConfig file" />
-    <option name="file" path="ActionManager" hit="Create new EditorConfig file" />
-    <option name="new" path="ActionManager" hit="Create new EditorConfig file" />
     <option name="editorconfig" path="ActionManager" hit="EditorConfig File" />
     <option name="file" path="ActionManager" hit="EditorConfig File" />
+    <option name="language" path="ActionManager" hit="Language Properties" />
+    <option name="properties" path="ActionManager" hit="Language Properties" />
   </configurable>
   <configurable id="reference.settingsdialog.IDE.editor.colors.EditorConfig" configurable_name="EditorConfig">
     <option name="editorconfig" hit="EditorConfig" />
@@ -93,7 +94,9 @@
     <option name="statement" path="Wrapping and Braces" hit="'try' statement" />
     <option name="try" path="Wrapping and Braces" hit="'try' statement" />
     <option name="" path="Wrapping and Braces" hit="'try-with-resources'" />
-    <option name="try-with-resources" path="Wrapping and Braces" hit="'try-with-resources'" />
+    <option name="resources" path="Wrapping and Braces" hit="'try-with-resources'" />
+    <option name="try" path="Wrapping and Braces" hit="'try-with-resources'" />
+    <option name="with" path="Wrapping and Braces" hit="'try-with-resources'" />
     <option name="" path="Wrapping and Braces" hit="'while' on new line" />
     <option name="line" path="Wrapping and Braces" hit="'while' on new line" />
     <option name="new" path="Wrapping and Braces" hit="'while' on new line" />
@@ -134,8 +137,8 @@
     <option name="align" path="Wrapping and Braces" hit="Align when multiline" />
     <option name="multiline" path="Wrapping and Braces" hit="Align when multiline" />
     <option name="when" path="Wrapping and Braces" hit="Align when multiline" />
-    <option name="around" path="Spaces" hit="Around Operators" />
-    <option name="operators" path="Spaces" hit="Around Operators" />
+    <option name="around" path="Spaces" hit="Around operators" />
+    <option name="operators" path="Spaces" hit="Around operators" />
     <option name="around" path="Spaces" hit="Around separator" />
     <option name="separator" path="Spaces" hit="Around separator" />
     <option name="array" path="Wrapping and Braces" hit="Array initializer" />
@@ -156,6 +159,8 @@
     <option name="expressions" path="Wrapping and Braces" hit="Binary expressions" />
     <option name="braces" path="Wrapping and Braces" hit="Braces placement" />
     <option name="placement" path="Wrapping and Braces" hit="Braces placement" />
+    <option name="builder" path="Wrapping and Braces" hit="Builder methods" />
+    <option name="methods" path="Wrapping and Braces" hit="Builder methods" />
     <option name="calls" path="Wrapping and Braces" hit="Chained method calls" />
     <option name="chained" path="Wrapping and Braces" hit="Chained method calls" />
     <option name="method" path="Wrapping and Braces" hit="Chained method calls" />
@@ -197,9 +202,9 @@
     <option name="force" path="Wrapping and Braces" hit="Force braces" />
     <option name="declarations" path="Wrapping and Braces" hit="Group declarations" />
     <option name="group" path="Wrapping and Braces" hit="Group declarations" />
-    <option name="at" path="Wrapping and Braces" hit="Hard wrap at" />
-    <option name="hard" path="Wrapping and Braces" hit="Hard wrap at" />
-    <option name="wrap" path="Wrapping and Braces" hit="Hard wrap at" />
+    <option name="at" path="Wrapping and Braces" hit="Hard wrap at:" />
+    <option name="hard" path="Wrapping and Braces" hit="Hard wrap at:" />
+    <option name="wrap" path="Wrapping and Braces" hit="Hard wrap at:" />
     <option name="class" path="Wrapping and Braces" hit="In class declaration" />
     <option name="declaration" path="Wrapping and Braces" hit="In class declaration" />
     <option name="in" path="Wrapping and Braces" hit="In class declaration" />
@@ -216,6 +221,10 @@
     <option name="branches" path="Wrapping and Braces" hit="Indent 'case' branches" />
     <option name="case" path="Wrapping and Braces" hit="Indent 'case' branches" />
     <option name="indent" path="Wrapping and Braces" hit="Indent 'case' branches" />
+    <option name="builder" path="Wrapping and Braces" hit="Keep builder methods indents" />
+    <option name="indents" path="Wrapping and Braces" hit="Keep builder methods indents" />
+    <option name="keep" path="Wrapping and Braces" hit="Keep builder methods indents" />
+    <option name="methods" path="Wrapping and Braces" hit="Keep builder methods indents" />
     <option name="keep" path="Wrapping and Braces" hit="Keep when reformatting" />
     <option name="reformatting" path="Wrapping and Braces" hit="Keep when reformatting" />
     <option name="when" path="Wrapping and Braces" hit="Keep when reformatting" />
@@ -317,4 +326,3 @@
     <option name="wrap" path="Wrapping and Braces" hit="Wrap on typing" />
   </configurable>
 </options>
-

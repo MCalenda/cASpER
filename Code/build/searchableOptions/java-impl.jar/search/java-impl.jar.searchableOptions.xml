@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <options>
   <configurable id="preferences.keymap" configurable_name="Keymap">
     <option name="" path="ActionManager" hit="" />
@@ -50,9 +49,9 @@
     <option name="module" path="ActionManager" hit="Build Module" />
     <option name="build" path="ActionManager" hit="Build Project" />
     <option name="project" path="ActionManager" hit="Build Project" />
-    <option name="calculate" path="ActionManager" hit="Calculate Retained Size" />
-    <option name="retained" path="ActionManager" hit="Calculate Retained Size" />
-    <option name="size" path="ActionManager" hit="Calculate Retained Size" />
+    <option name="calculate" path="ActionManager" hit="Calculate Retained Size..." />
+    <option name="retained" path="ActionManager" hit="Calculate Retained Size..." />
+    <option name="size" path="ActionManager" hit="Calculate Retained Size..." />
     <option name="all" path="ActionManager" hit="Change type of the return type of the method, field, parameter, variable or class type arguments and correct all references" />
     <option name="and" path="ActionManager" hit="Change type of the return type of the method, field, parameter, variable or class type arguments and correct all references" />
     <option name="arguments" path="ActionManager" hit="Change type of the return type of the method, field, parameter, variable or class type arguments and correct all references" />
@@ -120,13 +119,13 @@
     <option name="functional" path="ActionManager" hit="Compiler Reference Functional Expression Search" />
     <option name="reference" path="ActionManager" hit="Compiler Reference Functional Expression Search" />
     <option name="search" path="ActionManager" hit="Compiler Reference Functional Expression Search" />
-    <option name="all" path="ActionManager" hit="Configure default structure for all new Projects" />
-    <option name="configure" path="ActionManager" hit="Configure default structure for all new Projects" />
-    <option name="default" path="ActionManager" hit="Configure default structure for all new Projects" />
-    <option name="for" path="ActionManager" hit="Configure default structure for all new Projects" />
-    <option name="new" path="ActionManager" hit="Configure default structure for all new Projects" />
-    <option name="projects" path="ActionManager" hit="Configure default structure for all new Projects" />
-    <option name="structure" path="ActionManager" hit="Configure default structure for all new Projects" />
+    <option name="all" path="ActionManager" hit="Configure default structure for all new projects" />
+    <option name="configure" path="ActionManager" hit="Configure default structure for all new projects" />
+    <option name="default" path="ActionManager" hit="Configure default structure for all new projects" />
+    <option name="for" path="ActionManager" hit="Configure default structure for all new projects" />
+    <option name="new" path="ActionManager" hit="Configure default structure for all new projects" />
+    <option name="projects" path="ActionManager" hit="Configure default structure for all new projects" />
+    <option name="structure" path="ActionManager" hit="Configure default structure for all new projects" />
     <option name="configure" path="ActionManager" hit="Configure project structure" />
     <option name="project" path="ActionManager" hit="Configure project structure" />
     <option name="structure" path="ActionManager" hit="Configure project structure" />
@@ -135,6 +134,11 @@
     <option name="convert" path="ActionManager" hit="Convert Anonymous to Inner..." />
     <option name="inner" path="ActionManager" hit="Convert Anonymous to Inner..." />
     <option name="to" path="ActionManager" hit="Convert Anonymous to Inner..." />
+    <option name="convert" path="ActionManager" hit="Convert Raw Types to Generics..." />
+    <option name="generics" path="ActionManager" hit="Convert Raw Types to Generics..." />
+    <option name="raw" path="ActionManager" hit="Convert Raw Types to Generics..." />
+    <option name="to" path="ActionManager" hit="Convert Raw Types to Generics..." />
+    <option name="types" path="ActionManager" hit="Convert Raw Types to Generics..." />
     <option name="convert" path="ActionManager" hit="Convert To Instance Method..." />
     <option name="instance" path="ActionManager" hit="Convert To Instance Method..." />
     <option name="method" path="ActionManager" hit="Convert To Instance Method..." />
@@ -172,38 +176,29 @@
     <option name="types" path="ActionManager" hit="Convert your code to use generic types" />
     <option name="use" path="ActionManager" hit="Convert your code to use generic types" />
     <option name="your" path="ActionManager" hit="Convert your code to use generic types" />
-    <option name="create" path="ActionManager" hit="Create New Project" />
-    <option name="new" path="ActionManager" hit="Create New Project" />
-    <option name="project" path="ActionManager" hit="Create New Project" />
+    <option name="create" path="ActionManager" hit="Create New Migration..." />
+    <option name="migration" path="ActionManager" hit="Create New Migration..." />
+    <option name="new" path="ActionManager" hit="Create New Migration..." />
     <option name="a" path="ActionManager" hit="Create a new project from scratch" />
     <option name="create" path="ActionManager" hit="Create a new project from scratch" />
     <option name="from" path="ActionManager" hit="Create a new project from scratch" />
     <option name="new" path="ActionManager" hit="Create a new project from scratch" />
     <option name="project" path="ActionManager" hit="Create a new project from scratch" />
     <option name="scratch" path="ActionManager" hit="Create a new project from scratch" />
-    <option name="a" path="ActionManager" hit="Create a static factory method and use it instead of a constructor" />
-    <option name="and" path="ActionManager" hit="Create a static factory method and use it instead of a constructor" />
-    <option name="constructor" path="ActionManager" hit="Create a static factory method and use it instead of a constructor" />
-    <option name="create" path="ActionManager" hit="Create a static factory method and use it instead of a constructor" />
-    <option name="factory" path="ActionManager" hit="Create a static factory method and use it instead of a constructor" />
-    <option name="instead" path="ActionManager" hit="Create a static factory method and use it instead of a constructor" />
-    <option name="it" path="ActionManager" hit="Create a static factory method and use it instead of a constructor" />
-    <option name="method" path="ActionManager" hit="Create a static factory method and use it instead of a constructor" />
-    <option name="of" path="ActionManager" hit="Create a static factory method and use it instead of a constructor" />
-    <option name="static" path="ActionManager" hit="Create a static factory method and use it instead of a constructor" />
-    <option name="use" path="ActionManager" hit="Create a static factory method and use it instead of a constructor" />
     <option name="class" path="ActionManager" hit="Create new Java class" />
     <option name="create" path="ActionManager" hit="Create new Java class" />
     <option name="java" path="ActionManager" hit="Create new Java class" />
     <option name="new" path="ActionManager" hit="Create new Java class" />
     <option name="create" path="ActionManager" hit="Create new module-info.java" />
+    <option name="info" path="ActionManager" hit="Create new module-info.java" />
     <option name="java" path="ActionManager" hit="Create new module-info.java" />
-    <option name="module-info" path="ActionManager" hit="Create new module-info.java" />
+    <option name="module" path="ActionManager" hit="Create new module-info.java" />
     <option name="new" path="ActionManager" hit="Create new module-info.java" />
     <option name="create" path="ActionManager" hit="Create new package-info.java" />
+    <option name="info" path="ActionManager" hit="Create new package-info.java" />
     <option name="java" path="ActionManager" hit="Create new package-info.java" />
     <option name="new" path="ActionManager" hit="Create new package-info.java" />
-    <option name="package-info" path="ActionManager" hit="Create new package-info.java" />
+    <option name="package" path="ActionManager" hit="Create new package-info.java" />
     <option name="convert" path="ActionManager" hit="Create project structure for directory with existing sources or convert existing project model" />
     <option name="create" path="ActionManager" hit="Create project structure for directory with existing sources or convert existing project model" />
     <option name="directory" path="ActionManager" hit="Create project structure for directory with existing sources or convert existing project model" />
@@ -215,17 +210,6 @@
     <option name="sources" path="ActionManager" hit="Create project structure for directory with existing sources or convert existing project model" />
     <option name="structure" path="ActionManager" hit="Create project structure for directory with existing sources or convert existing project model" />
     <option name="with" path="ActionManager" hit="Create project structure for directory with existing sources or convert existing project model" />
-    <option name="convert" path="ActionManager" hit="Create project structure for directory with existing sources or convert existing project model." />
-    <option name="create" path="ActionManager" hit="Create project structure for directory with existing sources or convert existing project model." />
-    <option name="directory" path="ActionManager" hit="Create project structure for directory with existing sources or convert existing project model." />
-    <option name="existing" path="ActionManager" hit="Create project structure for directory with existing sources or convert existing project model." />
-    <option name="for" path="ActionManager" hit="Create project structure for directory with existing sources or convert existing project model." />
-    <option name="model" path="ActionManager" hit="Create project structure for directory with existing sources or convert existing project model." />
-    <option name="or" path="ActionManager" hit="Create project structure for directory with existing sources or convert existing project model." />
-    <option name="project" path="ActionManager" hit="Create project structure for directory with existing sources or convert existing project model." />
-    <option name="sources" path="ActionManager" hit="Create project structure for directory with existing sources or convert existing project model." />
-    <option name="structure" path="ActionManager" hit="Create project structure for directory with existing sources or convert existing project model." />
-    <option name="with" path="ActionManager" hit="Create project structure for directory with existing sources or convert existing project model." />
     <option name="create" path="ActionManager" hit="Create..." />
     <option name="customize" path="ActionManager" hit="Customize Data Views..." />
     <option name="data" path="ActionManager" hit="Customize Data Views..." />
@@ -236,13 +220,19 @@
     <option name="build" path="ActionManager" hit="Debug Build Process" />
     <option name="debug" path="ActionManager" hit="Debug Build Process" />
     <option name="process" path="ActionManager" hit="Debug Build Process" />
-    <option name="drop" path="ActionManager" hit="Drop Frame" />
-    <option name="frame" path="ActionManager" hit="Drop Frame" />
-    <option name="dump" path="ActionManager" hit="Dump Index" />
-    <option name="index" path="ActionManager" hit="Dump Index" />
+    <option name="dump" path="ActionManager" hit="Dump Library Usage Statistics" />
+    <option name="library" path="ActionManager" hit="Dump Library Usage Statistics" />
+    <option name="statistics" path="ActionManager" hit="Dump Library Usage Statistics" />
+    <option name="usage" path="ActionManager" hit="Dump Library Usage Statistics" />
     <option name="dump" path="ActionManager" hit="Dump UAST Tree" />
     <option name="tree" path="ActionManager" hit="Dump UAST Tree" />
     <option name="uast" path="ActionManager" hit="Dump UAST Tree" />
+    <option name="by" path="ActionManager" hit="Dump UAST Tree By Each PsiElement" />
+    <option name="dump" path="ActionManager" hit="Dump UAST Tree By Each PsiElement" />
+    <option name="each" path="ActionManager" hit="Dump UAST Tree By Each PsiElement" />
+    <option name="psielement" path="ActionManager" hit="Dump UAST Tree By Each PsiElement" />
+    <option name="tree" path="ActionManager" hit="Dump UAST Tree By Each PsiElement" />
+    <option name="uast" path="ActionManager" hit="Dump UAST Tree By Each PsiElement" />
     <option name="edit" path="ActionManager" hit="Edit..." />
     <option name="editframesource" path="ActionManager" hit="EditFrameSource" />
     <option name="editnodesource" path="ActionManager" hit="EditNodeSource" />
@@ -259,6 +249,14 @@
     <option name="validation" path="ActionManager" hit="Exclude from Validation" />
     <option name="export" path="ActionManager" hit="Export Threads..." />
     <option name="threads" path="ActionManager" hit="Export Threads..." />
+    <option name="extract" path="ActionManager" hit="Extract Module..." />
+    <option name="module" path="ActionManager" hit="Extract Module..." />
+    <option name="a" path="ActionManager" hit="Extract a package to a separate module" />
+    <option name="extract" path="ActionManager" hit="Extract a package to a separate module" />
+    <option name="module" path="ActionManager" hit="Extract a package to a separate module" />
+    <option name="package" path="ActionManager" hit="Extract a package to a separate module" />
+    <option name="separate" path="ActionManager" hit="Extract a package to a separate module" />
+    <option name="to" path="ActionManager" hit="Extract a package to a separate module" />
     <option name="filter" path="ActionManager" hit="Filter..." />
     <option name="data" path="ActionManager" hit="Find Unused Test Data" />
     <option name="find" path="ActionManager" hit="Find Unused Test Data" />
@@ -303,16 +301,6 @@
     <option name="package" path="ActionManager" hit="Force recompilation for selected module, file or package" />
     <option name="recompilation" path="ActionManager" hit="Force recompilation for selected module, file or package" />
     <option name="selected" path="ActionManager" hit="Force recompilation for selected module, file or package" />
-    <option name="ant" path="ActionManager" hit="Generate Ant Build File from the Project" />
-    <option name="build" path="ActionManager" hit="Generate Ant Build File from the Project" />
-    <option name="file" path="ActionManager" hit="Generate Ant Build File from the Project" />
-    <option name="from" path="ActionManager" hit="Generate Ant Build File from the Project" />
-    <option name="generate" path="ActionManager" hit="Generate Ant Build File from the Project" />
-    <option name="project" path="ActionManager" hit="Generate Ant Build File from the Project" />
-    <option name="the" path="ActionManager" hit="Generate Ant Build File from the Project" />
-    <option name="ant" path="ActionManager" hit="Generate Ant Build..." />
-    <option name="build" path="ActionManager" hit="Generate Ant Build..." />
-    <option name="generate" path="ActionManager" hit="Generate Ant Build..." />
     <option name="generate" path="ActionManager" hit="Generate Hierarchy Visitor..." />
     <option name="hierarchy" path="ActionManager" hit="Generate Hierarchy Visitor..." />
     <option name="visitor" path="ActionManager" hit="Generate Hierarchy Visitor..." />
@@ -334,8 +322,8 @@
     <option name="setter" path="ActionManager" hit="Generate getter and setter" />
     <option name="descriptors" path="ActionManager" hit="Generate module-info Descriptors" />
     <option name="generate" path="ActionManager" hit="Generate module-info Descriptors" />
-    <option name="module-info" path="ActionManager" hit="Generate module-info Descriptors" />
-    <option name="9" path="ActionManager" hit="Generate module-info files for all modules in the project (for Java 9 and higher)" />
+    <option name="info" path="ActionManager" hit="Generate module-info Descriptors" />
+    <option name="module" path="ActionManager" hit="Generate module-info Descriptors" />
     <option name="all" path="ActionManager" hit="Generate module-info files for all modules in the project (for Java 9 and higher)" />
     <option name="and" path="ActionManager" hit="Generate module-info files for all modules in the project (for Java 9 and higher)" />
     <option name="files" path="ActionManager" hit="Generate module-info files for all modules in the project (for Java 9 and higher)" />
@@ -343,8 +331,9 @@
     <option name="generate" path="ActionManager" hit="Generate module-info files for all modules in the project (for Java 9 and higher)" />
     <option name="higher" path="ActionManager" hit="Generate module-info files for all modules in the project (for Java 9 and higher)" />
     <option name="in" path="ActionManager" hit="Generate module-info files for all modules in the project (for Java 9 and higher)" />
+    <option name="info" path="ActionManager" hit="Generate module-info files for all modules in the project (for Java 9 and higher)" />
     <option name="java" path="ActionManager" hit="Generate module-info files for all modules in the project (for Java 9 and higher)" />
-    <option name="module-info" path="ActionManager" hit="Generate module-info files for all modules in the project (for Java 9 and higher)" />
+    <option name="module" path="ActionManager" hit="Generate module-info files for all modules in the project (for Java 9 and higher)" />
     <option name="modules" path="ActionManager" hit="Generate module-info files for all modules in the project (for Java 9 and higher)" />
     <option name="project" path="ActionManager" hit="Generate module-info files for all modules in the project (for Java 9 and higher)" />
     <option name="the" path="ActionManager" hit="Generate module-info files for all modules in the project (for Java 9 and higher)" />
@@ -360,7 +349,6 @@
     <option name="generated" path="ActionManager" hit="Generated Sources Root" />
     <option name="root" path="ActionManager" hit="Generated Sources Root" />
     <option name="sources" path="ActionManager" hit="Generated Sources Root" />
-    <option name="generify" path="ActionManager" hit="Generify..." />
     <option name="dump" path="ActionManager" hit="Get Thread Dump" />
     <option name="get" path="ActionManager" hit="Get Thread Dump" />
     <option name="thread" path="ActionManager" hit="Get Thread Dump" />
@@ -372,9 +360,10 @@
     <option name="and" path="ActionManager" hit="Getter and Setter" />
     <option name="getter" path="ActionManager" hit="Getter and Setter" />
     <option name="setter" path="ActionManager" hit="Getter and Setter" />
-    <option name="idea" path="ActionManager" hit="IDEA New Project..." />
-    <option name="new" path="ActionManager" hit="IDEA New Project..." />
-    <option name="project" path="ActionManager" hit="IDEA New Project..." />
+    <option name="hotswap" path="ActionManager" hit="HotSwap" />
+    <option name="idea" path="ActionManager" hit="IDEA New Project…" />
+    <option name="new" path="ActionManager" hit="IDEA New Project…" />
+    <option name="project" path="ActionManager" hit="IDEA New Project…" />
     <option name="build" path="ActionManager" hit="If enabled build process will wait for debug connections when started" />
     <option name="connections" path="ActionManager" hit="If enabled build process will wait for debug connections when started" />
     <option name="debug" path="ActionManager" hit="If enabled build process will wait for debug connections when started" />
@@ -392,8 +381,6 @@
     <option name="hierarchy" path="ActionManager" hit="Implement Method (from Method Hierarchy)" />
     <option name="implement" path="ActionManager" hit="Implement Method (from Method Hierarchy)" />
     <option name="method" path="ActionManager" hit="Implement Method (from Method Hierarchy)" />
-    <option name="import" path="ActionManager" hit="Import Project" />
-    <option name="project" path="ActionManager" hit="Import Project" />
     <option name="directory" path="ActionManager" hit="Import module from directory with existing sources or from existing project model" />
     <option name="existing" path="ActionManager" hit="Import module from directory with existing sources or from existing project model" />
     <option name="from" path="ActionManager" hit="Import module from directory with existing sources or from existing project model" />
@@ -408,13 +395,6 @@
     <option name="nullity" path="ActionManager" hit="Infer Nullity..." />
     <option name="infer" path="ActionManager" hit="Infer nullity" />
     <option name="nullity" path="ActionManager" hit="Infer nullity" />
-    <option name="delegate" path="ActionManager" hit="Inline delegate to the selected field methods" />
-    <option name="field" path="ActionManager" hit="Inline delegate to the selected field methods" />
-    <option name="inline" path="ActionManager" hit="Inline delegate to the selected field methods" />
-    <option name="methods" path="ActionManager" hit="Inline delegate to the selected field methods" />
-    <option name="selected" path="ActionManager" hit="Inline delegate to the selected field methods" />
-    <option name="the" path="ActionManager" hit="Inline delegate to the selected field methods" />
-    <option name="to" path="ActionManager" hit="Inline delegate to the selected field methods" />
     <option name="interrupt" path="ActionManager" hit="Interrupt" />
     <option name="console" path="ActionManager" hit="JShell Console..." />
     <option name="jshell" path="ActionManager" hit="JShell Console..." />
@@ -428,10 +408,6 @@
     <option name="source" path="ActionManager" hit="Jump To Type Source" />
     <option name="to" path="ActionManager" hit="Jump To Type Source" />
     <option name="type" path="ActionManager" hit="Jump To Type Source" />
-    <option name="jump" path="ActionManager" hit="Jump to Object Source" />
-    <option name="object" path="ActionManager" hit="Jump to Object Source" />
-    <option name="source" path="ActionManager" hit="Jump to Object Source" />
-    <option name="to" path="ActionManager" hit="Jump to Object Source" />
     <option name="console" path="ActionManager" hit="Launch JShell Console" />
     <option name="jshell" path="ActionManager" hit="Launch JShell Console" />
     <option name="launch" path="ActionManager" hit="Launch JShell Console" />
@@ -445,10 +421,11 @@
     <option name="project" path="ActionManager" hit="Link external project to the current IDE project" />
     <option name="the" path="ActionManager" hit="Link external project to the current IDE project" />
     <option name="to" path="ActionManager" hit="Link external project to the current IDE project" />
-    <option name="field" path="ActionManager" hit="List Static Field Initializers" />
-    <option name="initializers" path="ActionManager" hit="List Static Field Initializers" />
-    <option name="list" path="ActionManager" hit="List Static Field Initializers" />
-    <option name="static" path="ActionManager" hit="List Static Field Initializers" />
+    <option name="fields" path="ActionManager" hit="List Static Icon Fields Initializers" />
+    <option name="icon" path="ActionManager" hit="List Static Icon Fields Initializers" />
+    <option name="initializers" path="ActionManager" hit="List Static Icon Fields Initializers" />
+    <option name="list" path="ActionManager" hit="List Static Icon Fields Initializers" />
+    <option name="static" path="ActionManager" hit="List Static Icon Fields Initializers" />
     <option name="icons" path="ActionManager" hit="List Used Icons" />
     <option name="list" path="ActionManager" hit="List Used Icons" />
     <option name="used" path="ActionManager" hit="List Used Icons" />
@@ -470,7 +447,6 @@
     <option name="ordinary" path="ActionManager" hit="Mark directory as an ordinary sources root" />
     <option name="root" path="ActionManager" hit="Mark directory as an ordinary sources root" />
     <option name="sources" path="ActionManager" hit="Mark directory as an ordinary sources root" />
-    <option name="migrate" path="ActionManager" hit="Migrate..." />
     <option name="module" path="ActionManager" hit="Module Settings" />
     <option name="settings" path="ActionManager" hit="Module Settings" />
     <option name="existing" path="ActionManager" hit="Module from Existing Sources..." />
@@ -498,6 +474,8 @@
     <option name="watch" path="ActionManager" hit="New Class Level Watch..." />
     <option name="module" path="ActionManager" hit="New Module..." />
     <option name="new" path="ActionManager" hit="New Module..." />
+    <option name="new" path="ActionManager" hit="New Project" />
+    <option name="project" path="ActionManager" hit="New Project" />
     <option name="method" path="ActionManager" hit="Next Method Overload" />
     <option name="next" path="ActionManager" hit="Next Method Overload" />
     <option name="overload" path="ActionManager" hit="Next Method Overload" />
@@ -512,9 +490,6 @@
     <option name="thread" path="ActionManager" hit="Open console with the navigatable stack trace or a thread dump" />
     <option name="trace" path="ActionManager" hit="Open console with the navigatable stack trace or a thread dump" />
     <option name="with" path="ActionManager" hit="Open console with the navigatable stack trace or a thread dump" />
-    <option name="dialog" path="ActionManager" hit="Open migration dialog" />
-    <option name="migration" path="ActionManager" hit="Open migration dialog" />
-    <option name="open" path="ActionManager" hit="Open migration dialog" />
     <option name="dialog" path="ActionManager" hit="Open settings dialog for selected module" />
     <option name="for" path="ActionManager" hit="Open settings dialog for selected module" />
     <option name="module" path="ActionManager" hit="Open settings dialog for selected module" />
@@ -527,6 +502,7 @@
     <option name="hierarchy" path="ActionManager" hit="Override Method (from Method Hierarchy)" />
     <option name="method" path="ActionManager" hit="Override Method (from Method Hierarchy)" />
     <option name="override" path="ActionManager" hit="Override Method (from Method Hierarchy)" />
+    <option name="package" path="ActionManager" hit="Package" />
     <option name="file" path="ActionManager" hit="Package File" />
     <option name="package" path="ActionManager" hit="Package File" />
     <option name="method" path="ActionManager" hit="Parameters Method" />
@@ -548,6 +524,7 @@
     <option name="rebuild" path="ActionManager" hit="Rebuild Project" />
     <option name="recent" path="ActionManager" hit="Recent Tests" />
     <option name="tests" path="ActionManager" hit="Recent Tests" />
+    <option name="recompile" path="ActionManager" hit="Recompile" />
     <option name="all" path="ActionManager" hit="Recompile all files in the project" />
     <option name="files" path="ActionManager" hit="Recompile all files in the project" />
     <option name="in" path="ActionManager" hit="Recompile all files in the project" />
@@ -568,19 +545,8 @@
     <option name="reload" path="ActionManager" hit="Reload all changed classes into application being debugged (HotSwap)" />
     <option name="filter" path="ActionManager" hit="Remove Filter" />
     <option name="remove" path="ActionManager" hit="Remove Filter" />
-    <option name="middleman" path="ActionManager" hit="Remove Middleman..." />
-    <option name="remove" path="ActionManager" hit="Remove Middleman..." />
     <option name="remove" path="ActionManager" hit="Remove Watch" />
     <option name="watch" path="ActionManager" hit="Remove Watch" />
-    <option name="builder" path="ActionManager" hit="Replace Constructor with Builder..." />
-    <option name="constructor" path="ActionManager" hit="Replace Constructor with Builder..." />
-    <option name="replace" path="ActionManager" hit="Replace Constructor with Builder..." />
-    <option name="with" path="ActionManager" hit="Replace Constructor with Builder..." />
-    <option name="constructor" path="ActionManager" hit="Replace Constructor with Factory Method..." />
-    <option name="factory" path="ActionManager" hit="Replace Constructor with Factory Method..." />
-    <option name="method" path="ActionManager" hit="Replace Constructor with Factory Method..." />
-    <option name="replace" path="ActionManager" hit="Replace Constructor with Factory Method..." />
-    <option name="with" path="ActionManager" hit="Replace Constructor with Factory Method..." />
     <option name="delegation" path="ActionManager" hit="Replace Inheritance with Delegation..." />
     <option name="inheritance" path="ActionManager" hit="Replace Inheritance with Delegation..." />
     <option name="replace" path="ActionManager" hit="Replace Inheritance with Delegation..." />
@@ -589,20 +555,6 @@
     <option name="object" path="ActionManager" hit="Replace Method With Method Object..." />
     <option name="replace" path="ActionManager" hit="Replace Method With Method Object..." />
     <option name="with" path="ActionManager" hit="Replace Method With Method Object..." />
-    <option name="query" path="ActionManager" hit="Replace Temp with Query..." />
-    <option name="replace" path="ActionManager" hit="Replace Temp with Query..." />
-    <option name="temp" path="ActionManager" hit="Replace Temp with Query..." />
-    <option name="with" path="ActionManager" hit="Replace Temp with Query..." />
-    <option name="builder" path="ActionManager" hit="Replace current class constructors calls with chained calls to the builder" />
-    <option name="calls" path="ActionManager" hit="Replace current class constructors calls with chained calls to the builder" />
-    <option name="chained" path="ActionManager" hit="Replace current class constructors calls with chained calls to the builder" />
-    <option name="class" path="ActionManager" hit="Replace current class constructors calls with chained calls to the builder" />
-    <option name="constructors" path="ActionManager" hit="Replace current class constructors calls with chained calls to the builder" />
-    <option name="current" path="ActionManager" hit="Replace current class constructors calls with chained calls to the builder" />
-    <option name="replace" path="ActionManager" hit="Replace current class constructors calls with chained calls to the builder" />
-    <option name="the" path="ActionManager" hit="Replace current class constructors calls with chained calls to the builder" />
-    <option name="to" path="ActionManager" hit="Replace current class constructors calls with chained calls to the builder" />
-    <option name="with" path="ActionManager" hit="Replace current class constructors calls with chained calls to the builder" />
     <option name="access" path="ActionManager" hit="Replace direct access to fields in the selected class with use of accessor methods" />
     <option name="accessor" path="ActionManager" hit="Replace direct access to fields in the selected class with use of accessor methods" />
     <option name="class" path="ActionManager" hit="Replace direct access to fields in the selected class with use of accessor methods" />
@@ -621,6 +573,8 @@
     <option name="inheritance" path="ActionManager" hit="Replace inheritance with delegation" />
     <option name="replace" path="ActionManager" hit="Replace inheritance with delegation" />
     <option name="with" path="ActionManager" hit="Replace inheritance with delegation" />
+    <option name="frame" path="ActionManager" hit="Reset Frame" />
+    <option name="reset" path="ActionManager" hit="Reset Frame" />
     <option name="resume" path="ActionManager" hit="Resume" />
     <option name="javadoc" path="ActionManager" hit="Run the JavaDoc tool" />
     <option name="run" path="ActionManager" hit="Run the JavaDoc tool" />
@@ -652,12 +606,18 @@
     <option name="tests" path="ActionManager" hit="Show Affected Tests" />
     <option name="instances" path="ActionManager" hit="Show Instances" />
     <option name="show" path="ActionManager" hit="Show Instances" />
+    <option name="import" path="ActionManager" hit="Show Library Usage Information of Import" />
+    <option name="information" path="ActionManager" hit="Show Library Usage Information of Import" />
+    <option name="library" path="ActionManager" hit="Show Library Usage Information of Import" />
+    <option name="of" path="ActionManager" hit="Show Library Usage Information of Import" />
+    <option name="show" path="ActionManager" hit="Show Library Usage Information of Import" />
+    <option name="usage" path="ActionManager" hit="Show Library Usage Information of Import" />
     <option name="instances" path="ActionManager" hit="Show New Instances" />
     <option name="new" path="ActionManager" hit="Show New Instances" />
     <option name="show" path="ActionManager" hit="Show New Instances" />
-    <option name="list" path="ActionManager" hit="Show Quick list" />
-    <option name="quick" path="ActionManager" hit="Show Quick list" />
-    <option name="show" path="ActionManager" hit="Show Quick list" />
+    <option name="list" path="ActionManager" hit="Show Quick List" />
+    <option name="quick" path="ActionManager" hit="Show Quick List" />
+    <option name="show" path="ActionManager" hit="Show Quick List" />
     <option name="show" path="ActionManager" hit="Show Siblings" />
     <option name="siblings" path="ActionManager" hit="Show Siblings" />
     <option name="classes" path="ActionManager" hit="Show Tracked Classes Only" />
@@ -697,11 +657,11 @@
     <option name="will" path="ActionManager" hit="Start the &quot;New Project&quot; Wizard that will guide you through the steps necessary for creating a new project." />
     <option name="wizard" path="ActionManager" hit="Start the &quot;New Project&quot; Wizard that will guide you through the steps necessary for creating a new project." />
     <option name="you" path="ActionManager" hit="Start the &quot;New Project&quot; Wizard that will guide you through the steps necessary for creating a new project." />
-    <option name="block" path="ActionManager" hit="Step Out Of Code Block" />
-    <option name="code" path="ActionManager" hit="Step Out Of Code Block" />
-    <option name="of" path="ActionManager" hit="Step Out Of Code Block" />
-    <option name="out" path="ActionManager" hit="Step Out Of Code Block" />
-    <option name="step" path="ActionManager" hit="Step Out Of Code Block" />
+    <option name="block" path="ActionManager" hit="Step Out of Code Block" />
+    <option name="code" path="ActionManager" hit="Step Out of Code Block" />
+    <option name="of" path="ActionManager" hit="Step Out of Code Block" />
+    <option name="out" path="ActionManager" hit="Step Out of Code Block" />
+    <option name="step" path="ActionManager" hit="Step Out of Code Block" />
     <option name="for" path="ActionManager" hit="Structure for New Projects..." />
     <option name="new" path="ActionManager" hit="Structure for New Projects..." />
     <option name="projects" path="ActionManager" hit="Structure for New Projects..." />
@@ -710,12 +670,12 @@
     <option name="method" path="ActionManager" hit="Super Method Call" />
     <option name="super" path="ActionManager" hit="Super Method Call" />
     <option name="suspend" path="ActionManager" hit="Suspend" />
-    <option name="breakpoint" path="ActionManager" hit="Switch to the next stopped breakpoint" />
-    <option name="next" path="ActionManager" hit="Switch to the next stopped breakpoint" />
-    <option name="stopped" path="ActionManager" hit="Switch to the next stopped breakpoint" />
-    <option name="switch" path="ActionManager" hit="Switch to the next stopped breakpoint" />
-    <option name="the" path="ActionManager" hit="Switch to the next stopped breakpoint" />
-    <option name="to" path="ActionManager" hit="Switch to the next stopped breakpoint" />
+    <option name="breakpoint" path="ActionManager" hit="Switch to the Next Stopped Breakpoint" />
+    <option name="next" path="ActionManager" hit="Switch to the Next Stopped Breakpoint" />
+    <option name="stopped" path="ActionManager" hit="Switch to the Next Stopped Breakpoint" />
+    <option name="switch" path="ActionManager" hit="Switch to the Next Stopped Breakpoint" />
+    <option name="the" path="ActionManager" hit="Switch to the Next Stopped Breakpoint" />
+    <option name="to" path="ActionManager" hit="Switch to the Next Stopped Breakpoint" />
     <option name="method" path="ActionManager" hit="TearDown Method" />
     <option name="teardown" path="ActionManager" hit="TearDown Method" />
     <option name="method" path="ActionManager" hit="Test Method" />
@@ -767,13 +727,6 @@
     <option name="that" path="ActionManager" hit="Turn the method into its own object so that all the parameters become fields on that object" />
     <option name="the" path="ActionManager" hit="Turn the method into its own object so that all the parameters become fields on that object" />
     <option name="turn" path="ActionManager" hit="Turn the method into its own object so that all the parameters become fields on that object" />
-    <option name="a" path="ActionManager" hit="Turn the selected variable into a method" />
-    <option name="into" path="ActionManager" hit="Turn the selected variable into a method" />
-    <option name="method" path="ActionManager" hit="Turn the selected variable into a method" />
-    <option name="selected" path="ActionManager" hit="Turn the selected variable into a method" />
-    <option name="the" path="ActionManager" hit="Turn the selected variable into a method" />
-    <option name="turn" path="ActionManager" hit="Turn the selected variable into a method" />
-    <option name="variable" path="ActionManager" hit="Turn the selected variable into a method" />
     <option name="migration" path="ActionManager" hit="Type Migration..." />
     <option name="type" path="ActionManager" hit="Type Migration..." />
     <option name="generated" path="ActionManager" hit="Unmark Generated Sources Root" />
@@ -804,82 +757,23 @@
     <option name="text" path="ActionManager" hit="View text value of selected node in a separate pane" />
     <option name="value" path="ActionManager" hit="View text value of selected node in a separate pane" />
     <option name="view" path="ActionManager" hit="View text value of selected node in a separate pane" />
-    <option name="method" path="ActionManager" hit="Wrap Method Return Value..." />
-    <option name="return" path="ActionManager" hit="Wrap Method Return Value..." />
-    <option name="value" path="ActionManager" hit="Wrap Method Return Value..." />
-    <option name="wrap" path="ActionManager" hit="Wrap Method Return Value..." />
-    <option name="method" path="ActionManager" hit="Wrap return value of the specified method with object" />
-    <option name="object" path="ActionManager" hit="Wrap return value of the specified method with object" />
-    <option name="of" path="ActionManager" hit="Wrap return value of the specified method with object" />
-    <option name="return" path="ActionManager" hit="Wrap return value of the specified method with object" />
-    <option name="specified" path="ActionManager" hit="Wrap return value of the specified method with object" />
-    <option name="the" path="ActionManager" hit="Wrap return value of the specified method with object" />
-    <option name="value" path="ActionManager" hit="Wrap return value of the specified method with object" />
-    <option name="with" path="ActionManager" hit="Wrap return value of the specified method with object" />
-    <option name="wrap" path="ActionManager" hit="Wrap return value of the specified method with object" />
     <option name="createui" path="ActionManager" hit="createUI(...)" />
     <option name="and" path="ActionManager" hit="equals() and hashCode()" />
     <option name="equals" path="ActionManager" hit="equals() and hashCode()" />
     <option name="hashcode" path="ActionManager" hit="equals() and hashCode()" />
+    <option name="info" path="ActionManager" hit="module-info.java" />
     <option name="java" path="ActionManager" hit="module-info.java" />
-    <option name="module-info" path="ActionManager" hit="module-info.java" />
+    <option name="module" path="ActionManager" hit="module-info.java" />
+    <option name="info" path="ActionManager" hit="package-info.java" />
     <option name="java" path="ActionManager" hit="package-info.java" />
-    <option name="package-info" path="ActionManager" hit="package-info.java" />
+    <option name="package" path="ActionManager" hit="package-info.java" />
     <option name="tostring" path="ActionManager" hit="toString()" />
-  </configurable>
-  <configurable id="preferences.editor" configurable_name="General">
-    <option name="0" hit="Suppress with @SuppressWarnings (since Java 5.0)" />
-    <option name="5" hit="Suppress with @SuppressWarnings (since Java 5.0)" />
-    <option name="java" hit="Suppress with @SuppressWarnings (since Java 5.0)" />
-    <option name="since" hit="Suppress with @SuppressWarnings (since Java 5.0)" />
-    <option name="suppress" hit="Suppress with @SuppressWarnings (since Java 5.0)" />
-    <option name="suppresswarnings" hit="Suppress with @SuppressWarnings (since Java 5.0)" />
-    <option name="with" hit="Suppress with @SuppressWarnings (since Java 5.0)" />
-  </configurable>
-  <configurable id="editor.preferences.import" configurable_name="Auto Import">
-    <option name="add" hit="Add unambiguous imports on the fly" />
-    <option name="fly" hit="Add unambiguous imports on the fly" />
-    <option name="imports" hit="Add unambiguous imports on the fly" />
-    <option name="on" hit="Add unambiguous imports on the fly" />
-    <option name="the" hit="Add unambiguous imports on the fly" />
-    <option name="unambiguous" hit="Add unambiguous imports on the fly" />
-    <option name="all" hit="All" />
-    <option name="ask" hit="Ask" />
-    <option name="and" hit="Exclude from import and completion:" />
-    <option name="completion" hit="Exclude from import and completion:" />
-    <option name="exclude" hit="Exclude from import and completion:" />
-    <option name="from" hit="Exclude from import and completion:" />
-    <option name="import" hit="Exclude from import and completion:" />
-    <option name="imports" hit="Insert imports on paste:" />
-    <option name="insert" hit="Insert imports on paste:" />
-    <option name="on" hit="Insert imports on paste:" />
-    <option name="paste" hit="Insert imports on paste:" />
-    <option name="java" hit="Java" />
-    <option name="none" hit="None" />
-    <option name="current" hit="Optimize imports on the fly (for current project)" />
-    <option name="fly" hit="Optimize imports on the fly (for current project)" />
-    <option name="for" hit="Optimize imports on the fly (for current project)" />
-    <option name="imports" hit="Optimize imports on the fly (for current project)" />
-    <option name="on" hit="Optimize imports on the fly (for current project)" />
-    <option name="optimize" hit="Optimize imports on the fly (for current project)" />
-    <option name="project" hit="Optimize imports on the fly (for current project)" />
-    <option name="the" hit="Optimize imports on the fly (for current project)" />
-    <option name="for" hit="Show import popup for:" />
-    <option name="import" hit="Show import popup for:" />
-    <option name="popup" hit="Show import popup for:" />
-    <option name="show" hit="Show import popup for:" />
-    <option name="classes" hit="classes" />
-    <option name="and" hit="static methods and fields" />
-    <option name="fields" hit="static methods and fields" />
-    <option name="methods" hit="static methods and fields" />
-    <option name="static" hit="static methods and fields" />
   </configurable>
   <configurable id="editor.breadcrumbs" configurable_name="Breadcrumbs">
     <option name="java" hit="Java" />
   </configurable>
   <configurable id="editor.preferences.folding" configurable_name="Code Folding">
     <option name="" hit="&quot;Closures&quot; (anonymous classes implementing one method, before Java 8)" />
-    <option name="8" hit="&quot;Closures&quot; (anonymous classes implementing one method, before Java 8)" />
     <option name="anonymous" hit="&quot;Closures&quot; (anonymous classes implementing one method, before Java 8)" />
     <option name="before" hit="&quot;Closures&quot; (anonymous classes implementing one method, before Java 8)" />
     <option name="classes" hit="&quot;Closures&quot; (anonymous classes implementing one method, before Java 8)" />
@@ -903,15 +797,17 @@
     <option name="generic" hit="Generic constructor and method parameters" />
     <option name="method" hit="Generic constructor and method parameters" />
     <option name="parameters" hit="Generic constructor and method parameters" />
-    <option name="i18n" hit="I18n strings" />
+    <option name="i" hit="I18n strings" />
+    <option name="n" hit="I18n strings" />
     <option name="strings" hit="I18n strings" />
     <option name="classes" hit="Inner classes" />
     <option name="inner" hit="Inner classes" />
     <option name="java" hit="Java" />
     <option name="comments" hit="Multiline comments" />
     <option name="multiline" hit="Multiline comments" />
+    <option name="line" hit="One-line methods" />
     <option name="methods" hit="One-line methods" />
-    <option name="one-line" hit="One-line methods" />
+    <option name="one" hit="One-line methods" />
     <option name="inferred" hit="Replace 'var' with inferred type" />
     <option name="replace" hit="Replace 'var' with inferred type" />
     <option name="type" hit="Replace 'var' with inferred type" />
@@ -1093,19 +989,269 @@
     <option name="reassigned" hit="Variables//Reassigned local variable" />
     <option name="variable" hit="Variables//Reassigned local variable" />
     <option name="variables" hit="Variables//Reassigned local variable" />
+    <option name="package" hit="Visibility//Package-private" />
+    <option name="private" hit="Visibility//Package-private" />
+    <option name="visibility" hit="Visibility//Package-private" />
+    <option name="private" hit="Visibility//Private" />
+    <option name="visibility" hit="Visibility//Private" />
+    <option name="protected" hit="Visibility//Protected" />
+    <option name="visibility" hit="Visibility//Protected" />
+    <option name="public" hit="Visibility//Public" />
+    <option name="visibility" hit="Visibility//Public" />
+  </configurable>
+  <configurable id="project.propDebugger" configurable_name="Debugger">
+    <option name="agent" hit="Attach memory agent" />
+    <option name="attach" hit="Attach memory agent" />
+    <option name="memory" hit="Attach memory agent" />
+    <option name="disable" hit="Disable JIT" />
+    <option name="jit" hit="Disable JIT" />
+    <option name="java" hit="Java" />
+    <option name="debug" hit="Kill the debug process immediately" />
+    <option name="immediately" hit="Kill the debug process immediately" />
+    <option name="kill" hit="Kill the debug process immediately" />
+    <option name="process" hit="Kill the debug process immediately" />
+    <option name="the" hit="Kill the debug process immediately" />
+    <option name="memory" hit="Shared memory" />
+    <option name="shared" hit="Shared memory" />
+    <option name="alternative" hit="Show alternative source switcher" />
+    <option name="show" hit="Show alternative source switcher" />
+    <option name="source" hit="Show alternative source switcher" />
+    <option name="switcher" hit="Show alternative source switcher" />
+    <option name="" hit="Socket" />
+    <option name="socket" hit="Socket" />
+    <option name="transport" hit="Transport:" />
+  </configurable>
+  <configurable id="Debugger_Data_Views_Java" configurable_name="Java">
+    <option name="" hit="$val fields as local variables" />
+    <option name="as" hit="$val fields as local variables" />
+    <option name="fields" hit="$val fields as local variables" />
+    <option name="local" hit="$val fields as local variables" />
+    <option name="val" hit="$val fields as local variables" />
+    <option name="variables" hit="$val fields as local variables" />
+    <option name="auto" hit="Auto populate Throwable object's stack trace" />
+    <option name="object" hit="Auto populate Throwable object's stack trace" />
+    <option name="populate" hit="Auto populate Throwable object's stack trace" />
+    <option name="s" hit="Auto populate Throwable object's stack trace" />
+    <option name="stack" hit="Auto populate Throwable object's stack trace" />
+    <option name="throwable" hit="Auto populate Throwable object's stack trace" />
+    <option name="trace" hit="Auto populate Throwable object's stack trace" />
+    <option name="autoscroll" hit="Autoscroll to new local variables" />
+    <option name="local" hit="Autoscroll to new local variables" />
+    <option name="new" hit="Autoscroll to new local variables" />
+    <option name="to" hit="Autoscroll to new local variables" />
+    <option name="variables" hit="Autoscroll to new local variables" />
+    <option name="declared" hit="Declared type" />
+    <option name="type" hit="Declared type" />
+    <option name="enable" hit="Enable 'toString()' object view:" />
+    <option name="object" hit="Enable 'toString()' object view:" />
+    <option name="ostring" hit="Enable 'toString()' object view:" />
+    <option name="t" hit="Enable 'toString()' object view:" />
+    <option name="view" hit="Enable 'toString()' object view:" />
+    <option name="alternative" hit="Enable alternative view for Collections classes" />
+    <option name="classes" hit="Enable alternative view for Collections classes" />
+    <option name="coll" hit="Enable alternative view for Collections classes" />
+    <option name="ections" hit="Enable alternative view for Collections classes" />
+    <option name="enable" hit="Enable alternative view for Collections classes" />
+    <option name="for" hit="Enable alternative view for Collections classes" />
+    <option name="view" hit="Enable alternative view for Collections classes" />
+    <option name="all" hit="For all classes that override 'toString()' method" />
+    <option name="classes" hit="For all classes that override 'toString()' method" />
+    <option name="for" hit="For all classes that override 'toString()' method" />
+    <option name="method" hit="For all classes that override 'toString()' method" />
+    <option name="override" hit="For all classes that override 'toString()' method" />
+    <option name="that" hit="For all classes that override 'toString()' method" />
+    <option name="tostring" hit="For all classes that override 'toString()' method" />
+    <option name="classes" hit="For classes from the list:" />
+    <option name="for" hit="For classes from the list:" />
+    <option name="from" hit="For classes from the list:" />
+    <option name="list" hit="For classes from the list:" />
+    <option name="the" hit="For classes from the list:" />
+    <option name="fully" hit="Fully qualified names" />
+    <option name="names" hit="Fully qualified names" />
+    <option name="qualified" hit="Fully qualified names" />
+    <option name="and" hit="Hide null elements in arrays and collections" />
+    <option name="arrays" hit="Hide null elements in arrays and collections" />
+    <option name="collections" hit="Hide null elements in arrays and collections" />
+    <option name="elements" hit="Hide null elements in arrays and collections" />
+    <option name="hide" hit="Hide null elements in arrays and collections" />
+    <option name="in" hit="Hide null elements in arrays and collections" />
+    <option name="null" hit="Hide null elements in arrays and collections" />
+    <option name="java" hit="Java" />
+    <option name="id" hit="Object id" />
+    <option name="object" hit="Object id" />
+    <option name="analysis" hit="Predict condition values and exceptions based on data flow analysis" />
+    <option name="and" hit="Predict condition values and exceptions based on data flow analysis" />
+    <option name="based" hit="Predict condition values and exceptions based on data flow analysis" />
+    <option name="condition" hit="Predict condition values and exceptions based on data flow analysis" />
+    <option name="data" hit="Predict condition values and exceptions based on data flow analysis" />
+    <option name="exceptions" hit="Predict condition values and exceptions based on data flow analysis" />
+    <option name="flow" hit="Predict condition values and exceptions based on data flow analysis" />
+    <option name="on" hit="Predict condition values and exceptions based on data flow analysis" />
+    <option name="predict" hit="Predict condition values and exceptions based on data flow analysis" />
+    <option name="values" hit="Predict condition values and exceptions based on data flow analysis" />
+    <option name="show" hit="Show" />
+    <option name="for" hit="Show hex value for primitives" />
+    <option name="hex" hit="Show hex value for primitives" />
+    <option name="primitives" hit="Show hex value for primitives" />
+    <option name="show" hit="Show hex value for primitives" />
+    <option name="value" hit="Show hex value for primitives" />
+    <option name="for" hit="Show type for strings" />
+    <option name="show" hit="Show type for strings" />
+    <option name="strings" hit="Show type for strings" />
+    <option name="type" hit="Show type for strings" />
+    <option name="" hit="Static fields" />
+    <option name="fields" hit="Static fields" />
+    <option name="static" hit="Static fields" />
+    <option name="fields" hit="Static final fields" />
+    <option name="final" hit="Static final fields" />
+    <option name="static" hit="Static final fields" />
+    <option name="fields" hit="Synthetic fields" />
+    <option name="s" hit="Synthetic fields" />
+    <option name="ynthetic" hit="Synthetic fields" />
+  </configurable>
+  <configurable id="reference.idesettings.debugger.typerenderers" configurable_name="Java Type Renderers">
+    <option name="append" hit="Append default children" />
+    <option name="children" hit="Append default children" />
+    <option name="default" hit="Append default children" />
+    <option name="apply" hit="Apply renderer to objects of type (fully-qualified name):" />
+    <option name="fully" hit="Apply renderer to objects of type (fully-qualified name):" />
+    <option name="name" hit="Apply renderer to objects of type (fully-qualified name):" />
+    <option name="objects" hit="Apply renderer to objects of type (fully-qualified name):" />
+    <option name="of" hit="Apply renderer to objects of type (fully-qualified name):" />
+    <option name="qualified" hit="Apply renderer to objects of type (fully-qualified name):" />
+    <option name="renderer" hit="Apply renderer to objects of type (fully-qualified name):" />
+    <option name="to" hit="Apply renderer to objects of type (fully-qualified name):" />
+    <option name="type" hit="Apply renderer to objects of type (fully-qualified name):" />
+    <option name="java" hit="Java Type Renderers" />
+    <option name="renderers" hit="Java Type Renderers" />
+    <option name="type" hit="Java Type Renderers" />
+    <option name="demand" hit="On-demand" />
+    <option name="on" hit="On-demand" />
+    <option name="name" hit="Renderer name:" />
+    <option name="renderer" hit="Renderer name:" />
+    <option name="and" hit="Show type and object id" />
+    <option name="id" hit="Show type and object id" />
+    <option name="object" hit="Show type and object id" />
+    <option name="show" hit="Show type and object id" />
+    <option name="type" hit="Show type and object id" />
+    <option name="a" hit="Test if a node can be expanded (optional):" />
+    <option name="be" hit="Test if a node can be expanded (optional):" />
+    <option name="can" hit="Test if a node can be expanded (optional):" />
+    <option name="expanded" hit="Test if a node can be expanded (optional):" />
+    <option name="if" hit="Test if a node can be expanded (optional):" />
+    <option name="node" hit="Test if a node can be expanded (optional):" />
+    <option name="optional" hit="Test if a node can be expanded (optional):" />
+    <option name="test" hit="Test if a node can be expanded (optional):" />
+    <option name="default" hit="Use default renderer" />
+    <option name="renderer" hit="Use default renderer" />
+    <option name="use" hit="Use default renderer" />
+    <option name="expression" hit="Use following expression:" />
+    <option name="following" hit="Use following expression:" />
+    <option name="use" hit="Use following expression:" />
+    <option name="expressions" hit="Use list of expressions:" />
+    <option name="list" hit="Use list of expressions:" />
+    <option name="of" hit="Use list of expressions:" />
+    <option name="use" hit="Use list of expressions:" />
+    <option name="a" hit="When expanding a node" />
+    <option name="expanding" hit="When expanding a node" />
+    <option name="node" hit="When expanding a node" />
+    <option name="when" hit="When expanding a node" />
+    <option name="a" hit="When rendering a node" />
+    <option name="node" hit="When rendering a node" />
+    <option name="rendering" hit="When rendering a node" />
+    <option name="when" hit="When rendering a node" />
+  </configurable>
+  <configurable id="debugger.stepping" configurable_name="Stepping">
+    <option name="" hit="Always" />
+    <option name="always" hit="Always" />
+    <option name="a" hit="Always do smart step into" />
+    <option name="do" hit="Always do smart step into" />
+    <option name="into" hit="Always do smart step into" />
+    <option name="lways" hit="Always do smart step into" />
+    <option name="smart" hit="Always do smart step into" />
+    <option name="step" hit="Always do smart step into" />
+    <option name="as" hit="Ask" />
+    <option name="k" hit="Ask" />
+    <option name="classes" hit="Do not step into the classes" />
+    <option name="do" hit="Do not step into the classes" />
+    <option name="into" hit="Do not step into the classes" />
+    <option name="not" hit="Do not step into the classes" />
+    <option name="step" hit="Do not step into the classes" />
+    <option name="the" hit="Do not step into the classes" />
+    <option name="and" hit="Evaluate finally blocks on pop frame and early return:" />
+    <option name="blocks" hit="Evaluate finally blocks on pop frame and early return:" />
+    <option name="early" hit="Evaluate finally blocks on pop frame and early return:" />
+    <option name="evaluate" hit="Evaluate finally blocks on pop frame and early return:" />
+    <option name="finally" hit="Evaluate finally blocks on pop frame and early return:" />
+    <option name="frame" hit="Evaluate finally blocks on pop frame and early return:" />
+    <option name="on" hit="Evaluate finally blocks on pop frame and early return:" />
+    <option name="pop" hit="Evaluate finally blocks on pop frame and early return:" />
+    <option name="return" hit="Evaluate finally blocks on pop frame and early return:" />
+    <option name="java" hit="Java" />
+    <option name="ever" hit="Never" />
+    <option name="n" hit="Never" />
+    <option name="current" hit="Resume only the current thread" />
+    <option name="only" hit="Resume only the current thread" />
+    <option name="resume" hit="Resume only the current thread" />
+    <option name="the" hit="Resume only the current thread" />
+    <option name="thread" hit="Resume only the current thread" />
+    <option name="class" hit="Skip class loaders" />
+    <option name="l" hit="Skip class loaders" />
+    <option name="oaders" hit="Skip class loaders" />
+    <option name="skip" hit="Skip class loaders" />
+    <option name="constructors" hit="Skip constructors" />
+    <option name="skip" hit="Skip constructors" />
+    <option name="getters" hit="Skip simple getters" />
+    <option name="simple" hit="Skip simple getters" />
+    <option name="skip" hit="Skip simple getters" />
+    <option name="methods" hit="Skip synthetic methods" />
+    <option name="p" hit="Skip synthetic methods" />
+    <option name="ski" hit="Skip synthetic methods" />
+    <option name="synthetic" hit="Skip synthetic methods" />
+  </configurable>
+  <configurable id="debugger.hotswap" configurable_name="HotSwap">
+    <option name="" hit="Always" />
+    <option name="always" hit="Always" />
+    <option name="as" hit="Ask" />
+    <option name="k" hit="Ask" />
+    <option name="before" hit="Build project before reloading classes" />
+    <option name="build" hit="Build project before reloading classes" />
+    <option name="classes" hit="Build project before reloading classes" />
+    <option name="project" hit="Build project before reloading classes" />
+    <option name="reloading" hit="Build project before reloading classes" />
+    <option name="enable" hit="Enable 'JVM will hang' warning" />
+    <option name="hang" hit="Enable 'JVM will hang' warning" />
+    <option name="jvm" hit="Enable 'JVM will hang' warning" />
+    <option name="warning" hit="Enable 'JVM will hang' warning" />
+    <option name="will" hit="Enable 'JVM will hang' warning" />
+    <option name="java" hit="Java" />
+    <option name="" hit="Never" />
+    <option name="never" hit="Never" />
+    <option name="after" hit="Reload classes after compilation:" />
+    <option name="classes" hit="Reload classes after compilation:" />
+    <option name="compilation" hit="Reload classes after compilation:" />
+    <option name="reload" hit="Reload classes after compilation:" />
+    <option name="background" hit="Reload classes in background" />
+    <option name="classes" hit="Reload classes in background" />
+    <option name="in" hit="Reload classes in background" />
+    <option name="reload" hit="Reload classes in background" />
   </configurable>
   <configurable id="preferences.sourceCode.Java" configurable_name="Java">
-    <option name="" path="Code Generation" hit=" Escalate" />
-    <option name="escalate" path="Code Generation" hit=" Escalate" />
     <option name="absolute" path="Tabs and Indents" hit="Absolute label indent" />
     <option name="indent" path="Tabs and Indents" hit="Absolute label indent" />
     <option name="label" path="Tabs and Indents" hit="Absolute label indent" />
-    <option name="a" path="Code Generation" hit="Add a space at comment start" />
-    <option name="add" path="Code Generation" hit="Add a space at comment start" />
-    <option name="at" path="Code Generation" hit="Add a space at comment start" />
-    <option name="comment" path="Code Generation" hit="Add a space at comment start" />
-    <option name="space" path="Code Generation" hit="Add a space at comment start" />
-    <option name="start" path="Code Generation" hit="Add a space at comment start" />
+    <option name="a" path="Code Generation" hit="Add a space at line comment start" />
+    <option name="add" path="Code Generation" hit="Add a space at line comment start" />
+    <option name="at" path="Code Generation" hit="Add a space at line comment start" />
+    <option name="comment" path="Code Generation" hit="Add a space at line comment start" />
+    <option name="line" path="Code Generation" hit="Add a space at line comment start" />
+    <option name="space" path="Code Generation" hit="Add a space at line comment start" />
+    <option name="start" path="Code Generation" hit="Add a space at line comment start" />
+    <option name="add" path="Code Generation" hit="Add spaces around block comments" />
+    <option name="around" path="Code Generation" hit="Add spaces around block comments" />
+    <option name="block" path="Code Generation" hit="Add spaces around block comments" />
+    <option name="comments" path="Code Generation" hit="Add spaces around block comments" />
+    <option name="spaces" path="Code Generation" hit="Add spaces around block comments" />
     <option name="after" path="Blank Lines" hit="After anonymous class header:" />
     <option name="anonymous" path="Blank Lines" hit="After anonymous class header:" />
     <option name="class" path="Blank Lines" hit="After anonymous class header:" />
@@ -1187,6 +1333,11 @@
     <option name="enable" path="JavaDoc" hit="Enable JavaDoc formatting" />
     <option name="formatting" path="JavaDoc" hit="Enable JavaDoc formatting" />
     <option name="javadoc" path="JavaDoc" hit="Enable JavaDoc formatting" />
+    <option name="enforce" path="Code Generation" hit="Enforce on reformat" />
+    <option name="on" path="Code Generation" hit="Enforce on reformat" />
+    <option name="reformat" path="Code Generation" hit="Enforce on reformat" />
+    <option name="" path="Code Generation" hit="Escalate" />
+    <option name="escalate" path="Code Generation" hit="Escalate" />
     <option name="field" path="Code Generation" hit="Field:" />
     <option name="final" path="Code Generation" hit="Final Modifier" />
     <option name="modifier" path="Code Generation" hit="Final Modifier" />
@@ -1215,15 +1366,15 @@
     <option name="insert" path="Imports" hit="Insert imports for inner classes" />
     <option name="java" hit="Java" />
     <option name="javadoc" path="JavaDoc" hit="JavaDoc" />
-    <option name="blank" path="Blank Lines" hit="Keep Maximum Blank Lines" />
-    <option name="keep" path="Blank Lines" hit="Keep Maximum Blank Lines" />
-    <option name="lines" path="Blank Lines" hit="Keep Maximum Blank Lines" />
-    <option name="maximum" path="Blank Lines" hit="Keep Maximum Blank Lines" />
     <option name="empty" path="Tabs and Indents" hit="Keep indents on empty lines" />
     <option name="indents" path="Tabs and Indents" hit="Keep indents on empty lines" />
     <option name="keep" path="Tabs and Indents" hit="Keep indents on empty lines" />
     <option name="lines" path="Tabs and Indents" hit="Keep indents on empty lines" />
     <option name="on" path="Tabs and Indents" hit="Keep indents on empty lines" />
+    <option name="blank" path="Blank Lines" hit="Keep maximum blank lines" />
+    <option name="keep" path="Blank Lines" hit="Keep maximum blank lines" />
+    <option name="lines" path="Blank Lines" hit="Keep maximum blank lines" />
+    <option name="maximum" path="Blank Lines" hit="Keep maximum blank lines" />
     <option name="indent" path="Tabs and Indents" hit="Label indent:" />
     <option name="label" path="Tabs and Indents" hit="Label indent:" />
     <option name="body" path="Code Generation" hit="Lambda Body" />
@@ -1251,9 +1402,9 @@
     <option name="parameters" path="Code Generation" hit="Make generated parameters final" />
     <option name="matching" path="Arrangement" hit="Matching rules:" />
     <option name="rules" path="Arrangement" hit="Matching rules:" />
-    <option name="blank" path="Blank Lines" hit="Minimum Blank Lines" />
-    <option name="lines" path="Blank Lines" hit="Minimum Blank Lines" />
-    <option name="minimum" path="Blank Lines" hit="Minimum Blank Lines" />
+    <option name="blank" path="Blank Lines" hit="Minimum blank lines" />
+    <option name="lines" path="Blank Lines" hit="Minimum blank lines" />
+    <option name="minimum" path="Blank Lines" hit="Minimum blank lines" />
     <option name="name" path="Code Generation" hit="Name prefix:" />
     <option name="prefix" path="Code Generation" hit="Name prefix:" />
     <option name="name" path="Code Generation" hit="Name suffix:" />
@@ -1276,25 +1427,26 @@
     <option name="method" path="Code Generation" hit="Override Method Signature" />
     <option name="override" path="Code Generation" hit="Override Method Signature" />
     <option name="signature" path="Code Generation" hit="Override Method Signature" />
-    <option name="kage" path="Code Generation" hit="Pac kage local" />
-    <option name="local" path="Code Generation" hit="Pac kage local" />
-    <option name="pac" path="Code Generation" hit="Pac kage local" />
+    <option name="kage" path="Code Generation" hit="Package local" />
+    <option name="local" path="Code Generation" hit="Package local" />
+    <option name="pac" path="Code Generation" hit="Package local" />
     <option name="parameter" path="Code Generation" hit="Parameter:" />
-    <option name="otected" path="Code Generation" hit="Pr otected" />
-    <option name="pr" path="Code Generation" hit="Pr otected" />
     <option name="longer" path="Code Generation" hit="Prefer longer names" />
     <option name="names" path="Code Generation" hit="Prefer longer names" />
     <option name="prefer" path="Code Generation" hit="Prefer longer names" />
-    <option name="pri" path="Code Generation" hit="Pri vate" />
-    <option name="vate" path="Code Generation" hit="Pri vate" />
-    <option name="blic" path="Code Generation" hit="Pu blic" />
-    <option name="pu" path="Code Generation" hit="Pu blic" />
+    <option name="pri" path="Code Generation" hit="Private" />
+    <option name="vate" path="Code Generation" hit="Private" />
+    <option name="otected" path="Code Generation" hit="Protected" />
+    <option name="pr" path="Code Generation" hit="Protected" />
+    <option name="blic" path="Code Generation" hit="Public" />
+    <option name="pu" path="Code Generation" hit="Public" />
     <option name="modifier" path="Code Generation" hit="Repeat synchronized modifier" />
     <option name="repeat" path="Code Generation" hit="Repeat synchronized modifier" />
     <option name="synchronized" path="Code Generation" hit="Repeat synchronized modifier" />
+    <option name="check" path="Code Generation" hit="Replace null-check with Objects::nonNull or Objects::isNull" />
     <option name="isnull" path="Code Generation" hit="Replace null-check with Objects::nonNull or Objects::isNull" />
     <option name="nonnull" path="Code Generation" hit="Replace null-check with Objects::nonNull or Objects::isNull" />
-    <option name="null-check" path="Code Generation" hit="Replace null-check with Objects::nonNull or Objects::isNull" />
+    <option name="null" path="Code Generation" hit="Replace null-check with Objects::nonNull or Objects::isNull" />
     <option name="objects" path="Code Generation" hit="Replace null-check with Objects::nonNull or Objects::isNull" />
     <option name="or" path="Code Generation" hit="Replace null-check with Objects::nonNull or Objects::isNull" />
     <option name="replace" path="Code Generation" hit="Replace null-check with Objects::nonNull or Objects::isNull" />
@@ -1465,7 +1617,9 @@
     <option name="statement" path="Wrapping and Braces" hit="'try' statement" />
     <option name="try" path="Wrapping and Braces" hit="'try' statement" />
     <option name="" path="Wrapping and Braces" hit="'try-with-resources'" />
-    <option name="try-with-resources" path="Wrapping and Braces" hit="'try-with-resources'" />
+    <option name="resources" path="Wrapping and Braces" hit="'try-with-resources'" />
+    <option name="try" path="Wrapping and Braces" hit="'try-with-resources'" />
+    <option name="with" path="Wrapping and Braces" hit="'try-with-resources'" />
     <option name="" path="Spaces" hit="'while' keyword" />
     <option name="keyword" path="Spaces" hit="'while' keyword" />
     <option name="while" path="Spaces" hit="'while' keyword" />
@@ -1484,7 +1638,6 @@
     <option name="" path="Wrapping and Braces" hit="'while()' statement" />
     <option name="statement" path="Wrapping and Braces" hit="'while()' statement" />
     <option name="while" path="Wrapping and Braces" hit="'while()' statement" />
-    <option name="-" path="Spaces" hit="Additive operators (+, -)" />
     <option name="additive" path="Spaces" hit="Additive operators (+, -)" />
     <option name="operators" path="Spaces" hit="Additive operators (+, -)" />
     <option name="after" path="Spaces" hit="After ':'" />
@@ -1538,6 +1691,11 @@
     <option name="descriptions" path="JavaDoc" hit="Align thrown exception descriptions" />
     <option name="exception" path="JavaDoc" hit="Align thrown exception descriptions" />
     <option name="thrown" path="JavaDoc" hit="Align thrown exception descriptions" />
+    <option name="align" path="Wrapping and Braces" hit="Align types in multi-catch" />
+    <option name="catch" path="Wrapping and Braces" hit="Align types in multi-catch" />
+    <option name="in" path="Wrapping and Braces" hit="Align types in multi-catch" />
+    <option name="multi" path="Wrapping and Braces" hit="Align types in multi-catch" />
+    <option name="types" path="Wrapping and Braces" hit="Align types in multi-catch" />
     <option name="align" path="Wrapping and Braces" hit="Align variables in columns" />
     <option name="columns" path="Wrapping and Braces" hit="Align variables in columns" />
     <option name="in" path="Wrapping and Braces" hit="Align variables in columns" />
@@ -1557,8 +1715,13 @@
     <option name="parameters" path="Wrapping and Braces" hit="Annotation parameters" />
     <option name="annotation" path="Spaces" hit="Annotation parentheses" />
     <option name="parentheses" path="Spaces" hit="Annotation parentheses" />
-    <option name="around" path="Spaces" hit="Around Operators" />
-    <option name="operators" path="Spaces" hit="Around Operators" />
+    <option name="annotation" path="Spaces" hit="Around '=' in annotation value pair" />
+    <option name="around" path="Spaces" hit="Around '=' in annotation value pair" />
+    <option name="in" path="Spaces" hit="Around '=' in annotation value pair" />
+    <option name="pair" path="Spaces" hit="Around '=' in annotation value pair" />
+    <option name="value" path="Spaces" hit="Around '=' in annotation value pair" />
+    <option name="around" path="Spaces" hit="Around operators" />
+    <option name="operators" path="Spaces" hit="Around operators" />
     <option name="around" path="Spaces" hit="Around type bounds" />
     <option name="bounds" path="Spaces" hit="Around type bounds" />
     <option name="type" path="Spaces" hit="Around type bounds" />
@@ -1587,23 +1750,23 @@
     <option name="before" path="Spaces" hit="Before 'for' semicolon" />
     <option name="for" path="Spaces" hit="Before 'for' semicolon" />
     <option name="semicolon" path="Spaces" hit="Before 'for' semicolon" />
-    <option name="before" path="Spaces" hit="Before Keywords" />
-    <option name="keywords" path="Spaces" hit="Before Keywords" />
-    <option name="before" path="Spaces" hit="Before Left Brace" />
-    <option name="brace" path="Spaces" hit="Before Left Brace" />
-    <option name="left" path="Spaces" hit="Before Left Brace" />
-    <option name="before" path="Spaces" hit="Before Parentheses" />
-    <option name="parentheses" path="Spaces" hit="Before Parentheses" />
     <option name="before" path="Spaces" hit="Before colon in foreach" />
     <option name="colon" path="Spaces" hit="Before colon in foreach" />
     <option name="foreach" path="Spaces" hit="Before colon in foreach" />
     <option name="in" path="Spaces" hit="Before colon in foreach" />
     <option name="before" path="Spaces" hit="Before comma" />
     <option name="comma" path="Spaces" hit="Before comma" />
+    <option name="before" path="Spaces" hit="Before keywords" />
+    <option name="keywords" path="Spaces" hit="Before keywords" />
+    <option name="before" path="Spaces" hit="Before left brace" />
+    <option name="brace" path="Spaces" hit="Before left brace" />
+    <option name="left" path="Spaces" hit="Before left brace" />
     <option name="angle" path="Spaces" hit="Before opening angle bracket" />
     <option name="before" path="Spaces" hit="Before opening angle bracket" />
     <option name="bracket" path="Spaces" hit="Before opening angle bracket" />
     <option name="opening" path="Spaces" hit="Before opening angle bracket" />
+    <option name="before" path="Spaces" hit="Before parentheses" />
+    <option name="parentheses" path="Spaces" hit="Before parentheses" />
     <option name="binary" path="Wrapping and Braces" hit="Binary expressions" />
     <option name="expressions" path="Wrapping and Braces" hit="Binary expressions" />
     <option name="bitwise" path="Spaces" hit="Bitwise operators (&amp;, |, ^)" />
@@ -1613,6 +1776,8 @@
     <option name="braces" path="Wrapping and Braces" hit="Braces placement" />
     <option name="placement" path="Wrapping and Braces" hit="Braces placement" />
     <option name="brackets" path="Spaces" hit="Brackets" />
+    <option name="builder" path="Wrapping and Braces" hit="Builder methods" />
+    <option name="methods" path="Wrapping and Braces" hit="Builder methods" />
     <option name="calls" path="Wrapping and Braces" hit="Chained method calls" />
     <option name="chained" path="Wrapping and Braces" hit="Chained method calls" />
     <option name="method" path="Wrapping and Braces" hit="Chained method calls" />
@@ -1695,12 +1860,9 @@
     <option name="group" path="Wrapping and Braces" hit="Group declarations" />
     <option name="grouping" path="Spaces" hit="Grouping parentheses" />
     <option name="parentheses" path="Spaces" hit="Grouping parentheses" />
-    <option name="at" path="Wrapping and Braces" hit="Hard wrap at" />
-    <option name="hard" path="Wrapping and Braces" hit="Hard wrap at" />
-    <option name="wrap" path="Wrapping and Braces" hit="Hard wrap at" />
-    <option name="in" path="Spaces" hit="In Ternary Operator (?:)" />
-    <option name="operator" path="Spaces" hit="In Ternary Operator (?:)" />
-    <option name="ternary" path="Spaces" hit="In Ternary Operator (?:)" />
+    <option name="at" path="Wrapping and Braces" hit="Hard wrap at:" />
+    <option name="hard" path="Wrapping and Braces" hit="Hard wrap at:" />
+    <option name="wrap" path="Wrapping and Braces" hit="Hard wrap at:" />
     <option name="class" path="Wrapping and Braces" hit="In class declaration" />
     <option name="declaration" path="Wrapping and Braces" hit="In class declaration" />
     <option name="in" path="Wrapping and Braces" hit="In class declaration" />
@@ -1710,6 +1872,9 @@
     <option name="declaration" path="Wrapping and Braces" hit="In method declaration" />
     <option name="in" path="Wrapping and Braces" hit="In method declaration" />
     <option name="method" path="Wrapping and Braces" hit="In method declaration" />
+    <option name="in" path="Spaces" hit="In ternary operator (?:)" />
+    <option name="operator" path="Spaces" hit="In ternary operator (?:)" />
+    <option name="ternary" path="Spaces" hit="In ternary operator (?:)" />
     <option name="break" path="Wrapping and Braces" hit="Indent 'break' from 'case'" />
     <option name="case" path="Wrapping and Braces" hit="Indent 'break' from 'case'" />
     <option name="from" path="Wrapping and Braces" hit="Indent 'break' from 'case'" />
@@ -1727,6 +1892,10 @@
     <option name="one" path="Spaces" hit="Inside one line enum braces" />
     <option name="invalid" path="JavaDoc" hit="Invalid tags" />
     <option name="tags" path="JavaDoc" hit="Invalid tags" />
+    <option name="builder" path="Wrapping and Braces" hit="Keep builder methods indents" />
+    <option name="indents" path="Wrapping and Braces" hit="Keep builder methods indents" />
+    <option name="keep" path="Wrapping and Braces" hit="Keep builder methods indents" />
+    <option name="methods" path="Wrapping and Braces" hit="Keep builder methods indents" />
     <option name="empty" path="JavaDoc" hit="Keep empty @param tags" />
     <option name="keep" path="JavaDoc" hit="Keep empty @param tags" />
     <option name="param" path="JavaDoc" hit="Keep empty @param tags" />
@@ -1819,6 +1988,10 @@
     <option name="feeds" path="JavaDoc" hit="Preserve line feeds" />
     <option name="line" path="JavaDoc" hit="Preserve line feeds" />
     <option name="preserve" path="JavaDoc" hit="Preserve line feeds" />
+    <option name="components" path="Wrapping and Braces" hit="Record components" />
+    <option name="record" path="Wrapping and Braces" hit="Record components" />
+    <option name="header" path="Spaces" hit="Record header" />
+    <option name="record" path="Spaces" hit="Record header" />
     <option name="operators" path="Spaces" hit="Relational operators (&lt;, &gt;, &lt;=, &gt;=)" />
     <option name="relational" path="Spaces" hit="Relational operators (&lt;, &gt;, &lt;=, &gt;=)" />
     <option name="operators" path="Spaces" hit="Shift operators (&lt;&lt;, &gt;&gt;, &gt;&gt;&gt;)" />
@@ -1861,15 +2034,17 @@
     <option name="throws" path="Wrapping and Braces" hit="Throws keyword" />
     <option name="list" path="Wrapping and Braces" hit="Throws list" />
     <option name="throws" path="Wrapping and Braces" hit="Throws list" />
-    <option name="arguments" path="Spaces" hit="Type Arguments" />
-    <option name="type" path="Spaces" hit="Type Arguments" />
-    <option name="parameters" path="Spaces" hit="Type Parameters" />
-    <option name="type" path="Spaces" hit="Type Parameters" />
+    <option name="arguments" path="Spaces" hit="Type arguments" />
+    <option name="type" path="Spaces" hit="Type arguments" />
     <option name="cast" path="Spaces" hit="Type cast parentheses" />
     <option name="parentheses" path="Spaces" hit="Type cast parentheses" />
     <option name="type" path="Spaces" hit="Type cast parentheses" />
-    <option name="-" path="Spaces" hit="Unary operators (!, -, +, ++, --)" />
-    <option name="--" path="Spaces" hit="Unary operators (!, -, +, ++, --)" />
+    <option name="parameters" path="Spaces" hit="Type parameters" />
+    <option name="type" path="Spaces" hit="Type parameters" />
+    <option name="catch" path="Wrapping and Braces" hit="Types in multi-catch" />
+    <option name="in" path="Wrapping and Braces" hit="Types in multi-catch" />
+    <option name="multi" path="Wrapping and Braces" hit="Types in multi-catch" />
+    <option name="types" path="Wrapping and Braces" hit="Types in multi-catch" />
     <option name="operators" path="Spaces" hit="Unary operators (!, -, +, ++, --)" />
     <option name="unary" path="Spaces" hit="Unary operators (!, -, +, ++, --)" />
     <option name="exception" path="JavaDoc" hit="Use @throws rather than @exception" />
@@ -1895,23 +2070,73 @@
     <option name="typing" path="Wrapping and Braces" hit="Wrap on typing" />
     <option name="wrap" path="Wrapping and Braces" hit="Wrap on typing" />
   </configurable>
+  <configurable id="fileTemplates" configurable_name="File and Code Templates">
+    <option name="body" hit="Catch Statement Body" />
+    <option name="catch" hit="Catch Statement Body" />
+    <option name="statement" hit="Catch Statement Body" />
+    <option name="catch" hit="Catch Statement Declaration" />
+    <option name="declaration" hit="Catch Statement Declaration" />
+    <option name="statement" hit="Catch Statement Declaration" />
+    <option name="file" hit="File Header" />
+    <option name="header" hit="File Header" />
+    <option name="concatenation" hit="I18nized Concatenation" />
+    <option name="i" hit="I18nized Concatenation" />
+    <option name="nized" hit="I18nized Concatenation" />
+    <option name="expression" hit="I18nized Expression" />
+    <option name="i" hit="I18nized Expression" />
+    <option name="nized" hit="I18nized Expression" />
+    <option name="expression" hit="I18nized JSP Expression" />
+    <option name="i" hit="I18nized JSP Expression" />
+    <option name="jsp" hit="I18nized JSP Expression" />
+    <option name="nized" hit="I18nized JSP Expression" />
+    <option name="body" hit="Implemented Method Body" />
+    <option name="implemented" hit="Implemented Method Body" />
+    <option name="method" hit="Implemented Method Body" />
+    <option name="class" hit="JavaDoc Class" />
+    <option name="javadoc" hit="JavaDoc Class" />
+    <option name="constructor" hit="JavaDoc Constructor" />
+    <option name="javadoc" hit="JavaDoc Constructor" />
+    <option name="field" hit="JavaDoc Field" />
+    <option name="javadoc" hit="JavaDoc Field" />
+    <option name="javadoc" hit="JavaDoc Method" />
+    <option name="method" hit="JavaDoc Method" />
+    <option name="javadoc" hit="JavaDoc Overriding Method" />
+    <option name="method" hit="JavaDoc Overriding Method" />
+    <option name="overriding" hit="JavaDoc Overriding Method" />
+    <option name="body" hit="New Method Body" />
+    <option name="method" hit="New Method Body" />
+    <option name="new" hit="New Method Body" />
+    <option name="body" hit="Overridden Method Body" />
+    <option name="method" hit="Overridden Method Body" />
+    <option name="overridden" hit="Overridden Method Body" />
+    <option name="branch" hit="Switch Default Branch" />
+    <option name="default" hit="Switch Default Branch" />
+    <option name="switch" hit="Switch Default Branch" />
+  </configurable>
   <configurable id="copyright.filetypes.JAVA" configurable_name="Java">
-    <option name="add" hit="Add blank line after" />
+    <option name="a" hit="Add blank line after" />
     <option name="after" hit="Add blank line after" />
     <option name="blank" hit="Add blank line after" />
+    <option name="dd" hit="Add blank line after" />
     <option name="line" hit="Add blank line after" />
-    <option name="after" hit="After other comments" />
+    <option name="add" hit="Add blank line before" />
+    <option name="before" hit="Add blank line before" />
+    <option name="blank" hit="Add blank line before" />
+    <option name="line" hit="Add blank line before" />
+    <option name="afte" hit="After other comments" />
     <option name="comments" hit="After other comments" />
     <option name="other" hit="After other comments" />
-    <option name="before" hit="Before Class" />
-    <option name="class" hit="Before Class" />
-    <option name="before" hit="Before Imports" />
-    <option name="imports" hit="Before Imports" />
-    <option name="before" hit="Before Package" />
-    <option name="package" hit="Before Package" />
-    <option name="before" hit="Before other comments" />
+    <option name="r" hit="After other comments" />
+    <option name="before" hit="Before class" />
+    <option name="class" hit="Before class" />
+    <option name="before" hit="Before imports" />
+    <option name="imports" hit="Before imports" />
+    <option name="bef" hit="Before other comments" />
     <option name="comments" hit="Before other comments" />
+    <option name="ore" hit="Before other comments" />
     <option name="other" hit="Before other comments" />
+    <option name="before" hit="Before package" />
+    <option name="package" hit="Before package" />
     <option name="borders" hit="Borders" />
     <option name="box" hit="Box" />
     <option name="comment" hit="Comment Type" />
@@ -1948,15 +2173,22 @@
     <option name="use" hit="Use line comment" />
   </configurable>
   <configurable id="copyright.filetypes.SPI" configurable_name="SPI">
-    <option name="add" hit="Add blank line after" />
+    <option name="a" hit="Add blank line after" />
     <option name="after" hit="Add blank line after" />
     <option name="blank" hit="Add blank line after" />
+    <option name="dd" hit="Add blank line after" />
     <option name="line" hit="Add blank line after" />
-    <option name="after" hit="After other comments" />
+    <option name="add" hit="Add blank line before" />
+    <option name="before" hit="Add blank line before" />
+    <option name="blank" hit="Add blank line before" />
+    <option name="line" hit="Add blank line before" />
+    <option name="afte" hit="After other comments" />
     <option name="comments" hit="After other comments" />
     <option name="other" hit="After other comments" />
-    <option name="before" hit="Before other comments" />
+    <option name="r" hit="After other comments" />
+    <option name="bef" hit="Before other comments" />
     <option name="comments" hit="Before other comments" />
+    <option name="ore" hit="Before other comments" />
     <option name="other" hit="Before other comments" />
     <option name="borders" hit="Borders" />
     <option name="box" hit="Box" />
@@ -1991,65 +2223,61 @@
     <option name="use" hit="Use line comment" />
   </configurable>
   <configurable id="project.propCompiler" configurable_name="Compiler">
-    <option name="" hit=" Use  ;  to separate patterns and  !  to negate a pattern. Accepted wildcards:  ?  &amp;mdash; exactly one symbol;  *  &amp;mdash; zero or more symbols;  /  &amp;mdash; path separator;  /**/  &amp;mdash; any number of directories;  &amp;lt;dir_name&amp;gt; : &amp;lt;pattern&amp;gt;  &amp;mdash; restrict to source roots with the specified name " />
-    <option name="a" hit=" Use  ;  to separate patterns and  !  to negate a pattern. Accepted wildcards:  ?  &amp;mdash; exactly one symbol;  *  &amp;mdash; zero or more symbols;  /  &amp;mdash; path separator;  /**/  &amp;mdash; any number of directories;  &amp;lt;dir_name&amp;gt; : &amp;lt;pattern&amp;gt;  &amp;mdash; restrict to source roots with the specified name " />
-    <option name="accepted" hit=" Use  ;  to separate patterns and  !  to negate a pattern. Accepted wildcards:  ?  &amp;mdash; exactly one symbol;  *  &amp;mdash; zero or more symbols;  /  &amp;mdash; path separator;  /**/  &amp;mdash; any number of directories;  &amp;lt;dir_name&amp;gt; : &amp;lt;pattern&amp;gt;  &amp;mdash; restrict to source roots with the specified name " />
-    <option name="and" hit=" Use  ;  to separate patterns and  !  to negate a pattern. Accepted wildcards:  ?  &amp;mdash; exactly one symbol;  *  &amp;mdash; zero or more symbols;  /  &amp;mdash; path separator;  /**/  &amp;mdash; any number of directories;  &amp;lt;dir_name&amp;gt; : &amp;lt;pattern&amp;gt;  &amp;mdash; restrict to source roots with the specified name " />
-    <option name="any" hit=" Use  ;  to separate patterns and  !  to negate a pattern. Accepted wildcards:  ?  &amp;mdash; exactly one symbol;  *  &amp;mdash; zero or more symbols;  /  &amp;mdash; path separator;  /**/  &amp;mdash; any number of directories;  &amp;lt;dir_name&amp;gt; : &amp;lt;pattern&amp;gt;  &amp;mdash; restrict to source roots with the specified name " />
-    <option name="dir_name" hit=" Use  ;  to separate patterns and  !  to negate a pattern. Accepted wildcards:  ?  &amp;mdash; exactly one symbol;  *  &amp;mdash; zero or more symbols;  /  &amp;mdash; path separator;  /**/  &amp;mdash; any number of directories;  &amp;lt;dir_name&amp;gt; : &amp;lt;pattern&amp;gt;  &amp;mdash; restrict to source roots with the specified name " />
-    <option name="directories" hit=" Use  ;  to separate patterns and  !  to negate a pattern. Accepted wildcards:  ?  &amp;mdash; exactly one symbol;  *  &amp;mdash; zero or more symbols;  /  &amp;mdash; path separator;  /**/  &amp;mdash; any number of directories;  &amp;lt;dir_name&amp;gt; : &amp;lt;pattern&amp;gt;  &amp;mdash; restrict to source roots with the specified name " />
-    <option name="exactly" hit=" Use  ;  to separate patterns and  !  to negate a pattern. Accepted wildcards:  ?  &amp;mdash; exactly one symbol;  *  &amp;mdash; zero or more symbols;  /  &amp;mdash; path separator;  /**/  &amp;mdash; any number of directories;  &amp;lt;dir_name&amp;gt; : &amp;lt;pattern&amp;gt;  &amp;mdash; restrict to source roots with the specified name " />
-    <option name="gt" hit=" Use  ;  to separate patterns and  !  to negate a pattern. Accepted wildcards:  ?  &amp;mdash; exactly one symbol;  *  &amp;mdash; zero or more symbols;  /  &amp;mdash; path separator;  /**/  &amp;mdash; any number of directories;  &amp;lt;dir_name&amp;gt; : &amp;lt;pattern&amp;gt;  &amp;mdash; restrict to source roots with the specified name " />
-    <option name="lt" hit=" Use  ;  to separate patterns and  !  to negate a pattern. Accepted wildcards:  ?  &amp;mdash; exactly one symbol;  *  &amp;mdash; zero or more symbols;  /  &amp;mdash; path separator;  /**/  &amp;mdash; any number of directories;  &amp;lt;dir_name&amp;gt; : &amp;lt;pattern&amp;gt;  &amp;mdash; restrict to source roots with the specified name " />
-    <option name="mdash" hit=" Use  ;  to separate patterns and  !  to negate a pattern. Accepted wildcards:  ?  &amp;mdash; exactly one symbol;  *  &amp;mdash; zero or more symbols;  /  &amp;mdash; path separator;  /**/  &amp;mdash; any number of directories;  &amp;lt;dir_name&amp;gt; : &amp;lt;pattern&amp;gt;  &amp;mdash; restrict to source roots with the specified name " />
-    <option name="more" hit=" Use  ;  to separate patterns and  !  to negate a pattern. Accepted wildcards:  ?  &amp;mdash; exactly one symbol;  *  &amp;mdash; zero or more symbols;  /  &amp;mdash; path separator;  /**/  &amp;mdash; any number of directories;  &amp;lt;dir_name&amp;gt; : &amp;lt;pattern&amp;gt;  &amp;mdash; restrict to source roots with the specified name " />
-    <option name="name" hit=" Use  ;  to separate patterns and  !  to negate a pattern. Accepted wildcards:  ?  &amp;mdash; exactly one symbol;  *  &amp;mdash; zero or more symbols;  /  &amp;mdash; path separator;  /**/  &amp;mdash; any number of directories;  &amp;lt;dir_name&amp;gt; : &amp;lt;pattern&amp;gt;  &amp;mdash; restrict to source roots with the specified name " />
-    <option name="negate" hit=" Use  ;  to separate patterns and  !  to negate a pattern. Accepted wildcards:  ?  &amp;mdash; exactly one symbol;  *  &amp;mdash; zero or more symbols;  /  &amp;mdash; path separator;  /**/  &amp;mdash; any number of directories;  &amp;lt;dir_name&amp;gt; : &amp;lt;pattern&amp;gt;  &amp;mdash; restrict to source roots with the specified name " />
-    <option name="number" hit=" Use  ;  to separate patterns and  !  to negate a pattern. Accepted wildcards:  ?  &amp;mdash; exactly one symbol;  *  &amp;mdash; zero or more symbols;  /  &amp;mdash; path separator;  /**/  &amp;mdash; any number of directories;  &amp;lt;dir_name&amp;gt; : &amp;lt;pattern&amp;gt;  &amp;mdash; restrict to source roots with the specified name " />
-    <option name="of" hit=" Use  ;  to separate patterns and  !  to negate a pattern. Accepted wildcards:  ?  &amp;mdash; exactly one symbol;  *  &amp;mdash; zero or more symbols;  /  &amp;mdash; path separator;  /**/  &amp;mdash; any number of directories;  &amp;lt;dir_name&amp;gt; : &amp;lt;pattern&amp;gt;  &amp;mdash; restrict to source roots with the specified name " />
-    <option name="one" hit=" Use  ;  to separate patterns and  !  to negate a pattern. Accepted wildcards:  ?  &amp;mdash; exactly one symbol;  *  &amp;mdash; zero or more symbols;  /  &amp;mdash; path separator;  /**/  &amp;mdash; any number of directories;  &amp;lt;dir_name&amp;gt; : &amp;lt;pattern&amp;gt;  &amp;mdash; restrict to source roots with the specified name " />
-    <option name="or" hit=" Use  ;  to separate patterns and  !  to negate a pattern. Accepted wildcards:  ?  &amp;mdash; exactly one symbol;  *  &amp;mdash; zero or more symbols;  /  &amp;mdash; path separator;  /**/  &amp;mdash; any number of directories;  &amp;lt;dir_name&amp;gt; : &amp;lt;pattern&amp;gt;  &amp;mdash; restrict to source roots with the specified name " />
-    <option name="path" hit=" Use  ;  to separate patterns and  !  to negate a pattern. Accepted wildcards:  ?  &amp;mdash; exactly one symbol;  *  &amp;mdash; zero or more symbols;  /  &amp;mdash; path separator;  /**/  &amp;mdash; any number of directories;  &amp;lt;dir_name&amp;gt; : &amp;lt;pattern&amp;gt;  &amp;mdash; restrict to source roots with the specified name " />
-    <option name="pattern" hit=" Use  ;  to separate patterns and  !  to negate a pattern. Accepted wildcards:  ?  &amp;mdash; exactly one symbol;  *  &amp;mdash; zero or more symbols;  /  &amp;mdash; path separator;  /**/  &amp;mdash; any number of directories;  &amp;lt;dir_name&amp;gt; : &amp;lt;pattern&amp;gt;  &amp;mdash; restrict to source roots with the specified name " />
-    <option name="patterns" hit=" Use  ;  to separate patterns and  !  to negate a pattern. Accepted wildcards:  ?  &amp;mdash; exactly one symbol;  *  &amp;mdash; zero or more symbols;  /  &amp;mdash; path separator;  /**/  &amp;mdash; any number of directories;  &amp;lt;dir_name&amp;gt; : &amp;lt;pattern&amp;gt;  &amp;mdash; restrict to source roots with the specified name " />
-    <option name="restrict" hit=" Use  ;  to separate patterns and  !  to negate a pattern. Accepted wildcards:  ?  &amp;mdash; exactly one symbol;  *  &amp;mdash; zero or more symbols;  /  &amp;mdash; path separator;  /**/  &amp;mdash; any number of directories;  &amp;lt;dir_name&amp;gt; : &amp;lt;pattern&amp;gt;  &amp;mdash; restrict to source roots with the specified name " />
-    <option name="roots" hit=" Use  ;  to separate patterns and  !  to negate a pattern. Accepted wildcards:  ?  &amp;mdash; exactly one symbol;  *  &amp;mdash; zero or more symbols;  /  &amp;mdash; path separator;  /**/  &amp;mdash; any number of directories;  &amp;lt;dir_name&amp;gt; : &amp;lt;pattern&amp;gt;  &amp;mdash; restrict to source roots with the specified name " />
-    <option name="separate" hit=" Use  ;  to separate patterns and  !  to negate a pattern. Accepted wildcards:  ?  &amp;mdash; exactly one symbol;  *  &amp;mdash; zero or more symbols;  /  &amp;mdash; path separator;  /**/  &amp;mdash; any number of directories;  &amp;lt;dir_name&amp;gt; : &amp;lt;pattern&amp;gt;  &amp;mdash; restrict to source roots with the specified name " />
-    <option name="separator" hit=" Use  ;  to separate patterns and  !  to negate a pattern. Accepted wildcards:  ?  &amp;mdash; exactly one symbol;  *  &amp;mdash; zero or more symbols;  /  &amp;mdash; path separator;  /**/  &amp;mdash; any number of directories;  &amp;lt;dir_name&amp;gt; : &amp;lt;pattern&amp;gt;  &amp;mdash; restrict to source roots with the specified name " />
-    <option name="source" hit=" Use  ;  to separate patterns and  !  to negate a pattern. Accepted wildcards:  ?  &amp;mdash; exactly one symbol;  *  &amp;mdash; zero or more symbols;  /  &amp;mdash; path separator;  /**/  &amp;mdash; any number of directories;  &amp;lt;dir_name&amp;gt; : &amp;lt;pattern&amp;gt;  &amp;mdash; restrict to source roots with the specified name " />
-    <option name="specified" hit=" Use  ;  to separate patterns and  !  to negate a pattern. Accepted wildcards:  ?  &amp;mdash; exactly one symbol;  *  &amp;mdash; zero or more symbols;  /  &amp;mdash; path separator;  /**/  &amp;mdash; any number of directories;  &amp;lt;dir_name&amp;gt; : &amp;lt;pattern&amp;gt;  &amp;mdash; restrict to source roots with the specified name " />
-    <option name="symbol" hit=" Use  ;  to separate patterns and  !  to negate a pattern. Accepted wildcards:  ?  &amp;mdash; exactly one symbol;  *  &amp;mdash; zero or more symbols;  /  &amp;mdash; path separator;  /**/  &amp;mdash; any number of directories;  &amp;lt;dir_name&amp;gt; : &amp;lt;pattern&amp;gt;  &amp;mdash; restrict to source roots with the specified name " />
-    <option name="symbols" hit=" Use  ;  to separate patterns and  !  to negate a pattern. Accepted wildcards:  ?  &amp;mdash; exactly one symbol;  *  &amp;mdash; zero or more symbols;  /  &amp;mdash; path separator;  /**/  &amp;mdash; any number of directories;  &amp;lt;dir_name&amp;gt; : &amp;lt;pattern&amp;gt;  &amp;mdash; restrict to source roots with the specified name " />
-    <option name="the" hit=" Use  ;  to separate patterns and  !  to negate a pattern. Accepted wildcards:  ?  &amp;mdash; exactly one symbol;  *  &amp;mdash; zero or more symbols;  /  &amp;mdash; path separator;  /**/  &amp;mdash; any number of directories;  &amp;lt;dir_name&amp;gt; : &amp;lt;pattern&amp;gt;  &amp;mdash; restrict to source roots with the specified name " />
-    <option name="to" hit=" Use  ;  to separate patterns and  !  to negate a pattern. Accepted wildcards:  ?  &amp;mdash; exactly one symbol;  *  &amp;mdash; zero or more symbols;  /  &amp;mdash; path separator;  /**/  &amp;mdash; any number of directories;  &amp;lt;dir_name&amp;gt; : &amp;lt;pattern&amp;gt;  &amp;mdash; restrict to source roots with the specified name " />
-    <option name="use" hit=" Use  ;  to separate patterns and  !  to negate a pattern. Accepted wildcards:  ?  &amp;mdash; exactly one symbol;  *  &amp;mdash; zero or more symbols;  /  &amp;mdash; path separator;  /**/  &amp;mdash; any number of directories;  &amp;lt;dir_name&amp;gt; : &amp;lt;pattern&amp;gt;  &amp;mdash; restrict to source roots with the specified name " />
-    <option name="wildcards" hit=" Use  ;  to separate patterns and  !  to negate a pattern. Accepted wildcards:  ?  &amp;mdash; exactly one symbol;  *  &amp;mdash; zero or more symbols;  /  &amp;mdash; path separator;  /**/  &amp;mdash; any number of directories;  &amp;lt;dir_name&amp;gt; : &amp;lt;pattern&amp;gt;  &amp;mdash; restrict to source roots with the specified name " />
-    <option name="with" hit=" Use  ;  to separate patterns and  !  to negate a pattern. Accepted wildcards:  ?  &amp;mdash; exactly one symbol;  *  &amp;mdash; zero or more symbols;  /  &amp;mdash; path separator;  /**/  &amp;mdash; any number of directories;  &amp;lt;dir_name&amp;gt; : &amp;lt;pattern&amp;gt;  &amp;mdash; restrict to source roots with the specified name " />
-    <option name="zero" hit=" Use  ;  to separate patterns and  !  to negate a pattern. Accepted wildcards:  ?  &amp;mdash; exactly one symbol;  *  &amp;mdash; zero or more symbols;  /  &amp;mdash; path separator;  /**/  &amp;mdash; any number of directories;  &amp;lt;dir_name&amp;gt; : &amp;lt;pattern&amp;gt;  &amp;mdash; restrict to source roots with the specified name " />
-    <option name="" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild. " />
-    <option name="are" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild. " />
-    <option name="be" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild. " />
-    <option name="clear" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild. " />
-    <option name="cleared" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild. " />
-    <option name="contents" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild. " />
-    <option name="directories" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild. " />
-    <option name="directory" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild. " />
-    <option name="enabled" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild. " />
-    <option name="entire" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild. " />
-    <option name="generated" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild. " />
-    <option name="if" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild. " />
-    <option name="is" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild. " />
-    <option name="of" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild. " />
-    <option name="on" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild. " />
-    <option name="option" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild. " />
-    <option name="output" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild. " />
-    <option name="rebuild" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild. " />
-    <option name="sources" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild. " />
-    <option name="stored" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild. " />
-    <option name="the" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild. " />
-    <option name="warning" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild. " />
-    <option name="where" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild. " />
-    <option name="will" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild. " />
+    <option name="" hit=" Use ; to separate patterns and ! to negate a pattern. Accepted wildcards: ?   exactly one symbol; *   zero or more symbols; /   path separator; /**/   any number of directories;  :    restrict to source roots with the specified name" />
+    <option name="a" hit=" Use ; to separate patterns and ! to negate a pattern. Accepted wildcards: ?   exactly one symbol; *   zero or more symbols; /   path separator; /**/   any number of directories;  :    restrict to source roots with the specified name" />
+    <option name="accepted" hit=" Use ; to separate patterns and ! to negate a pattern. Accepted wildcards: ?   exactly one symbol; *   zero or more symbols; /   path separator; /**/   any number of directories;  :    restrict to source roots with the specified name" />
+    <option name="and" hit=" Use ; to separate patterns and ! to negate a pattern. Accepted wildcards: ?   exactly one symbol; *   zero or more symbols; /   path separator; /**/   any number of directories;  :    restrict to source roots with the specified name" />
+    <option name="any" hit=" Use ; to separate patterns and ! to negate a pattern. Accepted wildcards: ?   exactly one symbol; *   zero or more symbols; /   path separator; /**/   any number of directories;  :    restrict to source roots with the specified name" />
+    <option name="directories" hit=" Use ; to separate patterns and ! to negate a pattern. Accepted wildcards: ?   exactly one symbol; *   zero or more symbols; /   path separator; /**/   any number of directories;  :    restrict to source roots with the specified name" />
+    <option name="exactly" hit=" Use ; to separate patterns and ! to negate a pattern. Accepted wildcards: ?   exactly one symbol; *   zero or more symbols; /   path separator; /**/   any number of directories;  :    restrict to source roots with the specified name" />
+    <option name="more" hit=" Use ; to separate patterns and ! to negate a pattern. Accepted wildcards: ?   exactly one symbol; *   zero or more symbols; /   path separator; /**/   any number of directories;  :    restrict to source roots with the specified name" />
+    <option name="name" hit=" Use ; to separate patterns and ! to negate a pattern. Accepted wildcards: ?   exactly one symbol; *   zero or more symbols; /   path separator; /**/   any number of directories;  :    restrict to source roots with the specified name" />
+    <option name="negate" hit=" Use ; to separate patterns and ! to negate a pattern. Accepted wildcards: ?   exactly one symbol; *   zero or more symbols; /   path separator; /**/   any number of directories;  :    restrict to source roots with the specified name" />
+    <option name="number" hit=" Use ; to separate patterns and ! to negate a pattern. Accepted wildcards: ?   exactly one symbol; *   zero or more symbols; /   path separator; /**/   any number of directories;  :    restrict to source roots with the specified name" />
+    <option name="of" hit=" Use ; to separate patterns and ! to negate a pattern. Accepted wildcards: ?   exactly one symbol; *   zero or more symbols; /   path separator; /**/   any number of directories;  :    restrict to source roots with the specified name" />
+    <option name="one" hit=" Use ; to separate patterns and ! to negate a pattern. Accepted wildcards: ?   exactly one symbol; *   zero or more symbols; /   path separator; /**/   any number of directories;  :    restrict to source roots with the specified name" />
+    <option name="or" hit=" Use ; to separate patterns and ! to negate a pattern. Accepted wildcards: ?   exactly one symbol; *   zero or more symbols; /   path separator; /**/   any number of directories;  :    restrict to source roots with the specified name" />
+    <option name="path" hit=" Use ; to separate patterns and ! to negate a pattern. Accepted wildcards: ?   exactly one symbol; *   zero or more symbols; /   path separator; /**/   any number of directories;  :    restrict to source roots with the specified name" />
+    <option name="pattern" hit=" Use ; to separate patterns and ! to negate a pattern. Accepted wildcards: ?   exactly one symbol; *   zero or more symbols; /   path separator; /**/   any number of directories;  :    restrict to source roots with the specified name" />
+    <option name="patterns" hit=" Use ; to separate patterns and ! to negate a pattern. Accepted wildcards: ?   exactly one symbol; *   zero or more symbols; /   path separator; /**/   any number of directories;  :    restrict to source roots with the specified name" />
+    <option name="restrict" hit=" Use ; to separate patterns and ! to negate a pattern. Accepted wildcards: ?   exactly one symbol; *   zero or more symbols; /   path separator; /**/   any number of directories;  :    restrict to source roots with the specified name" />
+    <option name="roots" hit=" Use ; to separate patterns and ! to negate a pattern. Accepted wildcards: ?   exactly one symbol; *   zero or more symbols; /   path separator; /**/   any number of directories;  :    restrict to source roots with the specified name" />
+    <option name="separate" hit=" Use ; to separate patterns and ! to negate a pattern. Accepted wildcards: ?   exactly one symbol; *   zero or more symbols; /   path separator; /**/   any number of directories;  :    restrict to source roots with the specified name" />
+    <option name="separator" hit=" Use ; to separate patterns and ! to negate a pattern. Accepted wildcards: ?   exactly one symbol; *   zero or more symbols; /   path separator; /**/   any number of directories;  :    restrict to source roots with the specified name" />
+    <option name="source" hit=" Use ; to separate patterns and ! to negate a pattern. Accepted wildcards: ?   exactly one symbol; *   zero or more symbols; /   path separator; /**/   any number of directories;  :    restrict to source roots with the specified name" />
+    <option name="specified" hit=" Use ; to separate patterns and ! to negate a pattern. Accepted wildcards: ?   exactly one symbol; *   zero or more symbols; /   path separator; /**/   any number of directories;  :    restrict to source roots with the specified name" />
+    <option name="symbol" hit=" Use ; to separate patterns and ! to negate a pattern. Accepted wildcards: ?   exactly one symbol; *   zero or more symbols; /   path separator; /**/   any number of directories;  :    restrict to source roots with the specified name" />
+    <option name="symbols" hit=" Use ; to separate patterns and ! to negate a pattern. Accepted wildcards: ?   exactly one symbol; *   zero or more symbols; /   path separator; /**/   any number of directories;  :    restrict to source roots with the specified name" />
+    <option name="the" hit=" Use ; to separate patterns and ! to negate a pattern. Accepted wildcards: ?   exactly one symbol; *   zero or more symbols; /   path separator; /**/   any number of directories;  :    restrict to source roots with the specified name" />
+    <option name="to" hit=" Use ; to separate patterns and ! to negate a pattern. Accepted wildcards: ?   exactly one symbol; *   zero or more symbols; /   path separator; /**/   any number of directories;  :    restrict to source roots with the specified name" />
+    <option name="use" hit=" Use ; to separate patterns and ! to negate a pattern. Accepted wildcards: ?   exactly one symbol; *   zero or more symbols; /   path separator; /**/   any number of directories;  :    restrict to source roots with the specified name" />
+    <option name="wildcards" hit=" Use ; to separate patterns and ! to negate a pattern. Accepted wildcards: ?   exactly one symbol; *   zero or more symbols; /   path separator; /**/   any number of directories;  :    restrict to source roots with the specified name" />
+    <option name="with" hit=" Use ; to separate patterns and ! to negate a pattern. Accepted wildcards: ?   exactly one symbol; *   zero or more symbols; /   path separator; /**/   any number of directories;  :    restrict to source roots with the specified name" />
+    <option name="zero" hit=" Use ; to separate patterns and ! to negate a pattern. Accepted wildcards: ?   exactly one symbol; *   zero or more symbols; /   path separator; /**/   any number of directories;  :    restrict to source roots with the specified name" />
+    <option name="" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild." />
+    <option name="are" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild." />
+    <option name="be" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild." />
+    <option name="clear" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild." />
+    <option name="cleared" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild." />
+    <option name="contents" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild." />
+    <option name="directories" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild." />
+    <option name="directory" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild." />
+    <option name="enabled" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild." />
+    <option name="entire" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild." />
+    <option name="generated" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild." />
+    <option name="if" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild." />
+    <option name="is" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild." />
+    <option name="of" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild." />
+    <option name="on" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild." />
+    <option name="option" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild." />
+    <option name="output" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild." />
+    <option name="rebuild" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild." />
+    <option name="sources" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild." />
+    <option name="stored" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild." />
+    <option name="the" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild." />
+    <option name="warning" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild." />
+    <option name="where" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild." />
+    <option name="will" hit=" WARNING! If option 'Clear output directory on rebuild' is enabled, the entire contents of directories where generated sources are stored WILL BE CLEARED on rebuild." />
     <option name="" hit="(may require larger heap size)" />
     <option name="heap" hit="(may require larger heap size)" />
     <option name="larger" hit="(may require larger heap size)" />
@@ -2065,10 +2293,11 @@
     <option name="works" hit="(only works while not running / debugging)" />
     <option name="add" hit="Add runtime assertions for notnull-annotated methods and parameters" />
     <option name="and" hit="Add runtime assertions for notnull-annotated methods and parameters" />
+    <option name="annotated" hit="Add runtime assertions for notnull-annotated methods and parameters" />
     <option name="assertions" hit="Add runtime assertions for notnull-annotated methods and parameters" />
     <option name="for" hit="Add runtime assertions for notnull-annotated methods and parameters" />
     <option name="methods" hit="Add runtime assertions for notnull-annotated methods and parameters" />
-    <option name="notnull-annotated" hit="Add runtime assertions for notnull-annotated methods and parameters" />
+    <option name="notnull" hit="Add runtime assertions for notnull-annotated methods and parameters" />
     <option name="parameters" hit="Add runtime assertions for notnull-annotated methods and parameters" />
     <option name="runtime" hit="Add runtime assertions for notnull-annotated methods and parameters" />
     <option name="automatically" hit="Automatically show first error in editor" />
@@ -2077,11 +2306,6 @@
     <option name="first" hit="Automatically show first error in editor" />
     <option name="in" hit="Automatically show first error in editor" />
     <option name="show" hit="Automatically show first error in editor" />
-    <option name="build" hit="Build process heap size (Mbytes):" />
-    <option name="heap" hit="Build process heap size (Mbytes):" />
-    <option name="mbytes" hit="Build process heap size (Mbytes):" />
-    <option name="process" hit="Build process heap size (Mbytes):" />
-    <option name="size" hit="Build process heap size (Mbytes):" />
     <option name="automatically" hit="Build project automatically" />
     <option name="build" hit="Build project automatically" />
     <option name="project" hit="Build project automatically" />
@@ -2115,50 +2339,55 @@
     <option name="process" hit="Shared build process VM options:" />
     <option name="shared" hit="Shared build process VM options:" />
     <option name="vm" hit="Shared build process VM options:" />
+    <option name="build" hit="Shared build process heap size (Mbytes):" />
+    <option name="heap" hit="Shared build process heap size (Mbytes):" />
+    <option name="mbytes" hit="Shared build process heap size (Mbytes):" />
+    <option name="process" hit="Shared build process heap size (Mbytes):" />
+    <option name="shared" hit="Shared build process heap size (Mbytes):" />
+    <option name="size" hit="Shared build process heap size (Mbytes):" />
     <option name="build" hit="User-local build process VM options (overrides Shared options):" />
+    <option name="local" hit="User-local build process VM options (overrides Shared options):" />
     <option name="options" hit="User-local build process VM options (overrides Shared options):" />
     <option name="overrides" hit="User-local build process VM options (overrides Shared options):" />
     <option name="process" hit="User-local build process VM options (overrides Shared options):" />
     <option name="shared" hit="User-local build process VM options (overrides Shared options):" />
-    <option name="user-local" hit="User-local build process VM options (overrides Shared options):" />
+    <option name="user" hit="User-local build process VM options (overrides Shared options):" />
     <option name="vm" hit="User-local build process VM options (overrides Shared options):" />
+    <option name="build" hit="User-local build process heap size (Mbytes) (overrides Shared size):" />
+    <option name="heap" hit="User-local build process heap size (Mbytes) (overrides Shared size):" />
+    <option name="local" hit="User-local build process heap size (Mbytes) (overrides Shared size):" />
+    <option name="mbytes" hit="User-local build process heap size (Mbytes) (overrides Shared size):" />
+    <option name="overrides" hit="User-local build process heap size (Mbytes) (overrides Shared size):" />
+    <option name="process" hit="User-local build process heap size (Mbytes) (overrides Shared size):" />
+    <option name="shared" hit="User-local build process heap size (Mbytes) (overrides Shared size):" />
+    <option name="size" hit="User-local build process heap size (Mbytes) (overrides Shared size):" />
+    <option name="user" hit="User-local build process heap size (Mbytes) (overrides Shared size):" />
+  </configurable>
+  <configurable id="reference.projectsettings.compiler.excludes" configurable_name="Excludes">
+    <option name="excludes" hit="Excludes" />
   </configurable>
   <configurable id="reference.projectsettings.compiler.javacompiler" configurable_name="Java Compiler">
-    <option name="1" hit="1.1" />
-    <option name="1" hit="1.2" />
-    <option name="2" hit="1.2" />
-    <option name="1" hit="1.3" />
-    <option name="3" hit="1.3" />
-    <option name="1" hit="1.4" />
-    <option name="4" hit="1.4" />
-    <option name="10" hit="10" />
-    <option name="11" hit="11" />
-    <option name="12" hit="12" />
-    <option name="13" hit="13" />
-    <option name="5" hit="5" />
-    <option name="6" hit="6" />
-    <option name="7" hit="7" />
-    <option name="8" hit="8" />
-    <option name="9" hit="9" />
     <option name="eclipse" hit="Eclipse" />
-    <option name="groovy-eclipse" hit="Groovy-Eclipse" />
+    <option name="eclipse" hit="Groovy-Eclipse" />
+    <option name="groovy" hit="Groovy-Eclipse" />
     <option name="compiler" hit="Java Compiler" />
     <option name="java" hit="Java Compiler" />
     <option name="javac" hit="Javac" />
     <option name="bytecode" hit="Per-module bytecode version:" />
-    <option name="per-module" hit="Per-module bytecode version:" />
+    <option name="module" hit="Per-module bytecode version:" />
+    <option name="per" hit="Per-module bytecode version:" />
     <option name="version" hit="Per-module bytecode version:" />
-    <option name="bytecode" hit="Project bytecode version: " />
-    <option name="project" hit="Project bytecode version: " />
-    <option name="version" hit="Project bytecode version: " />
-    <option name="--release" hit="Use '--release' option for cross-compilation (Java 9 and later)" />
-    <option name="9" hit="Use '--release' option for cross-compilation (Java 9 and later)" />
+    <option name="bytecode" hit="Project bytecode version:" />
+    <option name="project" hit="Project bytecode version:" />
+    <option name="version" hit="Project bytecode version:" />
     <option name="and" hit="Use '--release' option for cross-compilation (Java 9 and later)" />
-    <option name="cross-compilation" hit="Use '--release' option for cross-compilation (Java 9 and later)" />
+    <option name="compilation" hit="Use '--release' option for cross-compilation (Java 9 and later)" />
+    <option name="cross" hit="Use '--release' option for cross-compilation (Java 9 and later)" />
     <option name="for" hit="Use '--release' option for cross-compilation (Java 9 and later)" />
     <option name="java" hit="Use '--release' option for cross-compilation (Java 9 and later)" />
     <option name="later" hit="Use '--release' option for cross-compilation (Java 9 and later)" />
     <option name="option" hit="Use '--release' option for cross-compilation (Java 9 and later)" />
+    <option name="release" hit="Use '--release' option for cross-compilation (Java 9 and later)" />
     <option name="use" hit="Use '--release' option for cross-compilation (Java 9 and later)" />
     <option name="compiler" hit="Use compiler:" />
     <option name="use" hit="Use compiler:" />
@@ -2166,10 +2395,11 @@
   <configurable id="reference.projectsettings.compiler.javacompiler" configurable_name="Java Compiler">
     <option name="" hit="('/' recommended in paths for cross-platform configurations)" />
     <option name="configurations" hit="('/' recommended in paths for cross-platform configurations)" />
-    <option name="cross-platform" hit="('/' recommended in paths for cross-platform configurations)" />
+    <option name="cross" hit="('/' recommended in paths for cross-platform configurations)" />
     <option name="for" hit="('/' recommended in paths for cross-platform configurations)" />
     <option name="in" hit="('/' recommended in paths for cross-platform configurations)" />
     <option name="paths" hit="('/' recommended in paths for cross-platform configurations)" />
+    <option name="platform" hit="('/' recommended in paths for cross-platform configurations)" />
     <option name="recommended" hit="('/' recommended in paths for cross-platform configurations)" />
     <option name="additional" hit="Additional command line parameters:" />
     <option name="command" hit="Additional command line parameters:" />
@@ -2184,9 +2414,10 @@
     <option name="javac" hit="Javac Options" />
     <option name="options" hit="Javac Options" />
     <option name="compiler" hit="Override compiler parameters per-module:" />
+    <option name="module" hit="Override compiler parameters per-module:" />
     <option name="override" hit="Override compiler parameters per-module:" />
     <option name="parameters" hit="Override compiler parameters per-module:" />
-    <option name="per-module" hit="Override compiler parameters per-module:" />
+    <option name="per" hit="Override compiler parameters per-module:" />
     <option name="deprecated" hit="Report use of deprecated features" />
     <option name="features" hit="Report use of deprecated features" />
     <option name="of" hit="Report use of deprecated features" />
@@ -2204,10 +2435,11 @@
   <configurable id="reference.projectsettings.compiler.javacompiler" configurable_name="Java Compiler">
     <option name="" hit="('/' recommended in paths for cross-platform configurations)" />
     <option name="configurations" hit="('/' recommended in paths for cross-platform configurations)" />
-    <option name="cross-platform" hit="('/' recommended in paths for cross-platform configurations)" />
+    <option name="cross" hit="('/' recommended in paths for cross-platform configurations)" />
     <option name="for" hit="('/' recommended in paths for cross-platform configurations)" />
     <option name="in" hit="('/' recommended in paths for cross-platform configurations)" />
     <option name="paths" hit="('/' recommended in paths for cross-platform configurations)" />
+    <option name="platform" hit="('/' recommended in paths for cross-platform configurations)" />
     <option name="recommended" hit="('/' recommended in paths for cross-platform configurations)" />
     <option name="additional" hit="Additional command line parameters:" />
     <option name="command" hit="Additional command line parameters:" />
@@ -2222,9 +2454,10 @@
     <option name="no" hit="Generate no warnings" />
     <option name="warnings" hit="Generate no warnings" />
     <option name="compiler" hit="Override compiler parameters per-module:" />
+    <option name="module" hit="Override compiler parameters per-module:" />
     <option name="override" hit="Override compiler parameters per-module:" />
     <option name="parameters" hit="Override compiler parameters per-module:" />
-    <option name="per-module" hit="Override compiler parameters per-module:" />
+    <option name="per" hit="Override compiler parameters per-module:" />
     <option name="batch" hit="Path to ECJ batch compiler tool (leave empty to use bundled):" />
     <option name="bundled" hit="Path to ECJ batch compiler tool (leave empty to use bundled):" />
     <option name="compiler" hit="Path to ECJ batch compiler tool (leave empty to use bundled):" />
@@ -2271,28 +2504,41 @@
     <option name="directory" hit="Production sources directory:" />
     <option name="production" hit="Production sources directory:" />
     <option name="sources" hit="Production sources directory:" />
-    <option name="generated" hit="Store generated sources relative to: " />
-    <option name="relative" hit="Store generated sources relative to: " />
-    <option name="sources" hit="Store generated sources relative to: " />
-    <option name="store" hit="Store generated sources relative to: " />
-    <option name="to" hit="Store generated sources relative to: " />
+    <option name="a" hit="Run processors in a separate step before compiling java (-proc:only mode) " />
+    <option name="before" hit="Run processors in a separate step before compiling java (-proc:only mode) " />
+    <option name="compiling" hit="Run processors in a separate step before compiling java (-proc:only mode) " />
+    <option name="in" hit="Run processors in a separate step before compiling java (-proc:only mode) " />
+    <option name="java" hit="Run processors in a separate step before compiling java (-proc:only mode) " />
+    <option name="mode" hit="Run processors in a separate step before compiling java (-proc:only mode) " />
+    <option name="only" hit="Run processors in a separate step before compiling java (-proc:only mode) " />
+    <option name="proc" hit="Run processors in a separate step before compiling java (-proc:only mode) " />
+    <option name="processors" hit="Run processors in a separate step before compiling java (-proc:only mode) " />
+    <option name="run" hit="Run processors in a separate step before compiling java (-proc:only mode) " />
+    <option name="separate" hit="Run processors in a separate step before compiling java (-proc:only mode) " />
+    <option name="step" hit="Run processors in a separate step before compiling java (-proc:only mode) " />
+    <option name="generated" hit="Store generated sources relative to:" />
+    <option name="relative" hit="Store generated sources relative to:" />
+    <option name="sources" hit="Store generated sources relative to:" />
+    <option name="store" hit="Store generated sources relative to:" />
+    <option name="to" hit="Store generated sources relative to:" />
     <option name="directory" hit="Test sources directory:" />
     <option name="sources" hit="Test sources directory:" />
     <option name="test" hit="Test sources directory:" />
-    <option name="--processor-module-path" hit="Use --processor-module-path compiler option (for Java 9 and later)" />
-    <option name="9" hit="Use --processor-module-path compiler option (for Java 9 and later)" />
     <option name="and" hit="Use --processor-module-path compiler option (for Java 9 and later)" />
     <option name="compiler" hit="Use --processor-module-path compiler option (for Java 9 and later)" />
     <option name="for" hit="Use --processor-module-path compiler option (for Java 9 and later)" />
     <option name="java" hit="Use --processor-module-path compiler option (for Java 9 and later)" />
     <option name="later" hit="Use --processor-module-path compiler option (for Java 9 and later)" />
+    <option name="module" hit="Use --processor-module-path compiler option (for Java 9 and later)" />
     <option name="option" hit="Use --processor-module-path compiler option (for Java 9 and later)" />
+    <option name="path" hit="Use --processor-module-path compiler option (for Java 9 and later)" />
+    <option name="processor" hit="Use --processor-module-path compiler option (for Java 9 and later)" />
     <option name="use" hit="Use --processor-module-path compiler option (for Java 9 and later)" />
   </configurable>
   <configurable id="project.validation" configurable_name="Validation">
-    <option name="exclude" hit="Exclude from validation:" />
-    <option name="from" hit="Exclude from validation:" />
-    <option name="validation" hit="Exclude from validation:" />
+    <option name="exclude" hit="Exclude From Validation:" />
+    <option name="from" hit="Exclude From Validation:" />
+    <option name="validation" hit="Exclude From Validation:" />
     <option name="build" hit="Validate on build" />
     <option name="on" hit="Validate on build" />
     <option name="validate" hit="Validate on build" />
@@ -2320,243 +2566,6 @@
     <option name="compiler" hit="RMI Compiler" />
     <option name="rmi" hit="RMI Compiler" />
   </configurable>
-  <configurable id="project.propDebugger" configurable_name="Debugger">
-    <option name="" hit=" Socket" />
-    <option name="socket" hit=" Socket" />
-    <option name="agent" hit="Attach memory agent" />
-    <option name="attach" hit="Attach memory agent" />
-    <option name="memory" hit="Attach memory agent" />
-    <option name="disable" hit="Disable JIT" />
-    <option name="jit" hit="Disable JIT" />
-    <option name="1" hit="Force Class ic VM for JDK 1.3.x and earlier" />
-    <option name="3" hit="Force Class ic VM for JDK 1.3.x and earlier" />
-    <option name="and" hit="Force Class ic VM for JDK 1.3.x and earlier" />
-    <option name="class" hit="Force Class ic VM for JDK 1.3.x and earlier" />
-    <option name="earlier" hit="Force Class ic VM for JDK 1.3.x and earlier" />
-    <option name="for" hit="Force Class ic VM for JDK 1.3.x and earlier" />
-    <option name="force" hit="Force Class ic VM for JDK 1.3.x and earlier" />
-    <option name="ic" hit="Force Class ic VM for JDK 1.3.x and earlier" />
-    <option name="jdk" hit="Force Class ic VM for JDK 1.3.x and earlier" />
-    <option name="vm" hit="Force Class ic VM for JDK 1.3.x and earlier" />
-    <option name="x" hit="Force Class ic VM for JDK 1.3.x and earlier" />
-    <option name="java" hit="Java" />
-    <option name="debug" hit="Kill the debug process immediately" />
-    <option name="immediately" hit="Kill the debug process immediately" />
-    <option name="kill" hit="Kill the debug process immediately" />
-    <option name="process" hit="Kill the debug process immediately" />
-    <option name="the" hit="Kill the debug process immediately" />
-    <option name="memory" hit="Shared  memory" />
-    <option name="shared" hit="Shared  memory" />
-    <option name="alternative" hit="Show alternative source switcher" />
-    <option name="show" hit="Show alternative source switcher" />
-    <option name="source" hit="Show alternative source switcher" />
-    <option name="switcher" hit="Show alternative source switcher" />
-    <option name="transport" hit="Transport:" />
-  </configurable>
-  <configurable id="Debugger_Data_Views_Java" configurable_name="Java">
-    <option name="" hit=" Static fields" />
-    <option name="fields" hit=" Static fields" />
-    <option name="static" hit=" Static fields" />
-    <option name="" hit="$val fields as local  variables" />
-    <option name="as" hit="$val fields as local  variables" />
-    <option name="fields" hit="$val fields as local  variables" />
-    <option name="local" hit="$val fields as local  variables" />
-    <option name="val" hit="$val fields as local  variables" />
-    <option name="variables" hit="$val fields as local  variables" />
-    <option name="auto" hit="Auto populate Throwable object's stack trace" />
-    <option name="object" hit="Auto populate Throwable object's stack trace" />
-    <option name="populate" hit="Auto populate Throwable object's stack trace" />
-    <option name="s" hit="Auto populate Throwable object's stack trace" />
-    <option name="stack" hit="Auto populate Throwable object's stack trace" />
-    <option name="throwable" hit="Auto populate Throwable object's stack trace" />
-    <option name="trace" hit="Auto populate Throwable object's stack trace" />
-    <option name="autoscroll" hit="Autoscroll to new  local variables" />
-    <option name="local" hit="Autoscroll to new  local variables" />
-    <option name="new" hit="Autoscroll to new  local variables" />
-    <option name="to" hit="Autoscroll to new  local variables" />
-    <option name="variables" hit="Autoscroll to new  local variables" />
-    <option name="declared" hit="Declared  type" />
-    <option name="type" hit="Declared  type" />
-    <option name="enable" hit="Enable 't oString()' object view:" />
-    <option name="object" hit="Enable 't oString()' object view:" />
-    <option name="ostring" hit="Enable 't oString()' object view:" />
-    <option name="t" hit="Enable 't oString()' object view:" />
-    <option name="view" hit="Enable 't oString()' object view:" />
-    <option name="alternative" hit="Enable alternative view for Coll ections classes" />
-    <option name="classes" hit="Enable alternative view for Coll ections classes" />
-    <option name="coll" hit="Enable alternative view for Coll ections classes" />
-    <option name="ections" hit="Enable alternative view for Coll ections classes" />
-    <option name="enable" hit="Enable alternative view for Coll ections classes" />
-    <option name="for" hit="Enable alternative view for Coll ections classes" />
-    <option name="view" hit="Enable alternative view for Coll ections classes" />
-    <option name="all" hit="For all classes that override 'toString()' method" />
-    <option name="classes" hit="For all classes that override 'toString()' method" />
-    <option name="for" hit="For all classes that override 'toString()' method" />
-    <option name="method" hit="For all classes that override 'toString()' method" />
-    <option name="override" hit="For all classes that override 'toString()' method" />
-    <option name="that" hit="For all classes that override 'toString()' method" />
-    <option name="tostring" hit="For all classes that override 'toString()' method" />
-    <option name="classes" hit="For classes from the list:" />
-    <option name="for" hit="For classes from the list:" />
-    <option name="from" hit="For classes from the list:" />
-    <option name="list" hit="For classes from the list:" />
-    <option name="the" hit="For classes from the list:" />
-    <option name="fully" hit="Fully  qualified names" />
-    <option name="names" hit="Fully  qualified names" />
-    <option name="qualified" hit="Fully  qualified names" />
-    <option name="and" hit="Hide  null elements in arrays and collections" />
-    <option name="arrays" hit="Hide  null elements in arrays and collections" />
-    <option name="collections" hit="Hide  null elements in arrays and collections" />
-    <option name="elements" hit="Hide  null elements in arrays and collections" />
-    <option name="hide" hit="Hide  null elements in arrays and collections" />
-    <option name="in" hit="Hide  null elements in arrays and collections" />
-    <option name="null" hit="Hide  null elements in arrays and collections" />
-    <option name="java" hit="Java" />
-    <option name="id" hit="Object  id" />
-    <option name="object" hit="Object  id" />
-    <option name="fields" hit="S ynthetic fields" />
-    <option name="s" hit="S ynthetic fields" />
-    <option name="ynthetic" hit="S ynthetic fields" />
-    <option name="show" hit="Show" />
-    <option name="for" hit="Show hex value for primitives" />
-    <option name="hex" hit="Show hex value for primitives" />
-    <option name="primitives" hit="Show hex value for primitives" />
-    <option name="show" hit="Show hex value for primitives" />
-    <option name="value" hit="Show hex value for primitives" />
-    <option name="for" hit="Show type for strings" />
-    <option name="show" hit="Show type for strings" />
-    <option name="strings" hit="Show type for strings" />
-    <option name="type" hit="Show type for strings" />
-    <option name="fields" hit="Static  final fields" />
-    <option name="final" hit="Static  final fields" />
-    <option name="static" hit="Static  final fields" />
-  </configurable>
-  <configurable id="reference.idesettings.debugger.typerenderers" configurable_name="Java Type Renderers">
-    <option name="append" hit="Append default children" />
-    <option name="children" hit="Append default children" />
-    <option name="default" hit="Append default children" />
-    <option name="apply" hit="Apply renderer to objects of type (fully-qualified name):" />
-    <option name="fully-qualified" hit="Apply renderer to objects of type (fully-qualified name):" />
-    <option name="name" hit="Apply renderer to objects of type (fully-qualified name):" />
-    <option name="objects" hit="Apply renderer to objects of type (fully-qualified name):" />
-    <option name="of" hit="Apply renderer to objects of type (fully-qualified name):" />
-    <option name="renderer" hit="Apply renderer to objects of type (fully-qualified name):" />
-    <option name="to" hit="Apply renderer to objects of type (fully-qualified name):" />
-    <option name="type" hit="Apply renderer to objects of type (fully-qualified name):" />
-    <option name="java" hit="Java" />
-    <option name="java" hit="Java Type Renderers" />
-    <option name="renderers" hit="Java Type Renderers" />
-    <option name="type" hit="Java Type Renderers" />
-    <option name="on-demand" hit="On-demand" />
-    <option name="name" hit="Renderer name:" />
-    <option name="renderer" hit="Renderer name:" />
-    <option name="and" hit="Show type and object id" />
-    <option name="id" hit="Show type and object id" />
-    <option name="object" hit="Show type and object id" />
-    <option name="show" hit="Show type and object id" />
-    <option name="type" hit="Show type and object id" />
-    <option name="a" hit="Test if a node can be expanded (optional):" />
-    <option name="be" hit="Test if a node can be expanded (optional):" />
-    <option name="can" hit="Test if a node can be expanded (optional):" />
-    <option name="expanded" hit="Test if a node can be expanded (optional):" />
-    <option name="if" hit="Test if a node can be expanded (optional):" />
-    <option name="node" hit="Test if a node can be expanded (optional):" />
-    <option name="optional" hit="Test if a node can be expanded (optional):" />
-    <option name="test" hit="Test if a node can be expanded (optional):" />
-    <option name="default" hit="Use default renderer" />
-    <option name="renderer" hit="Use default renderer" />
-    <option name="use" hit="Use default renderer" />
-    <option name="expression" hit="Use following expression:" />
-    <option name="following" hit="Use following expression:" />
-    <option name="use" hit="Use following expression:" />
-    <option name="expressions" hit="Use list of expressions:" />
-    <option name="list" hit="Use list of expressions:" />
-    <option name="of" hit="Use list of expressions:" />
-    <option name="use" hit="Use list of expressions:" />
-    <option name="a" hit="When expanding a node" />
-    <option name="expanding" hit="When expanding a node" />
-    <option name="node" hit="When expanding a node" />
-    <option name="when" hit="When expanding a node" />
-    <option name="a" hit="When rendering a node" />
-    <option name="node" hit="When rendering a node" />
-    <option name="rendering" hit="When rendering a node" />
-    <option name="when" hit="When rendering a node" />
-  </configurable>
-  <configurable id="debugger.stepping" configurable_name="Stepping">
-    <option name="" hit=" Always" />
-    <option name="always" hit=" Always" />
-    <option name="a" hit="A lways do smart step into" />
-    <option name="do" hit="A lways do smart step into" />
-    <option name="into" hit="A lways do smart step into" />
-    <option name="lways" hit="A lways do smart step into" />
-    <option name="smart" hit="A lways do smart step into" />
-    <option name="step" hit="A lways do smart step into" />
-    <option name="as" hit="As k" />
-    <option name="k" hit="As k" />
-    <option name="classes" hit="Do not step  into the classes" />
-    <option name="do" hit="Do not step  into the classes" />
-    <option name="into" hit="Do not step  into the classes" />
-    <option name="not" hit="Do not step  into the classes" />
-    <option name="step" hit="Do not step  into the classes" />
-    <option name="the" hit="Do not step  into the classes" />
-    <option name="and" hit="Evaluate finally blocks on pop frame and early return:" />
-    <option name="blocks" hit="Evaluate finally blocks on pop frame and early return:" />
-    <option name="early" hit="Evaluate finally blocks on pop frame and early return:" />
-    <option name="evaluate" hit="Evaluate finally blocks on pop frame and early return:" />
-    <option name="finally" hit="Evaluate finally blocks on pop frame and early return:" />
-    <option name="frame" hit="Evaluate finally blocks on pop frame and early return:" />
-    <option name="on" hit="Evaluate finally blocks on pop frame and early return:" />
-    <option name="pop" hit="Evaluate finally blocks on pop frame and early return:" />
-    <option name="return" hit="Evaluate finally blocks on pop frame and early return:" />
-    <option name="java" hit="Java" />
-    <option name="ever" hit="N ever" />
-    <option name="n" hit="N ever" />
-    <option name="current" hit="Resume only the current thread" />
-    <option name="only" hit="Resume only the current thread" />
-    <option name="resume" hit="Resume only the current thread" />
-    <option name="the" hit="Resume only the current thread" />
-    <option name="thread" hit="Resume only the current thread" />
-    <option name="methods" hit="Ski p synthetic methods" />
-    <option name="p" hit="Ski p synthetic methods" />
-    <option name="ski" hit="Ski p synthetic methods" />
-    <option name="synthetic" hit="Ski p synthetic methods" />
-    <option name="constructors" hit="Skip  constructors" />
-    <option name="skip" hit="Skip  constructors" />
-    <option name="class" hit="Skip class l oaders" />
-    <option name="l" hit="Skip class l oaders" />
-    <option name="oaders" hit="Skip class l oaders" />
-    <option name="skip" hit="Skip class l oaders" />
-    <option name="getters" hit="Skip simple  getters" />
-    <option name="simple" hit="Skip simple  getters" />
-    <option name="skip" hit="Skip simple  getters" />
-  </configurable>
-  <configurable id="debugger.hotswap" configurable_name="HotSwap">
-    <option name="" hit=" Always" />
-    <option name="always" hit=" Always" />
-    <option name="" hit=" Never" />
-    <option name="never" hit=" Never" />
-    <option name="as" hit="As k" />
-    <option name="k" hit="As k" />
-    <option name="before" hit="Build project before reloading classes" />
-    <option name="build" hit="Build project before reloading classes" />
-    <option name="classes" hit="Build project before reloading classes" />
-    <option name="project" hit="Build project before reloading classes" />
-    <option name="reloading" hit="Build project before reloading classes" />
-    <option name="enable" hit="Enable 'JVM will hang' warning" />
-    <option name="hang" hit="Enable 'JVM will hang' warning" />
-    <option name="jvm" hit="Enable 'JVM will hang' warning" />
-    <option name="warning" hit="Enable 'JVM will hang' warning" />
-    <option name="will" hit="Enable 'JVM will hang' warning" />
-    <option name="java" hit="Java" />
-    <option name="after" hit="Reload classes after compilation:" />
-    <option name="classes" hit="Reload classes after compilation:" />
-    <option name="compilation" hit="Reload classes after compilation:" />
-    <option name="reload" hit="Reload classes after compilation:" />
-    <option name="background" hit="Reload classes in  background" />
-    <option name="classes" hit="Reload classes in  background" />
-    <option name="in" hit="Reload classes in  background" />
-    <option name="reload" hit="Reload classes in  background" />
-  </configurable>
   <configurable id="reference.idesettings.debugger.capture" configurable_name="Async Stack Traces">
     <option name="async" hit="Async Stack Traces" />
     <option name="stack" hit="Async Stack Traces" />
@@ -2572,8 +2581,8 @@
     <option name="slow" hit="Capture local variables (may greatly slow down the execution)" />
     <option name="the" hit="Capture local variables (may greatly slow down the execution)" />
     <option name="variables" hit="Capture local variables (may greatly slow down the execution)" />
-    <option name="annotations" hit="Configure annotations..." />
-    <option name="configure" hit="Configure annotations..." />
+    <option name="annotations" hit="Configure Annotations..." />
+    <option name="configure" hit="Configure Annotations..." />
     <option name="agent" hit="Instrumenting agent (requires debugger restart)" />
     <option name="debugger" hit="Instrumenting agent (requires debugger restart)" />
     <option name="instrumenting" hit="Instrumenting agent (requires debugger restart)" />
@@ -2582,16 +2591,15 @@
   </configurable>
   <configurable id="com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable" configurable_name="Remote Jar Repositories">
     <option name="add" hit="Add" />
-    <option name="artifactory" hit="Artifactory, Nexus or Bintray Service URLs:" />
-    <option name="bintray" hit="Artifactory, Nexus or Bintray Service URLs:" />
-    <option name="nexus" hit="Artifactory, Nexus or Bintray Service URLs:" />
-    <option name="or" hit="Artifactory, Nexus or Bintray Service URLs:" />
-    <option name="service" hit="Artifactory, Nexus or Bintray Service URLs:" />
-    <option name="urls" hit="Artifactory, Nexus or Bintray Service URLs:" />
+    <option name="artifactory" hit="Artifactory or Nexus Service URLs:" />
+    <option name="nexus" hit="Artifactory or Nexus Service URLs:" />
+    <option name="or" hit="Artifactory or Nexus Service URLs:" />
+    <option name="service" hit="Artifactory or Nexus Service URLs:" />
+    <option name="urls" hit="Artifactory or Nexus Service URLs:" />
     <option name="edit" hit="Edit" />
-    <option name="jar" hit="Maven jar repositories:" />
-    <option name="maven" hit="Maven jar repositories:" />
-    <option name="repositories" hit="Maven jar repositories:" />
+    <option name="jar" hit="Maven Jar Repositories:" />
+    <option name="maven" hit="Maven Jar Repositories:" />
+    <option name="repositories" hit="Maven Jar Repositories:" />
     <option name="jar" hit="Remote Jar Repositories" />
     <option name="remote" hit="Remote Jar Repositories" />
     <option name="repositories" hit="Remote Jar Repositories" />
@@ -2601,4 +2609,3 @@
     <option name="test" hit="Test" />
   </configurable>
 </options>
-

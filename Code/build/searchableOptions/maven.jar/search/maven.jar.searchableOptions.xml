@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <options>
   <configurable id="preferences.keymap" configurable_name="Keymap">
     <option name="" path="ActionManager" hit="" />
@@ -8,23 +7,23 @@
     <option name="add" path="ActionManager" hit="Add Maven Projects" />
     <option name="maven" path="ActionManager" hit="Add Maven Projects" />
     <option name="projects" path="ActionManager" hit="Add Maven Projects" />
-    <option name="add" path="ActionManager" hit="Add and import Maven project to the projects tree" />
-    <option name="and" path="ActionManager" hit="Add and import Maven project to the projects tree" />
-    <option name="import" path="ActionManager" hit="Add and import Maven project to the projects tree" />
-    <option name="maven" path="ActionManager" hit="Add and import Maven project to the projects tree" />
-    <option name="project" path="ActionManager" hit="Add and import Maven project to the projects tree" />
-    <option name="projects" path="ActionManager" hit="Add and import Maven project to the projects tree" />
-    <option name="the" path="ActionManager" hit="Add and import Maven project to the projects tree" />
-    <option name="to" path="ActionManager" hit="Add and import Maven project to the projects tree" />
-    <option name="tree" path="ActionManager" hit="Add and import Maven project to the projects tree" />
-    <option name="add" path="ActionManager" hit="Add and import Maven projects to the projects tree" />
-    <option name="and" path="ActionManager" hit="Add and import Maven projects to the projects tree" />
-    <option name="import" path="ActionManager" hit="Add and import Maven projects to the projects tree" />
-    <option name="maven" path="ActionManager" hit="Add and import Maven projects to the projects tree" />
-    <option name="projects" path="ActionManager" hit="Add and import Maven projects to the projects tree" />
-    <option name="the" path="ActionManager" hit="Add and import Maven projects to the projects tree" />
-    <option name="to" path="ActionManager" hit="Add and import Maven projects to the projects tree" />
-    <option name="tree" path="ActionManager" hit="Add and import Maven projects to the projects tree" />
+    <option name="add" path="ActionManager" hit="Add and reload Maven project to the projects tree" />
+    <option name="and" path="ActionManager" hit="Add and reload Maven project to the projects tree" />
+    <option name="maven" path="ActionManager" hit="Add and reload Maven project to the projects tree" />
+    <option name="project" path="ActionManager" hit="Add and reload Maven project to the projects tree" />
+    <option name="projects" path="ActionManager" hit="Add and reload Maven project to the projects tree" />
+    <option name="reload" path="ActionManager" hit="Add and reload Maven project to the projects tree" />
+    <option name="the" path="ActionManager" hit="Add and reload Maven project to the projects tree" />
+    <option name="to" path="ActionManager" hit="Add and reload Maven project to the projects tree" />
+    <option name="tree" path="ActionManager" hit="Add and reload Maven project to the projects tree" />
+    <option name="add" path="ActionManager" hit="Add and reload Maven projects to the projects tree" />
+    <option name="and" path="ActionManager" hit="Add and reload Maven projects to the projects tree" />
+    <option name="maven" path="ActionManager" hit="Add and reload Maven projects to the projects tree" />
+    <option name="projects" path="ActionManager" hit="Add and reload Maven projects to the projects tree" />
+    <option name="reload" path="ActionManager" hit="Add and reload Maven projects to the projects tree" />
+    <option name="the" path="ActionManager" hit="Add and reload Maven projects to the projects tree" />
+    <option name="to" path="ActionManager" hit="Add and reload Maven projects to the projects tree" />
+    <option name="tree" path="ActionManager" hit="Add and reload Maven projects to the projects tree" />
     <option name="add" path="ActionManager" hit="Add as Maven Project" />
     <option name="as" path="ActionManager" hit="Add as Maven Project" />
     <option name="maven" path="ActionManager" hit="Add as Maven Project" />
@@ -39,6 +38,8 @@
     <option name="of" path="ActionManager" hit="Always Show ArtifactId instead of project name" />
     <option name="project" path="ActionManager" hit="Always Show ArtifactId instead of project name" />
     <option name="show" path="ActionManager" hit="Always Show ArtifactId instead of project name" />
+    <option name="analyze" path="ActionManager" hit="Analyze Dependencies..." />
+    <option name="dependencies" path="ActionManager" hit="Analyze Dependencies..." />
     <option name="assign" path="ActionManager" hit="Assign Shortcut..." />
     <option name="shortcut" path="ActionManager" hit="Assign Shortcut..." />
     <option name="assign" path="ActionManager" hit="Assign shortcut to the selected phase/goal" />
@@ -205,6 +206,10 @@
     <option name="generate" path="ActionManager" hit="Generate and show effective POM" />
     <option name="pom" path="ActionManager" hit="Generate and show effective POM" />
     <option name="show" path="ActionManager" hit="Generate and show effective POM" />
+    <option name="go" path="ActionManager" hit="Go to 'pom.xml'" />
+    <option name="pom" path="ActionManager" hit="Go to 'pom.xml'" />
+    <option name="to" path="ActionManager" hit="Go to 'pom.xml'" />
+    <option name="xml" path="ActionManager" hit="Go to 'pom.xml'" />
     <option name="group" path="ActionManager" hit="Group Modules" />
     <option name="modules" path="ActionManager" hit="Group Modules" />
     <option name="according" path="ActionManager" hit="Group projects according to Maven structure" />
@@ -235,15 +240,16 @@
     <option name="settings" path="ActionManager" hit="Open settings.xml" />
     <option name="xml" path="ActionManager" hit="Open settings.xml" />
     <option name="property" path="ActionManager" hit="Property" />
-    <option name="reimport" path="ActionManager" hit="Reimport" />
-    <option name="all" path="ActionManager" hit="Reimport All Maven Projects" />
-    <option name="maven" path="ActionManager" hit="Reimport All Maven Projects" />
-    <option name="projects" path="ActionManager" hit="Reimport All Maven Projects" />
-    <option name="reimport" path="ActionManager" hit="Reimport All Maven Projects" />
-    <option name="maven" path="ActionManager" hit="Reimport selected Maven projects" />
-    <option name="projects" path="ActionManager" hit="Reimport selected Maven projects" />
-    <option name="reimport" path="ActionManager" hit="Reimport selected Maven projects" />
-    <option name="selected" path="ActionManager" hit="Reimport selected Maven projects" />
+    <option name="all" path="ActionManager" hit="Reload All Maven Projects" />
+    <option name="maven" path="ActionManager" hit="Reload All Maven Projects" />
+    <option name="projects" path="ActionManager" hit="Reload All Maven Projects" />
+    <option name="reload" path="ActionManager" hit="Reload All Maven Projects" />
+    <option name="project" path="ActionManager" hit="Reload project" />
+    <option name="reload" path="ActionManager" hit="Reload project" />
+    <option name="maven" path="ActionManager" hit="Reload selected Maven projects" />
+    <option name="projects" path="ActionManager" hit="Reload selected Maven projects" />
+    <option name="reload" path="ActionManager" hit="Reload selected Maven projects" />
+    <option name="selected" path="ActionManager" hit="Reload selected Maven projects" />
     <option name="configuration" path="ActionManager" hit="Remove Run Configuration" />
     <option name="remove" path="ActionManager" hit="Remove Run Configuration" />
     <option name="run" path="ActionManager" hit="Remove Run Configuration" />
@@ -260,6 +266,9 @@
     <option name="ignored" path="ActionManager" hit="Show Ignored Projects" />
     <option name="projects" path="ActionManager" hit="Show Ignored Projects" />
     <option name="show" path="ActionManager" hit="Show Ignored Projects" />
+    <option name="connectors" path="ActionManager" hit="Show Maven Connectors" />
+    <option name="maven" path="ActionManager" hit="Show Maven Connectors" />
+    <option name="show" path="ActionManager" hit="Show Maven Connectors" />
     <option name="basic" path="ActionManager" hit="Show basic phases only" />
     <option name="only" path="ActionManager" hit="Show basic phases only" />
     <option name="phases" path="ActionManager" hit="Show basic phases only" />
@@ -290,6 +299,21 @@
     <option name="toggle" path="ActionManager" hit="Toggle Offline Mode" />
     <option name="profile" path="ActionManager" hit="Toggle Profile" />
     <option name="toggle" path="ActionManager" hit="Toggle Profile" />
+    <option name="for" path="ActionManager" hit="Toggle Search For Maven Project Recursively" />
+    <option name="maven" path="ActionManager" hit="Toggle Search For Maven Project Recursively" />
+    <option name="project" path="ActionManager" hit="Toggle Search For Maven Project Recursively" />
+    <option name="recursively" path="ActionManager" hit="Toggle Search For Maven Project Recursively" />
+    <option name="search" path="ActionManager" hit="Toggle Search For Maven Project Recursively" />
+    <option name="toggle" path="ActionManager" hit="Toggle Search For Maven Project Recursively" />
+    <option name="for" path="ActionManager" hit="Toggle Search for project recursively when importing Maven projects" />
+    <option name="importing" path="ActionManager" hit="Toggle Search for project recursively when importing Maven projects" />
+    <option name="maven" path="ActionManager" hit="Toggle Search for project recursively when importing Maven projects" />
+    <option name="project" path="ActionManager" hit="Toggle Search for project recursively when importing Maven projects" />
+    <option name="projects" path="ActionManager" hit="Toggle Search for project recursively when importing Maven projects" />
+    <option name="recursively" path="ActionManager" hit="Toggle Search for project recursively when importing Maven projects" />
+    <option name="search" path="ActionManager" hit="Toggle Search for project recursively when importing Maven projects" />
+    <option name="toggle" path="ActionManager" hit="Toggle Search for project recursively when importing Maven projects" />
+    <option name="when" path="ActionManager" hit="Toggle Search for project recursively when importing Maven projects" />
     <option name="builds" path="ActionManager" hit="Toggle offline mode for Maven builds" />
     <option name="for" path="ActionManager" hit="Toggle offline mode for Maven builds" />
     <option name="maven" path="ActionManager" hit="Toggle offline mode for Maven builds" />
@@ -311,144 +335,144 @@
     <option name="tree" path="ActionManager" hit="Unlink selected Maven projects and their subprojects from the project tree" />
     <option name="unlink" path="ActionManager" hit="Unlink selected Maven projects and their subprojects from the project tree" />
   </configurable>
+  <configurable id="fileTemplates" configurable_name="File and Code Templates">
+    <option name="groovy" hit="Maven Groovy" />
+    <option name="maven" hit="Maven Groovy" />
+    <option name="maven" hit="Maven Profiles" />
+    <option name="profiles" hit="Maven Profiles" />
+    <option name="maven" hit="Maven Project" />
+    <option name="project" hit="Maven Project" />
+    <option name="maven" hit="Maven Settings" />
+    <option name="settings" hit="Maven Settings" />
+  </configurable>
   <configurable id="MavenSettings" configurable_name="Maven">
-    <option name="-t" hit="-T option" />
+    <option name="" hit=" Any changes made in its configuration might be lost after reimporting." />
+    <option name="after" hit=" Any changes made in its configuration might be lost after reimporting." />
+    <option name="any" hit=" Any changes made in its configuration might be lost after reimporting." />
+    <option name="be" hit=" Any changes made in its configuration might be lost after reimporting." />
+    <option name="changes" hit=" Any changes made in its configuration might be lost after reimporting." />
+    <option name="configuration" hit=" Any changes made in its configuration might be lost after reimporting." />
+    <option name="in" hit=" Any changes made in its configuration might be lost after reimporting." />
+    <option name="its" hit=" Any changes made in its configuration might be lost after reimporting." />
+    <option name="lost" hit=" Any changes made in its configuration might be lost after reimporting." />
+    <option name="made" hit=" Any changes made in its configuration might be lost after reimporting." />
+    <option name="might" hit=" Any changes made in its configuration might be lost after reimporting." />
+    <option name="reimporting" hit=" Any changes made in its configuration might be lost after reimporting." />
+    <option name="" hit="-T option" />
     <option name="option" hit="-T option" />
-    <option name="" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="1" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="2019" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="3" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="5a74bbe98a814d61e6069abd0902b46668f1278c" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="caches" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="com" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="files-2" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="gradle" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="idea" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="ideaic" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="ideaic-2019" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="intellij" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="jetbrains" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="lib" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="maven" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="maven3" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="mc" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="modules-2" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="plugins" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
-    <option name="users" hit="/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3/5a74bbe98a814d61e6069abd0902b46668f1278c/ideaIC-2019.3/plugins/maven/lib/maven3" />
+    <option name="t" hit="-T option" />
     <option name="always" hit="Always update snapshots" />
     <option name="snapshots" hit="Always update snapshots" />
     <option name="update" hit="Always update snapshots" />
-    <option name="3" hit="Bundled (Maven 3)" />
     <option name="bundled" hit="Bundled (Maven 3)" />
     <option name="maven" hit="Bundled (Maven 3)" />
-    <option name="check" hit="Check For Updates" />
-    <option name="for" hit="Check For Updates" />
-    <option name="updates" hit="Check For Updates" />
     <option name="checksum" hit="Checksum policy:" />
     <option name="policy" hit="Checksum policy:" />
     <option name="debug" hit="Debug" />
     <option name="default" hit="Default" />
     <option name="disabled" hit="Disabled" />
-    <option name="do" hit="Do Not Update" />
-    <option name="not" hit="Do Not Update" />
-    <option name="update" hit="Do Not Update" />
     <option name="error" hit="Error" />
-    <option name="execute" hit="Execute goals recursively " />
-    <option name="goals" hit="Execute goals recursively " />
-    <option name="recursively" hit="Execute goals recursively " />
+    <option name="execute" hit="Execute goals recursively" />
+    <option name="goals" hit="Execute goals recursively" />
+    <option name="recursively" hit="Execute goals recursively" />
     <option name="fail" hit="Fail" />
     <option name="at" hit="Fail At End" />
     <option name="end" hit="Fail At End" />
     <option name="fail" hit="Fail At End" />
     <option name="fail" hit="Fail Fast" />
     <option name="fast" hit="Fail Fast" />
+    <option name="fail" hit="Fail Never" />
+    <option name="never" hit="Fail Never" />
     <option name="fatal" hit="Fatal" />
     <option name="info" hit="Info" />
     <option name="local" hit="Local repository:" />
     <option name="repository" hit="Local repository:" />
     <option name="maven" hit="Maven" />
-    <option name="directory" hit="Maven home directory:" />
-    <option name="home" hit="Maven home directory:" />
-    <option name="maven" hit="Maven home directory:" />
+    <option name="home" hit="Maven home path:" />
+    <option name="maven" hit="Maven home path:" />
+    <option name="path" hit="Maven home path:" />
     <option name="build" hit="Multiproject build fail policy:" />
     <option name="fail" hit="Multiproject build fail policy:" />
     <option name="multiproject" hit="Multiproject build fail policy:" />
     <option name="policy" hit="Multiproject build fail policy:" />
-    <option name="fail" hit="Never Fail" />
-    <option name="never" hit="Never Fail" />
     <option name="global" hit="No Global Policy" />
     <option name="no" hit="No Global Policy" />
     <option name="policy" hit="No Global Policy" />
     <option name="level" hit="Output level:" />
     <option name="output" hit="Output level:" />
     <option name="override" hit="Override" />
-    <option name="plugin" hit="Plugin update policy:" />
-    <option name="policy" hit="Plugin update policy:" />
-    <option name="update" hit="Plugin update policy:" />
     <option name="exception" hit="Print exception stack traces" />
     <option name="print" hit="Print exception stack traces" />
     <option name="stack" hit="Print exception stack traces" />
     <option name="traces" hit="Print exception stack traces" />
-    <option name="count" hit="Thread count:" />
-    <option name="thread" hit="Thread count:" />
-    <option name="indices" hit="Update indices on project open" />
-    <option name="on" hit="Update indices on project open" />
-    <option name="open" hit="Update indices on project open" />
-    <option name="project" hit="Update indices on project open" />
-    <option name="update" hit="Update indices on project open" />
+    <option name="dialog" hit="Show settings dialog for new Maven projects" />
+    <option name="for" hit="Show settings dialog for new Maven projects" />
+    <option name="maven" hit="Show settings dialog for new Maven projects" />
+    <option name="new" hit="Show settings dialog for new Maven projects" />
+    <option name="projects" hit="Show settings dialog for new Maven projects" />
+    <option name="settings" hit="Show settings dialog for new Maven projects" />
+    <option name="show" hit="Show settings dialog for new Maven projects" />
+    <option name="count" hit="Thread count" />
+    <option name="thread" hit="Thread count" />
+    <option name="maven" hit="Use Maven wrapper" />
+    <option name="use" hit="Use Maven wrapper" />
+    <option name="wrapper" hit="Use Maven wrapper" />
     <option name="plugin" hit="Use plugin registry" />
     <option name="registry" hit="Use plugin registry" />
     <option name="use" hit="Use plugin registry" />
+    <option name="config" hit="Use settings from .mvn/maven.config" />
+    <option name="from" hit="Use settings from .mvn/maven.config" />
+    <option name="maven" hit="Use settings from .mvn/maven.config" />
+    <option name="mvn" hit="Use settings from .mvn/maven.config" />
+    <option name="settings" hit="Use settings from .mvn/maven.config" />
+    <option name="use" hit="Use settings from .mvn/maven.config" />
     <option name="file" hit="User settings file:" />
     <option name="settings" hit="User settings file:" />
     <option name="user" hit="User settings file:" />
     <option name="warn" hit="Warn" />
     <option name="offline" hit="Work offline" />
     <option name="work" hit="Work offline" />
-    <option name="3" hit="ignored by Maven 3+" />
-    <option name="by" hit="ignored by Maven 3+" />
-    <option name="ignored" hit="ignored by Maven 3+" />
-    <option name="maven" hit="ignored by Maven 3+" />
   </configurable>
   <configurable id="reference.settings.project.maven.importing" configurable_name="Importing">
-    <option name="" hit=" IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins.  Note  that all test-* phases firstly generate and compile production sources. " />
-    <option name="all" hit=" IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins.  Note  that all test-* phases firstly generate and compile production sources. " />
-    <option name="and" hit=" IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins.  Note  that all test-* phases firstly generate and compile production sources. " />
-    <option name="are" hit=" IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins.  Note  that all test-* phases firstly generate and compile production sources. " />
-    <option name="compile" hit=" IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins.  Note  that all test-* phases firstly generate and compile production sources. " />
-    <option name="configured" hit=" IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins.  Note  that all test-* phases firstly generate and compile production sources. " />
-    <option name="discover" hit=" IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins.  Note  that all test-* phases firstly generate and compile production sources. " />
-    <option name="execute" hit=" IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins.  Note  that all test-* phases firstly generate and compile production sources. " />
-    <option name="firstly" hit=" IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins.  Note  that all test-* phases firstly generate and compile production sources. " />
-    <option name="folders" hit=" IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins.  Note  that all test-* phases firstly generate and compile production sources. " />
-    <option name="generate" hit=" IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins.  Note  that all test-* phases firstly generate and compile production sources. " />
-    <option name="idea" hit=" IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins.  Note  that all test-* phases firstly generate and compile production sources. " />
-    <option name="in" hit=" IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins.  Note  that all test-* phases firstly generate and compile production sources. " />
-    <option name="listed" hit=" IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins.  Note  that all test-* phases firstly generate and compile production sources. " />
-    <option name="maven" hit=" IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins.  Note  that all test-* phases firstly generate and compile production sources. " />
-    <option name="needs" hit=" IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins.  Note  that all test-* phases firstly generate and compile production sources. " />
-    <option name="note" hit=" IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins.  Note  that all test-* phases firstly generate and compile production sources. " />
-    <option name="of" hit=" IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins.  Note  that all test-* phases firstly generate and compile production sources. " />
-    <option name="one" hit=" IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins.  Note  that all test-* phases firstly generate and compile production sources. " />
-    <option name="order" hit=" IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins.  Note  that all test-* phases firstly generate and compile production sources. " />
-    <option name="phases" hit=" IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins.  Note  that all test-* phases firstly generate and compile production sources. " />
-    <option name="plugins" hit=" IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins.  Note  that all test-* phases firstly generate and compile production sources. " />
-    <option name="production" hit=" IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins.  Note  that all test-* phases firstly generate and compile production sources. " />
-    <option name="source" hit=" IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins.  Note  that all test-* phases firstly generate and compile production sources. " />
-    <option name="sources" hit=" IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins.  Note  that all test-* phases firstly generate and compile production sources. " />
-    <option name="test-" hit=" IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins.  Note  that all test-* phases firstly generate and compile production sources. " />
-    <option name="that" hit=" IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins.  Note  that all test-* phases firstly generate and compile production sources. " />
-    <option name="the" hit=" IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins.  Note  that all test-* phases firstly generate and compile production sources. " />
-    <option name="to" hit=" IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins.  Note  that all test-* phases firstly generate and compile production sources. " />
-    <option name="via" hit=" IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins.  Note  that all test-* phases firstly generate and compile production sources. " />
-    <option name="" hit=".idea (directory based)" />
-    <option name="based" hit=".idea (directory based)" />
-    <option name="directory" hit=".idea (directory based)" />
-    <option name="idea" hit=".idea (directory based)" />
-    <option name="" hit=".ipr (file based)" />
-    <option name="based" hit=".ipr (file based)" />
-    <option name="file" hit=".ipr (file based)" />
-    <option name="ipr" hit=".ipr (file based)" />
+    <option name="" hit=" IntelliJ IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins. Note that all test-* phases firstly generate and compile production sources." />
+    <option name="all" hit=" IntelliJ IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins. Note that all test-* phases firstly generate and compile production sources." />
+    <option name="and" hit=" IntelliJ IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins. Note that all test-* phases firstly generate and compile production sources." />
+    <option name="are" hit=" IntelliJ IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins. Note that all test-* phases firstly generate and compile production sources." />
+    <option name="compile" hit=" IntelliJ IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins. Note that all test-* phases firstly generate and compile production sources." />
+    <option name="configured" hit=" IntelliJ IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins. Note that all test-* phases firstly generate and compile production sources." />
+    <option name="discover" hit=" IntelliJ IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins. Note that all test-* phases firstly generate and compile production sources." />
+    <option name="execute" hit=" IntelliJ IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins. Note that all test-* phases firstly generate and compile production sources." />
+    <option name="firstly" hit=" IntelliJ IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins. Note that all test-* phases firstly generate and compile production sources." />
+    <option name="folders" hit=" IntelliJ IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins. Note that all test-* phases firstly generate and compile production sources." />
+    <option name="generate" hit=" IntelliJ IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins. Note that all test-* phases firstly generate and compile production sources." />
+    <option name="idea" hit=" IntelliJ IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins. Note that all test-* phases firstly generate and compile production sources." />
+    <option name="in" hit=" IntelliJ IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins. Note that all test-* phases firstly generate and compile production sources." />
+    <option name="intellij" hit=" IntelliJ IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins. Note that all test-* phases firstly generate and compile production sources." />
+    <option name="listed" hit=" IntelliJ IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins. Note that all test-* phases firstly generate and compile production sources." />
+    <option name="maven" hit=" IntelliJ IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins. Note that all test-* phases firstly generate and compile production sources." />
+    <option name="needs" hit=" IntelliJ IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins. Note that all test-* phases firstly generate and compile production sources." />
+    <option name="note" hit=" IntelliJ IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins. Note that all test-* phases firstly generate and compile production sources." />
+    <option name="of" hit=" IntelliJ IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins. Note that all test-* phases firstly generate and compile production sources." />
+    <option name="one" hit=" IntelliJ IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins. Note that all test-* phases firstly generate and compile production sources." />
+    <option name="order" hit=" IntelliJ IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins. Note that all test-* phases firstly generate and compile production sources." />
+    <option name="phases" hit=" IntelliJ IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins. Note that all test-* phases firstly generate and compile production sources." />
+    <option name="plugins" hit=" IntelliJ IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins. Note that all test-* phases firstly generate and compile production sources." />
+    <option name="production" hit=" IntelliJ IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins. Note that all test-* phases firstly generate and compile production sources." />
+    <option name="source" hit=" IntelliJ IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins. Note that all test-* phases firstly generate and compile production sources." />
+    <option name="sources" hit=" IntelliJ IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins. Note that all test-* phases firstly generate and compile production sources." />
+    <option name="test" hit=" IntelliJ IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins. Note that all test-* phases firstly generate and compile production sources." />
+    <option name="that" hit=" IntelliJ IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins. Note that all test-* phases firstly generate and compile production sources." />
+    <option name="the" hit=" IntelliJ IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins. Note that all test-* phases firstly generate and compile production sources." />
+    <option name="to" hit=" IntelliJ IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins. Note that all test-* phases firstly generate and compile production sources." />
+    <option name="via" hit=" IntelliJ IDEA needs to execute one of the listed phases in order to discover all source folders that are configured via Maven plugins. Note that all test-* phases firstly generate and compile production sources." />
+    <option name="" hit=".idea (directory-based)" />
+    <option name="based" hit=".idea (directory-based)" />
+    <option name="directory" hit=".idea (directory-based)" />
+    <option name="idea" hit=".idea (directory-based)" />
+    <option name="" hit=".ipr (file-based)" />
+    <option name="based" hit=".ipr (file-based)" />
+    <option name="file" hit=".ipr (file-based)" />
+    <option name="ipr" hit=".ipr (file-based)" />
     <option name="annotations" hit="Annotations" />
     <option name="automatically" hit="Automatically download:" />
     <option name="download" hit="Automatically download:" />
@@ -477,8 +501,17 @@
     <option name="groups" hit="Create module groups for multi-module Maven projects" />
     <option name="maven" hit="Create module groups for multi-module Maven projects" />
     <option name="module" hit="Create module groups for multi-module Maven projects" />
-    <option name="multi-module" hit="Create module groups for multi-module Maven projects" />
+    <option name="multi" hit="Create module groups for multi-module Maven projects" />
     <option name="projects" hit="Create module groups for multi-module Maven projects" />
+    <option name="and" hit="Create separate modules for production and test roots (experimental)" />
+    <option name="create" hit="Create separate modules for production and test roots (experimental)" />
+    <option name="experimental" hit="Create separate modules for production and test roots (experimental)" />
+    <option name="for" hit="Create separate modules for production and test roots (experimental)" />
+    <option name="modules" hit="Create separate modules for production and test roots (experimental)" />
+    <option name="production" hit="Create separate modules for production and test roots (experimental)" />
+    <option name="roots" hit="Create separate modules for production and test roots (experimental)" />
+    <option name="separate" hit="Create separate modules for production and test roots (experimental)" />
+    <option name="test" hit="Create separate modules for production and test roots (experimental)" />
     <option name="dependency" hit="Dependency types:" />
     <option name="types" hit="Dependency types:" />
     <option name="automatically" hit="Detect automatically" />
@@ -493,15 +526,12 @@
     <option name="build" hit="Exclude build directory (%PROJECT_ROOT%/target)" />
     <option name="directory" hit="Exclude build directory (%PROJECT_ROOT%/target)" />
     <option name="exclude" hit="Exclude build directory (%PROJECT_ROOT%/target)" />
-    <option name="project_root" hit="Exclude build directory (%PROJECT_ROOT%/target)" />
+    <option name="project" hit="Exclude build directory (%PROJECT_ROOT%/target)" />
+    <option name="root" hit="Exclude build directory (%PROJECT_ROOT%/target)" />
     <option name="target" hit="Exclude build directory (%PROJECT_ROOT%/target)" />
     <option name="folders" hit="Generated sources folders:" />
     <option name="generated" hit="Generated sources folders:" />
     <option name="sources" hit="Generated sources folders:" />
-    <option name="automatically" hit="Import Maven projects automatically" />
-    <option name="import" hit="Import Maven projects automatically" />
-    <option name="maven" hit="Import Maven projects automatically" />
-    <option name="projects" hit="Import Maven projects automatically" />
     <option name="importing" hit="Importing" />
     <option name="for" hit="JDK for importer:" />
     <option name="importer" hit="JDK for importer:" />
@@ -510,13 +540,26 @@
     <option name="in" hit="Keep project files in:" />
     <option name="keep" hit="Keep project files in:" />
     <option name="project" hit="Keep project files in:" />
-    <option name="and" hit="Keep source and test folders on reimport" />
-    <option name="folders" hit="Keep source and test folders on reimport" />
-    <option name="keep" hit="Keep source and test folders on reimport" />
-    <option name="on" hit="Keep source and test folders on reimport" />
-    <option name="reimport" hit="Keep source and test folders on reimport" />
-    <option name="source" hit="Keep source and test folders on reimport" />
-    <option name="test" hit="Keep source and test folders on reimport" />
+    <option name="and" hit="Keep source and test folders on project reload" />
+    <option name="folders" hit="Keep source and test folders on project reload" />
+    <option name="keep" hit="Keep source and test folders on project reload" />
+    <option name="on" hit="Keep source and test folders on project reload" />
+    <option name="project" hit="Keep source and test folders on project reload" />
+    <option name="reload" hit="Keep source and test folders on project reload" />
+    <option name="source" hit="Keep source and test folders on project reload" />
+    <option name="test" hit="Keep source and test folders on project reload" />
+    <option name="config" hit="Options specified in this field override the ones in .mvn/jvm.config files" />
+    <option name="field" hit="Options specified in this field override the ones in .mvn/jvm.config files" />
+    <option name="files" hit="Options specified in this field override the ones in .mvn/jvm.config files" />
+    <option name="in" hit="Options specified in this field override the ones in .mvn/jvm.config files" />
+    <option name="jvm" hit="Options specified in this field override the ones in .mvn/jvm.config files" />
+    <option name="mvn" hit="Options specified in this field override the ones in .mvn/jvm.config files" />
+    <option name="ones" hit="Options specified in this field override the ones in .mvn/jvm.config files" />
+    <option name="options" hit="Options specified in this field override the ones in .mvn/jvm.config files" />
+    <option name="override" hit="Options specified in this field override the ones in .mvn/jvm.config files" />
+    <option name="specified" hit="Options specified in this field override the ones in .mvn/jvm.config files" />
+    <option name="the" hit="Options specified in this field override the ones in .mvn/jvm.config files" />
+    <option name="this" hit="Options specified in this field override the ones in .mvn/jvm.config files" />
     <option name="be" hit="Phase to be used for folders update:" />
     <option name="folders" hit="Phase to be used for folders update:" />
     <option name="for" hit="Phase to be used for folders update:" />
@@ -544,31 +587,44 @@
     <option name="importer" hit="VM options for importer:" />
     <option name="options" hit="VM options for importer:" />
     <option name="vm" hit="VM options for importer:" />
-    <option name="generate-resources" hit="generate-resources" />
-    <option name="generate-sources" hit="generate-sources" />
-    <option name="generate-test-resources" hit="generate-test-resources" />
-    <option name="generate-test-sources" hit="generate-test-sources" />
-    <option name="process-resources" hit="process-resources" />
-    <option name="process-sources" hit="process-sources" />
-    <option name="process-test-resources" hit="process-test-resources" />
-    <option name="process-test-sources" hit="process-test-sources" />
-    <option name="generated-sources" hit="subdirectories of &quot;target/generated-sources&quot;" />
+    <option name="generate" hit="generate-resources" />
+    <option name="resources" hit="generate-resources" />
+    <option name="generate" hit="generate-sources" />
+    <option name="sources" hit="generate-sources" />
+    <option name="generate" hit="generate-test-resources" />
+    <option name="resources" hit="generate-test-resources" />
+    <option name="test" hit="generate-test-resources" />
+    <option name="generate" hit="generate-test-sources" />
+    <option name="sources" hit="generate-test-sources" />
+    <option name="test" hit="generate-test-sources" />
+    <option name="process" hit="process-resources" />
+    <option name="resources" hit="process-resources" />
+    <option name="process" hit="process-sources" />
+    <option name="sources" hit="process-sources" />
+    <option name="process" hit="process-test-resources" />
+    <option name="resources" hit="process-test-resources" />
+    <option name="test" hit="process-test-resources" />
+    <option name="process" hit="process-test-sources" />
+    <option name="sources" hit="process-test-sources" />
+    <option name="test" hit="process-test-sources" />
+    <option name="generated" hit="subdirectories of &quot;target/generated-sources&quot;" />
     <option name="of" hit="subdirectories of &quot;target/generated-sources&quot;" />
+    <option name="sources" hit="subdirectories of &quot;target/generated-sources&quot;" />
     <option name="subdirectories" hit="subdirectories of &quot;target/generated-sources&quot;" />
     <option name="target" hit="subdirectories of &quot;target/generated-sources&quot;" />
-    <option name="generated-sources" hit="target/generated-sources" />
+    <option name="generated" hit="target/generated-sources" />
+    <option name="sources" hit="target/generated-sources" />
     <option name="target" hit="target/generated-sources" />
   </configurable>
   <configurable id="reference.settings.project.maven.ignored.files" configurable_name="Ignored Files">
     <option name="files" hit="Ignored Files" />
     <option name="ignored" hit="Ignored Files" />
-    <option name="files" hit="Ignored files:" />
-    <option name="ignored" hit="Ignored files:" />
     <option name="allowed" hit="Path patterns (comma-separated, '*' and '?' wildcards allowed):" />
     <option name="and" hit="Path patterns (comma-separated, '*' and '?' wildcards allowed):" />
-    <option name="comma-separated" hit="Path patterns (comma-separated, '*' and '?' wildcards allowed):" />
+    <option name="comma" hit="Path patterns (comma-separated, '*' and '?' wildcards allowed):" />
     <option name="path" hit="Path patterns (comma-separated, '*' and '?' wildcards allowed):" />
     <option name="patterns" hit="Path patterns (comma-separated, '*' and '?' wildcards allowed):" />
+    <option name="separated" hit="Path patterns (comma-separated, '*' and '?' wildcards allowed):" />
     <option name="wildcards" hit="Path patterns (comma-separated, '*' and '?' wildcards allowed):" />
   </configurable>
   <configurable id="reference.settings.project.maven.runner" configurable_name="Runner">
@@ -582,15 +638,27 @@
     <option name="environment" hit="Environment variables:" />
     <option name="variables" hit="Environment variables:" />
     <option name="jre" hit="JRE:" />
-    <option name="properties" hit="Properties" />
+    <option name="config" hit="Options specified in this field override the ones in .mvn/jvm.config files" />
+    <option name="field" hit="Options specified in this field override the ones in .mvn/jvm.config files" />
+    <option name="files" hit="Options specified in this field override the ones in .mvn/jvm.config files" />
+    <option name="in" hit="Options specified in this field override the ones in .mvn/jvm.config files" />
+    <option name="jvm" hit="Options specified in this field override the ones in .mvn/jvm.config files" />
+    <option name="mvn" hit="Options specified in this field override the ones in .mvn/jvm.config files" />
+    <option name="ones" hit="Options specified in this field override the ones in .mvn/jvm.config files" />
+    <option name="options" hit="Options specified in this field override the ones in .mvn/jvm.config files" />
+    <option name="override" hit="Options specified in this field override the ones in .mvn/jvm.config files" />
+    <option name="specified" hit="Options specified in this field override the ones in .mvn/jvm.config files" />
+    <option name="the" hit="Options specified in this field override the ones in .mvn/jvm.config files" />
+    <option name="this" hit="Options specified in this field override the ones in .mvn/jvm.config files" />
+    <option name="properties" hit="Properties:" />
     <option name="background" hit="Run in background" />
     <option name="in" hit="Run in background" />
     <option name="run" hit="Run in background" />
     <option name="runner" hit="Runner" />
-    <option name="skip" hit="Skip tests" />
-    <option name="tests" hit="Skip tests" />
+    <option name="kip" hit="Skip Tests" />
+    <option name="s" hit="Skip Tests" />
+    <option name="tests" hit="Skip Tests" />
     <option name="options" hit="VM Options:" />
     <option name="vm" hit="VM Options:" />
   </configurable>
 </options>
-

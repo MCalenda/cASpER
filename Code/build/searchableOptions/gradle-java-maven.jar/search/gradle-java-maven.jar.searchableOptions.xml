@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <options>
   <configurable id="preferences.keymap" configurable_name="Keymap">
     <option name="add" path="ActionManager" hit="Add Maven artifact dependency" />
@@ -15,4 +14,3 @@
     <option name="to" path="ActionManager" hit="Add selected Maven artifact dependency to the project" />
   </configurable>
 </options>
-

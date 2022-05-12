@@ -1,30 +1,25 @@
 <idea-plugin>
   <version>1.1.2</version>
-  <idea-version since-build="193.5233" until-build="193.*"/>
+  <idea-version since-build="221.5080" until-build="221.*" />
   <name>cASpER</name>
   <id>it.unisa.casper</id>
-  <description>
-    A Plug-in for Automated Code Smell Detection and Refactoring
-    
-    </description>
-  <change-notes>
-      Updated support for newer IntelliJ versions
-      &lt;a href="https://github.com/simgam/cASpER"&gt;View current version.&lt;/a&gt;
-
-    
-    </change-notes>
+  <description><![CDATA[A Plug-in for Automated Code Smell Detection and Refactoring]]></description>
+  <change-notes><![CDATA[Updated support for newer IntelliJ versions
+      <a href="https://github.com/simgam/cASpER">View current version.</a>]]></change-notes>
   <depends>com.intellij.java</depends>
   <depends>com.intellij.modules.java</depends>
   <vendor url="https://www.unisa.it/" email="seschool@unisa.it">SESA Lab.</vendor>
   <extensions defaultExtensionNs="com.intellij">
-    <checkinHandlerFactory implementation="it.unisa.casper.actions.CommitFactory"/>
+    <checkinHandlerFactory implementation="it.unisa.casper.actions.CommitFactory" />
   </extensions>
   <actions>
     <group id="org.jetbrains.tutorials.actions.GroupedActions" text="cASpER - Analyze Project" popup="true">
-      <add-to-group group-id="ToolsMenu" anchor="first"/>
-      <action id="it.unisa.casper.actions.BeginAction" class="it.unisa.casper.actions.BeginAction" text="Run plug-in"/>
-      <action id="it.unisa.casper.actions.ConfigureAction" class="it.unisa.casper.actions.ConfigureAction" text="Configure threshold"/>
+      <add-to-group group-id="ToolsMenu" anchor="first" />
+      <action id="it.unisa.casper.actions.BeginAction" class="it.unisa.casper.actions.BeginAction" text="Run plug-in" />
+      <action id="it.unisa.casper.actions.ConfigureAction" class="it.unisa.casper.actions.ConfigureAction" text="Configure threshold" />
     </group>
   </actions>
-  <application-components/>
+  <application-components>
+    <!-- Add your application components here -->
+  </application-components>
 </idea-plugin>

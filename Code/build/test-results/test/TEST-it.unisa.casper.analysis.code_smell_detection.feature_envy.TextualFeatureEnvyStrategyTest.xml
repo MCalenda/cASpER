@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2022-05-05T17:00:44" hostname="AIR-DI-MARCO.station" time="0.901">
+<testsuite name="it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2022-05-10T18:02:24" hostname="AIR-DI-MARCO.station" time="0.752">
   <properties/>
-  <testcase name="isSmellyMinThreshold" classname="it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest" time="0.075"/>
+  <testcase name="isSmellyMinThreshold" classname="it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest" time="0.159"/>
   <testcase name="isSmellyFalse" classname="it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest" time="0.002"/>
-  <testcase name="isSmellyNearThreshold" classname="it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest" time="0.029"/>
-  <testcase name="isSmellyTrue" classname="it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest" time="0.014"/>
-  <testcase name="isSmellyMinThreshold" classname="it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest" time="0.002"/>
-  <testcase name="isSmellyFalse" classname="it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest" time="0.001"/>
-  <testcase name="isSmellyNearThreshold" classname="it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest" time="0.004"/>
-  <testcase name="isSmellyTrue" classname="it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest" time="0.005"/>
+  <testcase name="isSmellyNearThreshold" classname="it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest" time="0.031"/>
+  <testcase name="isSmellyTrue" classname="it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest" time="0.016"/>
+  <testcase name="isSmellyMinThreshold" classname="it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest" time="0.004"/>
+  <testcase name="isSmellyFalse" classname="it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest" time="0.0"/>
+  <testcase name="isSmellyNearThreshold" classname="it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest" time="0.006"/>
+  <testcase name="isSmellyTrue" classname="it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest" time="0.008"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[mag 05, 2022 7:00:44 PM it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest isSmellyMinThreshold
-INFORMAZIONI: 
+  <system-err><![CDATA[mag 10, 2022 8:02:24 PM it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest isSmellyMinThreshold
+INFO: 
 false
-mag 05, 2022 7:00:44 PM it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest isSmellyFalse
-INFORMAZIONI: 
+mag 10, 2022 8:02:24 PM it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest isSmellyFalse
+INFO: 
 false
-mag 05, 2022 7:00:45 PM it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest isSmellyNearThreshold
-INFORMAZIONI: 
+mag 10, 2022 8:02:24 PM it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest isSmellyNearThreshold
+INFO: 
 true
-mag 05, 2022 7:00:45 PM it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest isSmellyTrue
-INFORMAZIONI: 
+mag 10, 2022 8:02:24 PM it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest isSmellyTrue
+INFO: 
 true
-mag 05, 2022 7:00:45 PM it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest isSmellyMinThreshold
-INFORMAZIONI: 
+mag 10, 2022 8:02:25 PM it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest isSmellyMinThreshold
+INFO: 
 false
-mag 05, 2022 7:00:45 PM it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest isSmellyFalse
-INFORMAZIONI: 
+mag 10, 2022 8:02:25 PM it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest isSmellyFalse
+INFO: 
 false
-mag 05, 2022 7:00:45 PM it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest isSmellyNearThreshold
-INFORMAZIONI: 
+mag 10, 2022 8:02:25 PM it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest isSmellyNearThreshold
+INFO: 
 true
-mag 05, 2022 7:00:45 PM it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest isSmellyTrue
-INFORMAZIONI: 
+mag 10, 2022 8:02:25 PM it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest isSmellyTrue
+INFO: 
 true
 ]]></system-err>
 </testsuite>

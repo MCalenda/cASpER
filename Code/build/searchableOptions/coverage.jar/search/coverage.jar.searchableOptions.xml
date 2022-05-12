@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <options>
   <configurable id="coverage" configurable_name="Coverage">
     <option name="classes" hit="Ignore empty private constructors of utility classes" />
@@ -17,4 +16,3 @@
     <option name="java" hit="Java coverage" />
   </configurable>
 </options>
-
