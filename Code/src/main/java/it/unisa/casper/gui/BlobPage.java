@@ -41,6 +41,8 @@ public class BlobPage extends DialogWrapper {
     private JPanel panelGrid2;                  //panel inserito nella seconda cella del gridLayout
     private JBTable table;                      //tabella dove sono visualizzati i codeSmell
 
+    private JCheckBox gameTheory;               //checkbox per attivare refactoring con Game Theory
+
     private boolean errorOccured;               //serve per determinare se qualcosa è andato storto
 
     public BlobPage(ClassBean classBeanBlob, Project project) {
@@ -145,6 +147,8 @@ public class BlobPage extends DialogWrapper {
     @NotNull
     @Override
     protected Action[] createActions() {
+        gameTheory = new JCheckBox("Game Theory refactoring");
+        panelButton.add(gameTheory);
         Action okAction = new DialogWrapperAction("FIND SOLUTION") {
 
             String message;
@@ -155,8 +159,11 @@ public class BlobPage extends DialogWrapper {
                 message = "Something went wrong in computing solution";
                 ProgressManager.getInstance().runProcessWithProgressSynchronously(() -> {
                     try {
-                        splittedClasses = (List<ClassBean>) new SplitClasses().split(classBeanBlob, 0.09);
-
+                        if (gameTheory.isSelected()) {
+                            //GT
+                        } else {
+                            splittedClasses = (List<ClassBean>) new SplitClasses().split(classBeanBlob, 0.09);
+                        }
                         if (splittedClasses.size() == 1) {
                             message += "\nIt is not possible to split the class without introducing new smell";
                             errorOccured = true;

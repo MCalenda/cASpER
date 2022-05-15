@@ -844,3 +844,177 @@ java.io.IOException: The IDE is not configured for using custom VM options (jb.v
 2022-05-10 20:49:30,718 [ 287880]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose completed
 2022-05-10 20:49:30,719 [ 287881]   INFO - #c.i.o.f.i.FileTypeDetectionService - 3 auto-detected files. Detection took 2645 ms
 2022-05-10 20:49:30,763 [ 287925]   INFO - #c.i.i.StartupUtil - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------
+2022-05-15 19:11:30,010 [      7]   INFO - #c.i.i.StartupUtil - ------------------------------------------------------ IDE STARTED ------------------------------------------------------
+2022-05-15 19:11:30,323 [    320]   INFO - #c.i.u.EnvironmentUtil - loading shell env: /bin/zsh -l -i -c '/Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.1/c91a19824ffcb28872ecd2761c83b250f703ff21/ideaIC-2022.1/bin/printenv' > '/var/folders/41/cqj00bg10qv8cby7c8hgz3p80000gn/T/ij-env-tmp-dir7817669211780562196/ij-shell-env-data.tmp'
+2022-05-15 19:11:30,334 [    331]   INFO - #c.i.i.p.PluginManager - Using cached broken plugins file
+2022-05-15 19:11:30,573 [    570]   INFO - #c.i.u.EnvironmentUtil - shell environment loaded (16 vars)
+2022-05-15 19:11:30,592 [    589]   INFO - #c.i.i.StartupUtil - JNA library (64-bit) loaded in 286 ms
+2022-05-15 19:11:30,815 [    812]   INFO - #c.i.i.StartupUtil - IDE: IntelliJ IDEA (build #IC-221.5080.210, 12 Apr 2022 05:32)
+2022-05-15 19:11:30,828 [    825]   INFO - #c.i.i.StartupUtil - OS: Mac OS X (12.3.1, x86_64)
+2022-05-15 19:11:31,249 [   1246]   INFO - #c.i.i.StartupUtil - JRE: 11.0.14.1+1-b2043.25 (JetBrains s.r.o.)
+2022-05-15 19:11:31,267 [   1264]   INFO - #c.i.i.StartupUtil - JVM: 11.0.14.1+1-b2043.25 (OpenJDK 64-Bit Server VM)
+2022-05-15 19:11:31,289 [   1286]   INFO - #c.i.i.StartupUtil - JVM options: [-Dapple.awt.fileDialogForDirectories=true, -Dapple.laf.useScreenMenuBar=true, -Didea.auto.reload.plugins=true, -Didea.classpath.index.enabled=false, -Didea.config.path=/Users/mc/Documents/Università/cASpER/Code/build/idea-sandbox/config, -Didea.is.internal=true, -Didea.platform.prefix=Idea, -Didea.plugins.path=/Users/mc/Documents/Università/cASpER/Code/build/idea-sandbox/plugins, -Didea.required.plugins.id=it.unisa.casper, -Didea.smooth.progress=false, -Didea.system.path=/Users/mc/Documents/Università/cASpER/Code/build/idea-sandbox/system, -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader, -Xms256m, -Xmx512m, -Dfile.encoding=UTF-8, -Duser.country=IT, -Duser.language=it, -Duser.variant, -ea]
+2022-05-15 19:11:31,302 [   1299]   INFO - #c.i.i.StartupUtil - args: []
+2022-05-15 19:11:31,306 [   1303]   INFO - #c.i.i.StartupUtil - library path: /Users/mc/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2022-05-15 19:11:31,307 [   1304]   INFO - #c.i.i.StartupUtil - boot library path: /Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains/jbre/jbr_jcef-11_0_14_1-osx-x64-b2043.25/extracted/jbr/Contents/Home/lib
+2022-05-15 19:11:31,345 [   1342]   INFO - #c.i.i.p.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, descriptorPath=plugin.xml, path=~/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.1/c91a19824ffcb28872ecd2761c83b250f703ff21/ideaIC-2022.1/plugins/Groovy, version=221.5080.210, package=org.jetbrains.plugins.groovy, isBundled=true) misses optional descriptor duplicates-groovy.xml
+2022-05-15 19:11:31,353 [   1350]   INFO - #c.i.i.p.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, descriptorPath=plugin.xml, path=~/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.1/c91a19824ffcb28872ecd2761c83b250f703ff21/ideaIC-2022.1/plugins/Groovy, version=221.5080.210, package=org.jetbrains.plugins.groovy, isBundled=true) misses optional descriptor duplicates-detection-groovy.xml
+2022-05-15 19:11:31,551 [   1548]   INFO - #c.i.i.StartupUtil - locale=it_IT JNU=UTF-8 file.encoding=UTF-8
+  idea.config.path=/Users/mc/Documents/Università/cASpER/Code/build/idea-sandbox/config
+  idea.system.path=/Users/mc/Documents/Università/cASpER/Code/build/idea-sandbox/system
+  idea.plugins.path=/Users/mc/Documents/Università/cASpER/Code/build/idea-sandbox/plugins
+  idea.log.path=/Users/mc/Documents/Università/cASpER/Code/build/idea-sandbox/system/log
+2022-05-15 19:11:32,058 [   2055]   INFO - #c.i.i.StartupUtil - CPU cores: 8; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@cdf4f67[Running, parallelism = 7, size = 7, active = 7, running = 7, steals = 5, tasks = 10, submissions = 1]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@6bf4ff12
+2022-05-15 19:11:32,324 [   2321]   INFO - #c.i.i.p.PluginManager - Module intellij.space.gateway is not enabled because dependency com.jetbrains.gateway is not available
+Module intellij.space.php is not enabled because dependency com.jetbrains.php is not available
+Module kotlin-ultimate.javascript.nodeJs is not enabled because dependency NodeJS is not available
+Module kotlin-ultimate.javascript.debugger is not enabled because dependency JavaScriptDebugger is not available
+Module intellij.space.index is not enabled because dependency intellij.indexing.shared is not available
+Module kotlin-ultimate.common-for-kotlin is not enabled because dependency com.intellij.nativeDebug is not available
+Module kotlin-ultimate.ultimate-native is not enabled because dependency kotlin-ultimate.common-for-kotlin is not available
+2022-05-15 19:11:32,372 [   2369]   INFO - #c.i.i.p.PluginManager - Loaded bundled plugins: IDEA CORE (221.5080.210), IDE Features Trainer (221.5080.210), Grazie (221.5080.210), Toml (221.5080.210), Settings Repository (221.5080.210), YAML (221.5080.210), WSL File System Support (221.5080.210), TextMate Bundles (221.5080.210), Terminal (221.5080.210), Emoji Picker (221.5080.210), JetBrains maven model api classes (221.5080.210), JetBrains Repository Search (221.5080.210), Qodana (221.5080.210), EditorConfig (221.5080.210), WebP Support (221.5080.210), Mercurial (221.5080.210), Space (221.5080.210), Shell Script (221.5080.210), Settings Sync (221.5080.210), Projector Libraries for Code With Me and Remote Development (221.5080.210), Visual Studio Keymap (221.5080.210), NetBeans Keymap (221.5080.210), Eclipse Keymap (221.5080.210), Images (221.5080.210), JetBrains Marketplace Licensing Support (221.5080.210), Windows 10 Light Theme (221.5080.210), macOS Light Theme (221.5080.210), Dependency Management Api for External Build Tools (221.5080.210), Copyright (221.5080.210), Properties (221.5080.210), Gradle (221.5080.210), Configuration Script (221.5080.210), Machine Learning Code Completion (221.5080.210), Java (221.5080.210), JavaFX (221.5080.210), Kotlin (221-1.6.20-release-285-IJ5080.210), Java Bytecode Decompiler (221.5080.210), Eclipse Interoperability (221.5080.210), Java Stream Debugger (221.5080.210), Shared Indexes (221.5080.210), Package Search (221.5080.210), com.intellij.tracing.ide (221.5080.210), Java IDE Customization (221.5080.210), Java Internationalization (221.5080.210), UI Designer (221.5080.210), Smali Support (221.5080.210), XPathView + XSLT (221.5080.210), IntelliLang (221.5080.210), Markdown (221.5080.210), Task Management (221.5080.210), XSLT Debugger (221.5080.210), TestNG (221.5080.210), Subversion (221.5080.210), Perforce Helix Core (221.5080.210), Lombok (221.5080.210), JUnit (221.5080.210), GitHub (221.5080.210), Git (221.5080.210), IDE Features Trainer: Git Lessons (221.5080.210), ChangeReminder (221.5080.210), Machine Learning in Search Everywhere (221.5080.210), Code Coverage for Java (221.5080.210), Bytecode Viewer (221.5080.210), Groovy (221.5080.210), Ant (221.5080.210), Maven (221.5080.210), Gradle-Java (221.5080.210), Gradle-Maven (221.5080.210), Refactoring Detector (221.5080.210), Gradle DSL API (221.5080.210), Gradle Dependency Updater Implementation (221.5080.210), Android (2020.3.1 Final.221.5080.210), Code With Me (221.5080.210), Plugin DevKit (221.5080.210)
+2022-05-15 19:11:32,373 [   2370]   INFO - #c.i.i.p.PluginManager - Loaded custom plugins: cASpER (1.1.2)
+2022-05-15 19:11:32,466 [   2463]   WARN - #c.i.u.m.MacOSApplicationProvider - No URL bundle (CFBundleURLTypes) is defined in the main bundle.
+To be able to open external links, specify protocols in the app layout section of the build file.
+Example: args.urlSchemes = ["your-protocol"] will handle following links: your-protocol://open?file=file&line=line
+2022-05-15 19:11:33,494 [   3491]   INFO - #c.i.a.o.PathMacrosImpl - Loaded path macros: {MAVEN_REPOSITORY=/Users/mc/.m2/repository}
+2022-05-15 19:11:33,770 [   3767]   INFO - #c.i.d.JitWatcher - JIT compilation state checking enabled
+2022-05-15 19:11:33,800 [   3797]   WARN - #c.i.i.DebugAttachDetector - Unable to start DebugAttachDetector, please add `--add-exports java.base/jdk.internal.vm=ALL-UNNAMED` to VM options
+2022-05-15 19:11:33,847 [   3844]   INFO - #o.j.i.BuiltInServerManager - built-in server started, port 63343
+2022-05-15 19:11:33,916 [   3913]   INFO - #c.i.u.i.FilePageCache - lower=100; upper=492; buffer=10; max=492
+2022-05-15 19:11:34,505 [   4502]   INFO - #c.i.u.n.s.CertificateManager - Default SSL context initialized
+2022-05-15 19:11:34,595 [   4592]   INFO - #c.i.o.e.c.i.AppFontOptions - Font setting migration: JetBrains Mono -> [JetBrains Mono, Regular, Bold]
+2022-05-15 19:11:34,643 [   4640]   INFO - #c.i.o.a.Experiments - Experimental features enabled for user: wsl.p9.support, wsl.prefer.p9.support, wsl.p9.show.roots.in.file.chooser, wsl.execute.with.wsl.exe, linux.native.menu, recent.and.edited.files.together, show.create.new.element.in.popup, search.everywhere.mixed.results, new.project.wizard, editor.reader.mode, new.large.text.file.viewer, wsl.fsd.content.loader, terminal.shell.command.handling
+2022-05-15 19:11:34,955 [   4952]   INFO - #c.i.o.u.i.UpdateCheckerService - channel: release
+2022-05-15 19:11:35,237 [   5234]   INFO - #c.i.u.m.t.NST - touchbar-server isn't running, skip nst loading
+2022-05-15 19:11:35,285 [   5282]   INFO - #c.i.u.m.t.TouchbarSupport - touchbar support is enabled
+2022-05-15 19:11:36,250 [   6247]   INFO - #c.i.i.s.p.i.SharedIndexMainZipStorage - Shared Indexes Storage is opened and empty
+2022-05-15 19:11:37,158 [   7155]   INFO - #c.i.i.p.DisabledPluginsState - Plugins to enable: [com.jetbrains.codeWithMe]
+2022-05-15 19:11:37,285 [   7282]   INFO - #c.i.i.SystemHealthMonitor - X86_64 appears to be emulated
+2022-05-15 19:11:37,305 [   7302]   WARN - #c.i.i.SystemHealthMonitor - issue detected: bundled.jre.m1.arch.message
+2022-05-15 19:11:37,339 [   7336]   WARN - #c.i.n.i.NotificationGroupManagerImpl - Notification group CodeWithMe is already registered (group=com.intellij.notification.NotificationGroup@5274f700). Plugin descriptor: PluginDescriptor(name=Code With Me, id=com.jetbrains.codeWithMe, descriptorPath=plugin.xml, path=~/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.1/c91a19824ffcb28872ecd2761c83b250f703ff21/ideaIC-2022.1/plugins/cwm-plugin, version=221.5080.210, package=null, isBundled=true)
+2022-05-15 19:11:37,442 [   7439]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Starting file watcher: /Users/mc/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.1/c91a19824ffcb28872ecd2761c83b250f703ff21/ideaIC-2022.1/bin/mac/fsnotifier
+2022-05-15 19:11:37,457 [   7454]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Native file watcher is operational.
+2022-05-15 19:11:38,890 [   8887]   INFO - #c.i.i.StartupUtil - notify that start-up thread is free
+2022-05-15 19:11:38,943 [   8940]   INFO - #c.a.t.i.u.SdkComponentSource - Downloading https://dl.google.com/android/repository/addons_list-4.xml
+2022-05-15 19:11:39,093 [   9090]   INFO - #c.i.u.i.FileBasedIndexImpl - Indices to be built:FilenameIndex(v = 258)
+2022-05-15 19:11:39,256 [   9253]   INFO - c.i.u.i.FileBasedIndexDataInitialization - Index data initialization done: 4934 ms. Initialized indexes: [FilenameIndex, FrameworkDetectionIndex, TodoIndex, IdIndex, filetypes, Stubs, Trigram.Index, fileIncludes, DomFileIndex, RelaxSymbolIndex, XmlTagNames, XmlNamespaces, html5.custom.attributes.index, SchemaTypeInheritance, json.file.root.values, yaml.keys.name, editorconfig.index.name, xmlProperties, bytecodeAnalysis, java.auto.module.name, java.source.module.name, java.null.method.argument, java.fun.expression, java.binary.plus.expression, JavaFxControllerClassIndex, javafx.id.name, javafx.custom.component, org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex, org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinPartialPackageNamesIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinPackageSourcesMemberNamesIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinStdlibIndex, org.jetbrains.kotlin.idea.vfilefinder.KlibMetaFileIndex, com.intellij.uiDesigner.FormClassIndex, XsltSymbolIndex, groovy.trait.fields, groovy.trait.methods, LombokConfigIndex, ant-imports, com.android.tools.idea.model.AndroidManifestIndex$Companion$NAME$1.NAME, BindingXmlIndex, MlModelFileIndex, NavXmlIndex, IdeaPluginRegistrationIndex, PluginIdModuleIndex, PluginIdDependenciesIndex, devkit.ExtensionPointIndex, devkit.ExtensionPointClassIndex].
+2022-05-15 19:11:39,266 [   9263]   INFO - #c.i.u.m.s.Menu - use new ScreenMenuBar implementation
+2022-05-15 19:11:39,475 [   9472]   INFO - c.i.p.s.StubIndexImpl$StubIndexInitialization - Index data initialization done: 217 ms. Initialized stub indexes: {org.jetbrains.kotlin.idea.stubindex.KotlinClassShortNameIndex, dom.namespaceKey, java.method.parameter.types, gr.anonymous.class, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelClassByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex, org.jetbrains.kotlin.idea.stubindex.KotlinAnnotationsIndex, org.jetbrains.kotlin.idea.stubindex.KotlinMultifileClassPartIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeClassByPackageIndex, jvm.static.member.type, gr.class.fqn, gr.field.name, gr.annot.method.name, gr.method.name, org.jetbrains.kotlin.idea.stubindex.KotlinSubclassObjectNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelExtensionsByReceiverTypeIndex, org.jetbrains.kotlin.idea.stubindex.KotlinSuperClassIndex, org.jetbrains.kotlin.idea.stubindex.KotlinInnerTypeAliasClassIdIndex, org.jetbrains.kotlin.idea.stubindex.KotlinExtensionsInObjectsByReceiverTypeIndex, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingFunctionShortNameIndex, java.method.name, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasByPackageIndex, java.anonymous.baseref, markdown.header, java.class.shortname, gr.class.super, gr.annot.members, java.module.name, kotlin.primeIndexKey, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionFqnNameIndex, java.class.extlist, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyContractedFunctionShortNameIndex, gr.script.fqn, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeFqNameIndex, java.class.fqn, org.jetbrains.kotlin.idea.stubindex.KotlinFullClassNameIndex, java.annotations, org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasByExpansionShortNameIndex, jvm.static.member.name, dom.elementClass, java.field.name, gr.script.class, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyFqnNameIndex, properties.index, org.jetbrains.kotlin.idea.stubindex.KotlinOverridableInternalMembersShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFilePartClassIndex, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingPropertyShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasFqNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinPropertyShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinExactPackagesIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFunctionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinJvmNameAnnotationIndex}.
+2022-05-15 19:11:39,501 [   9498]   INFO - #c.a.t.i.u.SdkComponentSource - Downloading https://dl.google.com/android/repository/addon2-2.xml
+2022-05-15 19:11:39,506 [   9503]   INFO - #c.a.t.i.u.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/aosp_atd/sys-img2-2.xml
+2022-05-15 19:11:39,506 [   9503]   INFO - #c.a.t.i.u.SdkComponentSource - Downloading https://dl.google.com/android/repository/glass/addon2-2.xml
+2022-05-15 19:11:39,506 [   9503]   INFO - #c.a.t.i.u.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_apis/sys-img2-2.xml
+2022-05-15 19:11:39,506 [   9503]   INFO - #c.a.t.i.u.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google-tv/sys-img2-2.xml
+2022-05-15 19:11:39,506 [   9503]   INFO - #c.a.t.i.u.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_atd/sys-img2-2.xml
+2022-05-15 19:11:39,506 [   9503]   INFO - #c.a.t.i.u.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android/sys-img2-2.xml
+2022-05-15 19:11:39,505 [   9502]   INFO - #c.a.t.i.u.SdkComponentSource - Downloading https://dl.google.com/android/repository/repository2-1.xml
+2022-05-15 19:11:39,505 [   9502]   INFO - #c.a.t.i.u.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-automotive/sys-img2-2.xml
+2022-05-15 19:11:39,505 [   9502]   INFO - #c.a.t.i.u.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-desktop/sys-img2-2.xml
+2022-05-15 19:11:39,505 [   9502]   INFO - #c.a.t.i.u.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-wear-cn/sys-img2-2.xml
+2022-05-15 19:11:39,505 [   9502]   INFO - #c.a.t.i.u.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-wear/sys-img2-2.xml
+2022-05-15 19:11:39,505 [   9502]   INFO - #c.a.t.i.u.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img2-2.xml
+2022-05-15 19:11:39,501 [   9498]   INFO - #c.a.t.i.u.SdkComponentSource - Downloading https://dl.google.com/android/repository/repository2-2.xml
+2022-05-15 19:11:39,506 [   9503]   INFO - #c.a.t.i.u.SdkComponentSource - Downloading https://dl.google.com/android/repository/extras/intel/addon2-2.xml
+2022-05-15 19:11:39,506 [   9503]   INFO - #c.a.t.i.u.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-tv/sys-img2-2.xml
+2022-05-15 19:11:41,823 [  11820]   INFO - #c.i.o.a.i.ApplicationImpl - LONG VFS PROCESSING. Topic=BulkFileListener, offender=class com.intellij.history.integration.LocalHistoryEventDispatcher$LocalHistoryBulkFileListener, message=before, time=81ms
+2022-05-15 19:11:43,652 [  13649]   INFO - #c.i.o.a.i.PopupMenuPreloader - Popup menu 'Help' preloaded at 'MainMenu' in 60 ms
+2022-05-15 19:11:43,764 [  13761]   INFO - #c.i.o.a.i.PopupMenuPreloader - Popup menu 'File' preloaded at 'MainMenu' in 184 ms
+2022-05-15 19:13:38,881 [ 128878]   INFO - #c.j.r.f.FollowMeManager - Register new user 0:'mc' with ClientId=ClientId(value=Host)
+2022-05-15 19:13:41,290 [ 131287]   INFO - #c.i.i.ConversionServiceImpl - conversion will be performed because at least /Users/mc/Documents/Università/OtticaCrisci/.idea/workspace.xml is changed (oldLastModified=1652208347, newLastModified=1652634562)
+2022-05-15 19:13:41,455 [ 131452]   INFO - #c.i.p.i.a.w.LegacyBridgeArtifactManagerRedefiner - Using workspace model to open project
+2022-05-15 19:13:41,761 [ 131758]   INFO - STDOUT - Info  | RdCoroutineScope          | 14:JobScheduler FJ pool 2/7 | RdCoroutineHost overridden 
+2022-05-15 19:13:41,794 [ 131791]   INFO - #c.j.r.p.c.t.i.DistributedTestHost - Host address=localhost/127.0.0.1
+2022-05-15 19:13:41,894 [ 131891]   INFO - #c.i.o.v.i.p.NewMappings - VCS Root: [Git] - [<Project>]
+2022-05-15 19:13:42,004 [ 132001]   INFO - #c.i.o.w.StatusBar - Factory is not registered as `com.intellij.statusBarWidgetFactory` extension: com.intellij.openapi.vcs.changes.committed.IncomingChangesIndicatorFactory
+2022-05-15 19:13:42,427 [ 132424]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Load workspace model from cache in 857 ms
+2022-05-15 19:13:42,482 [ 132479]   INFO - #c.i.p.c.ProjectCodeStyleSettingsManager - Initialized from default code style settings.
+2022-05-15 19:13:42,863 [ 132860]   INFO - #c.j.r.p.c.x.P - sessionStatus: null
+2022-05-15 19:13:42,868 [ 132865]   INFO - #c.j.r.p.c.x.P - freeSessionRemainingTimeMs: null null
+2022-05-15 19:13:43,287 [ 133284]   INFO - #c.i.i.n.e.NewToolbarRootPaneExtension - Show old main toolbar: false; show old navigation bar: true
+2022-05-15 19:13:43,291 [ 133288]   INFO - #c.i.i.n.e.NewToolbarRootPaneExtension - Show new main toolbar: false
+2022-05-15 19:13:43,297 [ 133294]   INFO - #c.i.o.w.StatusBar - Factory is not registered as `com.intellij.statusBarWidgetFactory` extension: git4idea.ui.branch.GitBranchWidget$Factory
+2022-05-15 19:13:44,198 [ 134195]   INFO - #g.c.GitHandler - [.] git version
+2022-05-15 19:13:44,200 [ 134197]   INFO - #c.i.o.e.s.p.m.ExternalProjectsDataStorage - Load external projects data in 12 millis (read time: 4)
+2022-05-15 19:13:44,209 [ 134206]   INFO - #c.i.o.v.i.p.NewMappings - Mapped Roots: 1
+2022-05-15 19:13:44,335 [ 134332]   INFO - #c.j.r.f.FollowMeManager - Register new user 0:'mc' with ClientId=ClientId(value=Host)
+2022-05-15 19:13:44,503 [ 134500]   INFO - #g.c.GitHandler - git version 2.32.1 (Apple Git-133)
+2022-05-15 19:13:44,599 [ 134596]   INFO - #c.i.c.CompilerWorkspaceConfiguration - Available processors: 8
+2022-05-15 19:13:44,611 [ 134608]   INFO - #g.c.GitExecutableManager - Git version for /usr/bin/git: 2.32.1.0 (UNIX)
+2022-05-15 19:13:45,239 [ 135236]   INFO - #c.a.t.i.i.GMavenIndexRepository - Refreshed disk cache successfully with a new ETag header: "de72b4".
+2022-05-15 19:13:46,230 [ 136227]   INFO - #c.i.i.s.IdeStartupScripts - 0 startup script(s) found
+2022-05-15 19:13:46,797 [ 136794]   INFO - #c.i.o.p.DumbServiceGuiTaskQueue - Running dumb mode task: OnDiskSharedIndexChunkLocator
+2022-05-15 19:13:46,811 [ 136808]   WARN - #c.i.o.a.i.ActionUpdater - 651 ms to grab EDT for OpenFileAction#update (com.intellij.ide.actions.OpenFileAction)
+2022-05-15 19:13:46,812 [ 136809]   INFO - #c.i.o.p.DumbServiceGuiTaskQueue - Running dumb mode task: UnindexedFilesUpdater[OtticaCrisci]
+2022-05-15 19:13:46,898 [ 136895]   WARN - #c.i.o.a.i.ActionUpdater - 557 ms to grab EDT for CWMTelephonyGroup#update (com.jetbrains.rd.platform.codeWithMe.telephony.CWMTelephonyGroup)
+2022-05-15 19:13:47,012 [ 137009]   INFO - #c.i.u.i.UnindexedFilesUpdater - Started indexing of OtticaCrisci. Reason: On project open
+2022-05-15 19:13:47,023 [ 137020]   INFO - #c.i.u.i.UnindexedFilesUpdater - Performing delayed pushing properties tasks for OtticaCrisci took 2ms; general responsiveness: ok; EDT responsiveness: ok
+2022-05-15 19:13:47,067 [ 137064]   INFO - #c.i.u.i.UnindexedFilesUpdater - Scanning of OtticaCrisci uses 7 scanning threads
+2022-05-15 19:13:47,072 [ 137069]   WARN - #c.i.o.a.i.ActionUpdater - 258 ms to grab EDT for SaveAllAction#update (com.intellij.ide.actions.SaveAllAction)
+2022-05-15 19:13:47,704 [ 137701]   WARN - #c.i.o.a.i.ActionUpdater - 606 ms to grab EDT for SynchronizeAction#update (com.intellij.ide.actions.SynchronizeAction)
+2022-05-15 19:13:47,873 [ 137870]   WARN - #c.i.o.a.i.ActionUpdater - 733 ms to grab EDT for CWMHostShowPopupAction#update (com.jetbrains.rdserver.toolbar.CWMHostShowPopupAction)
+2022-05-15 19:13:48,486 [ 138483]   WARN - #c.i.o.a.i.ActionUpdater - 713 ms to grab EDT for BackAction#update (com.intellij.ide.actions.BackAction)
+2022-05-15 19:13:48,491 [ 138488]   WARN - #c.i.o.a.i.ActionUpdater - 544 ms to grab EDT for RunConfigurationsComboBoxAction#update (com.intellij.execution.actions.RunConfigurationsComboBoxAction)
+2022-05-15 19:13:48,955 [ 138952]   INFO - #c.i.d.PerformanceWatcherImpl - Post-startup activities under progress took 5254ms; general responsiveness: ok; EDT responsiveness: 2/6 sluggish, 2/6 very slow
+2022-05-15 19:13:50,343 [ 140340]   INFO - #c.i.o.f.i.FileEditorManagerImpl - Project opening took 8910 ms
+2022-05-15 19:13:50,372 [ 140369]   WARN - #c.i.o.a.i.ActionUpdater - 1485 ms to grab EDT for ApplyChangesAction#update (com.android.tools.idea.run.ui.ApplyChangesAction)
+2022-05-15 19:13:50,407 [ 140404]   INFO - #c.i.u.i.UnindexedFilesUpdater - Scanning completed for OtticaCrisci. Number of scanned files: 823; Number of files for indexing: 0 took 3382ms; general responsiveness: ok; EDT responsiveness: 1/3 sluggish, 1/3 very slow
+2022-05-15 19:13:50,421 [ 140418]   INFO - #c.i.u.i.UnindexedFilesUpdater - Finished for OtticaCrisci. No files to index with loading content.
+2022-05-15 19:13:50,438 [ 140435]   INFO - #c.i.o.p.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRepositoryFileCacheImpl$PruneTask@46ade4ba
+2022-05-15 19:13:50,451 [ 140448]   INFO - #c.i.o.p.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRepositoryFileCacheImpl$ManageLruProjectFilesTask@647be65e
+2022-05-15 19:13:50,658 [ 140655]   WARN - #c.i.o.a.i.ActionUpdater - 363 ms to grab EDT for NewProjectAction#update (com.intellij.ide.actions.NewProjectAction)
+2022-05-15 19:13:50,677 [ 140674]   WARN - #c.i.o.a.i.ActionUpdater - 299 ms to grab EDT for CodeSwapAction#update (com.android.tools.idea.run.ui.CodeSwapAction)
+2022-05-15 19:13:50,742 [ 140739]   WARN - #c.i.o.a.i.ActionUpdater - 4355 ms total to grab EDT 12 times at 'MainToolbar' to expand CustomisedActionGroup (com.intellij.ide.ui.customization.CustomisedActionGroup). Use `UpdateInBackground`.
+2022-05-15 19:13:50,754 [ 140751]   INFO - #c.i.o.p.DumbServiceImpl - updateFinished
+2022-05-15 19:13:50,822 [ 140819]   INFO - #c.i.u.i.ProjectFileBasedIndexStartupActivity - Has changed files: false; project=Project(name=OtticaCrisci, containerState=COMPONENT_CREATED, componentStore=/Users/mc/Documents/Università/OtticaCrisci)
+2022-05-15 19:13:50,908 [ 140905]   INFO - c.i.s.v.a.s.d.SpaceKtsFileDetector - SpaceKtsFileDetector
+2022-05-15 19:13:51,311 [ 141308]   INFO - #c.i.o.p.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRegistry$PopulateCachesTask@4f95d709
+2022-05-15 19:13:51,424 [ 141421]   WARN - #c.i.o.a.i.ActionUpdater - 307 ms to grab EDT for CWMTelephonyGroup#update (com.jetbrains.rd.platform.codeWithMe.telephony.CWMTelephonyGroup)
+2022-05-15 19:13:51,556 [ 141553]   INFO - #c.i.o.p.DumbServiceImpl - updateFinished
+2022-05-15 19:13:51,564 [ 141561]   INFO - #c.i.u.i.ProjectFileBasedIndexStartupActivity - Has changed files: false; project=Project(name=OtticaCrisci, containerState=COMPONENT_CREATED, componentStore=/Users/mc/Documents/Università/OtticaCrisci)
+2022-05-15 19:13:55,080 [ 145077]   INFO - #o.j.j.b.i.CompilerReferenceIndex - backward reference index version doesn't exist
+2022-05-15 19:13:55,092 [ 145089]   INFO - #c.i.c.b.IsUpToDateCheckStartupActivity - suitable consumer is not found
+2022-05-15 19:13:55,103 [ 145100]   INFO - #c.j.r.p.c.CodeWithMeCleanup - running activity to cleanup old thin clients... Root path is '/Users/mc/Library/Caches/JetBrains'. JvmStartTimeMs=1652634689299
+2022-05-15 19:13:55,124 [ 145121]   INFO - #c.j.r.p.c.CodeWithMeCleanup - found 0 Code With Me client system folders to check
+2022-05-15 19:13:55,130 [ 145127]   INFO - #c.j.r.p.c.CodeWithMeCleanup - found 0 Code With Me client config folders to check
+2022-05-15 19:13:55,142 [ 145139]   INFO - #c.j.r.p.c.CodeWithMeCleanup - keep only [] major versions
+2022-05-15 19:13:55,851 [ 145848]   INFO - #c.i.w.i.i.j.s.DelayedProjectSynchronizer - Workspace model loaded from cache. Syncing real project state into workspace model in 694 ms. Thread[ApplicationImpl pooled thread 13,4,main]
+2022-05-15 19:13:58,655 [ 148652]   INFO - #c.i.o.a.i.PopupMenuPreloader - Popup menu 'File' preloaded at 'MainMenu' in 43 ms
+2022-05-15 19:13:58,855 [ 148852]   INFO - #c.i.o.a.i.PopupMenuPreloader - Popup menu 'Edit' preloaded at 'MainMenu' in 240 ms
+2022-05-15 19:14:00,693 [ 150690]   INFO - #c.i.o.a.i.PopupMenuPreloader - Popup menu 'View' preloaded at 'MainMenu' in 74 ms
+2022-05-15 19:14:00,739 [ 150736]   INFO - #c.i.o.a.i.PopupMenuPreloader - Popup menu 'Navigate' preloaded at 'MainMenu' in 120 ms
+2022-05-15 19:14:00,811 [ 150808]   INFO - #c.i.o.a.i.PopupMenuPreloader - Popup menu 'Code' preloaded at 'MainMenu' in 192 ms
+2022-05-15 19:14:00,847 [ 150844]   INFO - #c.i.o.a.i.PopupMenuPreloader - Popup menu 'Build' preloaded at 'MainMenu' in 227 ms
+2022-05-15 19:14:00,996 [ 150993]   INFO - #c.i.o.a.i.PopupMenuPreloader - Popup menu 'Run' preloaded at 'MainMenu' in 376 ms
+2022-05-15 19:14:01,051 [ 151048]   INFO - #c.a.t.i.p.ProjectSystemService - DefaultProjectSystem project system has been detected
+2022-05-15 19:14:01,054 [ 151051]   INFO - #c.i.o.a.i.PopupMenuPreloader - Popup menu 'Tools' preloaded at 'MainMenu' in 434 ms
+2022-05-15 19:14:01,057 [ 151054]   INFO - #c.i.o.a.i.PopupMenuPreloader - Popup menu 'Refactor' preloaded at 'MainMenu' in 437 ms
+2022-05-15 19:14:01,065 [ 151062]   INFO - #c.i.o.a.i.PopupMenuPreloader - Popup menu 'Help' preloaded at 'MainMenu' in 445 ms
+2022-05-15 19:14:01,080 [ 151077]   INFO - #c.i.o.a.i.PopupMenuPreloader - Popup menu 'Window' preloaded at 'MainMenu' in 460 ms
+2022-05-15 19:15:45,724 [ 255721]   WARN - #c.i.u.x.Binding - no accessors for org.jetbrains.idea.perforce.perforce.ConnectionId
+2022-05-15 19:15:45,838 [ 255835]   INFO - #c.i.c.ComponentStoreImpl - Saving Project(name=OtticaCrisci, containerState=COMPONENT_CREATED, componentStore=/Users/mc/Documents/Università/OtticaCrisci)CommitMessageInspectionProfile took 12 ms, PerforceDirect.Settings took 12 ms, ToolWindowManager took 13 ms, XDebuggerManager took 38 ms
+2022-05-15 19:15:46,121 [ 256118]   INFO - #c.j.r.f.FollowMeManager - Unregister user 0:'mc' with ClientId=ClientId(value=Host)
+2022-05-15 19:15:46,498 [ 256495]   INFO - #c.i.c.b.CompilerReferenceServiceBase - backward reference index reader is closed (didn't exist)
+2022-05-15 19:15:46,502 [ 256499]   INFO - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - KCRI storage is closed (didn't exist)
+2022-05-15 19:15:47,154 [ 257151]   INFO - #c.i.c.ComponentStoreImpl - Saving appCodeInsightSettings took 12 ms, FileTypeManager took 270 ms, GeneralSettings took 24 ms, GraziConfig took 11 ms, HttpConfigurable took 19 ms, InspectionProfileManager took 12 ms, PluginAdvertiserExtensions took 22 ms, RecentProjectsManager took 12 ms, TextMateSettings took 19 ms
+2022-05-15 19:15:48,330 [ 258327]   INFO - #c.i.c.ComponentStoreImpl - Saving appEditorColorsManagerImpl took 16 ms, FileTypeManager took 23 ms
+2022-05-15 19:15:49,971 [ 259968]   INFO - #c.i.o.a.i.PopupMenuPreloader - Popup menu 'Help' preloaded at 'MainMenu' in 38 ms
+2022-05-15 19:15:49,991 [ 259988]   INFO - #c.i.o.a.i.PopupMenuPreloader - Popup menu 'File' preloaded at 'MainMenu' in 64 ms
+2022-05-15 19:15:51,237 [ 261234]   INFO - #c.j.r.f.FollowMeManager - Register new user 0:'mc' with ClientId=ClientId(value=Host)
+2022-05-15 19:15:52,762 [ 262759]   INFO - #c.i.i.s.e.u.EventLogExternalUploader - Started external process for uploading event log
+2022-05-15 19:15:52,903 [ 262900]   INFO - #c.i.c.ComponentStoreImpl - Saving appFileTypeManager took 65 ms
+2022-05-15 19:15:52,946 [ 262943]   INFO - c.j.r.f.u.RdCoroutineScope - RdCoroutineHost has been reset
+2022-05-15 19:15:52,952 [ 262949]   INFO - c.j.r.f.u.RdCoroutineScope - RdCoroutineHost disposed
+2022-05-15 19:15:52,965 [ 262962]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Watcher terminated with exit code 0
+2022-05-15 19:15:52,978 [ 262975]   INFO - #o.j.i.BuiltInServer - web server stopped
+2022-05-15 19:15:53,022 [ 263019]   INFO - #c.j.r.f.FollowMeManager - Unregister user 0:'mc' with ClientId=ClientId(value=Host)
+2022-05-15 19:15:53,022 [ 263019]   INFO - #c.j.r.f.FollowMeManager - Unregister user 0:'mc' with ClientId=ClientId(value=Host)
+2022-05-15 19:15:53,030 [ 263027]   INFO - #c.i.u.i.FileBasedIndexImpl - START INDEX SHUTDOWN
+2022-05-15 19:15:53,158 [ 263155]   INFO - #c.i.p.s.StubIndexImpl - StubIndexExtension-s were unloaded
+2022-05-15 19:15:53,159 [ 263156]   INFO - #c.i.p.s.SerializationManagerImpl - Start shutting down /Users/mc/Documents/Università/cASpER/Code/build/idea-sandbox/system/index/rep.names
+2022-05-15 19:15:53,163 [ 263160]   INFO - #c.i.p.s.SerializationManagerImpl - Finished shutting down /Users/mc/Documents/Università/cASpER/Code/build/idea-sandbox/system/index/rep.names
+2022-05-15 19:15:53,332 [ 263329]   INFO - #c.i.u.i.FileBasedIndexImpl - END INDEX SHUTDOWN
+2022-05-15 19:15:53,333 [ 263330]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose started
+2022-05-15 19:15:53,346 [ 263343]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose completed
+2022-05-15 19:15:53,347 [ 263344]   INFO - #c.i.o.f.i.FileTypeDetectionService - 3 auto-detected files. Detection took 2064 ms
+2022-05-15 19:15:53,396 [ 263393]   INFO - #c.i.i.StartupUtil - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------

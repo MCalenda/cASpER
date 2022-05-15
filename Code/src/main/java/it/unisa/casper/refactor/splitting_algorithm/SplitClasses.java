@@ -5,8 +5,11 @@ import it.unisa.casper.storage.beans.*;
 import java.util.*;
 import java.util.regex.Pattern;
 
+import it.unisa.casper.refactor.exceptions.SplittingException;
+import it.unisa.casper.refactor.strategy.SplittingStrategy;
 
-public class SplitClasses {
+
+public class SplitClasses implements SplittingStrategy{
 
     private Vector<String> chains = new Vector<String>();
     private final Pattern splitPattern;
@@ -23,7 +26,7 @@ public class SplitClasses {
      * @return a Collection of ClassBean containing the new classes
      * @throws Exception
      */
-    public Collection<ClassBean> split(ClassBean pToSplit, double pThreshold) throws Exception {
+    public Collection<ClassBean> split(ClassBean pToSplit, double pThreshold) throws SplittingException, Exception {
 
         Collection<ClassBean> result = new Vector<>();
 
