@@ -1,9 +1,0 @@
-<options>
-  <configurable id="preferences.keymap" configurable_name="Keymap">
-    <option name="configure" path="ActionManager" hit="Configure threshold" />
-    <option name="threshold" path="ActionManager" hit="Configure threshold" />
-    <option name="in" path="ActionManager" hit="Run plug-in" />
-    <option name="plug" path="ActionManager" hit="Run plug-in" />
-    <option name="run" path="ActionManager" hit="Run plug-in" />
-  </configurable>
-</options>

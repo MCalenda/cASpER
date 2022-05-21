@@ -8,7 +8,6 @@ import java.util.regex.Pattern;
 import it.unisa.casper.refactor.exceptions.SplittingException;
 import it.unisa.casper.refactor.strategy.SplittingStrategy;
 
-
 public class SplitClasses implements SplittingStrategy{
 
     private Vector<String> chains = new Vector<String>();
@@ -24,8 +23,10 @@ public class SplitClasses implements SplittingStrategy{
      * @param pToSplit   the class to be splitted
      * @param pThreshold the threshold to filter the method-by-method matrix
      * @return a Collection of ClassBean containing the new classes
+     * @throws SplittingException
      * @throws Exception
      */
+    @Override
     public Collection<ClassBean> split(ClassBean pToSplit, double pThreshold) throws SplittingException, Exception {
 
         Collection<ClassBean> result = new Vector<>();

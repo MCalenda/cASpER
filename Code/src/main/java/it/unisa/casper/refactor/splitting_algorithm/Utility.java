@@ -6,41 +6,43 @@ import java.io.PrintWriter;
 
 public class Utility {
 
-    // public static String clean(String toClean) {
-        // toClean = toClean.replace("<", " ");
-        // toClean = toClean.replace(">", " ");
-        // toClean = toClean.replace("\"", " ");
-        // toClean = toClean.replace("</", " ");
-        // toClean = toClean.replace("/>", " ");
-        // toClean = toClean.replace("+", " ");
-        // toClean = toClean.replace("-", " ");
-        // toClean = toClean.replace("/", " ");
-        // toClean = toClean.replace("*", " ");
-        // toClean = toClean.replace("=", " ");
-        // toClean = toClean.replace("@", " ");
-        // toClean = toClean.replace("\t", " ");
-        // toClean = toClean.replace("_", " ");
-        // toClean = toClean.replace("?", " ");
-        // toClean = toClean.replace("{", " ");
-        // toClean = toClean.replace("}", " ");
-        // toClean = toClean.replace("(", " ");
-        // toClean = toClean.replace(")", " ");
-        // toClean = toClean.replace(";", " ");
-        // toClean = toClean.replace("'", " ");
-        // toClean = toClean.replace(".", " ");
-        // toClean = toClean.replace("[", " ");
-        // toClean = toClean.replace("]", " ");
-        // toClean = toClean.replace("&", " ");
-        // toClean = toClean.replace("|", " ");
-        // toClean = toClean.replace("\n", " ");
-        // toClean = toClean.replace(":", " ");
-        // toClean = toClean.replace("#", " ");
-        // toClean = toClean.replace("^", " ");
-        // toClean = toClean.replace("!", " ");
-        // toClean = toClean.replace("$", " ");
-        // toClean = toClean.replaceAll(String.format("%s|%s|%s", "(?<=[A-Z])(?=[A-Z][a-z])", "(?<=[^A-Z])(?=[A-Z])", "(?<=[A-Za-z])(?=[^A-Za-z])"), " ");
-        // return toClean;
-    // }
+     public static String clean(String toClean) {
+         toClean = toClean.replace("<", " ");
+         toClean = toClean.replace(">", " ");
+         toClean = toClean.replace("\"", " ");
+         toClean = toClean.replace("</", " ");
+         toClean = toClean.replace("/>", " ");
+         toClean = toClean.replace("+", " ");
+         toClean = toClean.replace("-", " ");
+         toClean = toClean.replace("/", " ");
+         toClean = toClean.replace("*", " ");
+         toClean = toClean.replace("=", " ");
+         toClean = toClean.replace("@", " ");
+         toClean = toClean.replace("\\t", " ");
+         toClean = toClean.replace("_", " ");
+         toClean = toClean.replace("?", " ");
+         toClean = toClean.replace("{", " ");
+         toClean = toClean.replace("}", " ");
+         toClean = toClean.replace("(", " ");
+         toClean = toClean.replace(")", " ");
+         toClean = toClean.replace(";", " ");
+         toClean = toClean.replace("'", " ");
+         toClean = toClean.replace(".", " ");
+         toClean = toClean.replace(",", " ");
+         toClean = toClean.replace("[", " ");
+         toClean = toClean.replace("]", " ");
+         toClean = toClean.replace("&", " ");
+         toClean = toClean.replace("|", " ");
+         toClean = toClean.replace("\\n", " ");
+         toClean = toClean.replace(":", " ");
+         toClean = toClean.replace("#", " ");
+         toClean = toClean.replace("^", " ");
+         toClean = toClean.replace("!", " ");
+         toClean = toClean.replace("$", " ");
+
+         toClean = toClean.replaceAll(String.format("%s|%s|%s", "(?<=[A-Z])(?=[A-Z][a-z])", "(?<=[^A-Z])(?=[A-Z])", "(?<=[A-Za-z])(?=[^A-Za-z])"), " ");
+         return toClean;
+     }
 
     public static void createStopwordList(File stopwordList) throws IOException {
 
@@ -102,7 +104,13 @@ public class Utility {
         pw.println("instanceof");
         pw.println("short");
         pw.println("implements");
-        pw.println(".get(");
+        pw.println("get");
+        pw.println("java");
+        pw.println("serializable");
+        pw.println("io");
+        pw.println("integer");
+        pw.println("this");
+        pw.println("set");
         pw.println("false");
         pw.println("+");
         pw.println("-");
@@ -413,7 +421,6 @@ public class Utility {
         pw.println("got");
         pw.println("gotta");
         pw.println("gotten");
-        pw.println("get");
         pw.println("gets");
         pw.println("getting");
         pw.println("b");

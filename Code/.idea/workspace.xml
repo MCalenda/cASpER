@@ -1,132 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="47afe1f5-89a3-48a7-a848-fb15bcd093ed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/unisa/casper/refactor/splitting_algorithm/game_theory/TopicExtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cc/mallet/util/resources/logging.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/it/unisa/casper/parser/PsiParser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/it/unisa/casper/parser/PsiParser$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/it/unisa/casper/parser/PsiParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/it/unisa/casper/parser/PsiParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/it/unisa/casper/parser/PsiParser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/it/unisa/casper/parser/PsiParser$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/it/unisa/casper/parser/PsiParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/it/unisa/casper/parser/PsiParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/casper-1.0-SNAPSHOT.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/casper-1.1.2.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/casper-1.1.2.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/config/options/colors.scheme.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/config/options/colors.scheme.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/it/unisa/casper/gui/BlobPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/it/unisa/casper/gui/BlobPage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/it/unisa/casper/gui/BlobPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/it/unisa/casper/gui/BlobPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/it/unisa/casper/refactor/splitting_algorithm/MethodByMethodMatrixConstruction.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/it/unisa/casper/refactor/splitting_algorithm/MethodByMethodMatrixConstruction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/it/unisa/casper/refactor/splitting_algorithm/SplitClasses.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/it/unisa/casper/refactor/splitting_algorithm/SplitClasses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/it/unisa/casper/refactor/splitting_algorithm/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/it/unisa/casper/refactor/splitting_algorithm/Utility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/it/unisa/casper/gui/BlobPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/it/unisa/casper/gui/BlobPage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/it/unisa/casper/gui/BlobPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/it/unisa/casper/gui/BlobPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/it/unisa/casper/refactor/splitting_algorithm/MethodByMethodMatrixConstruction.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/it/unisa/casper/refactor/splitting_algorithm/MethodByMethodMatrixConstruction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/it/unisa/casper/refactor/splitting_algorithm/SplitClasses.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/it/unisa/casper/refactor/splitting_algorithm/SplitClasses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/it/unisa/casper/refactor/splitting_algorithm/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/it/unisa/casper/refactor/splitting_algorithm/Utility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test-instrumented/it/unisa/casper/JUnitTestSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test-instrumented/it/unisa/casper/TestRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test-instrumented/it/unisa/casper/analysis/code_smell_detection/BeanDetectionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test-instrumented/it/unisa/casper/analysis/code_smell_detection/Helper/CKMetricsStub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test-instrumented/it/unisa/casper/analysis/code_smell_detection/Helper/CosineSimilarityStub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test-instrumented/it/unisa/casper/analysis/code_smell_detection/Helper/SmellynessMetricStub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test-instrumented/it/unisa/casper/analysis/code_smell_detection/blob/StructuralBlobStrategyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test-instrumented/it/unisa/casper/analysis/code_smell_detection/blob/TextualBlobStrategyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test-instrumented/it/unisa/casper/analysis/code_smell_detection/feature_envy/StructuralFeatureEnvyStrategyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test-instrumented/it/unisa/casper/analysis/code_smell_detection/feature_envy/TextualFeatureEnvyStrategyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test-instrumented/it/unisa/casper/analysis/code_smell_detection/misplaced_class/StructuralMisplacedClassStrategyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test-instrumented/it/unisa/casper/analysis/code_smell_detection/misplaced_class/TextualMisplacedClassStrategyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test-instrumented/it/unisa/casper/analysis/code_smell_detection/promiscuous_package/StructuralPromiscuousPackageStrategyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test-instrumented/it/unisa/casper/analysis/code_smell_detection/promiscuous_package/TextualPromiscuousPackageStrategyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test-instrumented/it/unisa/casper/refactor/SplitClassTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test-instrumented/it/unisa/casper/refactor/SplitPackagesTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/it/unisa/casper/JUnitTestSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/it/unisa/casper/TestRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/it/unisa/casper/analysis/code_smell_detection/BeanDetectionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/it/unisa/casper/analysis/code_smell_detection/Helper/CKMetricsStub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/it/unisa/casper/analysis/code_smell_detection/Helper/CosineSimilarityStub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/it/unisa/casper/analysis/code_smell_detection/Helper/SmellynessMetricStub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/it/unisa/casper/analysis/code_smell_detection/blob/StructuralBlobStrategyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/it/unisa/casper/analysis/code_smell_detection/blob/TextualBlobStrategyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/it/unisa/casper/analysis/code_smell_detection/feature_envy/StructuralFeatureEnvyStrategyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/it/unisa/casper/analysis/code_smell_detection/feature_envy/TextualFeatureEnvyStrategyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/it/unisa/casper/analysis/code_smell_detection/misplaced_class/StructuralMisplacedClassStrategyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/it/unisa/casper/analysis/code_smell_detection/misplaced_class/TextualMisplacedClassStrategyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/it/unisa/casper/analysis/code_smell_detection/promiscuous_package/StructuralPromiscuousPackageStrategyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/it/unisa/casper/analysis/code_smell_detection/promiscuous_package/TextualPromiscuousPackageStrategyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/it/unisa/casper/refactor/SplitClassTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/it/unisa/casper/refactor/SplitPackagesTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/casper-1.1.2.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/config/options/debugger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/config/options/debugger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/config/options/dimensions.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/config/options/git.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/config/options/ide.general.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/config/options/ide.general.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/config/options/images.support.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/config/options/images.support.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/config/options/jdk.table.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/config/options/laf.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/config/options/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/config/options/other.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/config/options/recentProjects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/config/options/recentProjects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/config/options/recentProjects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/config/options/updates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/config/options/updates.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/config/options/usage.statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/config/options/usage.statistics.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/config/options/window.manager.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/config/tasks/ProgettiTest.contexts.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/config/tasks/ProgettiTest.tasks.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/LocalHistory/changes.storageData" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/LocalHistory/changes.storageRecordIndex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/LocalHistory/changes.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/LocalHistory/changes.storageData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/LocalHistory/changes.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/LocalHistory/changes.storageRecordIndex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/attrib.dat.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/attrib.dat.storageData" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/attrib.dat.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/attrib.dat.storageRecordIndex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/content.dat.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/content.dat.storageData" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/content.dat.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/content.dat.storageRecordIndex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat.keystream.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat_i.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat_i.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/records.dat" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/records.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/records.dat.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/records.dat.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/vfs_enum_attrib.dat" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/vfs_enum_attrib.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/compile-server/progettitest_31fc6e61/stale_outputs_checked" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/compile-server/progettitest_31fc6e61/ustamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/conversion/ProgettiTest7f46cf18.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/frameworks/detection/ProgettiTest.7f46cf18/files" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/frameworks/detection/ProgettiTest.7f46cf18/files.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/hashesWithFileType" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/hashesWithFileType" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/hashesWithFileType.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/hashesWithFileType.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/hashesWithFileType_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/hashesWithFileType_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/bytecodeanalysis/values" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/bytecodeanalysis/values" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/idindex/values" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/idindex/values" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/trigram.index/values" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/trigram.index/values" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/ant-imports/ant-imports.storage" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/ant-imports/ant-imports.storage" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/ant-imports/ant-imports.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/ant-imports/ant-imports.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/ant-imports/ant-imports_inputs" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/ant-imports/ant-imports_inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/bytecodeanalysis/bytecodeAnalysis.storage" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/bytecodeanalysis/bytecodeAnalysis.storage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/bytecodeanalysis/bytecodeAnalysis.storage.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/bytecodeanalysis/bytecodeAnalysis.storage.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/bytecodeanalysis/bytecodeAnalysis.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/bytecodeanalysis/bytecodeAnalysis.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/bytecodeanalysis/fileIdToHashId" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/bytecodeanalysis/fileIdToHashId" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/domfileindex/DomFileIndex.storage" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/domfileindex/DomFileIndex.storage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/domfileindex/DomFileIndex.storage.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/domfileindex/DomFileIndex.storage.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/domfileindex/DomFileIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/domfileindex/DomFileIndex.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/domfileindex/DomFileIndex_inputs" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/domfileindex/DomFileIndex_inputs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/editorconfig.index.name/editorconfig.index.name.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/editorconfig.index.name/editorconfig.index.name.ver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/fileincludes/fileIncludes.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/fileincludes/fileIncludes.ver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex.project.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex.storage" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex.storage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex.storage.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex.storage.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex.storage.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex.storage.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex.storage.values" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex.storage.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex.storage.values.s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex.storage_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex.storage_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex.ver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex_inputs" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex_inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex_inputs.values" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex_inputs.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex_inputs.values.s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex_inputs_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex_inputs_i.len" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/filetypes/filetypes.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/filetypes/filetypes.ver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/formclassindex/FormClassIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/formclassindex/FormClassIndex.ver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/frameworkdetectionindex/FrameworkDetectionIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/frameworkdetectionindex/FrameworkDetectionIndex.ver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/groovy.trait.fields/groovy.trait.fields.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/groovy.trait.fields/groovy.trait.fields.ver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/groovy.trait.fields/groovy.trait.fields_inputs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/groovy.trait.fields/groovy.trait.fields_inputs.len" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/groovy.trait.methods/groovy.trait.methods.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/groovy.trait.methods/groovy.trait.methods.ver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/groovydslfileindex/GroovyDslFileIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/groovydslfileindex/GroovyDslFileIndex.ver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/html5.custom.attributes.index/html5.custom.attributes.index.storage" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/html5.custom.attributes.index/html5.custom.attributes.index.storage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/html5.custom.attributes.index/html5.custom.attributes.index.storage.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/html5.custom.attributes.index/html5.custom.attributes.index.storage.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/html5.custom.attributes.index/html5.custom.attributes.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/html5.custom.attributes.index/html5.custom.attributes.index.ver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/html5.custom.attributes.index/html5.custom.attributes.index_inputs" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/html5.custom.attributes.index/html5.custom.attributes.index_inputs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/ideapluginregistrationindex/IdeaPluginRegistrationIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/ideapluginregistrationindex/IdeaPluginRegistrationIndex.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/idindex/IdIndex.storage" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/idindex/IdIndex.storage" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/idindex/IdIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/idindex/IdIndex.ver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/imagefileinfoindex/ImageFileInfoIndex.storage" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/imagefileinfoindex/ImageFileInfoIndex.storage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/imagefileinfoindex/ImageFileInfoIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/imagefileinfoindex/ImageFileInfoIndex.ver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/imagefileinfoindex/ImageFileInfoIndex_inputs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/imagefileinfoindex/ImageFileInfoIndex_inputs.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/idindex/fileIdToHashId" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/idindex/fileIdToHashId" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/indices.config" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/indices.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/indices.enum" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/indices.enum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.auto.module.name/java.auto.module.name.storage" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.auto.module.name/java.auto.module.name.storage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.auto.module.name/java.auto.module.name.storage.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.auto.module.name/java.auto.module.name.storage.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.auto.module.name/java.auto.module.name.storage.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.auto.module.name/java.auto.module.name.storage.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.auto.module.name/java.auto.module.name.storage.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.auto.module.name/java.auto.module.name.storage.keystream.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.auto.module.name/java.auto.module.name.storage.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.auto.module.name/java.auto.module.name.storage.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.auto.module.name/java.auto.module.name.storage.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.auto.module.name/java.auto.module.name.storage_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.auto.module.name/java.auto.module.name.storage_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.auto.module.name/java.auto.module.name.storage.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.auto.module.name/java.auto.module.name.storage.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.auto.module.name/java.auto.module.name.storage_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.auto.module.name/java.auto.module.name.storage_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.auto.module.name/java.auto.module.name.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.auto.module.name/java.auto.module.name.ver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.auto.module.name/java.auto.module.name_inputs" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.auto.module.name/java.auto.module.name_inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.auto.module.name/java.auto.module.name_inputs.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.auto.module.name/java.auto.module.name_inputs_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.auto.module.name/java.auto.module.name_inputs_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.auto.module.name/java.auto.module.name_inputs.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.auto.module.name/java.auto.module.name_inputs.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.auto.module.name/java.auto.module.name_inputs_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.auto.module.name/java.auto.module.name_inputs_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.binary.plus.expression/java.binary.plus.expression.storage" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.binary.plus.expression/java.binary.plus.expression.storage" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.binary.plus.expression/java.binary.plus.expression.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.binary.plus.expression/java.binary.plus.expression.ver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.fun.expression/java.fun.expression.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.fun.expression/java.fun.expression.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.null.method.argument/java.null.method.argument.storage" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.null.method.argument/java.null.method.argument.storage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.null.method.argument/java.null.method.argument.storage.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.null.method.argument/java.null.method.argument.storage.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.null.method.argument/java.null.method.argument.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.null.method.argument/java.null.method.argument.ver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.simple.property/java.simple.property.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/java.simple.property/java.simple.property.ver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/javafx.custom.component/javafx.custom.component.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/javafx.custom.component/javafx.custom.component.ver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/javafx.id.name/javafx.id.name.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/javafx.id.name/javafx.id.name.ver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/javafxcontrollerclassindex/JavaFxControllerClassIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/javafxcontrollerclassindex/JavaFxControllerClassIndex.ver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/json.file.root.values/json.file.root.values.storage" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/json.file.root.values/json.file.root.values.storage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/json.file.root.values/json.file.root.values.storage.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/json.file.root.values/json.file.root.values.storage.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/json.file.root.values/json.file.root.values.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/json.file.root.values/json.file.root.values.ver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/json.file.root.values/json.file.root.values_inputs" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/json.file.root.values/json.file.root.values_inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/org.jetbrains.kotlin.ide.konan.index.kotlinnativemetafileindex/org.jetbrains.kotlin.ide.konan.index.KotlinNativeMetaFileIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/org.jetbrains.kotlin.ide.konan.index.kotlinnativemetafileindex/org.jetbrains.kotlin.ide.konan.index.KotlinNativeMetaFileIndex.ver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/org.jetbrains.kotlin.idea.versions.kotlinjsmetadataversionindex/org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/org.jetbrains.kotlin.idea.versions.kotlinjsmetadataversionindex/org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex.ver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/org.jetbrains.kotlin.idea.versions.kotlinjvmmetadataversionindex/org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/org.jetbrains.kotlin.idea.versions.kotlinjvmmetadataversionindex/org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex.ver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/org.jetbrains.kotlin.idea.vfilefinder.kotlinclassfileindex/org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/org.jetbrains.kotlin.idea.vfilefinder.kotlinclassfileindex/org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex.ver" afterDir="false" />
@@ -136,26 +130,16 @@
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/org.jetbrains.kotlin.idea.vfilefinder.kotlinmetadatafilepackageindex/org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/org.jetbrains.kotlin.idea.vfilefinder.kotlinmetadatafilepackageindex/org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex.ver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/org.jetbrains.kotlin.idea.vfilefinder.kotlinmodulemappingindex/org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/org.jetbrains.kotlin.idea.vfilefinder.kotlinmodulemappingindex/org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex.ver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/org.jetbrains.kotlin.idea.vfilefinder.kotlinpackagesourcesmembernamesindex/org.jetbrains.kotlin.idea.vfilefinder.KotlinPackageSourcesMemberNamesIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/org.jetbrains.kotlin.idea.vfilefinder.kotlinpackagesourcesmembernamesindex/org.jetbrains.kotlin.idea.vfilefinder.KotlinPackageSourcesMemberNamesIndex.ver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/refqueueindex/RefQueueIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/refqueueindex/RefQueueIndex.ver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/registered" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/registered" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/relaxsymbolindex/RelaxSymbolIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/relaxsymbolindex/RelaxSymbolIndex.ver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/rep.names" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/rep.names" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/rep.names.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/rep.names.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/rep.names.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/rep.names.keystream.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/rep.names_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/rep.names_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/schematypeinheritance/SchemaTypeInheritance.storage" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/schematypeinheritance/SchemaTypeInheritance.storage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/schematypeinheritance/SchemaTypeInheritance.storage.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/schematypeinheritance/SchemaTypeInheritance.storage.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/schematypeinheritance/SchemaTypeInheritance.storage.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/schematypeinheritance/SchemaTypeInheritance.storage.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/schematypeinheritance/SchemaTypeInheritance.storage.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/schematypeinheritance/SchemaTypeInheritance.storage_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/schematypeinheritance/SchemaTypeInheritance.storage_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/schematypeinheritance/SchemaTypeInheritance.storage.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/schematypeinheritance/SchemaTypeInheritance.storage.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/schematypeinheritance/SchemaTypeInheritance.storage.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/schematypeinheritance/SchemaTypeInheritance.storage.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/schematypeinheritance/SchemaTypeInheritance.storage_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/schematypeinheritance/SchemaTypeInheritance.storage_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/schematypeinheritance/SchemaTypeInheritance.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/schematypeinheritance/SchemaTypeInheritance.ver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/schematypeinheritance/SchemaTypeInheritance_inputs" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/schematypeinheritance/SchemaTypeInheritance_inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/schematypeinheritance/SchemaTypeInheritance_inputs.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/schematypeinheritance/SchemaTypeInheritance_inputs_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/schematypeinheritance/SchemaTypeInheritance_inputs_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.fileTypes/indexed_filetypes" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.fileTypes/indexed_filetypes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/schematypeinheritance/SchemaTypeInheritance_inputs.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/schematypeinheritance/SchemaTypeInheritance_inputs.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/schematypeinheritance/SchemaTypeInheritance_inputs_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/schematypeinheritance/SchemaTypeInheritance_inputs_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/dom.elementClass.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/dom.elementClass.ver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/dom.namespaceKey.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/dom.namespaceKey.ver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/gr.annot.members.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/gr.annot.members.ver" afterDir="false" />
@@ -206,119 +190,216 @@
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasByExpansionShortNameIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasByExpansionShortNameIndex.ver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasShortNameIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasShortNameIndex.ver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/properties.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/properties.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/Stubs.storage" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/Stubs.storage" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/Stubs.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/Stubs.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/java.annotations/java.annotations.storage" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/java.annotations/java.annotations.storage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/java.annotations/java.annotations.storage.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/java.annotations/java.annotations.storage.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/java.class.extlist/java.class.extlist.storage" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/java.class.extlist/java.class.extlist.storage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/java.class.extlist/java.class.extlist.storage.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/java.class.extlist/java.class.extlist.storage.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/java.class.fqn/java.class.fqn.storage" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/java.class.fqn/java.class.fqn.storage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/java.class.shortname/java.class.shortname.storage" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/java.class.shortname/java.class.shortname.storage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/java.class.shortname/java.class.shortname.storage.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/java.class.shortname/java.class.shortname.storage.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/java.field.name/java.field.name.storage" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/java.field.name/java.field.name.storage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/java.field.name/java.field.name.storage.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/java.field.name/java.field.name.storage.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/java.method.name/java.method.name.storage" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/java.method.name/java.method.name.storage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/java.method.name/java.method.name.storage.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/java.method.name/java.method.name.storage.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/java.method.parameter.types/java.method.parameter.types.storage" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/java.method.parameter.types/java.method.parameter.types.storage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/java.method.parameter.types/java.method.parameter.types.storage.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/java.method.parameter.types/java.method.parameter.types.storage.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/jvm.static.member.name/jvm.static.member.name.storage" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/jvm.static.member.name/jvm.static.member.name.storage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/jvm.static.member.name/jvm.static.member.name.storage.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/jvm.static.member.name/jvm.static.member.name.storage.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/jvm.static.member.type/jvm.static.member.type.storage" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/jvm.static.member.type/jvm.static.member.type.storage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/jvm.static.member.type/jvm.static.member.type.storage.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/jvm.static.member.type/jvm.static.member.type.storage.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/properties.index/properties.index.storage" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/properties.index/properties.index.storage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/properties.index/properties.index.storage.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/properties.index/properties.index.storage.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/todoindex/TodoIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/todoindex/TodoIndex.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/trigram.index/Trigram.Index.storage" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/trigram.index/Trigram.Index.storage" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/trigram.index/Trigram.Index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/trigram.index/Trigram.Index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/trigram.index/fileIdToHashId" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/trigram.index/fileIdToHashId" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmlnamespaces/XmlNamespaces.storage" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmlnamespaces/XmlNamespaces.storage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmlnamespaces/XmlNamespaces.storage.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmlnamespaces/XmlNamespaces.storage.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmlnamespaces/XmlNamespaces.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmlnamespaces/XmlNamespaces.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmlnamespaces/XmlNamespaces_inputs" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmlnamespaces/XmlNamespaces_inputs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmlproperties/xmlProperties.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmlproperties/xmlProperties.ver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmltagnames/XmlTagNames.storage" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmltagnames/XmlTagNames.storage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmltagnames/XmlTagNames.storage.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmltagnames/XmlTagNames.storage.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmltagnames/XmlTagNames.storage.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmltagnames/XmlTagNames.storage.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmltagnames/XmlTagNames.storage.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmltagnames/XmlTagNames.storage.keystream.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmltagnames/XmlTagNames.storage.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmltagnames/XmlTagNames.storage.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmltagnames/XmlTagNames.storage.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmltagnames/XmlTagNames.storage_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmltagnames/XmlTagNames.storage_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmltagnames/XmlTagNames.storage.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmltagnames/XmlTagNames.storage.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmltagnames/XmlTagNames.storage_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmltagnames/XmlTagNames.storage_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmltagnames/XmlTagNames.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmltagnames/XmlTagNames.ver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmltagnames/XmlTagNames_inputs" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmltagnames/XmlTagNames_inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmltagnames/XmlTagNames_inputs.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmltagnames/XmlTagNames_inputs_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmltagnames/XmlTagNames_inputs_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmltagnames/XmlTagNames_inputs.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmltagnames/XmlTagNames_inputs.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmltagnames/XmlTagNames_inputs_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmltagnames/XmlTagNames_inputs_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/xsltsymbolindex/XsltSymbolIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/xsltsymbolindex/XsltSymbolIndex.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/yaml.keys.name/yaml.keys.name.storage" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/yaml.keys.name/yaml.keys.name.storage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/yaml.keys.name/yaml.keys.name.storage.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/yaml.keys.name/yaml.keys.name.storage.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/yaml.keys.name/yaml.keys.name.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/yaml.keys.name/yaml.keys.name.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/yaml.keys.name/yaml.keys.name_inputs" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/yaml.keys.name/yaml.keys.name_inputs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/log/idea.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/log/idea.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/resource_folder_cache/cache_version" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/resource_folder_cache/project_lru_list.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/testHistory/7f46cf18/testStateMap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/testHistory/7f46cf18/testStateMap.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/hashes/7f46cf18.29dfd798.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/hashes/7f46cf18.29dfd798.6.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/hashes/7f46cf18.29dfd798.6.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/hashes/7f46cf18.29dfd798.6.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/hashes/7f46cf18.29dfd798.6_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/hashes/7f46cf18.29dfd798.6_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.commits.17.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.commits.17.0.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.commits.17.0_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.commits.17.0_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.committers.17.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.committers.17.0.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.messages.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.messages.6.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.messages.6.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.messages.6_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.messages.6_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.parents.17.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.parents.17.0.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.parents.17.0.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.parents.17.0_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.parents.17.0_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.paths-ids.17.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.paths-ids.17.0.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.paths-ids.17.0.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.paths-ids.17.0.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.paths-ids.17.0_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.paths-ids.17.0_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.paths.17.0.storage" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.paths.17.0.storage.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.paths.17.0.storage.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.paths.17.0.storage_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.paths.17.0.storage_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.renames-map.17.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.renames-map.17.0.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.renames.17.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.renames.17.0.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.renames.17.0_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.renames.17.0_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.timestamps.17.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.timestamps.17.0.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.timestamps.17.0.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.timestamps.17.0_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.timestamps.17.0_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.trigrams.17.0.storage" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.trigrams.17.0.storage.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.trigrams.17.0.storage.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.trigrams.17.0.storage_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.trigrams.17.0.storage_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.users-ids.17.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.users-ids.17.0.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.users-ids.17.0.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.users-ids.17.0.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.users-ids.17.0_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.users-ids.17.0_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.users.17.0.storage" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.users.17.0.storage.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.users.17.0.storage.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.users.17.0.storage_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.users.17.0.storage_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.users.idx.17.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.users.idx.17.0.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.users.idx.17.0.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.users.idx.17.0_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/index/7f46cf18.29dfd798.users.idx.17.0_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/refs/7f46cf18.29dfd798.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-log/refs/7f46cf18.29dfd798.7.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-users/7f46cf18.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-users/7f46cf18.2.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-users/7f46cf18.2.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-users/7f46cf18.2.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-users/7f46cf18.2_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/vcs-users/7f46cf18.2_i.len" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/workspace/app.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/workspace/app.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/workspace/progettitest.7f46cf18.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/ascetic-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/casper-1.0-SNAPSHOT.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/casper-1.1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/casper-1.1.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libsSearchableOptions/lib/searchableOptions-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libsSearchableOptions/lib/searchableOptions-1.1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libsSearchableOptions/lib/searchableOptions-1.1.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/searchableOptions/ascetic-1.0-SNAPSHOT.jar/search/ascetic-1.0-SNAPSHOT.jar.searchableOptions.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/searchableOptions/casper-1.0-SNAPSHOT.jar/search/casper-1.0-SNAPSHOT.jar.searchableOptions.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/searchableOptions/jvm-ide.jar/search/jvm-ide.jar.searchableOptions.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/searchableOptions/maven-ide.jar/search/maven-ide.jar.searchableOptions.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/unisa/casper/parser/PsiParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/unisa/casper/parser/PsiParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libsSearchableOptions/lib/searchableOptions-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/it.unisa.casper.analysis.code_smell_detection.BeanDetectionTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/it.unisa.casper.analysis.code_smell_detection.blob.StructuralBlobStrategyTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/it.unisa.casper.analysis.code_smell_detection.blob.TextualBlobStrategyTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/it.unisa.casper.analysis.code_smell_detection.feature_envy.StructuralFeatureEnvyStrategyTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/it.unisa.casper.analysis.code_smell_detection.misplaced_class.StructuralMisplacedClassStrategyTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/it.unisa.casper.analysis.code_smell_detection.misplaced_class.TextualMisplacedClassStrategyTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/it.unisa.casper.analysis.code_smell_detection.promiscuous_package.StructuralPromiscuousPackageStrategyTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/it.unisa.casper.refactor.SplitClassTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/it.unisa.casper.refactor.SplitPackagesTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/it.unisa.casper.analysis.code_smell_detection.blob.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/it.unisa.casper.analysis.code_smell_detection.feature_envy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/it.unisa.casper.analysis.code_smell_detection.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/it.unisa.casper.analysis.code_smell_detection.misplaced_class.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/it.unisa.casper.analysis.code_smell_detection.promiscuous_package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/it.unisa.casper.refactor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/markerFile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/alpn-api-1.1.3.v20160715.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/annotations-13.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/assertj-core-3.17.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/assertj-swing-3.17.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/assertj-swing-junit-3.17.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/bcprov-jdk15on-1.70.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/commons-io-2.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/config-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/converter-gson-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/fest-reflect-1.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/fest-util-1.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/gson-2.8.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/junit-4.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/kotlin-reflect-1.6.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/kotlin-stdlib-1.6.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/kotlin-stdlib-common-1.6.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/kotlin-stdlib-jdk7-1.6.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/kotlin-stdlib-jdk8-1.6.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/kotlinx-coroutines-core-jvm-1.3.9-native-mt-2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/kotlinx-coroutines-jdk8-1.3.9-native-mt-2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/ktor-gson-jvm-1.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/ktor-http-cio-jvm-1.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/ktor-http-jvm-1.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/ktor-io-jvm-1.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/ktor-network-jvm-1.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/ktor-server-core-jvm-1.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/ktor-server-host-common-jvm-1.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/ktor-server-netty-jvm-1.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/ktor-utils-jvm-1.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/log4j-api-2.17.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/log4j-core-2.17.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/logback-classic-1.2.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/logback-core-1.2.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/netty-buffer-4.1.51.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/netty-codec-4.1.51.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/netty-codec-http-4.1.51.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/netty-codec-http2-4.1.51.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/netty-common-4.1.51.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/netty-handler-4.1.51.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/netty-resolver-4.1.51.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/netty-transport-4.1.51.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/netty-transport-native-epoll-4.1.51.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/netty-transport-native-kqueue-4.1.51.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/netty-transport-native-unix-common-4.1.51.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/okhttp-3.14.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/okio-1.17.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/remote-robot.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/retrofit-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/rhino-1.7.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/robot-server-plugin-0.11.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/searchableOptions-0.11.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robotServerPlugin/robot-server-plugin/lib/slf4j-api-1.7.32.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/Groovy.jar/search/Groovy.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/PerforceIntegration.jar/search/PerforceIntegration.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/adt-ui.jar/search/adt-ui.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/android.jar/search/android.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/antIntegration.jar/search/antIntegration.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/app.jar/search/app.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/byteCodeViewer.jar/search/byteCodeViewer.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/casper-1.1.2.jar/search/casper-1.1.2.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/completionMlRanking.jar/search/completionMlRanking.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/copyright.jar/search/copyright.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/coverage.jar/search/coverage.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/cwm-common.jar/search/cwm-common.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/cwm-host.jar/search/cwm-host.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/cwm-plugin-terminal.jar/search/cwm-plugin-terminal.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/devkit.jar/search/devkit.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/dom-impl.jar/search/dom-impl.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/dom-openapi.jar/search/dom-openapi.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/eclipse.jar/search/eclipse.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/editorconfig.jar/search/editorconfig.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/emojipicker.jar/search/emojipicker.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/featuresTrainer.jar/search/featuresTrainer.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/git4idea.jar/search/git4idea.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/github.jar/search/github.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/gradle-java-maven.jar/search/gradle-java-maven.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/gradle-java.jar/search/gradle-java.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/gradle.jar/search/gradle.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/grazie.jar/search/grazie.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/hg4idea.jar/search/hg4idea.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/idea-junit.jar/search/idea-junit.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/indexing-shared.jar/search/indexing-shared.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/java-decompiler.jar/search/java-decompiler.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/java-i18n.jar/search/java-i18n.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/java-impl.jar/search/java-impl.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/javaFX.jar/search/javaFX.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/kotlin-plugin.jar/search/kotlin-plugin.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/lombok.jar/search/lombok.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/markdown.jar/search/markdown.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/marketplace.jar/search/marketplace.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/maven.jar/search/maven.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/packageSearch.jar/search/packageSearch.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/platform-images.jar/search/platform-images.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/platform-statistics-devkit.jar/search/platform-statistics-devkit.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/platform-tracing-ide.jar/search/platform-tracing-ide.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/properties.jar/search/properties.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/qodana.jar/search/qodana.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/searchEverywhereMl.jar/search/searchEverywhereMl.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/settings-repository.jar/search/settings-repository.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/settingsSync.jar/search/settingsSync.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/sh.jar/search/sh.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/space.jar/search/space.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/stream-debugger.jar/search/stream-debugger.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/structuralsearch.jar/search/structuralsearch.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/svn4idea.jar/search/svn4idea.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/tasks-core.jar/search/tasks-core.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/terminal.jar/search/terminal.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/testng-plugin.jar/search/testng-plugin.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/textmate.jar/search/textmate.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/toml.jar/search/toml.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/uiDesigner.jar/search/uiDesigner.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/vcs-changeReminder.jar/search/vcs-changeReminder.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/vcs-refactoring-detector.jar/search/vcs-refactoring-detector.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/xpath.jar/search/xpath.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/yaml.jar/search/yaml.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-it.unisa.casper.analysis.code_smell_detection.BeanDetectionTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-it.unisa.casper.analysis.code_smell_detection.blob.StructuralBlobStrategyTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-it.unisa.casper.analysis.code_smell_detection.blob.TextualBlobStrategyTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-it.unisa.casper.analysis.code_smell_detection.feature_envy.StructuralFeatureEnvyStrategyTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-it.unisa.casper.analysis.code_smell_detection.misplaced_class.StructuralMisplacedClassStrategyTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-it.unisa.casper.analysis.code_smell_detection.misplaced_class.TextualMisplacedClassStrategyTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-it.unisa.casper.analysis.code_smell_detection.promiscuous_package.StructuralPromiscuousPackageStrategyTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-it.unisa.casper.refactor.SplitClassTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-it.unisa.casper.refactor.SplitPackagesTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/jarSearchableOptions/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/unisa/casper/gui/BlobPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/unisa/casper/gui/BlobPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/unisa/casper/refactor/splitting_algorithm/MethodByMethodMatrixConstruction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/unisa/casper/refactor/splitting_algorithm/MethodByMethodMatrixConstruction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/unisa/casper/refactor/splitting_algorithm/SplitClasses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/unisa/casper/refactor/splitting_algorithm/SplitClasses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/unisa/casper/refactor/splitting_algorithm/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/unisa/casper/refactor/splitting_algorithm/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/unisa/casper/refactor/splitting_algorithm/game_theory/GameTheorySplitClasses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/unisa/casper/refactor/splitting_algorithm/game_theory/GameTheorySplitClasses.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -328,19 +409,6 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/../.." userTempatePath="" />
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/it/unisa/casper/parser/PsiParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>System.out</find>
@@ -374,11 +442,15 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="871" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectId" id="29OWgjROl1zHV4j3HPvYHA05xzM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -468,16 +540,15 @@
       </pane>
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "/Users/mc/Documents/Università/cASpER/Code"
+  }
+}]]></component>
   <component name="PsiViewer.ProjectComponent">
     <option name="HIGHLIGHT" value="false" />
     <option name="FILTER_WHITESPACE" value="false" />
@@ -485,18 +556,6 @@
     <option name="SPLIT_DIVIDER_POSITION" value="300" />
     <option name="AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="AUTOSCROLL_FROM_SOURCE" value="false" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Gradle.cASpER">
     <configuration name="cASpER [buildPlugin]" type="GradleRunConfiguration" factoryName="Gradle">
@@ -515,7 +574,9 @@
         </option>
         <option name="vmOptions" value="" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <configuration name="cASpER" type="GradleRunConfiguration" factoryName="Gradle">
@@ -534,7 +595,9 @@
         </option>
         <option name="vmOptions" value="" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <configuration name="JUnitTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -563,6 +626,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -661,18 +725,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-    <buildFile url="file://$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml">
-      <expanded value="true" />
-    </buildFile>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/casper$cASpER.ic" NAME="cASpER Coverage Results" MODIFIED="1574294040175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/casper$JUnitTestSuite.ic" NAME="JUnitTestSuite Coverage Results" MODIFIED="1575921719526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>it.unisa.casper.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/casper$cASpER.ic" NAME="cASpER Coverage Results" MODIFIED="1574294040175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml">

@@ -7,6 +7,31 @@
             <ProjectPluginTracker />
           </value>
         </entry>
+        <entry key="29NvTDMVGCkbGfJhwSxBlZykUko">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="29OWKnIsOHg2lZrttdtmugyqCcV">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="29OWgjROl1zHV4j3HPvYHA05xzM">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="29OakQjznqLIyGx4mkv9W7wem61">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="29QPluOnsK3s1PILd6QgOnCacIY">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
       </map>
     </trackers>
   </component>
@@ -16,14 +41,24 @@
     "NextRunPlatformUpdateBuild": "IC-221.5591.52/2022.1.1",
     "NextRunPlatformUpdateVersion": "2022.1.1",
     "RunOnceActivity.se.text.search": "true",
+    "build.toolwindow.Sync.selection.state": "com.intellij.build.BuildTreeConsoleView",
     "bundled.plugins.list.saved.version": "IC-221.5080.210",
+    "com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor": "Sources",
+    "create.project.preferred.importer": "Existing sources",
+    "defaultJdkConfigured": "true",
+    "defaultpackageserviceconfig.fulltext": "https://package-search.services.jetbrains.com/api/search/idea/fulltext",
+    "defaultpackageserviceconfig.suggest": "https://package-search.services.jetbrains.com/api/search/idea/suggest",
+    "defaultpackageserviceconfig.updated.ts": "1652986926259",
     "eclipse.projects.detected": "",
+    "file.gist.reindex.count": "20",
     "fileTypeChangedCounter": "1",
     "got.it.tooltip.cwm.invitation.notification": "1",
     "gotit.previous.run": "IC-221.5080.210",
     "ide.memory.adjusted": "true",
     "ide.updates.whats.new.shown.for": "221",
     "installed.kotlin.plugin.version": "221-1.6.20-release-285-IJ5080.210",
+    "kotlin.updates.whats.new.shown.for": "1.6.20",
+    "last.imported.location": "/Users/mc/IdeaProjects/store-pos",
     "registry.to.advanced.settings.migration.build": "IC-221.5080.210",
     "tasks.pass.word.conversion.enforced": "true"
   },
@@ -33,6 +68,9 @@
       "com.android.tools.idea.sqlite.fileType.SqliteFileTypeDetector",
       "com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector",
       "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ],
+    "kotlin-gradle-user-dirs": [
+      "/Users/mc/.gradle"
     ]
   }
 }]]></component>

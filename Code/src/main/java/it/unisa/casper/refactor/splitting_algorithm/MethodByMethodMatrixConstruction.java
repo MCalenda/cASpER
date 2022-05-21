@@ -33,10 +33,6 @@ public class MethodByMethodMatrixConstruction {
             Utility.createStopwordList(stopwordList);
         }
 
-        File CDMmatrixFile = new File(matrixFolder.getAbsolutePath() + "/" + "CDM_matrix" + pToSplit.getFullQualifiedName() + ".txt");
-        File CSMmatrixFile = new File(matrixFolder.getAbsolutePath() + "/" + "CSM_matrix" + pToSplit.getFullQualifiedName() + ".txt");
-        File SSMmatrixFile = new File(matrixFolder.getAbsolutePath() + "/" + "SSM_matrix" + pToSplit.getFullQualifiedName() + ".txt");
-
         Collection<MethodBean> methodsAll = pToSplit.getMethodList();
         Collection<MethodBean> methods = new Vector<MethodBean>();
 

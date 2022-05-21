@@ -9,6 +9,9 @@ import com.intellij.ui.table.JBTable;
 import it.unisa.casper.gui.radarMap.RadarMapUtils;
 import it.unisa.casper.gui.radarMap.RadarMapUtilsAdapter;
 import it.unisa.casper.refactor.splitting_algorithm.SplitClasses;
+import it.unisa.casper.refactor.splitting_algorithm.game_theory.GameTheorySplitClasses;
+import it.unisa.casper.refactor.strategy.SplittingManager;
+import it.unisa.casper.refactor.strategy.SplittingStrategy;
 import it.unisa.casper.storage.beans.ClassBean;
 import it.unisa.casper.structuralMetrics.CKMetrics;
 import org.jetbrains.annotations.NotNull;
@@ -42,6 +45,9 @@ public class BlobPage extends DialogWrapper {
     private JBTable table;                      //tabella dove sono visualizzati i codeSmell
 
     private JCheckBox gameTheory;               //checkbox per attivare refactoring con Game Theory
+    private SplittingStrategy splittingStrategy;
+    private SplittingManager splittingManager;
+
 
     private boolean errorOccured;               //serve per determinare se qualcosa è andato storto
 
@@ -111,6 +117,10 @@ public class BlobPage extends DialogWrapper {
 
         table.setModel(model);
 
+        //GAME THEORY
+        gameTheory = new JCheckBox("Game Theory splitting");
+        panelButton.add(gameTheory);
+
         //SETTO I LAYOUT DEI PANEL
         panelButton.setLayout(new FlowLayout());
         panelRadarMapMaster.setLayout(new BorderLayout());
@@ -121,7 +131,6 @@ public class BlobPage extends DialogWrapper {
 
         panelGrid2 = new JPanel();
         panelGrid2.setLayout(new BorderLayout());
-
 
         panelRadarMapMaster.add(panelRadarMap, BorderLayout.CENTER);
 
@@ -147,12 +156,8 @@ public class BlobPage extends DialogWrapper {
     @NotNull
     @Override
     protected Action[] createActions() {
-        gameTheory = new JCheckBox("Game Theory refactoring");
-        panelButton.add(gameTheory);
         Action okAction = new DialogWrapperAction("FIND SOLUTION") {
-
             String message;
-
             @Override
             protected void doAction(ActionEvent actionEvent) {
 
@@ -160,15 +165,20 @@ public class BlobPage extends DialogWrapper {
                 ProgressManager.getInstance().runProcessWithProgressSynchronously(() -> {
                     try {
                         if (gameTheory.isSelected()) {
-                            //GT
+                            splittingStrategy = new GameTheorySplitClasses();
+                            SplittingManager splittingManager = new SplittingManager(splittingStrategy);
+                            splittedClasses = (List<ClassBean>) splittingManager.excuteSplitting(classBeanBlob, 0.09);
                         } else {
-                            splittedClasses = (List<ClassBean>) new SplitClasses().split(classBeanBlob, 0.09);
+                            splittingStrategy = new SplitClasses();
+                            SplittingManager splittingManager = new SplittingManager(splittingStrategy);
+                            splittedClasses = (List<ClassBean>) splittingManager.excuteSplitting(classBeanBlob, 0.09);
                         }
                         if (splittedClasses.size() == 1) {
                             message += "\nIt is not possible to split the class without introducing new smell";
                             errorOccured = true;
                         }
                     } catch (Exception e) {
+                        e.printStackTrace();
                         errorOccured = true;
                     }
                 }, "Blob", false, project);
