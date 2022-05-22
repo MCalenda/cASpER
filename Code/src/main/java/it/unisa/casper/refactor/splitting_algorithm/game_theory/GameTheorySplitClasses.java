@@ -26,7 +26,8 @@ public class GameTheorySplitClasses implements SplittingStrategy {
     @Override
     public Collection<ClassBean> split(ClassBean toSplit, double threshold) throws SplittingException, Exception {Collection<ClassBean> result = new Vector<>();
         TopicExtractor te = new TopicExtractor();
-        ArrayList<Integer> numPlayers = te.extractTopic(toSplit);
+        ArrayList<Integer> numPlayers = te.extractTopic(toSplit, 10, 0.5);
+        System.out.println(numPlayers);
         return result;
 
     }

@@ -1,5 +1,6 @@
 package it.unisa.casper.refactor.splitting_algorithm.game_theory;
 
+import it.unisa.casper.refactor.exceptions.SplittingException;
 import it.unisa.casper.refactor.splitting_algorithm.Utility;
 import it.unisa.casper.refactor.splitting_algorithm.game_theory.lda.*;
 import it.unisa.casper.storage.beans.ClassBean;
@@ -20,7 +21,16 @@ public class TopicExtractor {
         stopwordList = new File(casperDirectoryPath + "stopwordlist.txt");
     }
 
-    public ArrayList<Integer> extractTopic(ClassBean extractFrom) throws IOException {
+    /**
+     * Extract the number of topics from the class extractFrom using Latent Dirichlet Allocation (LDA) and merging the
+     * ones that have a Jaccard Similarity more than a fixed threshold of 0.5
+     *
+     * @param extractFrom the ClassBean to extract topics from
+     * @return An ArrayList of integer with the size of the topics extracted i.e. number of player of
+     * the Game Theory splitting and each slot has the index of the most similar method of extractFrom
+     * @throws IOException
+     */
+    public ArrayList<Integer> extractTopic(ClassBean extractFrom, int numTopics, double JSThreshold) throws IOException {
         // Cleaning code
         if (!stopwordList.exists()) {
             stopwordList.createNewFile();
@@ -50,9 +60,8 @@ public class TopicExtractor {
             corpus.addDocument(aw);
         }
 
-        int topicCount = 10;
         LdaGibbsSampler ldaGibbsSampler = new LdaGibbsSampler(corpus.getDocument(), corpus.getVocabularySize());
-        ldaGibbsSampler.gibbs(topicCount);
+        ldaGibbsSampler.gibbs(numTopics);
         double[][] phi = ldaGibbsSampler.getPhi();
         Map<String, Double>[] topicMap = LdaUtil.translate(phi, corpus.getVocabulary(), 10);
 
@@ -64,9 +73,9 @@ public class TopicExtractor {
         // Topic merging if Jaccard Similarity >= 0.5
         for (int i = 0; i < topics.size()-1; i++) {
             for (int j = i+1; j < topics.size(); j++) {
-                float jaccardSimilarity = computeJaccardSimilarity(topics.get(i), topics.get(j));
+                double jaccardSimilarity = computeJaccardSimilarity(topics.get(i), topics.get(j));
                 System.out.println("comparing " + i + " " + j);
-                if (jaccardSimilarity >= 0.5) {
+                if (jaccardSimilarity >= JSThreshold) {
                     ArrayList<String> iCopy = new ArrayList<>(topics.get(i));
                     iCopy.removeAll(topics.get(j));
                     iCopy.addAll(topics.get(j));
@@ -82,10 +91,10 @@ public class TopicExtractor {
         int indexMethodMax = -1;
         ArrayList<Integer> topicsSelected = new ArrayList<>();
         for (int i = 0; i < topics.size(); i++) {
-            float maxJS = 0;
+            double maxJS = 0;
             for (int j = 0; j < methodsWordsSplitted.size(); j++) {
                 if (topicsSelected.contains(j)) continue;
-                float jaccardSimilarity = computeJaccardSimilarity(topics.get(i), methodsWordsSplitted.get(j));
+                double jaccardSimilarity = computeJaccardSimilarity(topics.get(i), methodsWordsSplitted.get(j));
                 System.out.println("comparing " + i + " " + j);
                 if (jaccardSimilarity >= maxJS) {
                     maxJS = jaccardSimilarity;
@@ -97,18 +106,23 @@ public class TopicExtractor {
         return topicsSelected;
     }
 
-    float computeJaccardSimilarity(ArrayList<String> a, ArrayList<String> b){
-        float match = 0;
+    /**
+     * Compute the Jaccard Similarity i.e. JS(A, B) = |A⋂B| / |A⋃B|
+     *
+     * @param a the first list of string to compare
+     * @param b the secondo list of string to compare
+     * @return the Jaccard Similarity between the two lists of strings
+     */
+    double computeJaccardSimilarity(ArrayList<String> a, ArrayList<String> b){
+        double match = 0;
         for (String aWord : a) {
             for (String bWord : b) {
                 if (aWord.equals(bWord)) {
-                    match+=1.0;
+                    match++;
                 }
             }
         }
-        float jaccardSimilarity = match/(a.size() + b.size() - match);
-        System.out.println("match: " + match);
-        System.out.println("JS: " + jaccardSimilarity);
+        double jaccardSimilarity = match/(a.size() + b.size() - match);
         return jaccardSimilarity;
     }
 

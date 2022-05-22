@@ -55,11 +55,12 @@
         </entry>
         <entry key="$USER_HOME$/IdeaProjects/store-pos">
           <value>
-            <RecentProjectMetaInfo opened="true" projectWorkspaceId="29QPluOnsK3s1PILd6QgOnCacIY">
-              <option name="activationTimestamp" value="1653053796737" />
+            <RecentProjectMetaInfo frameTitle="RPOS – README.md" projectWorkspaceId="29QPluOnsK3s1PILd6QgOnCacIY">
+              <option name="activationTimestamp" value="1653213547254" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IC-221.5080.210" />
               <option name="buildTimestamp" value="1649734362898" />
+              <frame x="580" y="192" width="1400" height="1000" />
               <option name="productionCode" value="IC" />
               <option name="projectOpenTimestamp" value="1653042491976" />
             </RecentProjectMetaInfo>
