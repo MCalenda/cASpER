@@ -2411,6 +2411,10 @@
           {
             "pluginIdString": "com.intellij.bigdatatools",
             "nullablePluginName": "Big Data Tools"
+          },
+          {
+            "pluginIdString": "com.cap.plugin.hadoop",
+            "nullablePluginName": "Cap-Hadoop"
           }
         ]
       },
@@ -3781,6 +3785,10 @@
           {
             "pluginIdString": "gherkin",
             "nullablePluginName": "Gherkin"
+          },
+          {
+            "pluginIdString": "io.karatelabs.intellij",
+            "nullablePluginName": "Karate"
           }
         ]
       },
@@ -5807,6 +5815,10 @@
           {
             "pluginIdString": "com.intellij.database",
             "nullablePluginName": "Database Tools and SQL for WebStorm"
+          },
+          {
+            "pluginIdString": "com.cap.plugin.hadoop",
+            "nullablePluginName": "Cap-Hadoop"
           }
         ]
       },
@@ -10409,6 +10421,10 @@
           {
             "pluginIdString": "com.jetbrains.rider.android",
             "nullablePluginName": "Rider Xamarin Android Support"
+          },
+          {
+            "pluginIdString": "com.android.tools.idea.smali",
+            "nullablePluginName": "Smali Support"
           }
         ]
       },
@@ -15347,6 +15363,10 @@
           {
             "pluginIdString": "com.intellij.bigdatatools",
             "nullablePluginName": "Big Data Tools"
+          },
+          {
+            "pluginIdString": "com.cap.plugin.hadoop",
+            "nullablePluginName": "Cap-Hadoop"
           }
         ]
       },
@@ -15601,6 +15621,10 @@
           {
             "pluginIdString": "com.intellij.bigdatatools",
             "nullablePluginName": "Big Data Tools"
+          },
+          {
+            "pluginIdString": "com.cap.plugin.hadoop",
+            "nullablePluginName": "Cap-Hadoop"
           }
         ]
       },
@@ -16864,9 +16888,65 @@
             "nullablePluginName": "Erlang"
           }
         ]
+      },
+      "*.antlers.html": {
+        "dataSet": [
+          {
+            "pluginIdString": "de.arrobait.antlers",
+            "nullablePluginName": "Antlers Language Support"
+          }
+        ]
+      },
+      "*.qute.htm": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.redhat.devtools.intellij.quarkus",
+            "nullablePluginName": "Quarkus Tools"
+          }
+        ]
+      },
+      "*.qute.html": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.redhat.devtools.intellij.quarkus",
+            "nullablePluginName": "Quarkus Tools"
+          }
+        ]
+      },
+      "*.qute.json": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.redhat.devtools.intellij.quarkus",
+            "nullablePluginName": "Quarkus Tools"
+          }
+        ]
+      },
+      "*.qute.txt": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.redhat.devtools.intellij.quarkus",
+            "nullablePluginName": "Quarkus Tools"
+          }
+        ]
+      },
+      "*.qute.yaml": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.redhat.devtools.intellij.quarkus",
+            "nullablePluginName": "Quarkus Tools"
+          }
+        ]
+      },
+      "*.qute.yml": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.redhat.devtools.intellij.quarkus",
+            "nullablePluginName": "Quarkus Tools"
+          }
+        ]
       }
     },
-    "lastUpdateTime": 1653213035047
+    "lastUpdateTime": 1653492364652
   },
   "dependencies": {
     "featureMap": {
@@ -17583,7 +17663,7 @@
         ]
       }
     },
-    "lastUpdateTime": 1653213035137
+    "lastUpdateTime": 1653492364846
   }
 }]]></component>
   <component name="PluginFeatureService">{

@@ -1,9 +1,7 @@
 package it.unisa.casper.refactor.splitting_algorithm.game_theory;
 
-import it.unisa.casper.refactor.exceptions.SplittingException;
 import it.unisa.casper.refactor.splitting_algorithm.Utility;
 import it.unisa.casper.refactor.splitting_algorithm.game_theory.lda.*;
-import it.unisa.casper.storage.beans.ClassBean;
 import it.unisa.casper.storage.beans.MethodBean;
 
 import java.io.File;
@@ -25,12 +23,12 @@ public class TopicExtractor {
      * Extract the number of topics from the class extractFrom using Latent Dirichlet Allocation (LDA) and merging the
      * ones that have a Jaccard Similarity more than a fixed threshold of 0.5
      *
-     * @param extractFrom the ClassBean to extract topics from
-     * @return An ArrayList of integer with the size of the topics extracted i.e. number of player of
+     * @param methods the methods list to extract topics from
+     * @return An Array of integer with the size of the topics extracted i.e. number of player of
      * the Game Theory splitting and each slot has the index of the most similar method of extractFrom
      * @throws IOException
      */
-    public ArrayList<Integer> extractTopic(ClassBean extractFrom, int numTopics, double JSThreshold) throws IOException {
+    public byte[] extractTopic(List<MethodBean> methods, int numTopics, double JSThreshold) throws IOException {
         // Cleaning code
         if (!stopwordList.exists()) {
             stopwordList.createNewFile();
@@ -43,7 +41,7 @@ public class TopicExtractor {
         }
 
         ArrayList<ArrayList<String>> methodsWordsSplitted = new ArrayList<>();
-        for (MethodBean m : extractFrom.getMethodList()) {
+        for (MethodBean m : methods) {
             String mWords = Utility.clean(m.getTextContent());
             ArrayList<String> mWordsSplitted = new ArrayList<>(Arrays.asList(mWords.split("((\\s+)|((?<=[a-z])(?=[A-Z])))")));
             for (int i = 0; i < mWordsSplitted.size(); i++) {
@@ -74,7 +72,6 @@ public class TopicExtractor {
         for (int i = 0; i < topics.size()-1; i++) {
             for (int j = i+1; j < topics.size(); j++) {
                 double jaccardSimilarity = computeJaccardSimilarity(topics.get(i), topics.get(j));
-                System.out.println("comparing " + i + " " + j);
                 if (jaccardSimilarity >= JSThreshold) {
                     ArrayList<String> iCopy = new ArrayList<>(topics.get(i));
                     iCopy.removeAll(topics.get(j));
@@ -89,19 +86,22 @@ public class TopicExtractor {
 
         // Assigning methods to topic
         int indexMethodMax = -1;
-        ArrayList<Integer> topicsSelected = new ArrayList<>();
+        byte[] topicsSelected = new byte[topics.size()];
         for (int i = 0; i < topics.size(); i++) {
             double maxJS = 0;
             for (int j = 0; j < methodsWordsSplitted.size(); j++) {
-                if (topicsSelected.contains(j)) continue;
+                boolean alreadySelected = false;
+                for (int k = 0; k <  topicsSelected.length; k++) {
+                    if (topicsSelected[k] == j) alreadySelected = true;
+                }
+                if (alreadySelected) continue;
                 double jaccardSimilarity = computeJaccardSimilarity(topics.get(i), methodsWordsSplitted.get(j));
-                System.out.println("comparing " + i + " " + j);
                 if (jaccardSimilarity >= maxJS) {
                     maxJS = jaccardSimilarity;
                     indexMethodMax = j;
                 }
             }
-            topicsSelected.add(indexMethodMax);
+            topicsSelected[i] = (byte) indexMethodMax;
         }
         return topicsSelected;
     }

@@ -23,6 +23,11 @@ dependencies {
     // https://mvnrepository.com/artifact/org.jfree/jfreechart
     implementation group: 'org.jfree', name: 'jfreechart', version: '1.5.0'
 
+    // https://mvnrepository.com/artifact/com.google.guava/guava
+    implementation group: 'com.google.guava', name: 'guava', version: '31.1-jre'
+
+
+
     testImplementation group: 'junit', name: 'junit', version: '4.12'
 }
 
