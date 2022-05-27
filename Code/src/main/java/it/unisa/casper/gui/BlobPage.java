@@ -167,7 +167,7 @@ public class BlobPage extends DialogWrapper {
                         if (gameTheory.isSelected()) {
                             splittingStrategy = new GameTheorySplitClasses();
                             SplittingManager splittingManager = new SplittingManager(splittingStrategy);
-                            splittedClasses = (List<ClassBean>) splittingManager.excuteSplitting(classBeanBlob, 0.09);
+                            splittedClasses = (List<ClassBean>) splittingManager.excuteSplitting(classBeanBlob, 0.2);
                         } else {
                             splittingStrategy = new SplitClasses();
                             SplittingManager splittingManager = new SplittingManager(splittingStrategy);

@@ -1146,6 +1146,10 @@
           {
             "pluginIdString": "SQL",
             "nullablePluginName": "SQL Code Assistant"
+          },
+          {
+            "pluginIdString": "com.db.database.tool",
+            "nullablePluginName": "Database Tool"
           }
         ]
       },
@@ -16946,7 +16950,7 @@
         ]
       }
     },
-    "lastUpdateTime": 1653492364652
+    "lastUpdateTime": 1653678927822
   },
   "dependencies": {
     "featureMap": {
@@ -17663,7 +17667,7 @@
         ]
       }
     },
-    "lastUpdateTime": 1653492364846
+    "lastUpdateTime": 1653678927887
   }
 }]]></component>
   <component name="PluginFeatureService">{

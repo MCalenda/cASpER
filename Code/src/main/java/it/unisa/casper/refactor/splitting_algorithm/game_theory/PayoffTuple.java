@@ -5,9 +5,9 @@ import java.util.ArrayList;
 public class PayoffTuple {
 
     private ArrayList<Double> payoffs;
-    private ArrayList<Integer> moves;
+    private byte[] moves;
 
-    public PayoffTuple(ArrayList<Integer> moves) {
+    public PayoffTuple(byte[] moves) {
         this.moves = moves;
         this.payoffs = new ArrayList<>();
     }
@@ -16,8 +16,22 @@ public class PayoffTuple {
         this.payoffs.add(payoff);
     }
 
+
+    public ArrayList<Double> getPayoffs() {
+        return payoffs;
+    }
+
+    public byte[] getMoves() {
+        return moves;
+    }
+
     @Override
     public String toString() {
-        return moves + " " + payoffs;
+        String toString = "";
+        for (byte x : moves) {
+            toString += x + " ";
+
+        }
+        return toString + " - " + payoffs;
     }
 }
