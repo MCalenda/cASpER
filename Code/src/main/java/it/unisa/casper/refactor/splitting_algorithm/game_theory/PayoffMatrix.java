@@ -19,6 +19,7 @@ public class PayoffMatrix {
                         ArrayList<ArrayList<Byte>> playerChoices,
                         double[][] methodByMethodMatrix,
                         double e1, double e2) {
+
         this.combinations = combinations;
         this.remainingMethods = remainingMethods;
         this.playerChoices = playerChoices;
@@ -30,7 +31,6 @@ public class PayoffMatrix {
             maxPayoffs[i] = -1;
         }
         this.payoffs = new ArrayList<>();
-
     }
 
     public void calculatePayoffs() {
@@ -94,7 +94,6 @@ public class PayoffMatrix {
         }
 
         PayoffTuple nashEquilibrium = new PayoffTuple(new byte[]{-1});
-
         for (int i = maxPayoffs.length; i >= 0; i--) {
             if (nashEquilibriums.get(i).isEmpty()) continue;
             else {
@@ -111,13 +110,5 @@ public class PayoffMatrix {
             }
         }
         return nashEquilibrium;
-    }
-    @Override
-    public String toString() {
-        String toString = "Max payoffs are: ";
-        for (int i = 0; i < maxPayoffs.length ; i++) {
-            toString += maxPayoffs[i] + " ";
-        }
-        return toString;
     }
 }

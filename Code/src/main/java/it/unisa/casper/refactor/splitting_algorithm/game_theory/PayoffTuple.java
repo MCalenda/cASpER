@@ -16,22 +16,11 @@ public class PayoffTuple {
         this.payoffs.add(payoff);
     }
 
-
     public ArrayList<Double> getPayoffs() {
         return payoffs;
     }
 
     public byte[] getMoves() {
         return moves;
-    }
-
-    @Override
-    public String toString() {
-        String toString = "";
-        for (byte x : moves) {
-            toString += x + " ";
-
-        }
-        return toString + " - " + payoffs;
     }
 }
