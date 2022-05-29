@@ -4,9 +4,10 @@ import groovy.lang.Tuple;
 import org.apache.commons.lang3.ArrayUtils;
 
 import java.util.ArrayList;
+import java.util.ListIterator;
 
 public class PayoffMatrix {
-    private ArrayList<Byte[]> combinations;
+    private ListIterator<Byte[]> combinations;
     private ArrayList<Byte> remainingMethods;
     private double[][] methodByMethodMatrix;
     private ArrayList<ArrayList<Byte>> playerChoices;
@@ -14,12 +15,11 @@ public class PayoffMatrix {
     private ArrayList<PayoffTuple> payoffs;
     private double[] maxPayoffs;
 
-    public PayoffMatrix(ArrayList<Byte[]> combinations,
+    public PayoffMatrix(ListIterator<Byte[]> combinations,
                         ArrayList<Byte> remainingMethods,
                         ArrayList<ArrayList<Byte>> playerChoices,
                         double[][] methodByMethodMatrix,
                         double e1, double e2) {
-
         this.combinations = combinations;
         this.remainingMethods = remainingMethods;
         this.playerChoices = playerChoices;
@@ -34,7 +34,8 @@ public class PayoffMatrix {
     }
 
     public void calculatePayoffs() {
-        for (Byte[] combination : combinations) {
+        while (combinations.hasNext()) {
+            Byte[] combination = combinations.next();
             PayoffTuple pt = new PayoffTuple(ArrayUtils.toPrimitive(combination));
             for (int i = 0; i < combination.length ; i++) {
                 double payoff;
@@ -50,7 +51,7 @@ public class PayoffMatrix {
                     pt.addPayoff(payoff);
                 } else {
                     boolean nullMove = false;
-                    for ( byte x : combination) {
+                    for (byte x : combination) {
                         if (x == -1) nullMove = true;
                     }
                     double similarityUnderConstruction = computeSimilarityUnderConstruction(combination[i], playerChoices.get(i));
@@ -67,6 +68,7 @@ public class PayoffMatrix {
                 }
             }
             payoffs.add(pt);
+            combinations.remove();
         }
     }
 
@@ -81,7 +83,7 @@ public class PayoffMatrix {
     public PayoffTuple findNashEquilibrium() {
         ArrayList<ArrayList<PayoffTuple>> nashEquilibriums = new ArrayList<>();
         for (int i = 0; i <= maxPayoffs.length ; i++) {
-            nashEquilibriums.add(new ArrayList<PayoffTuple>());
+            nashEquilibriums.add(new ArrayList<>());
         }
         for (PayoffTuple payoff : payoffs) {
             byte maxFound = 0;

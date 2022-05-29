@@ -40,7 +40,6 @@ public class GameTheorySplitClasses implements SplittingStrategy {
 
         TopicExtractor te = new TopicExtractor();
         byte[] extractionResult = te.extractTopic(toSplit.getMethodList(), 10, 0.25);
-        System.out.println(extractionResult.length + " topics extracted");
 
         MethodByMethodMatrixConstruction matrixConstruction = new MethodByMethodMatrixConstruction();
         double[][] methodByMethodMatrix = matrixConstruction.buildMethodByMethodMatrix(0.4, 0.1, 0.5, toSplit);
@@ -82,7 +81,6 @@ public class GameTheorySplitClasses implements SplittingStrategy {
                                              ArrayList<Byte> remainingMethods,
                                              double[][] methodByMethodMatrix,
                                              double e1, double e2) {
-
         byte[] possibleChoices = new byte[remainingMethods.size()+1];
         for (int i = 0; i < remainingMethods.size() ; i++) {
             possibleChoices[i] = remainingMethods.get(i);
@@ -90,7 +88,7 @@ public class GameTheorySplitClasses implements SplittingStrategy {
         possibleChoices[remainingMethods.size()] = -1;
         calculateCombination(new ArrayList<>(), playerChoices.size(), 0, possibleChoices);
         combinations.remove(combinations.size()-1);
-        PayoffMatrix pm = new PayoffMatrix(combinations, remainingMethods, playerChoices, methodByMethodMatrix, e1, e2);
+        PayoffMatrix pm = new PayoffMatrix(combinations.listIterator(), remainingMethods, playerChoices, methodByMethodMatrix, e1, e2);
         return pm;
     }
 
@@ -159,5 +157,4 @@ public class GameTheorySplitClasses implements SplittingStrategy {
                 .setAffectedSmell()
                 .build();
     }
-
 }

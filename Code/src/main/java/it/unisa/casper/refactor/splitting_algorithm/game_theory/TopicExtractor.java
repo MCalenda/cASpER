@@ -68,11 +68,10 @@ public class TopicExtractor {
             topics.add(new ArrayList<>(topic.keySet()));
         }
 
-        // Topic merging if Jaccard Similarity >= 0.5
         for (int i = 0; i < topics.size()-1; i++) {
             for (int j = i+1; j < topics.size(); j++) {
                 double jaccardSimilarity = computeJaccardSimilarity(topics.get(i), topics.get(j));
-                if (jaccardSimilarity >= JSThreshold) {
+                if (jaccardSimilarity >= JSThreshold && topics.size() != 1) {
                     ArrayList<String> iCopy = new ArrayList<>(topics.get(i));
                     iCopy.removeAll(topics.get(j));
                     iCopy.addAll(topics.get(j));

@@ -190,7 +190,7 @@ public class BlobPage extends DialogWrapper {
                         message = "Error during creation of solution";
                         Messages.showMessageDialog(message, "Error", Messages.getErrorIcon());
                     } else {
-                        BlobWizard blobWizardMock = new BlobWizard(classBeanBlob, splittedClasses, project);
+                        BlobWizard blobWizardMock = new BlobWizard(classBeanBlob, splittedClasses, project, gameTheory.isSelected());
                         blobWizardMock.show();
                     }
                     close(0);

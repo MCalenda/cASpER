@@ -41,8 +41,9 @@ public class BlobWizard extends DialogWrapper {
     private List<ClassBean> splitting;
     private Project project;
     private boolean errorOccured;
+    private boolean gameTheory;
 
-    public BlobWizard(ClassBean c, List<ClassBean> splitting, Project project) {
+    public BlobWizard(ClassBean c, List<ClassBean> splitting, Project project, boolean gt) {
         super(true);
         this.blobClassBean = c;
         this.splitting = splitting;
@@ -52,7 +53,12 @@ public class BlobWizard extends DialogWrapper {
         this.errorOccured = false;
         setResizable(false);
         init();
-        setTitle("BLOB REFACTORING");
+        this.gameTheory = gt;
+        if (!gameTheory) {
+            setTitle("BLOB REFACTORING");
+        } else {
+            setTitle("BLOB REFACTORING with Game Theory splitting");
+        }
     }
 
     @NotNull

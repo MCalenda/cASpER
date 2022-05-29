@@ -2,42 +2,42 @@
   <component name="RecentProjectsManager">
     <option name="additionalInfo">
       <map>
+        <entry key="$USER_HOME$/Documents/Università/OtticaCrisci">
+          <value>
+            <RecentProjectMetaInfo frameTitle="OtticaCrisci" projectWorkspaceId="28z4b4jgfLHT6WgW8kN3cRBaRgN">
+              <option name="activationTimestamp" value="1653748742548" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-221.5080.210" />
+              <option name="buildTimestamp" value="1649734369351" />
+              <frame x="580" y="192" width="1400" height="1000" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1653748144981" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Documents/Università/cASpER/Code">
           <value>
             <RecentProjectMetaInfo frameTitle="cASpER – PsiParser.java" projectWorkspaceId="29OWgjROl1zHV4j3HPvYHA05xzM">
-              <option name="activationTimestamp" value="1652986725780" />
+              <option name="activationTimestamp" value="1653752831814" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IC-221.5080.210" />
-              <option name="buildTimestamp" value="1649734343780" />
+              <option name="buildTimestamp" value="1649734375500" />
               <frame x="580" y="192" width="1400" height="1000" />
               <option name="productionCode" value="IC" />
-              <option name="projectOpenTimestamp" value="1652984726645" />
+              <option name="projectOpenTimestamp" value="1653752832910" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
         <entry key="$USER_HOME$/IdeaProjects/store-pos">
           <value>
-            <RecentProjectMetaInfo frameTitle="RPOS" projectWorkspaceId="29QPluOnsK3s1PILd6QgOnCacIY">
-              <option name="activationTimestamp" value="1653495103197" />
+            <RecentProjectMetaInfo frameTitle="RPOS" opened="true" projectWorkspaceId="29QPluOnsK3s1PILd6QgOnCacIY">
+              <option name="activationTimestamp" value="1653831938823" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IC-221.5080.210" />
-              <option name="buildTimestamp" value="1649734358906" />
+              <option name="buildTimestamp" value="1649734347451" />
               <frame x="580" y="192" width="1400" height="1000" />
               <option name="productionCode" value="IC" />
-              <option name="projectOpenTimestamp" value="1653492353191" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
-        <entry key="$USER_HOME$/Documents/Università/OtticaCrisci">
-          <value>
-            <RecentProjectMetaInfo frameTitle="OtticaCrisci" projectWorkspaceId="28z4b4jgfLHT6WgW8kN3cRBaRgN">
-              <option name="activationTimestamp" value="1653679306345" />
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="IC-221.5080.210" />
-              <option name="buildTimestamp" value="1649734355205" />
-              <frame x="580" y="192" width="1400" height="1000" />
-              <option name="productionCode" value="IC" />
-              <option name="projectOpenTimestamp" value="1653507948212" />
+              <option name="projectOpenTimestamp" value="1653831530439" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
