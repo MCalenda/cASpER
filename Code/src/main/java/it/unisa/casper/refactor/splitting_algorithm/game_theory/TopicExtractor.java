@@ -35,7 +35,7 @@ public class TopicExtractor {
             Utility.createStopwordList(stopwordList);
         }
         Scanner sc = new Scanner(stopwordList);
-        ArrayList<String> stopWords = new ArrayList<String>();
+        ArrayList<String> stopWords = new ArrayList<>();
         while (sc.hasNext()) {
             stopWords.add(sc.nextLine().toLowerCase());
         }

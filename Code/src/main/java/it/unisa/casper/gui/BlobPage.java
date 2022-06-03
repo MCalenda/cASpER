@@ -46,8 +46,6 @@ public class BlobPage extends DialogWrapper {
 
     private JCheckBox gameTheory;               //checkbox per attivare refactoring con Game Theory
     private SplittingStrategy splittingStrategy;
-    private SplittingManager splittingManager;
-
 
     private boolean errorOccured;               //serve per determinare se qualcosa è andato storto
 
@@ -167,14 +165,18 @@ public class BlobPage extends DialogWrapper {
                         if (gameTheory.isSelected()) {
                             splittingStrategy = new GameTheorySplitClasses();
                             SplittingManager splittingManager = new SplittingManager(splittingStrategy);
-                            splittedClasses = (List<ClassBean>) splittingManager.excuteSplitting(classBeanBlob, 0.2);
+                            splittedClasses = (List<ClassBean>) splittingManager.excuteSplitting(classBeanBlob, 0);
                         } else {
                             splittingStrategy = new SplitClasses();
                             SplittingManager splittingManager = new SplittingManager(splittingStrategy);
                             splittedClasses = (List<ClassBean>) splittingManager.excuteSplitting(classBeanBlob, 0.09);
                         }
                         if (splittedClasses.size() == 1) {
-                            message += "\nIt is not possible to split the class without introducing new smell";
+                            if (gameTheory.isSelected()) {
+                                message += "\nIt is not possible to extract more than one topic from the class";
+                            } else {
+                                message += "\nIt is not possible to split the class without introducing new smell";
+                            }
                             errorOccured = true;
                         }
                     } catch (Exception e) {

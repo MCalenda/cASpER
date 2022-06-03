@@ -14,7 +14,7 @@ public class SplittingManager {
         this.splittingStrategy = splittingStrategy;
     }
 
-    public Collection<ClassBean> excuteSplitting(ClassBean toSplit, double threshold) throws SplittingException,Exception{
+    public Collection<ClassBean> excuteSplitting(ClassBean toSplit, double threshold) throws SplittingException, Exception {
         return splittingStrategy.split(toSplit, threshold);
     }
 }

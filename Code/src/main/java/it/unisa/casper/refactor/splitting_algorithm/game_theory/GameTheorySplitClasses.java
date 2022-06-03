@@ -1,14 +1,9 @@
 package it.unisa.casper.refactor.splitting_algorithm.game_theory;
 
 import com.google.common.primitives.Bytes;
-import com.intellij.codeInsight.completion.CompletionPhase;
-import com.intellij.util.ArrayUtil;
 import it.unisa.casper.refactor.splitting_algorithm.MethodByMethodMatrixConstruction;
 import it.unisa.casper.storage.beans.*;
-
-import java.lang.reflect.Array;
 import java.util.*;
-
 import it.unisa.casper.refactor.exceptions.SplittingException;
 import it.unisa.casper.refactor.strategy.SplittingStrategy;
 import org.apache.commons.lang3.ArrayUtils;
@@ -28,10 +23,11 @@ public class GameTheorySplitClasses implements SplittingStrategy {
      * @param threshold the threshold to filter the method-by-method matrix
      * @return a Collection of ClassBean containing the new classes
      * @throws SplittingException, Exception
-     * @throws Exception
+     *
      */
     @Override
     public Collection<ClassBean> split(ClassBean toSplit, double threshold) throws SplittingException, Exception {
+        Collection<ClassBean> result = new Vector<>();
         ArrayList<Byte> remainingMethods = new ArrayList<>();
         for (byte i = 0; i < toSplit.getMethodList().size() ; i++) {
             remainingMethods.add(i);
@@ -40,10 +36,15 @@ public class GameTheorySplitClasses implements SplittingStrategy {
 
         TopicExtractor te = new TopicExtractor();
         byte[] extractionResult = te.extractTopic(toSplit.getMethodList(), 10, 0.25);
+        System.out.println(extractionResult.length + " topics extracted");
+
+        if (extractionResult.length <= 1) {
+            result.add(toSplit);
+            return result;
+        }
 
         MethodByMethodMatrixConstruction matrixConstruction = new MethodByMethodMatrixConstruction();
         double[][] methodByMethodMatrix = matrixConstruction.buildMethodByMethodMatrix(0.4, 0.1, 0.5, toSplit);
-        double[][] methodByMethodMatrixFiltered = matrixConstruction.filterMatrix(methodByMethodMatrix, threshold);
 
         ArrayList<ArrayList<Byte>> playerChoices = new ArrayList<>();
         for (int i = 0; i < extractionResult.length ; i++) {
@@ -54,18 +55,26 @@ public class GameTheorySplitClasses implements SplittingStrategy {
 
         while (remainingMethods.size() != 0) {
             combinations = new ArrayList<>();
-            PayoffMatrix pm = computePayoffMatrix(playerChoices, remainingMethods, methodByMethodMatrixFiltered, 0.5, 0.2);
+            PayoffMatrix pm = computePayoffMatrix(playerChoices, remainingMethods, methodByMethodMatrix, 0.5, 0.2);
+            System.out.println("Remaining methods: " + remainingMethods);
+            System.out.println("Number of combinations: " + combinations.size());
             pm.calculatePayoffs();
             PayoffTuple nashEquilibrium = pm.findNashEquilibrium();
-            for (int i = 0; i < nashEquilibrium.getMoves().length ; i++) {
-                if (nashEquilibrium.getMoves()[i] != -1) {
-                    playerChoices.get(i).add(nashEquilibrium.getMoves()[i]);
-                    remainingMethods.remove(Byte.valueOf(nashEquilibrium.getMoves()[i]));
+            System.out.println("Nash equilibrium:\n" + nashEquilibrium);
+
+            for (int i = 0; i < nashEquilibrium.getMoves().size() ; i++) {
+                if (nashEquilibrium.getMoves().get(i) != -1) {
+                    playerChoices.get(i).add(nashEquilibrium.getMoves().get(i));
+                    remainingMethods.remove(nashEquilibrium.getMoves().get(i));
                 }
             }
         }
 
-        Collection<ClassBean> result = new Vector<>();
+        System.out.println("Final result:");
+        for (ArrayList<Byte> x : playerChoices) {
+            System.out.println(x);
+        }
+
         for (int i = 0; i < playerChoices.size() ; i++) {
             ArrayList<MethodBean> methods = new ArrayList<>();
             for (int j = 0; j < playerChoices.get(i).size() ; j++) {

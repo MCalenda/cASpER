@@ -1,19 +1,19 @@
 package it.unisa.casper.refactor.splitting_algorithm.game_theory;
 
-import groovy.lang.Tuple;
 import org.apache.commons.lang3.ArrayUtils;
+import org.checkerframework.checker.units.qual.A;
 
-import java.util.ArrayList;
-import java.util.ListIterator;
+import java.util.*;
 
 public class PayoffMatrix {
     private ListIterator<Byte[]> combinations;
     private ArrayList<Byte> remainingMethods;
     private double[][] methodByMethodMatrix;
     private ArrayList<ArrayList<Byte>> playerChoices;
+    private HashMap<ArrayList<Byte>, ArrayList<Double>> totalPayoffs;
     private double e1, e2;
-    private ArrayList<PayoffTuple> payoffs;
     private double[] maxPayoffs;
+
 
     public PayoffMatrix(ListIterator<Byte[]> combinations,
                         ArrayList<Byte> remainingMethods,
@@ -26,48 +26,54 @@ public class PayoffMatrix {
         this.methodByMethodMatrix = methodByMethodMatrix;
         this.e1 = e1;
         this.e2 = e2;
+        this.totalPayoffs = new HashMap<>();
         this.maxPayoffs = new double[playerChoices.size()];
         for (int i = 0; i < maxPayoffs.length ; i++) {
             maxPayoffs[i] = -1;
         }
-        this.payoffs = new ArrayList<>();
     }
 
     public void calculatePayoffs() {
         while (combinations.hasNext()) {
-            Byte[] combination = combinations.next();
-            PayoffTuple pt = new PayoffTuple(ArrayUtils.toPrimitive(combination));
-            for (int i = 0; i < combination.length ; i++) {
+            ArrayList<Byte> combination = new ArrayList<>(Arrays.asList(combinations.next()));
+            ArrayList<Double> payoffs = new ArrayList<>();
+            for (int i = 0; i < combination.size() ; i++) {
                 double payoff;
-                ArrayList<Byte> lettingMethods = new ArrayList<>(remainingMethods);
-                lettingMethods.remove(combination[i]);
+                ArrayList<Byte> lettingMethods = new ArrayList<>();
+                for (byte x : combination) {
+                    if (x == -1 || x == combination.get(i)) continue;
+                    else lettingMethods.add(x);
+                }
+
+                //calculate similarity with methods except the chosen one
                 double similarityWithRemaining = 0;
                 for (byte lettingMethod : lettingMethods) {
                     similarityWithRemaining += computeSimilarityUnderConstruction(lettingMethod, playerChoices.get(i));
                 }
                 similarityWithRemaining /= lettingMethods.size();
-                if (combination[i] == -1) {
+                if (combination.get(i) == -1) {
                     payoff = this.e1 - similarityWithRemaining;
-                    pt.addPayoff(payoff);
+                    payoffs.add(payoff);
                 } else {
-                    boolean nullMove = false;
+                    byte notNullMove = 0;
                     for (byte x : combination) {
-                        if (x == -1) nullMove = true;
+                        if (x != -1) notNullMove += 1;
                     }
-                    double similarityUnderConstruction = computeSimilarityUnderConstruction(combination[i], playerChoices.get(i));
-                    if (nullMove) {
+
+                    double similarityUnderConstruction = computeSimilarityUnderConstruction(combination.get(i), playerChoices.get(i));
+                    if (notNullMove == 1) {
                         payoff = similarityUnderConstruction - this.e2;
-                        pt.addPayoff(payoff);
+                        payoffs.add(payoff);
                     } else {
                         payoff = similarityUnderConstruction - similarityWithRemaining;
-                        pt.addPayoff(payoff);
+                        payoffs.add(payoff);
                     }
                 }
                 if (payoff > maxPayoffs[i]) {
                     maxPayoffs[i] = payoff;
                 }
             }
-            payoffs.add(pt);
+            totalPayoffs.put(combination, payoffs);
             combinations.remove();
         }
     }
@@ -77,38 +83,48 @@ public class PayoffMatrix {
         for (byte methodInTheClass : classUnderConstruction) {
             similarity += methodByMethodMatrix[method][methodInTheClass];
         }
-        return (1.0/classUnderConstruction.size()) * similarity;
+        return similarity/classUnderConstruction.size();
     }
 
     public PayoffTuple findNashEquilibrium() {
-        ArrayList<ArrayList<PayoffTuple>> nashEquilibriums = new ArrayList<>();
-        for (int i = 0; i <= maxPayoffs.length ; i++) {
-            nashEquilibriums.add(new ArrayList<>());
-        }
-        for (PayoffTuple payoff : payoffs) {
-            byte maxFound = 0;
-            for (int i = 0; i < maxPayoffs.length ; i++) {
-                if (payoff.getPayoffs().get(i) >= maxPayoffs[i]) {
-                    maxFound++;
+        HashMap<ArrayList<Byte>, ArrayList<Double>> nashEq = new HashMap<>();
+        ArrayList<Byte> possibleMoves = new ArrayList<>(remainingMethods);
+        possibleMoves.add((byte) -1);
+        for (Map.Entry<ArrayList<Byte>, ArrayList<Double>> entry : totalPayoffs.entrySet()) {
+            ArrayList<Byte> moves = entry.getKey();
+            ArrayList<Double> payoffs = entry.getValue();
+            boolean isNE = true;
+            for (int i = 0; i < payoffs.size() ; i++) {
+                if (payoffs.get(i) >= maxPayoffs[i]) continue;
+                for (Byte possibleMove : possibleMoves) {
+                    if (possibleMove == -1 || !moves.contains(possibleMove)) {
+                        ArrayList<Byte> alternativeMoves = new ArrayList<>(moves);
+                        alternativeMoves.set(i, possibleMove);
+                        ArrayList<Double> alternativePayoffs = totalPayoffs.get(alternativeMoves);
+                        if (alternativePayoffs == null) continue;
+                        double newPayoff = alternativePayoffs.get(i);
+                        if (newPayoff > payoffs.get(i)) {
+                            isNE = false;
+                            break;
+                        }
+                    }
                 }
+                if (!isNE) break;
             }
-            nashEquilibriums.get(maxFound).add(payoff);
+            if (isNE) nashEq.put(moves, payoffs);
         }
 
-        PayoffTuple nashEquilibrium = new PayoffTuple(new byte[]{-1});
-        for (int i = maxPayoffs.length; i >= 0; i--) {
-            if (nashEquilibriums.get(i).isEmpty()) continue;
-            else {
-                double maxTotalPayoff = -1;
-                for (PayoffTuple pt : nashEquilibriums.get(i)) {
-                    double proxyPayoff = -1;
-                    for (double x : pt.getPayoffs()){
-                        proxyPayoff += x;
-                    }
-                    if (proxyPayoff >= maxTotalPayoff) {
-                        nashEquilibrium = pt;
-                    }
-                }
+        double maxPayoff = -1;
+        PayoffTuple nashEquilibrium = new PayoffTuple();
+        for (Map.Entry<ArrayList<Byte>, ArrayList<Double>> entry : nashEq.entrySet()) {
+            double nePayoff = 0;
+            for (double x : entry.getValue()) {
+                nePayoff += x;
+            }
+            if (nePayoff >= maxPayoff) {
+                maxPayoff = nePayoff;
+                nashEquilibrium.setMoves(entry.getKey());
+                nashEquilibrium.setPayoffs(entry.getValue());
             }
         }
         return nashEquilibrium;

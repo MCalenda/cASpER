@@ -2,47 +2,32 @@
   <component name="RecentProjectsManager">
     <option name="additionalInfo">
       <map>
-        <entry key="$USER_HOME$/Documents/Università/OtticaCrisci">
-          <value>
-            <RecentProjectMetaInfo frameTitle="OtticaCrisci" projectWorkspaceId="28z4b4jgfLHT6WgW8kN3cRBaRgN">
-              <option name="activationTimestamp" value="1653748742548" />
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="IC-221.5080.210" />
-              <option name="buildTimestamp" value="1649734369351" />
-              <frame x="580" y="192" width="1400" height="1000" />
-              <option name="productionCode" value="IC" />
-              <option name="projectOpenTimestamp" value="1653748144981" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
-        <entry key="$USER_HOME$/Documents/Università/cASpER/Code">
-          <value>
-            <RecentProjectMetaInfo frameTitle="cASpER – PsiParser.java" projectWorkspaceId="29OWgjROl1zHV4j3HPvYHA05xzM">
-              <option name="activationTimestamp" value="1653752831814" />
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="IC-221.5080.210" />
-              <option name="buildTimestamp" value="1649734375500" />
-              <frame x="580" y="192" width="1400" height="1000" />
-              <option name="productionCode" value="IC" />
-              <option name="projectOpenTimestamp" value="1653752832910" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
         <entry key="$USER_HOME$/IdeaProjects/store-pos">
           <value>
-            <RecentProjectMetaInfo frameTitle="RPOS" opened="true" projectWorkspaceId="29QPluOnsK3s1PILd6QgOnCacIY">
-              <option name="activationTimestamp" value="1653831938823" />
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="29QPluOnsK3s1PILd6QgOnCacIY">
+              <option name="activationTimestamp" value="1654204820996" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IC-221.5080.210" />
-              <option name="buildTimestamp" value="1649734347451" />
-              <frame x="580" y="192" width="1400" height="1000" />
+              <option name="buildTimestamp" value="1649734360092" />
               <option name="productionCode" value="IC" />
-              <option name="projectOpenTimestamp" value="1653831530439" />
+              <option name="projectOpenTimestamp" value="1653842566831" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
       </map>
     </option>
-    <option name="lastProjectLocation" value="$USER_HOME$/IdeaProjects" />
+    <option name="groups">
+      <list>
+        <ProjectGroup>
+          <option name="bottomGroup" value="true" />
+          <option name="name" value="Eclipse Projects" />
+          <option name="projects">
+            <list>
+              <option value="$USER_HOME$/IdeaProjects/store-pos" />
+            </list>
+          </option>
+        </ProjectGroup>
+      </list>
+    </option>
   </component>
 </application>
