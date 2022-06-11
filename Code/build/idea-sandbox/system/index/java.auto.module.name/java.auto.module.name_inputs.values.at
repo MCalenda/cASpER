@@ -1,8 +1,5 @@
-/Header Record For PersistentHashMapValueStoragecommons.collections
-ojdbc14lucene.sandboxjavax.injectbcmail.jdk14
-spring.aop
-jcommon
-spring.asmitextbctsp.jdk14staxspring.contextjackson.annotationsbcmail.jdk14	olap4jstax.apicommons.loggingcommons.beanutilsstax.apiaopalliancelucene.queriesecjlucene.analyzers.commonjackson.coreicu4jcommons.digesterspring.beanscorebcprov.jdk14spring.corecommons.langspring.expression
-controlsfx
-castor.xmlbcprov.jdk14lucene.queryparsercastor.corelucene.corejackson.databind
-jfreechartjasperreportsjakarta.regexp
+/Header Record For PersistentHashMapValueStoragecharsets	deploycldrdatadnsns
+jaccessjfxrt
+localedata
+nashornsunecsunjce.provider	sunpkcs11zipfs	javawsjcejfr	jfxswtjssemanagement.agent	plugin	resourcesrtmockito.junit.jupiterorg.junit.jupiter.params'$org.apache.httpcomponents.httpclientorg.eclipse.jdt.coreorg.mockitoorg.apiguardian.apiorg.junit.jupiter.api%"org.apache.httpcomponents.httpcoreorg.opentest4jorg.junit.platform.commons
+byte.buddycommons.loggingorg.apache.commons.codecorg.eclipse.jdt.corebyte.buddy.agent	objenesisorg.junit.jupiter.apiorg.opentest4jorg.junit.platform.commonsorg.eclipse.core.resourcesorg.eclipse.core.expressionsorg.eclipse.core.runtimeorg.eclipse.osgiorg.eclipse.equinox.commonorg.eclipse.core.jobsorg.eclipse.equinox.registry"org.eclipse.equinox.preferencesorg.eclipse.core.contenttypeorg.eclipse.equinox.apporg.eclipse.core.filesystemorg.eclipse.textorg.eclipse.core.commandsorg.eclipse.core.resourcesorg.eclipse.core.expressionsorg.eclipse.core.runtimeorg.eclipse.osgiorg.eclipse.equinox.commonorg.eclipse.core.jobsorg.eclipse.equinox.registry"org.eclipse.equinox.preferencesorg.eclipse.core.contenttypeorg.eclipse.equinox.apporg.eclipse.core.filesystemorg.eclipse.textorg.eclipse.core.commands

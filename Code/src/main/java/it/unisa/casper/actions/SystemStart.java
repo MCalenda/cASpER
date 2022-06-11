@@ -115,7 +115,7 @@ public class SystemStart {
                 }
             });
 
-        }, "cASpER - Code Smell Detection", false, currentProject);
+        }, "cASpER - Code Smell Detection", true, currentProject);
 
         if (!errorHappened) {
 

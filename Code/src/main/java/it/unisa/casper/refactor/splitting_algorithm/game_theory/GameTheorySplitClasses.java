@@ -10,17 +10,17 @@ import org.apache.commons.lang3.ArrayUtils;
 
 public class GameTheorySplitClasses implements SplittingStrategy {
 
-    private ArrayList<Byte[]> combinations;
+    private InputFinder inputFinder;
 
     public GameTheorySplitClasses() {
-        combinations = new ArrayList<>();
+        inputFinder = new InputFinder();
     }
 
     /**
      * Splits the input class in n classes using Game Theory.
      *
      * @param toSplit   the class to be splitted
-     * @param threshold the threshold to filter the method-by-method matrix
+     * @param threshold threshold for the topic merging with Jaccard Similarity
      * @return a Collection of ClassBean containing the new classes
      * @throws SplittingException, Exception
      *
@@ -28,17 +28,10 @@ public class GameTheorySplitClasses implements SplittingStrategy {
     @Override
     public Collection<ClassBean> split(ClassBean toSplit, double threshold) throws SplittingException, Exception {
         Collection<ClassBean> result = new Vector<>();
-        ArrayList<Byte> remainingMethods = new ArrayList<>();
-        for (byte i = 0; i < toSplit.getMethodList().size() ; i++) {
-            remainingMethods.add(i);
-        }
+        ArrayList<ArrayList<Byte>> playerChoices = inputFinder.extractTopic(toSplit, threshold);
         String packageName = toSplit.getFullQualifiedName().substring(0, toSplit.getFullQualifiedName().lastIndexOf("."));
 
-        TopicExtractor te = new TopicExtractor();
-        byte[] extractionResult = te.extractTopic(toSplit.getMethodList(), 10, 0.25);
-        System.out.println(extractionResult.length + " topics extracted");
-
-        if (extractionResult.length <= 1) {
+        if (playerChoices.size() <= 1) {
             result.add(toSplit);
             return result;
         }
@@ -46,26 +39,31 @@ public class GameTheorySplitClasses implements SplittingStrategy {
         MethodByMethodMatrixConstruction matrixConstruction = new MethodByMethodMatrixConstruction();
         double[][] methodByMethodMatrix = matrixConstruction.buildMethodByMethodMatrix(0.4, 0.1, 0.5, toSplit);
 
-        ArrayList<ArrayList<Byte>> playerChoices = new ArrayList<>();
-        for (int i = 0; i < extractionResult.length ; i++) {
-            playerChoices.add(new ArrayList<>());
-            playerChoices.get(i).add(extractionResult[i]);
-            remainingMethods.remove(Byte.valueOf(extractionResult[i]));
+        ArrayList<Byte> remainingMethods = new ArrayList<>();
+        for (MethodBean method : toSplit.getMethodList()) {
+            boolean isChosen = false;
+            for (ArrayList<Byte> playerChoice : playerChoices) {
+                if ((playerChoice.get(0)) == toSplit.getMethodList().indexOf(method)) {
+                    isChosen = true;
+                }
+            }
+            if (!isChosen) {
+                remainingMethods.add((byte) toSplit.getMethodList().indexOf(method));
+            }
+
         }
 
         while (remainingMethods.size() != 0) {
-            combinations = new ArrayList<>();
-            PayoffMatrix pm = computePayoffMatrix(playerChoices, remainingMethods, methodByMethodMatrix, 0.5, 0.2);
-            System.out.println("Remaining methods: " + remainingMethods);
-            System.out.println("Number of combinations: " + combinations.size());
-            pm.calculatePayoffs();
-            PayoffTuple nashEquilibrium = pm.findNashEquilibrium();
-            System.out.println("Nash equilibrium:\n" + nashEquilibrium);
+            PayoffMatrix pm = new PayoffMatrix(remainingMethods, playerChoices, methodByMethodMatrix, 0.5, 0.2);
+            System.out.println("Find " + pm.totalPayoffs.size() + " variations");
+            ArrayList<Byte> nashEquilibrium = pm.findNashEquilibrium();
+            System.out.println("Nash equilibrium: " + nashEquilibrium);
 
-            for (int i = 0; i < nashEquilibrium.getMoves().size() ; i++) {
-                if (nashEquilibrium.getMoves().get(i) != -1) {
-                    playerChoices.get(i).add(nashEquilibrium.getMoves().get(i));
-                    remainingMethods.remove(nashEquilibrium.getMoves().get(i));
+            for (int i = 0; i < nashEquilibrium.size() ; i++) {
+                Byte move = nashEquilibrium.get(i);
+                if (move != -1) {
+                    playerChoices.get(i).add(move);
+                    remainingMethods.remove(move);
                 }
             }
         }
@@ -86,48 +84,15 @@ public class GameTheorySplitClasses implements SplittingStrategy {
         return result;
     }
 
-    private PayoffMatrix computePayoffMatrix(ArrayList<ArrayList<Byte>> playerChoices,
-                                             ArrayList<Byte> remainingMethods,
-                                             double[][] methodByMethodMatrix,
-                                             double e1, double e2) {
-        byte[] possibleChoices = new byte[remainingMethods.size()+1];
-        for (int i = 0; i < remainingMethods.size() ; i++) {
-            possibleChoices[i] = remainingMethods.get(i);
-        }
-        possibleChoices[remainingMethods.size()] = -1;
-        calculateCombination(new ArrayList<>(), playerChoices.size(), 0, possibleChoices);
-        combinations.remove(combinations.size()-1);
-        PayoffMatrix pm = new PayoffMatrix(combinations.listIterator(), remainingMethods, playerChoices, methodByMethodMatrix, e1, e2);
-        return pm;
-    }
-
-    private void calculateCombination(ArrayList<Byte> perm, int size, int pos, byte[] possibleChoices) {
-        if (pos == size) {
-            combinations.add(ArrayUtils.toObject(Bytes.toArray(perm)));
-        } else {
-            for (int i = 0 ; i < possibleChoices.length ; i++) {
-                if (!perm.contains(possibleChoices[i]) | possibleChoices[i] == -1) {
-                    ArrayList<Byte> temp = new ArrayList<>(perm);
-                    temp.add(possibleChoices[i]);
-                    calculateCombination(temp, size, pos+1, possibleChoices);
-                }
-            }
-        }
-    }
-
     public ClassBean createSplittedClassBean(int index, String packageName,
                                              ArrayList<MethodBean> methods,
                                              Vector<InstanceVariableBean> instanceVariables,
                                              PackageBean belongingPackage) {
         String classShortName = "Class_" + (index + 1);
         String tempName = packageName + "." + classShortName;
-        List<MethodBean> methodsToAdd = new ArrayList<>();
+        ArrayList<MethodBean> methodsToAdd = new ArrayList<>(methods);
 
-        for (MethodBean m : methods)
-            methodsToAdd.add(m);
-
-
-        Set<InstanceVariableBean> instanceVariableBeanSet = new HashSet<>();
+        HashSet<InstanceVariableBean> instanceVariableBeanSet = new HashSet<>();
 
         for (InstanceVariableBean currentInstanceVariable : instanceVariables) {
             for (MethodBean methodToInspect : methodsToAdd) {
@@ -135,8 +100,8 @@ public class GameTheorySplitClasses implements SplittingStrategy {
                     instanceVariableBeanSet.add(currentInstanceVariable);
                 }
             }
-
         }
+
         List<InstanceVariableBean> variableBeansToAdd = new ArrayList<>(instanceVariableBeanSet);
         InstanceVariableList instanceVariableList = new InstanceVariableList();
         instanceVariableList.setList(variableBeansToAdd);

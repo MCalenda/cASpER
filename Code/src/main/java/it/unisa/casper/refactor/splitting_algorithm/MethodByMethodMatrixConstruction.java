@@ -23,7 +23,7 @@ public class MethodByMethodMatrixConstruction {
     public MethodByMethodMatrixConstruction() {
         casperDirectoryPath = System.getProperty("user.home") + "/.casper";
         matrixFolder = new File(casperDirectoryPath + "/matrix");
-        stopwordList = new File(casperDirectoryPath + "stopwordlist.txt");
+        stopwordList = new File(casperDirectoryPath + "/stopwordlist.txt");
     }
 
     public double[][] buildMethodByMethodMatrix(double pWcdm, double pWssm, double pWcsm, ClassBean pToSplit) throws Exception {

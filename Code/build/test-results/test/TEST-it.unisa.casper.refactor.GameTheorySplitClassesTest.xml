@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="it.unisa.casper.refactor.GameTheorySplitClassesTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-29T16:20:51" hostname="AIR-DI-MARCO.station" time="0.259">
-  <properties/>
-  <testcase name="splitTrue" classname="it.unisa.casper.refactor.GameTheorySplitClassesTest" time="0.259"/>
-  <system-out><![CDATA[Sampling 1000 iterations with burn-in of 100 (B/S=20).
-BBBBB|S||S||S||S||S||S||S||S||S||S||S||S||S||S||S||S||S||S||S||S||S||S||S||S||S||S||S||S||S||S||S||S||S||S||S||S||S||S||S||S||S||S||S||S||
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

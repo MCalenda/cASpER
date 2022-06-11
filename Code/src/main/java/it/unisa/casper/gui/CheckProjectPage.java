@@ -102,7 +102,7 @@ public class CheckProjectPage extends DialogWrapper {
         this.algorithm = algorithm;
         this.sogliaCoseno = sogliaCoseno;
         this.sogliaDipendenze = sogliaDipendenze;
-        setResizable(false);
+        setResizable(true);
         init();
         setTitle("CODE SMELL ANALYSIS");
     }

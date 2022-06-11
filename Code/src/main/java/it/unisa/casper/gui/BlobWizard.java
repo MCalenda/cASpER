@@ -531,14 +531,14 @@ public class BlobWizard extends DialogWrapper {
         Vector<String> tableItem = new Vector<String>();
 
         tableItem.add(blobClassBean.getFullQualifiedName());
-        tableItem.add(String.valueOf(CKMetrics.getLOC(blobClassBean)));
-        tableItem.add(String.valueOf(CKMetrics.getWMC(blobClassBean)));
-        tableItem.add(String.valueOf(CKMetrics.getRFC(blobClassBean)));
-        tableItem.add(String.valueOf(CKMetrics.getLCOM(blobClassBean)));
-        tableItem.add(String.valueOf(CKMetrics.getCBO(blobClassBean)));
-        tableItem.add(String.valueOf(CKMetrics.getNOA(blobClassBean)));
-        tableItem.add(String.valueOf(CKMetrics.getNOM(blobClassBean)));
-        tableItem.add(String.valueOf(CKMetrics.getNOPA(blobClassBean)));
+        tableItem.add(Integer.toString(CKMetrics.getLOC(blobClassBean)));
+        tableItem.add(Integer.toString(CKMetrics.getWMC(blobClassBean)));
+        tableItem.add(Integer.toString(CKMetrics.getRFC(blobClassBean)));
+        tableItem.add(Integer.toString(CKMetrics.getCBO(blobClassBean)));
+        tableItem.add(Integer.toString(CKMetrics.getLCOM(blobClassBean)));
+        tableItem.add(Integer.toString(CKMetrics.getNOA(blobClassBean)));
+        tableItem.add(Integer.toString(CKMetrics.getNOM(blobClassBean)));
+        tableItem.add(Integer.toString(CKMetrics.getNOPA(blobClassBean)));
 
         model.addRow(tableItem);
 

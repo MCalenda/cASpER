@@ -2,7 +2,17 @@
   <component name="DynamicPluginEnabler">
     <trackers>
       <map>
-        <entry key="29QPluOnsK3s1PILd6QgOnCacIY">
+        <entry key="2ANqeDK2zPa55XxXE8RQabWvgYS">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="2AQpMRRcfziey3SyCyBDN0wcnwW">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="2AQuYAGEreKj2QaRdV1Wmar2yru">
           <value>
             <ProjectPluginTracker />
           </value>
@@ -16,13 +26,24 @@
     "NextRunPlatformUpdateBuild": "IC-221.5787.30/2022.1.2",
     "NextRunPlatformUpdateVersion": "2022.1.2",
     "RunOnceActivity.se.text.search": "true",
+    "android.gradle.sync.needed": "true",
+    "build.toolwindow.Sync.selection.state": "com.intellij.build.BuildTreeConsoleView",
     "bundled.plugins.list.saved.version": "IC-221.5080.210",
+    "com.intellij.ide.projectWizard.generators.JavaNewProjectWizard$Step.selectedStep": "IntelliJ",
+    "com.intellij.ide.wizard.NewProjectWizardLanguageStep.selectedStep": "Java",
+    "com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor": "Sources",
+    "create.project.preferred.importer": "Existing sources",
+    "defaultJdkConfigured": "true",
     "eclipse.projects.detected": "",
+    "file.gist.reindex.count": "3",
     "fileTypeChangedCounter": "1",
+    "got.it.tooltip.cwm.invitation.notification": "1",
     "gotit.previous.run": "IC-221.5080.210",
     "ide.memory.adjusted": "true",
     "ide.updates.whats.new.shown.for": "221",
     "installed.kotlin.plugin.version": "221-1.6.20-release-285-IJ5080.210",
+    "last.imported.location": "/Users/mc/IdeaProjects/MPAndroidChart",
+    "project.wizard.group": "newWizard.com.intellij.ide.wizard.NewModuleBuilder",
     "registry.to.advanced.settings.migration.build": "IC-221.5080.210",
     "tasks.pass.word.conversion.enforced": "true"
   },

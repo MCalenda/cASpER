@@ -72,7 +72,7 @@ public class TopicExtracter {
      * con String valore del topic (chiave univoca)
      * e Integer numero di volte che il topic appare nel testo
      */
-    private TreeMap<String, Integer> extractTopicFromText(String textContent) {
+    public TreeMap<String, Integer> extractTopicFromText(String textContent) {
         Collection<String> terms = this.termsExtracter(textContent);
         terms = this.deleteSpaces(terms);
         terms = this.deleteNumbers(terms);

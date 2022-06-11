@@ -23,6 +23,7 @@ import javax.swing.border.TitledBorder;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.awt.event.ActionEvent;
+import java.util.Hashtable;
 import java.util.List;
 import java.util.Vector;
 
@@ -44,7 +45,9 @@ public class BlobPage extends DialogWrapper {
     private JPanel panelGrid2;                  //panel inserito nella seconda cella del gridLayout
     private JBTable table;                      //tabella dove sono visualizzati i codeSmell
 
-    private JCheckBox gameTheory;               //checkbox per attivare refactoring con Game Theory
+    private JPanel gameTheoryPanel;
+    private JCheckBox gameTheoryCheckbox;               //checkbox per attivare refactoring con Game Theory
+    private JSlider gameTheorySlider;
     private SplittingStrategy splittingStrategy;
 
     private boolean errorOccured;               //serve per determinare se qualcosa è andato storto
@@ -74,6 +77,7 @@ public class BlobPage extends DialogWrapper {
         panelMetric = new JPanel();             //pannello che ingloba le metriche
         panelWest = new JPanel();               //pannello che ingloba gli elementi di sinistra
         panelEast = new JPanel();               //pannello che ingloba gli elementi di destra
+        gameTheoryPanel = new JPanel();
 
         //INIZIALIZZO LA TABELLA E LA TEXT AREA
         area = new JTextPane();                 //text area dove viene visualizzato il codice in esame
@@ -100,29 +104,47 @@ public class BlobPage extends DialogWrapper {
         tableHeaders.add("NOPA");
 
         Vector<String> tableElemet = new Vector<>();
-        tableElemet.add(CKMetrics.getLOC(classBeanBlob) + "");
-        tableElemet.add(CKMetrics.getWMC(classBeanBlob) + "");
-        tableElemet.add(CKMetrics.getRFC(classBeanBlob) + "");
-        tableElemet.add(CKMetrics.getCBO(classBeanBlob) + "");
-        tableElemet.add(CKMetrics.getLCOM(classBeanBlob) + "");
+        tableElemet.add(Integer.toString(CKMetrics.getLOC(classBeanBlob)));
+        tableElemet.add(Integer.toString(CKMetrics.getWMC(classBeanBlob)));
+        tableElemet.add(Integer.toString(CKMetrics.getRFC(classBeanBlob)));
+        tableElemet.add(Integer.toString(CKMetrics.getCBO(classBeanBlob)));
+        tableElemet.add(Integer.toString(CKMetrics.getLCOM(classBeanBlob)));
 
-        tableElemet.add(String.valueOf(CKMetrics.getNOA(classBeanBlob)));
-        tableElemet.add(String.valueOf(CKMetrics.getNOM(classBeanBlob)));
-        tableElemet.add(String.valueOf(CKMetrics.getNOPA(classBeanBlob)));
+        tableElemet.add(Integer.toString(CKMetrics.getNOA(classBeanBlob)));
+        tableElemet.add(Integer.toString(CKMetrics.getNOM(classBeanBlob)));
+        tableElemet.add(Integer.toString(CKMetrics.getNOPA(classBeanBlob)));
 
         DefaultTableModel model = new DefaultTableModel(tableHeaders, 0);
         model.addRow(tableElemet);
 
         table.setModel(model);
 
-        //GAME THEORY
-        gameTheory = new JCheckBox("Game Theory splitting");
-        panelButton.add(gameTheory);
+        //Game Theory
+        gameTheoryCheckbox = new JCheckBox("activate");
+        gameTheoryCheckbox.setHorizontalAlignment(SwingConstants.CENTER);
+        gameTheorySlider = new JSlider();
+        gameTheorySlider.setPaintTicks(true);
+        gameTheorySlider.setMinimum(1);
+        gameTheorySlider.setMaximum(5);
+        gameTheorySlider.setMinorTickSpacing(1);
+        Hashtable<Integer, JLabel> labelTable = new Hashtable();
+        labelTable.put( 1, new JLabel("0.1") );
+        labelTable.put( 2, new JLabel("0.2") );
+        labelTable.put( 3, new JLabel("0.3") );
+        labelTable.put( 4, new JLabel("0.4") );
+        labelTable.put( 5, new JLabel("0.5") );
+        gameTheorySlider.setLabelTable(labelTable);
+        gameTheorySlider.setPaintLabels(true);
+        gameTheorySlider.setBorder(new TitledBorder("Jaccard Similarity threshold"));
 
         //SETTO I LAYOUT DEI PANEL
+
+        gameTheoryPanel.setLayout(new GridLayout(2,1));
+        gameTheoryPanel.setBorder(new TitledBorder("Game Theory"));
+
         panelButton.setLayout(new FlowLayout());
         panelRadarMapMaster.setLayout(new BorderLayout());
-        panelWest.setLayout(new GridLayout(2, 1));
+        panelWest.setLayout(new GridLayout(3, 1));
         panelEast.setLayout(new BorderLayout());
         panelMetric.setLayout((new BorderLayout()));
         contentPanel.setLayout(new BoxLayout(contentPanel, BoxLayout.X_AXIS));
@@ -138,11 +160,15 @@ public class BlobPage extends DialogWrapper {
         panelGrid2.add(panelMetric, BorderLayout.CENTER);
         panelGrid2.add(panelButton, BorderLayout.SOUTH);
 
+        gameTheoryPanel.add(gameTheoryCheckbox);
+        gameTheoryPanel.add(gameTheorySlider);
+
         panelWest.add(panelRadarMapMaster);
         panelWest.add(panelGrid2);
+        panelWest.add(gameTheoryPanel);
 
         contentPanel.add(panelWest);
-        JScrollPane scroll = new JScrollPane(area);
+        JScrollPane scroll = new JBScrollPane(area);
         app.add(scroll, BorderLayout.CENTER);
         contentPanel.add(app);
 
@@ -162,17 +188,17 @@ public class BlobPage extends DialogWrapper {
                 message = "Something went wrong in computing solution";
                 ProgressManager.getInstance().runProcessWithProgressSynchronously(() -> {
                     try {
-                        if (gameTheory.isSelected()) {
+                        if (gameTheoryCheckbox.isSelected()) {
                             splittingStrategy = new GameTheorySplitClasses();
                             SplittingManager splittingManager = new SplittingManager(splittingStrategy);
-                            splittedClasses = (List<ClassBean>) splittingManager.excuteSplitting(classBeanBlob, 0);
+                            splittedClasses = (List<ClassBean>) splittingManager.excuteSplitting(classBeanBlob, gameTheorySlider.getValue()/10.0);
                         } else {
                             splittingStrategy = new SplitClasses();
                             SplittingManager splittingManager = new SplittingManager(splittingStrategy);
                             splittedClasses = (List<ClassBean>) splittingManager.excuteSplitting(classBeanBlob, 0.09);
                         }
                         if (splittedClasses.size() == 1) {
-                            if (gameTheory.isSelected()) {
+                            if (gameTheoryCheckbox.isSelected()) {
                                 message += "\nIt is not possible to extract more than one topic from the class";
                             } else {
                                 message += "\nIt is not possible to split the class without introducing new smell";
@@ -192,7 +218,7 @@ public class BlobPage extends DialogWrapper {
                         message = "Error during creation of solution";
                         Messages.showMessageDialog(message, "Error", Messages.getErrorIcon());
                     } else {
-                        BlobWizard blobWizardMock = new BlobWizard(classBeanBlob, splittedClasses, project, gameTheory.isSelected());
+                        BlobWizard blobWizardMock = new BlobWizard(classBeanBlob, splittedClasses, project, gameTheoryCheckbox.isSelected());
                         blobWizardMock.show();
                     }
                     close(0);

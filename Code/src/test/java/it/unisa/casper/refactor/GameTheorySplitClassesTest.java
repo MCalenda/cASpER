@@ -18,35 +18,4 @@ public class GameTheorySplitClassesTest {
 
     }
 
-    @Test
-    public void splitTrue() {
-        Collection<ClassBean> splittedClasses = new ArrayList<>();
-        boolean errorOccured = false;
-        try {
-            splittedClasses = new GameTheorySplitClasses().split(smelly, 0);
-        } catch (Exception e) {
-            errorOccured = true;
-            e.getMessage();
-        }
-        assertTrue(splittedClasses.size() == 1);
-        assertTrue(!errorOccured);
-    }
-
-    @Test
-    public void splitFalse() {
-        Collection<ClassBean> splittedClasses = new ArrayList<ClassBean>();
-        boolean errorOccured = false;
-        try {
-            splittedClasses = new SplitClasses().split(noSmelly, 0);
-        } catch (Exception e) {
-            errorOccured = true;
-            e.getMessage();
-        }
-        Logger log = Logger.getLogger(getClass().getName());
-        log.info("\n" + (splittedClasses.size() == 1));
-        assertTrue(splittedClasses.size() == 1);
-        log.info("\nError occurred:" + errorOccured);
-        assertTrue(!errorOccured);
-    }
-
 }
