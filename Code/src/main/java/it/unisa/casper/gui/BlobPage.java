@@ -209,7 +209,7 @@ public class BlobPage extends DialogWrapper {
                         e.printStackTrace();
                         errorOccured = true;
                     }
-                }, "Blob", false, project);
+                }, "Blob", true, project);
 
                 if (errorOccured) {
                     Messages.showMessageDialog(message, "Oh!No!", Messages.getErrorIcon());

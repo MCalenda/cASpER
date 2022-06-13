@@ -1,6 +1,8 @@
 package it.unisa.casper.refactor.splitting_algorithm.game_theory;
 
 import com.google.common.primitives.Bytes;
+import com.intellij.openapi.progress.ProgressIndicator;
+import com.intellij.openapi.progress.ProgressManager;
 import org.apache.commons.lang3.ArrayUtils;
 
 import java.util.*;
@@ -12,6 +14,7 @@ public class PayoffMatrix {
     private double e1, e2;
     public HashMap<ArrayList<Byte>, ArrayList<Double>> totalPayoffs;
     private double[] maxPayoffs;
+    private ProgressIndicator indicator;
 
 
     public PayoffMatrix(ArrayList<Byte> remainingMethods,
@@ -28,22 +31,20 @@ public class PayoffMatrix {
         for (int i = 0; i < maxPayoffs.length ; i++) {
             maxPayoffs[i] = -1;
         }
+        this.indicator = ProgressManager.getInstance().getProgressIndicator();
 
-        System.out.println("Starting computing payoffs, " + remainingMethods.size() + " remaining methods");
         byte[] possibleChoices = new byte[remainingMethods.size()+1];
         for (int i = 0; i < remainingMethods.size() ; i++) {
             possibleChoices[i] = remainingMethods.get(i);
         }
         possibleChoices[remainingMethods.size()] = -1;
+        indicator.setText2("Computing payoffs...");
         computePayoffs(new ArrayList<>(), playerChoices.size(), 0, possibleChoices);
-        System.out.println("Payoffs computed");
-
     }
 
     private void computePayoffs(ArrayList<Byte> perm, int size, int pos, byte[] possibleChoices) {
         if (pos == size) {
             ArrayList<Double> payoffs = new ArrayList<>();
-            //check how many not null moves are in the variation
             byte notNullMove = 0;
             for (byte x : perm) {
                 if (x != -1) {
@@ -51,7 +52,6 @@ public class PayoffMatrix {
                 }
             }
             if (notNullMove == 0) return;
-
             for (int i = 0; i < perm.size() ; i++) {
                 double payoff;
                 ArrayList<Byte> lettingMethods = new ArrayList<>();
@@ -77,7 +77,7 @@ public class PayoffMatrix {
             totalPayoffs.put(perm, payoffs);
         } else {
             for (int i = 0 ; i < possibleChoices.length ; i++) {
-                if (!perm.contains(possibleChoices[i]) | possibleChoices[i] == -1) {
+                if (!perm.contains(possibleChoices[i]) || possibleChoices[i] == -1) {
                     ArrayList<Byte> temp = new ArrayList<>(perm);
                     temp.add(possibleChoices[i]);
                     computePayoffs(temp, size, pos+1, possibleChoices);
@@ -103,25 +103,23 @@ public class PayoffMatrix {
     }
 
     public ArrayList<Byte> findNashEquilibrium() {
-        HashMap<ArrayList<Byte>, ArrayList<Double>> nashEq = new HashMap<>();
+        indicator.setText2("Finding Nash Equilibrium...");
         ArrayList<Byte> possibleMoves = new ArrayList<>(remainingMethods);
+        HashMap<ArrayList<Byte>, ArrayList<Double>> candidatesNE = new HashMap<>();
         possibleMoves.add((byte) -1);
-        int count = 0;
         for (Map.Entry<ArrayList<Byte>, ArrayList<Double>> entry : totalPayoffs.entrySet()) {
-            if (++count % 1000 == 0) System.out.println(count + "/" + totalPayoffs.size());
-            ArrayList<Byte> moves = entry.getKey();
+            ArrayList<Byte> combination = entry.getKey();
             ArrayList<Double> payoffs = entry.getValue();
             boolean isNE = true;
-            for (int i = 0; i < payoffs.size() ; i++) {
+            for (int i = 0; i < combination.size() ; i++) {
                 if (payoffs.get(i) >= maxPayoffs[i]) continue;
+                ArrayList<Byte> candidateCombination = new ArrayList<>(combination);
                 for (Byte possibleMove : possibleMoves) {
-                    if (possibleMove == -1 || !moves.contains(possibleMove)) {
-                        ArrayList<Byte> alternativeMoves = new ArrayList<>(moves);
-                        alternativeMoves.set(i, possibleMove);
-                        ArrayList<Double> alternativePayoffs = totalPayoffs.get(alternativeMoves);
-                        if (alternativePayoffs == null) continue;
-                        double newPayoff = alternativePayoffs.get(i);
-                        if (newPayoff > payoffs.get(i)) {
+                    if (possibleMove == -1 || !candidateCombination.contains(possibleMove)) {
+                        candidateCombination.set(i, possibleMove);
+                        ArrayList<Double> candidateEntry = totalPayoffs.get(candidateCombination);
+                        if (candidateEntry == null) continue;
+                        if (candidateEntry.get(i) > payoffs.get(i)) {
                             isNE = false;
                             break;
                         }
@@ -129,12 +127,12 @@ public class PayoffMatrix {
                 }
                 if (!isNE) break;
             }
-            if (isNE) nashEq.put(moves, payoffs);
+            if (isNE) candidatesNE.put(combination, payoffs);
         }
 
         double maxPayoff = -1;
         ArrayList<Byte> nashEquilibrium = new ArrayList<>();
-        for (Map.Entry<ArrayList<Byte>, ArrayList<Double>> entry : nashEq.entrySet()) {
+        for (Map.Entry<ArrayList<Byte>, ArrayList<Double>> entry : candidatesNE.entrySet()) {
             double nePayoff = 0;
             for (double x : entry.getValue()) {
                 nePayoff += x;
