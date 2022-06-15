@@ -74,7 +74,7 @@ public class InputFinder {
         corpus.addThruPipe(methods.listIterator());
 
         int numTopics = 5;
-        ParallelTopicModel lda = new ParallelTopicModel(numTopics, 1.0, 0.01);
+        ParallelTopicModel lda = new ParallelTopicModel(numTopics);
         lda.addInstances(corpus);
         lda.setNumThreads(4);
         indicator.setText2("Training...");

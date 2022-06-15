@@ -113,13 +113,13 @@ public class PayoffMatrix {
             boolean isNE = true;
             for (int i = 0; i < combination.size() ; i++) {
                 if (payoffs.get(i) >= maxPayoffs[i]) continue;
-                ArrayList<Byte> candidateCombination = new ArrayList<>(combination);
+                ArrayList<Byte> alternativeCombination = new ArrayList<>(combination);
                 for (Byte possibleMove : possibleMoves) {
-                    if (possibleMove == -1 || !candidateCombination.contains(possibleMove)) {
-                        candidateCombination.set(i, possibleMove);
-                        ArrayList<Double> candidateEntry = totalPayoffs.get(candidateCombination);
-                        if (candidateEntry == null) continue;
-                        if (candidateEntry.get(i) > payoffs.get(i)) {
+                    if (possibleMove == -1 || !alternativeCombination.contains(possibleMove)) {
+                        alternativeCombination.set(i, possibleMove);
+                        ArrayList<Double> alternativeEntry = totalPayoffs.get(alternativeCombination);
+                        if (alternativeEntry == null) continue;
+                        if (alternativeEntry.get(i) > payoffs.get(i)) {
                             isNE = false;
                             break;
                         }

@@ -43,8 +43,7 @@ public class GameTheorySplitClasses implements SplittingStrategy {
         }
 
         MethodByMethodMatrixConstruction matrixConstruction = new MethodByMethodMatrixConstruction();
-        double[][] methodByMethodMatrixRAW = matrixConstruction.buildMethodByMethodMatrix(0.4, 0.1, 0.5, toSplit);
-        double[][] methodByMethodMatrix = matrixConstruction.filterMatrix(methodByMethodMatrixRAW, 0.09);
+        double[][] methodByMethodMatrix = matrixConstruction.buildMethodByMethodMatrix(0.4, 0.1, 0.5, toSplit);
 
 
         ArrayList<Byte> remainingMethods = new ArrayList<>();
@@ -64,7 +63,7 @@ public class GameTheorySplitClasses implements SplittingStrategy {
         int gameIteration = 1;
         while (remainingMethods.size() != 0) {
             indicator.setText("Game Iteration number: " + gameIteration++ );
-            PayoffMatrix pm = new PayoffMatrix(remainingMethods, playerChoices, methodByMethodMatrix, 0.5, 0.3);
+            PayoffMatrix pm = new PayoffMatrix(remainingMethods, playerChoices, methodByMethodMatrix, 0.5, 0.4);
             ArrayList<Byte> nashEquilibrium = pm.findNashEquilibrium();
             System.out.println(nashEquilibrium);
             for (int i = 0; i < nashEquilibrium.size() ; i++) {
