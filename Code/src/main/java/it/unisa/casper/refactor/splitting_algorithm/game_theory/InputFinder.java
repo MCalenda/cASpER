@@ -11,23 +11,20 @@ import cc.mallet.types.*;
 import cc.mallet.pipe.*;
 import cc.mallet.pipe.iterator.*;
 import cc.mallet.topics.*;
+import org.apache.commons.lang.StringUtils;
 
 import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Array;
 import java.util.*;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
 
 public class InputFinder {
-
     private File stopwordList;
-    private ProgressIndicator indicator;
-
-
     public InputFinder() {
         this.stopwordList = new File(System.getProperty("user.home") + File.separator + ".casper" + File.separator+ "stopwordlist.txt");
-        this.indicator = ProgressManager.getInstance().getProgressIndicator();
     }
 
     /**
@@ -40,9 +37,8 @@ public class InputFinder {
      * the Game Theory splitting and each slot has the index of the most similar method of extractFrom
      * @throws IOException
      */
-    public ArrayList<ArrayList<Byte>> extractTopic(ClassBean toExtract, double threshold) throws IOException {
+    public ArrayList<ArrayList<Integer>> extractTopic(ClassBean toExtract, double threshold, int numIter) throws IOException {
 
-        indicator.setText2("Cleaning text...");
         Utility.createStopwordList(stopwordList);
         Scanner sc = new Scanner(stopwordList);
         ArrayList<String> stopWords = new ArrayList<>();
@@ -55,39 +51,47 @@ public class InputFinder {
         pipeList.add( new TokenSequence2FeatureSequence());
         InstanceList corpus = new InstanceList (new SerialPipes(pipeList));
 
-        ArrayList<Instance> methods = new ArrayList<>();
         ArrayList<ArrayList<String>> methodsWordsSplitted = new ArrayList<>();
         for (MethodBean m : toExtract.getMethodList()) {
             String text = Utility.clean(m.getTextContent());
-            String[] textSplitted = text.split("((\\s+)|((?<=[a-z])(?=[A-Z])))");
-            ArrayList<String> textSplittedClean = new ArrayList<>();
+            ArrayList<String> textSplitted = new ArrayList<>(Arrays.asList(text.split("((\\s+)|((?<=[a-z])(?=[A-Z])))")));
+            ArrayList<String> texSplittedClean = new ArrayList<>();
             for (String s : textSplitted) {
-                if (s.length() >= 4) {
-                    textSplittedClean.add(s.toLowerCase());
+                if (!StringUtils.isNumeric(s) && s.length() > 3) {
+                    texSplittedClean.add(s.toLowerCase());
                 }
             }
-            textSplittedClean.removeAll(stopWords);
-            methodsWordsSplitted.add(textSplittedClean);
-            methods.add(new Instance(String.join(" ", textSplittedClean), null, m.getFullQualifiedName(), null));
+            texSplittedClean.removeAll(stopWords);
+            methodsWordsSplitted.add(texSplittedClean);
         }
 
-        corpus.addThruPipe(methods.listIterator());
+        List<String> flat =
+                methodsWordsSplitted.stream()
+                        .flatMap(List::stream)
+                        .collect(Collectors.toList());
+        String text = String.join(" ", flat);
+        corpus.addThruPipe(new Instance(text, null, null, null));
 
         int numTopics = 5;
         ParallelTopicModel lda = new ParallelTopicModel(numTopics);
         lda.addInstances(corpus);
         lda.setNumThreads(4);
-        indicator.setText2("Training...");
+        lda.setNumIterations(numIter);
         lda.estimate();
 
+        Alphabet dataAlphabet = corpus.getDataAlphabet();
         ArrayList<ArrayList<String>> topics = new ArrayList<>();
-        for (Object[] src : lda.getTopWords(20)){
-            String[] dest = new String[src.length];
-            System.arraycopy(src, 0, dest, 0, src.length);
-            topics.add(new ArrayList<>(Arrays.asList(dest)));
+        for (TreeSet<IDSorter> topWords : lda.getSortedWords()){
+            Iterator<IDSorter> iterator = topWords.iterator();
+            ArrayList<String> topic = new ArrayList<>();
+            int rank = 0;
+            while (iterator.hasNext() && rank++ < 20) {
+                IDSorter idCountPair = iterator.next();
+                topic.add(dataAlphabet.lookupObject(idCountPair.getID()).toString());
+            }
+            topics.add(topic);
         }
 
-        indicator.setText2("Merging topics...");
         for (int i = 0; i < topics.size()-1; i++) {
             for (int j = i+1; j < topics.size(); j++) {
                 double jaccardSimilarity = computeJaccardSimilarity(topics.get(i), topics.get(j));
@@ -104,8 +108,7 @@ public class InputFinder {
             }
         }
 
-        indicator.setText2("Assigning seed method...");
-        ArrayList<ArrayList<Byte>> result = new ArrayList<>();
+        ArrayList<ArrayList<Integer>> result = new ArrayList<>();
         ArrayList<Integer> alreadySelected = new ArrayList<>();
         for (int i = 0; i < topics.size() ; i++) {
             double maxJS = 0;
@@ -119,8 +122,8 @@ public class InputFinder {
                 }
             }
             alreadySelected.add(candidateSeedMethod);
-            ArrayList<Byte> playerChoice = new ArrayList<>();
-            playerChoice.add((byte) candidateSeedMethod);
+            ArrayList<Integer> playerChoice = new ArrayList<>();
+            playerChoice.add(candidateSeedMethod);
             result.add(playerChoice);
         }
 
@@ -134,7 +137,7 @@ public class InputFinder {
      * @param b the secondo list of string to compare
      * @return the Jaccard Similarity between the two lists of strings
      */
-    double computeJaccardSimilarity(ArrayList<String> a, ArrayList<String> b) {
+    public double computeJaccardSimilarity(ArrayList<String> a, ArrayList<String> b) {
         double match = 0;
         for (String aWord : a) {
             for (String bWord : b) {

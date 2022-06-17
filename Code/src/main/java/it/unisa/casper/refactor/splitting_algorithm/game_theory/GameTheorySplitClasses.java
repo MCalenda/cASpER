@@ -11,14 +11,9 @@ import it.unisa.casper.refactor.strategy.SplittingStrategy;
 import org.apache.commons.lang3.ArrayUtils;
 
 public class GameTheorySplitClasses implements SplittingStrategy {
-
     private InputFinder inputFinder;
-    private ProgressIndicator indicator;
-
     public GameTheorySplitClasses() {
         inputFinder = new InputFinder();
-        this.indicator = ProgressManager.getInstance().getProgressIndicator();
-
     }
 
     /**
@@ -32,9 +27,8 @@ public class GameTheorySplitClasses implements SplittingStrategy {
      */
     @Override
     public Collection<ClassBean> split(ClassBean toSplit, double threshold) throws SplittingException, Exception {
-        indicator.setText("Applying LDA...");
-        Collection<ClassBean> result = new Vector<>();
-        ArrayList<ArrayList<Byte>> playerChoices = inputFinder.extractTopic(toSplit, threshold);
+        Collection<ClassBean> result = new ArrayList<>();
+        ArrayList<ArrayList<Integer>> playerChoices = inputFinder.extractTopic(toSplit, threshold, 1000);
         String packageName = toSplit.getFullQualifiedName().substring(0, toSplit.getFullQualifiedName().lastIndexOf("."));
 
         if (playerChoices.size() <= 1) {
@@ -46,30 +40,44 @@ public class GameTheorySplitClasses implements SplittingStrategy {
         double[][] methodByMethodMatrix = matrixConstruction.buildMethodByMethodMatrix(0.4, 0.1, 0.5, toSplit);
 
 
-        ArrayList<Byte> remainingMethods = new ArrayList<>();
+        ArrayList<Integer> remainingMethods = new ArrayList<>();
         for (MethodBean method : toSplit.getMethodList()) {
             boolean isChosen = false;
-            for (ArrayList<Byte> playerChoice : playerChoices) {
+            for (ArrayList<Integer> playerChoice : playerChoices) {
                 if ((playerChoice.get(0)) == toSplit.getMethodList().indexOf(method)) {
                     isChosen = true;
                 }
             }
             if (!isChosen) {
-                remainingMethods.add((byte) toSplit.getMethodList().indexOf(method));
+                remainingMethods.add(toSplit.getMethodList().indexOf(method));
             }
-
         }
 
-        int gameIteration = 1;
+        System.out.println(playerChoices);
+        System.out.println(remainingMethods);
+
         while (remainingMethods.size() != 0) {
-            indicator.setText("Game Iteration number: " + gameIteration++ );
             PayoffMatrix pm = new PayoffMatrix(remainingMethods, playerChoices, methodByMethodMatrix, 0.5, 0.4);
-            ArrayList<Byte> nashEquilibrium = pm.findNashEquilibrium();
-            System.out.println(nashEquilibrium);
-            for (int i = 0; i < nashEquilibrium.size() ; i++) {
-                Byte move = nashEquilibrium.get(i);
+            ArrayList<Integer> possibleChoices = new ArrayList<>(remainingMethods);
+            possibleChoices.add(-1);
+            pm.computePayoffs(new ArrayList<>(), playerChoices.size(), 0, possibleChoices);
+            HashMap<ArrayList<Integer>, ArrayList<Double>> nashEquilibriums = pm.findNashEquilibriums();
+            ArrayList<Integer> nashEquilibrium = new ArrayList<>();
+            double maxPayoff = -1;
+            for (Map.Entry<ArrayList<Integer>, ArrayList<Double>> entry : nashEquilibriums.entrySet()) {
+                double nePayoff = 0;
+                for (double x : entry.getValue()) {
+                    nePayoff += x;
+                }
+                if (nePayoff >= maxPayoff) {
+                    maxPayoff = nePayoff;
+                    nashEquilibrium = entry.getKey();
+                }
+            }
+
+            for (int move : nashEquilibrium) {
                 if (move != -1) {
-                    playerChoices.get(i).add(move);
+                    playerChoices.get(nashEquilibrium.indexOf(move)).add(move);
                     remainingMethods.remove(move);
                 }
             }

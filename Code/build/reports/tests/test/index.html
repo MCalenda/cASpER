@@ -20,13 +20,13 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">76</div>
+<div class="counter">1</div>
 <p>tests</p>
 </div>
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">0</div>
+<div class="counter">1</div>
 <p>failures</p>
 </div>
 </td>
@@ -38,7 +38,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">1.354s</div>
+<div class="counter">0.018s</div>
 <p>duration</p>
 </div>
 </td>
@@ -47,8 +47,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox success" id="successRate">
-<div class="percent">100%</div>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
 <p>successful</p>
 </div>
 </td>
@@ -58,13 +58,25 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Packages</a>
+<a href="#tab0">Failed tests</a>
 </li>
 <li>
-<a href="#tab1">Classes</a>
+<a href="#tab1">Packages</a>
+</li>
+<li>
+<a href="#tab2">Classes</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<ul class="linkList">
+<li>
+<a href="classes/it.unisa.casper.refactor.GameTheorySplitClassesTest.html">GameTheorySplitClassesTest</a>.
+<a href="classes/it.unisa.casper.refactor.GameTheorySplitClassesTest.html#testComputePayoff">testComputePayoff</a>
+</li>
+</ul>
+</div>
+<div id="tab1" class="tab">
 <h2>Packages</h2>
 <table>
 <thead>
@@ -79,69 +91,19 @@
 </thead>
 <tbody>
 <tr>
-<td class="success">
-<a href="packages/it.unisa.casper.analysis.code_smell_detection.html">it.unisa.casper.analysis.code_smell_detection</a>
-</td>
-<td>2</td>
-<td>0</td>
-<td>0</td>
-<td>0.002s</td>
-<td class="success">100%</td>
-</tr>
-<tr>
-<td class="success">
-<a href="packages/it.unisa.casper.analysis.code_smell_detection.blob.html">it.unisa.casper.analysis.code_smell_detection.blob</a>
-</td>
-<td>18</td>
-<td>0</td>
-<td>0</td>
-<td>0.288s</td>
-<td class="success">100%</td>
-</tr>
-<tr>
-<td class="success">
-<a href="packages/it.unisa.casper.analysis.code_smell_detection.feature_envy.html">it.unisa.casper.analysis.code_smell_detection.feature_envy</a>
-</td>
-<td>16</td>
-<td>0</td>
-<td>0</td>
-<td>0.292s</td>
-<td class="success">100%</td>
-</tr>
-<tr>
-<td class="success">
-<a href="packages/it.unisa.casper.analysis.code_smell_detection.misplaced_class.html">it.unisa.casper.analysis.code_smell_detection.misplaced_class</a>
-</td>
-<td>16</td>
-<td>0</td>
-<td>0</td>
-<td>0.384s</td>
-<td class="success">100%</td>
-</tr>
-<tr>
-<td class="success">
-<a href="packages/it.unisa.casper.analysis.code_smell_detection.promiscuous_package.html">it.unisa.casper.analysis.code_smell_detection.promiscuous_package</a>
-</td>
-<td>16</td>
-<td>0</td>
-<td>0</td>
-<td>0.206s</td>
-<td class="success">100%</td>
-</tr>
-<tr>
-<td class="success">
+<td class="failures">
 <a href="packages/it.unisa.casper.refactor.html">it.unisa.casper.refactor</a>
 </td>
-<td>8</td>
+<td>1</td>
+<td>1</td>
 <td>0</td>
-<td>0</td>
-<td>0.182s</td>
-<td class="success">100%</td>
+<td>0.018s</td>
+<td class="failures">0%</td>
 </tr>
 </tbody>
 </table>
 </div>
-<div id="tab1" class="tab">
+<div id="tab2" class="tab">
 <h2>Classes</h2>
 <table>
 <thead>
@@ -156,114 +118,14 @@
 </thead>
 <tbody>
 <tr>
-<td class="success">
-<a href="classes/it.unisa.casper.analysis.code_smell_detection.BeanDetectionTest.html">it.unisa.casper.analysis.code_smell_detection.BeanDetectionTest</a>
+<td class="failures">
+<a href="classes/it.unisa.casper.refactor.GameTheorySplitClassesTest.html">it.unisa.casper.refactor.GameTheorySplitClassesTest</a>
 </td>
-<td>2</td>
+<td>1</td>
+<td>1</td>
 <td>0</td>
-<td>0</td>
-<td>0.002s</td>
-<td class="success">100%</td>
-</tr>
-<tr>
-<td class="success">
-<a href="classes/it.unisa.casper.analysis.code_smell_detection.blob.StructuralBlobStrategyTest.html">it.unisa.casper.analysis.code_smell_detection.blob.StructuralBlobStrategyTest</a>
-</td>
-<td>10</td>
-<td>0</td>
-<td>0</td>
-<td>0.043s</td>
-<td class="success">100%</td>
-</tr>
-<tr>
-<td class="success">
-<a href="classes/it.unisa.casper.analysis.code_smell_detection.blob.TextualBlobStrategyTest.html">it.unisa.casper.analysis.code_smell_detection.blob.TextualBlobStrategyTest</a>
-</td>
-<td>8</td>
-<td>0</td>
-<td>0</td>
-<td>0.245s</td>
-<td class="success">100%</td>
-</tr>
-<tr>
-<td class="success">
-<a href="classes/it.unisa.casper.analysis.code_smell_detection.feature_envy.StructuralFeatureEnvyStrategyTest.html">it.unisa.casper.analysis.code_smell_detection.feature_envy.StructuralFeatureEnvyStrategyTest</a>
-</td>
-<td>8</td>
-<td>0</td>
-<td>0</td>
-<td>0.010s</td>
-<td class="success">100%</td>
-</tr>
-<tr>
-<td class="success">
-<a href="classes/it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest.html">it.unisa.casper.analysis.code_smell_detection.feature_envy.TextualFeatureEnvyStrategyTest</a>
-</td>
-<td>8</td>
-<td>0</td>
-<td>0</td>
-<td>0.282s</td>
-<td class="success">100%</td>
-</tr>
-<tr>
-<td class="success">
-<a href="classes/it.unisa.casper.analysis.code_smell_detection.misplaced_class.StructuralMisplacedClassStrategyTest.html">it.unisa.casper.analysis.code_smell_detection.misplaced_class.StructuralMisplacedClassStrategyTest</a>
-</td>
-<td>8</td>
-<td>0</td>
-<td>0</td>
-<td>0.016s</td>
-<td class="success">100%</td>
-</tr>
-<tr>
-<td class="success">
-<a href="classes/it.unisa.casper.analysis.code_smell_detection.misplaced_class.TextualMisplacedClassStrategyTest.html">it.unisa.casper.analysis.code_smell_detection.misplaced_class.TextualMisplacedClassStrategyTest</a>
-</td>
-<td>8</td>
-<td>0</td>
-<td>0</td>
-<td>0.368s</td>
-<td class="success">100%</td>
-</tr>
-<tr>
-<td class="success">
-<a href="classes/it.unisa.casper.analysis.code_smell_detection.promiscuous_package.StructuralPromiscuousPackageStrategyTest.html">it.unisa.casper.analysis.code_smell_detection.promiscuous_package.StructuralPromiscuousPackageStrategyTest</a>
-</td>
-<td>8</td>
-<td>0</td>
-<td>0</td>
-<td>0.012s</td>
-<td class="success">100%</td>
-</tr>
-<tr>
-<td class="success">
-<a href="classes/it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest.html">it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest</a>
-</td>
-<td>8</td>
-<td>0</td>
-<td>0</td>
-<td>0.194s</td>
-<td class="success">100%</td>
-</tr>
-<tr>
-<td class="success">
-<a href="classes/it.unisa.casper.refactor.SplitClassTest.html">it.unisa.casper.refactor.SplitClassTest</a>
-</td>
-<td>4</td>
-<td>0</td>
-<td>0</td>
-<td>0.062s</td>
-<td class="success">100%</td>
-</tr>
-<tr>
-<td class="success">
-<a href="classes/it.unisa.casper.refactor.SplitPackagesTest.html">it.unisa.casper.refactor.SplitPackagesTest</a>
-</td>
-<td>4</td>
-<td>0</td>
-<td>0</td>
-<td>0.120s</td>
-<td class="success">100%</td>
+<td>0.018s</td>
+<td class="failures">0%</td>
 </tr>
 </tbody>
 </table>
@@ -276,7 +138,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.4.2</a> at 12 giu 2022, 18:23:22</p>
+<a href="http://www.gradle.org">Gradle 7.4.2</a> at 17 giu 2022, 22:20:13</p>
 </div>
 </div>
 </body>
