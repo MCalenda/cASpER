@@ -9,8 +9,10 @@ import it.unisa.casper.analysis.code_smell_detection.misplaced_class.StructuralM
 import it.unisa.casper.analysis.code_smell_detection.misplaced_class.TextualMisplacedClassStrategyTest;
 import it.unisa.casper.analysis.code_smell_detection.promiscuous_package.StructuralPromiscuousPackageStrategyTest;
 import it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategyTest;
+import it.unisa.casper.refactor.GameTheorySplitClassesTest;
 import it.unisa.casper.refactor.SplitClassTest;
 import it.unisa.casper.refactor.SplitPackagesTest;
+import it.unisa.casper.refactor.splitting_algorithm.game_theory.GameTheorySplitClasses;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
@@ -26,6 +28,7 @@ import org.junit.runners.Suite;
         TextualPromiscuousPackageStrategyTest.class,
         StructuralPromiscuousPackageStrategyTest.class,
         SplitPackagesTest.class,
+        GameTheorySplitClassesTest.class,
         SplitClassTest.class,
         BeanDetectionTest.class
 })

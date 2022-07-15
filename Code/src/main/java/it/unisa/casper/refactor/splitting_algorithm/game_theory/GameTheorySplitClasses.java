@@ -11,7 +11,7 @@ import it.unisa.casper.refactor.strategy.SplittingStrategy;
 import org.apache.commons.lang3.ArrayUtils;
 
 public class GameTheorySplitClasses implements SplittingStrategy {
-    private InputFinder inputFinder;
+    private final InputFinder inputFinder;
     public GameTheorySplitClasses() {
         inputFinder = new InputFinder();
     }
@@ -28,7 +28,7 @@ public class GameTheorySplitClasses implements SplittingStrategy {
     @Override
     public Collection<ClassBean> split(ClassBean toSplit, double threshold) throws SplittingException, Exception {
         Collection<ClassBean> result = new ArrayList<>();
-        ArrayList<ArrayList<Integer>> playerChoices = inputFinder.extractTopic(toSplit, threshold, 1000);
+        ArrayList<ArrayList<Integer>> playerChoices = inputFinder.extractTopics(toSplit, threshold, 1000);
         String packageName = toSplit.getFullQualifiedName().substring(0, toSplit.getFullQualifiedName().lastIndexOf("."));
 
         if (playerChoices.size() <= 1) {
@@ -52,9 +52,6 @@ public class GameTheorySplitClasses implements SplittingStrategy {
                 remainingMethods.add(toSplit.getMethodList().indexOf(method));
             }
         }
-
-        System.out.println(playerChoices);
-        System.out.println(remainingMethods);
 
         while (remainingMethods.size() != 0) {
             PayoffMatrix pm = new PayoffMatrix(remainingMethods, playerChoices, methodByMethodMatrix, 0.5, 0.4);

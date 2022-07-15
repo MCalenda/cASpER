@@ -37,7 +37,7 @@ public class InputFinder {
      * the Game Theory splitting and each slot has the index of the most similar method of extractFrom
      * @throws IOException
      */
-    public ArrayList<ArrayList<Integer>> extractTopic(ClassBean toExtract, double threshold, int numIter) throws IOException {
+    public ArrayList<ArrayList<Integer>> extractTopics(ClassBean toExtract, double threshold, int numIter) throws IOException {
 
         Utility.createStopwordList(stopwordList);
         Scanner sc = new Scanner(stopwordList);
@@ -52,17 +52,8 @@ public class InputFinder {
         InstanceList corpus = new InstanceList (new SerialPipes(pipeList));
 
         ArrayList<ArrayList<String>> methodsWordsSplitted = new ArrayList<>();
-        for (MethodBean m : toExtract.getMethodList()) {
-            String text = Utility.clean(m.getTextContent());
-            ArrayList<String> textSplitted = new ArrayList<>(Arrays.asList(text.split("((\\s+)|((?<=[a-z])(?=[A-Z])))")));
-            ArrayList<String> texSplittedClean = new ArrayList<>();
-            for (String s : textSplitted) {
-                if (!StringUtils.isNumeric(s) && s.length() > 3) {
-                    texSplittedClean.add(s.toLowerCase());
-                }
-            }
-            texSplittedClean.removeAll(stopWords);
-            methodsWordsSplitted.add(texSplittedClean);
+        for (MethodBean m : toExtract.getMethodList()){
+            methodsWordsSplitted.add(extractCleanWords(m.getTextContent(), stopWords));
         }
 
         List<String> flat =
@@ -92,21 +83,7 @@ public class InputFinder {
             topics.add(topic);
         }
 
-        for (int i = 0; i < topics.size()-1; i++) {
-            for (int j = i+1; j < topics.size(); j++) {
-                double jaccardSimilarity = computeJaccardSimilarity(topics.get(i), topics.get(j));
-                if (jaccardSimilarity >= threshold && topics.size() != 1) {
-                    ArrayList<String> iCopy = new ArrayList<>(topics.get(i));
-                    iCopy.removeAll(topics.get(j));
-                    iCopy.addAll(topics.get(j));
-                    topics.set(i, iCopy);
-                    topics.remove(j);
-
-                    i=-1;
-                    break;
-                }
-            }
-        }
+        topics = mergeTopics(topics, threshold);
 
         ArrayList<ArrayList<Integer>> result = new ArrayList<>();
         ArrayList<Integer> alreadySelected = new ArrayList<>();
@@ -131,7 +108,7 @@ public class InputFinder {
     }
 
     /**
-     * Compute the Jaccard Similarity i.e. JS(A, B) = |A⋂B| / |A⋃B|
+     * Compute the Jaccard Similarity (i.e. JS(A, B) = |A⋂B| / |A⋃B|)
      *
      * @param a the first list of string to compare
      * @param b the secondo list of string to compare
@@ -147,6 +124,52 @@ public class InputFinder {
             }
         }
         return match/(a.size() + b.size() - match);
+    }
+
+    /**
+     * Extract words from method text content and apply IR normalization
+     *
+     * @param methodText text content of the method
+     * @param stopWords list of stop words
+     * @return a List of clean words
+     */
+    public ArrayList<String> extractCleanWords (String methodText, ArrayList<String> stopWords) {
+
+        ArrayList<String> textSplitted = new ArrayList<>(Arrays.asList(Utility.clean(methodText).split("((\\s+)|((?<=[a-z])(?=[A-Z])))")));
+        ArrayList<String> texSplittedClean = new ArrayList<>();
+        for (String s : textSplitted) {
+            if (!StringUtils.isNumeric(s) && s.length() > 2) {
+                texSplittedClean.add(s.toLowerCase());
+            }
+        }
+        texSplittedClean.removeAll(stopWords);
+        return texSplittedClean;
+    }
+
+    /**
+     * Compare all the topics and merge the ones with a Jaccard Similarity higher than a threshold
+     *
+     * @param topics List of topics (List of words)
+     * @param threshold a Jaccard Similarity higher than threshold means topics are merged
+     * @return a List of merged topics
+     */
+    public ArrayList<ArrayList<String>> mergeTopics (ArrayList<ArrayList<String>> topics, double threshold) {
+        for (int i = 0; i < topics.size()-1; i++) {
+            for (int j = i+1; j < topics.size(); j++) {
+                double jaccardSimilarity = computeJaccardSimilarity(topics.get(i), topics.get(j));
+                if (jaccardSimilarity >= threshold && topics.size() != 1) {
+                    ArrayList<String> iCopy = new ArrayList<>(topics.get(i));
+                    iCopy.removeAll(topics.get(j));
+                    iCopy.addAll(topics.get(j));
+                    topics.set(i, iCopy);
+                    topics.remove(j);
+
+                    i=-1;
+                    break;
+                }
+            }
+        }
+        return topics;
     }
 
 }

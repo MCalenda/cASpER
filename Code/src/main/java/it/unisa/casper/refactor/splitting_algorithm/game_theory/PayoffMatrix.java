@@ -114,10 +114,6 @@ public class PayoffMatrix {
         return totalPayoffs;
     }
 
-    public ArrayList<Integer> getRemainingMethods() {
-        return remainingMethods;
-    }
-
     public void setTotalPayoffs(HashMap<ArrayList<Integer>, ArrayList<Double>> totalPayoffs) {
         this.totalPayoffs = totalPayoffs;
     }

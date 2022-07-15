@@ -11,7 +11,8 @@ import org.junit.Test;
 import java.util.*;
 import java.util.logging.Logger;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
+
 public class GameTheorySplitClassesTest {
 
     private MethodBeanList methods, called1, called2, called3, called4;
@@ -19,9 +20,11 @@ public class GameTheorySplitClassesTest {
     private ClassBean classe, noSmelly, smelly;
     private ClassBeanList classes;
     private PackageBean pack;
+    private InputFinder inputFinder;
 
     @Before
     public void setUp() throws Exception {
+        inputFinder = new InputFinder();
         MethodBeanList vuota = new MethodList();
         HashMap<String, ClassBean> nulla = new HashMap<String, ClassBean>();
         classes = new ClassList();
@@ -1119,51 +1122,97 @@ public class GameTheorySplitClassesTest {
     }
 
     @Test
-    public void testJaccardSimilarity() {
-        boolean errorOccured = false;
+    public void canComputeJaccardSimilarity() {
         Logger log = Logger.getLogger(getClass().getName());
 
-        InputFinder inputFinder = new InputFinder();
+        //given
         ArrayList<String> set1 = new ArrayList<>(Arrays.asList("utente", "nome", "password", "data", "luogo", "indirizzo", "azienda"));
         ArrayList<String> set2 = new ArrayList<>(Arrays.asList("azienda", "nome", "titolo", "licenza", "fondazione", "luogo", "indirizzo", "data"));
-        double jaccardSimilarity = 0;
-        try {
-            jaccardSimilarity = inputFinder.computeJaccardSimilarity(set1, set2);
-        } catch (Exception e) {
-            errorOccured = true;
-            e.getMessage();
-        }
-        log.info("\n" + (jaccardSimilarity == .5));
-        assertTrue(jaccardSimilarity == .5);
-        log.info("\nError occurred:" + errorOccured);
-        assertTrue(!errorOccured);
+        double expected = .5;
+
+        //when
+        double actual = inputFinder.computeJaccardSimilarity(set1, set2);
+
+        //then
+        log.info("\n" + (actual == expected));
+        assertEquals(expected, actual, 0.0);
     }
 
     @Test
-    public void testLDA() {
+    public void canExtractCleanWords() {
+        Logger log = Logger.getLogger(getClass().getName());
+
+        //given
+        String testo = "public void creaUtente(String nome, String il@Cognome, integer eta ){this.nome- := nome; sa}";
+        ArrayList<String> stopWords = new ArrayList<>(Arrays.asList("public", "void", "string", "integer", "this"));
+        ArrayList<String> expected = new ArrayList<>(Arrays.asList("crea", "utente", "nome", "cognome", "eta", "nome", "nome"));
+
+        //when
+        ArrayList<String> actual = inputFinder.extractCleanWords(testo, stopWords);
+
+        //then
+        log.info("\n" + (actual.equals(expected)));
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void canMergeTopics() {
+        Logger log = Logger.getLogger(getClass().getName());
+
+        //given
+        ArrayList<String> set1 = new ArrayList<>(Arrays.asList("utente", "nome", "password", "data", "luogo", "indirizzo", "azienda"));
+        ArrayList<String> set2 = new ArrayList<>(Arrays.asList("azienda", "nome", "titolo", "licenza", "fondazione", "luogo", "indirizzo", "data"));
+        ArrayList<String> set3 = new ArrayList<>(Arrays.asList("azienda", "nome", "via", "pIVA"));
+        ArrayList<String> set4 = new ArrayList<>(Arrays.asList("azienda", "nome", "fondazione", "utente", "licenza", "pIVA", "data"));
+
+        ArrayList<ArrayList<String>> topics = new ArrayList<>();
+        topics.add(set1);
+        topics.add(set2);
+        topics.add(set3);
+        topics.add(set4);
+
+        ArrayList<ArrayList<String>> expected = new ArrayList<>();
+        expected.add( new ArrayList<>(Arrays.asList("password", "titolo", "luogo", "indirizzo", "azienda", "nome", "fondazione", "utente", "licenza", "pIVA", "data")));
+        expected.add( new ArrayList<>(Arrays.asList("azienda", "nome", "via", "pIVA")));
+
+        //when
+        ArrayList<ArrayList<String>> actual = inputFinder.mergeTopics(topics, .5);
+
+        //then
+        log.info("\n" + (actual.equals(expected)));
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void canApplyLDA() {
         boolean errorOccured = false;
         Logger log = Logger.getLogger(getClass().getName());
 
-        InputFinder inputFinder = new InputFinder();
-        ArrayList<ArrayList<Integer>> result = new ArrayList<>();
+        //given
+        int actual = 0;
+        int expected = 5;
+
+        //when
         try {
-            result = inputFinder.extractTopic(smelly, .5, 50);
+            actual = inputFinder.extractTopics(smelly, 1, 50).size();
         } catch (Exception e) {
             errorOccured = true;
             e.printStackTrace();
         }
-        log.info("\n" + (result.size() == 5));
-        assertTrue(result.size() == 5 );
+
+        //then
+        log.info("\n" + (actual == expected));
+        assertEquals(expected, actual);
 
         log.info("\nError occurred:" + errorOccured);
-        assertTrue(!errorOccured);
+        assertFalse(errorOccured);
     }
 
     @Test
-    public void testFindNashEquilibrium() {
-        boolean errorOccured = false;
+    public void canFindNashEquilibrium() {
         Logger log = Logger.getLogger(getClass().getName());
 
+        //given
         HashMap<ArrayList<Integer>, ArrayList<Double>> totalPayoffs =  new HashMap<>();
 
         ArrayList<Integer> var1 = new ArrayList<>(Arrays.asList(0, 1));
@@ -1189,27 +1238,28 @@ public class GameTheorySplitClassesTest {
         PayoffMatrix pm = new PayoffMatrix(remainingMethods, null, null, 0, 0);
         pm.setTotalPayoffs(totalPayoffs);
 
-        HashMap<ArrayList<Integer>, ArrayList<Double>> nashEquilibrium = new HashMap<>();
-        try {
-            nashEquilibrium = pm.findNashEquilibriums();
-        } catch (Exception e) {
-            errorOccured = true;
-            e.printStackTrace();
-        }
+        HashMap<ArrayList<Integer>, ArrayList<Double>> actual = new HashMap<>();
+        ArrayList<Integer> expectedOne = new ArrayList<>(Arrays.asList(0, -1));
+        ArrayList<Integer> expectedTwo = new ArrayList<>(Arrays.asList(-1, 1));
 
-        assertTrue(nashEquilibrium.size() == 2);
-        assertTrue(nashEquilibrium.containsKey(Arrays.asList(0, -1)));
-        assertTrue(nashEquilibrium.containsKey(Arrays.asList(-1, 1)));
+        //when
+        actual = pm.findNashEquilibriums();
 
-        log.info("\nError occurred:" + errorOccured);
-        assertTrue(!errorOccured);
+        //then
+        log.info("\n" + (2 == actual.size()));
+        log.info("\n" + (actual.containsKey(expectedOne)));
+        log.info("\n" + (actual.containsKey(expectedTwo)));
+
+        assertEquals(2, actual.size());
+        assertTrue(actual.containsKey(expectedOne));
+        assertTrue(actual.containsKey(expectedTwo));
     }
 
     @Test
-    public void testComputePayoff() {
-        boolean errorOccured = false;
+    public void canComputePayoffs() {
         Logger log = Logger.getLogger(getClass().getName());
 
+        //given
         double [][] methodByMethodMatrix = new double[][]{
                 {1.00, 0.70, 0.21, 0.02, 0.10, 0.00},
                 {0.70, 1.00, 0.30, 0.06, 0.01, 0.03},
@@ -1221,24 +1271,23 @@ public class GameTheorySplitClassesTest {
 
         ArrayList<Integer> remainingMethods = new ArrayList<>(Arrays.asList(0, 2, 5));
         ArrayList<ArrayList<Integer>> playerChoices = new ArrayList<>();
-        playerChoices.add(new ArrayList<>(Arrays.asList(1)));
-        playerChoices.add(new ArrayList<>(Arrays.asList(4)));
-        playerChoices.add(new ArrayList<>(Arrays.asList(3)));
+        playerChoices.add(new ArrayList<>(List.of(1)));
+        playerChoices.add(new ArrayList<>(List.of(4)));
+        playerChoices.add(new ArrayList<>(List.of(3)));
 
         PayoffMatrix pm = new PayoffMatrix(remainingMethods, playerChoices, methodByMethodMatrix, 0.5, 0.4);
         ArrayList<Integer> possibleChoices = new ArrayList<>(remainingMethods);
         possibleChoices.add(-1);
 
-        try {
-            pm.computePayoffs(new ArrayList<>(), playerChoices.size(), 0, possibleChoices);
-        } catch (Exception e) {
-            errorOccured = true;
-            e.printStackTrace();
-        }
+        int expected = 33;
 
-        assertTrue(pm.getTotalPayoffs().size() == 33);
+        //when
+        pm.computePayoffs(new ArrayList<>(), playerChoices.size(), 0, possibleChoices);
 
-        log.info("\nError occurred:" + errorOccured);
-        assertTrue(!errorOccured);
+        //then
+        log.info("\n" + (pm.getTotalPayoffs().size() == expected));
+        assertEquals(pm.getTotalPayoffs().size(), expected);
+
     }
+
 }

@@ -1,4 +1,4 @@
-package src.main.java.it.unisa.casper.gui;
+package it.unisa.casper.gui;
 
 import javax.swing.text.*;
 import java.awt.*;

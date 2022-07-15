@@ -13,7 +13,6 @@ import it.unisa.casper.storage.beans.PackageBean;
 import it.unisa.casper.structuralMetrics.CKMetrics;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import src.main.java.it.unisa.casper.gui.StyleText;
 
 import javax.swing.*;
 import javax.swing.border.TitledBorder;

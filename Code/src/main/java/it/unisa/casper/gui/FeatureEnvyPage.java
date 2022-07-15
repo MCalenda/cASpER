@@ -11,7 +11,6 @@ import it.unisa.casper.structuralMetrics.CKMetrics;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import org.jfree.chart.ChartPanel;
-import src.main.java.it.unisa.casper.gui.StyleText;
 
 import javax.swing.*;
 import javax.swing.border.TitledBorder;
