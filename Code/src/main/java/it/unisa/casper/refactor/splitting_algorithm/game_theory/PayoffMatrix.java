@@ -1,11 +1,7 @@
 package it.unisa.casper.refactor.splitting_algorithm.game_theory;
 
-import com.google.common.primitives.Bytes;
-import com.intellij.openapi.progress.ProgressIndicator;
-import com.intellij.openapi.progress.ProgressManager;
-import org.apache.commons.lang3.ArrayUtils;
-
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.*;
 
 public class PayoffMatrix {
@@ -73,7 +69,7 @@ public class PayoffMatrix {
         for (int methodInTheClass : classUnderConstruction) {
             similarity = similarity.add(BigDecimal.valueOf(methodByMethodMatrix[method][methodInTheClass]));
         }
-        return similarity.divide(new BigDecimal(classUnderConstruction.size()));
+        return similarity.divide(new BigDecimal(classUnderConstruction.size()), 4, RoundingMode.HALF_UP);
     }
 
     private BigDecimal computeSimilarityWithRemaining(ArrayList<Integer> classUnderConstruction, ArrayList<Integer> lettingMethods) {
@@ -81,7 +77,7 @@ public class PayoffMatrix {
         for (int method : lettingMethods) {
             similarity = similarity.add(computeSimilarityUnderConstruction(classUnderConstruction, method));
         }
-        return similarity.divide(new BigDecimal(lettingMethods.size()));
+        return similarity.divide(new BigDecimal(lettingMethods.size()), 4, RoundingMode.HALF_UP);
     }
 
     public HashMap<ArrayList<Integer>, ArrayList<Double>> findNashEquilibriums() {

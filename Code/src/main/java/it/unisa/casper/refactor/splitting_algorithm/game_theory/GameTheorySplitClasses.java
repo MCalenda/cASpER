@@ -12,8 +12,12 @@ import org.apache.commons.lang3.ArrayUtils;
 
 public class GameTheorySplitClasses implements SplittingStrategy {
     private final InputFinder inputFinder;
+    private ArrayList<Integer> remainingMethods;
+    private ArrayList<ArrayList<Integer>> playerChoices;
     public GameTheorySplitClasses() {
         inputFinder = new InputFinder();
+        remainingMethods = new ArrayList<>();
+        playerChoices = new ArrayList<>();
     }
 
     /**
@@ -28,9 +32,8 @@ public class GameTheorySplitClasses implements SplittingStrategy {
     @Override
     public Collection<ClassBean> split(ClassBean toSplit, double threshold) throws SplittingException, Exception {
         Collection<ClassBean> result = new ArrayList<>();
-        ArrayList<ArrayList<Integer>> playerChoices = inputFinder.extractTopics(toSplit, threshold, 1000);
-        String packageName = toSplit.getFullQualifiedName().substring(0, toSplit.getFullQualifiedName().lastIndexOf("."));
 
+        playerChoices = inputFinder.extractTopics(toSplit, threshold, 1000);
         if (playerChoices.size() <= 1) {
             result.add(toSplit);
             return result;
@@ -39,8 +42,6 @@ public class GameTheorySplitClasses implements SplittingStrategy {
         MethodByMethodMatrixConstruction matrixConstruction = new MethodByMethodMatrixConstruction();
         double[][] methodByMethodMatrix = matrixConstruction.buildMethodByMethodMatrix(0.4, 0.1, 0.5, toSplit);
 
-
-        ArrayList<Integer> remainingMethods = new ArrayList<>();
         for (MethodBean method : toSplit.getMethodList()) {
             boolean isChosen = false;
             for (ArrayList<Integer> playerChoice : playerChoices) {
@@ -54,32 +55,21 @@ public class GameTheorySplitClasses implements SplittingStrategy {
         }
 
         while (remainingMethods.size() != 0) {
-            PayoffMatrix pm = new PayoffMatrix(remainingMethods, playerChoices, methodByMethodMatrix, 0.5, 0.4);
-            ArrayList<Integer> possibleChoices = new ArrayList<>(remainingMethods);
-            possibleChoices.add(-1);
-            pm.computePayoffs(new ArrayList<>(), playerChoices.size(), 0, possibleChoices);
-            HashMap<ArrayList<Integer>, ArrayList<Double>> nashEquilibriums = pm.findNashEquilibriums();
-            ArrayList<Integer> nashEquilibrium = new ArrayList<>();
-            double maxPayoff = -1;
-            for (Map.Entry<ArrayList<Integer>, ArrayList<Double>> entry : nashEquilibriums.entrySet()) {
-                double nePayoff = 0;
-                for (double x : entry.getValue()) {
-                    nePayoff += x;
-                }
-                if (nePayoff >= maxPayoff) {
-                    maxPayoff = nePayoff;
-                    nashEquilibrium = entry.getKey();
-                }
-            }
-
+            System.out.println(playerChoices);
+            System.out.println(remainingMethods);
+            ArrayList<Integer> nashEquilibrium = makeIteration(methodByMethodMatrix);
+            System.out.println(nashEquilibrium);
             for (int move : nashEquilibrium) {
                 if (move != -1) {
                     playerChoices.get(nashEquilibrium.indexOf(move)).add(move);
-                    remainingMethods.remove(move);
+                    remainingMethods.remove(Integer.valueOf(move));
                 }
             }
         }
 
+        System.out.println(playerChoices);
+
+        String packageName = toSplit.getFullQualifiedName().substring(0, toSplit.getFullQualifiedName().lastIndexOf("."));
         for (int i = 0; i < playerChoices.size() ; i++) {
             ArrayList<MethodBean> methods = new ArrayList<>();
             for (int j = 0; j < playerChoices.get(i).size() ; j++) {
@@ -91,7 +81,29 @@ public class GameTheorySplitClasses implements SplittingStrategy {
         return result;
     }
 
-    public ClassBean createSplittedClassBean(int index, String packageName,
+    private ArrayList<Integer> makeIteration(double[][] methodByMethodMatrix) {
+        PayoffMatrix pm = new PayoffMatrix(remainingMethods, playerChoices, methodByMethodMatrix, 0.5, 0.4);
+        ArrayList<Integer> possibleChoices = new ArrayList<>(remainingMethods);
+        possibleChoices.add(-1);
+        pm.computePayoffs(new ArrayList<>(), playerChoices.size(), 0, possibleChoices);
+        HashMap<ArrayList<Integer>, ArrayList<Double>> nashEquilibriums = pm.findNashEquilibriums();
+
+        ArrayList<Integer> nashEquilibrium = new ArrayList<>();
+        double maxPayoff = -1;
+        for (Map.Entry<ArrayList<Integer>, ArrayList<Double>> entry : nashEquilibriums.entrySet()) {
+            double nePayoff = 0;
+            for (double x : entry.getValue()) {
+                nePayoff += x;
+            }
+            if (nePayoff >= maxPayoff) {
+                maxPayoff = nePayoff;
+                nashEquilibrium = entry.getKey();
+            }
+        }
+        return nashEquilibrium;
+    }
+
+    private ClassBean createSplittedClassBean(int index, String packageName,
                                              ArrayList<MethodBean> methods,
                                              Vector<InstanceVariableBean> instanceVariables,
                                              PackageBean belongingPackage) {

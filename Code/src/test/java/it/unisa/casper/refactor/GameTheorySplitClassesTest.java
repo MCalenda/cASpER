@@ -1215,44 +1215,102 @@ public class GameTheorySplitClassesTest {
         //given
         HashMap<ArrayList<Integer>, ArrayList<Double>> totalPayoffs =  new HashMap<>();
 
-        ArrayList<Integer> var1 = new ArrayList<>(Arrays.asList(0, 1));
-        ArrayList<Double> pay1 = new ArrayList<>(Arrays.asList(0.26, 0.14));
-        totalPayoffs.put(var1, pay1);
-        ArrayList<Integer> var2 = new ArrayList<>(Arrays.asList(0, -1));
-        ArrayList<Double> pay2 = new ArrayList<>(Arrays.asList(0.26, 0.19));
-        totalPayoffs.put(var2, pay2);
-        ArrayList<Integer> var3 = new ArrayList<>(Arrays.asList(1, 0));
-        ArrayList<Double> pay3 = new ArrayList<>(Arrays.asList(-0.26, -0.14));
-        totalPayoffs.put(var3, pay3);
-        ArrayList<Integer> var4 = new ArrayList<>(Arrays.asList(1, -1));
-        ArrayList<Double> pay4 = new ArrayList<>(Arrays.asList(0.0, 0.05));
-        totalPayoffs.put(var4, pay4);
-        ArrayList<Integer> var5 = new ArrayList<>(Arrays.asList(-1, 0));
-        ArrayList<Double> pay5 = new ArrayList<>(Arrays.asList(0.25, 0.31));
-        totalPayoffs.put(var5, pay5);
-        ArrayList<Integer> var6 = new ArrayList<>(Arrays.asList(-1, 1));
-        ArrayList<Double> pay6 = new ArrayList<>(Arrays.asList(0.50, 0.45));
-        totalPayoffs.put(var6, pay6);
+        ArrayList<Integer> var = new ArrayList<>(Arrays.asList(0, 1));
+        ArrayList<Double> pay = new ArrayList<>(Arrays.asList(0.49, 0.22));
+        totalPayoffs.put(var, pay);
 
-        ArrayList<Integer> remainingMethods = new ArrayList<>(Arrays.asList(0, 1));
+        var = new ArrayList<>(Arrays.asList(0, 2));
+        pay = new ArrayList<>(Arrays.asList(0.70, 0.30));
+        totalPayoffs.put(var, pay);
+
+        var = new ArrayList<>(Arrays.asList(0, 3));
+        pay = new ArrayList<>(Arrays.asList(0.70, 0.80));
+        totalPayoffs.put(var, pay);
+
+        var = new ArrayList<>(Arrays.asList(0, -1));
+        pay = new ArrayList<>(Arrays.asList(0.70, 0.50));
+        totalPayoffs.put(var, pay);
+
+        var = new ArrayList<>(Arrays.asList(1, 0));
+        pay = new ArrayList<>(Arrays.asList(-0.49, -0.22));
+        totalPayoffs.put(var, pay);
+
+        var = new ArrayList<>(Arrays.asList(1, 2));
+        pay = new ArrayList<>(Arrays.asList(0.21, 0.08));
+        totalPayoffs.put(var, pay);
+
+        var = new ArrayList<>(Arrays.asList(1, 3));
+        pay = new ArrayList<>(Arrays.asList(0.21, 0.58));
+        totalPayoffs.put(var, pay);
+
+        var = new ArrayList<>(Arrays.asList(1, -1));
+        pay = new ArrayList<>(Arrays.asList(0.21, 0.28));
+        totalPayoffs.put(var, pay);
+
+        var = new ArrayList<>(Arrays.asList(2, 0));
+        pay = new ArrayList<>(Arrays.asList(-0.70, -0.30));
+        totalPayoffs.put(var, pay);
+
+        var = new ArrayList<>(Arrays.asList(2, 1));
+        pay = new ArrayList<>(Arrays.asList(-0.21, -0.08));
+        totalPayoffs.put(var, pay);
+
+        var = new ArrayList<>(Arrays.asList(2, 3));
+        pay = new ArrayList<>(Arrays.asList(0.0, 0.50));
+        totalPayoffs.put(var, pay);
+
+        var = new ArrayList<>(Arrays.asList(2, -1));
+        pay = new ArrayList<>(Arrays.asList(0.0, 0.20));
+        totalPayoffs.put(var, pay);
+
+        var = new ArrayList<>(Arrays.asList(3, 0));
+        pay = new ArrayList<>(Arrays.asList(-0.70, -0.80));
+        totalPayoffs.put(var, pay);
+
+        var = new ArrayList<>(Arrays.asList(3, 1));
+        pay = new ArrayList<>(Arrays.asList(-0.21, -0.58));
+        totalPayoffs.put(var, pay);
+
+        var = new ArrayList<>(Arrays.asList(3, 2));
+        pay = new ArrayList<>(Arrays.asList(0.0, -0.50));
+        totalPayoffs.put(var, pay);
+
+        var = new ArrayList<>(Arrays.asList(3, -1));
+        pay = new ArrayList<>(Arrays.asList(0.0, -0.30));
+        totalPayoffs.put(var, pay);
+
+        var = new ArrayList<>(Arrays.asList(-1, 0));
+        pay = new ArrayList<>(Arrays.asList(-0.20, 0.0));
+        totalPayoffs.put(var, pay);
+
+        var = new ArrayList<>(Arrays.asList(-1, 1));
+        pay = new ArrayList<>(Arrays.asList(0.29, 0.22));
+        totalPayoffs.put(var, pay);
+
+        var = new ArrayList<>(Arrays.asList(-1, 2));
+        pay = new ArrayList<>(Arrays.asList(0.50, 0.30));
+        totalPayoffs.put(var, pay);
+
+        var = new ArrayList<>(Arrays.asList(-1, 3));
+        pay = new ArrayList<>(Arrays.asList(0.50, 0.80));
+        totalPayoffs.put(var, pay);
+
+        ArrayList<Integer> remainingMethods = new ArrayList<>(Arrays.asList(0, 1, 2, 3));
         PayoffMatrix pm = new PayoffMatrix(remainingMethods, null, null, 0, 0);
         pm.setTotalPayoffs(totalPayoffs);
 
         HashMap<ArrayList<Integer>, ArrayList<Double>> actual = new HashMap<>();
-        ArrayList<Integer> expectedOne = new ArrayList<>(Arrays.asList(0, -1));
-        ArrayList<Integer> expectedTwo = new ArrayList<>(Arrays.asList(-1, 1));
+        ArrayList<Integer> expected = new ArrayList<>(Arrays.asList(0, 3));
 
         //when
         actual = pm.findNashEquilibriums();
 
         //then
-        log.info("\n" + (2 == actual.size()));
-        log.info("\n" + (actual.containsKey(expectedOne)));
-        log.info("\n" + (actual.containsKey(expectedTwo)));
+        log.info("\n" + (1 == actual.size()));
+        log.info("\n" + (actual.containsKey(expected)));
 
-        assertEquals(2, actual.size());
-        assertTrue(actual.containsKey(expectedOne));
-        assertTrue(actual.containsKey(expectedTwo));
+        assertEquals(1, actual.size());
+        assertTrue(actual.containsKey(expected));
     }
 
     @Test

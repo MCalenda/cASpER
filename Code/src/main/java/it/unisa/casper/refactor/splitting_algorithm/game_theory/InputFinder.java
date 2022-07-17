@@ -52,7 +52,7 @@ public class InputFinder {
         InstanceList corpus = new InstanceList (new SerialPipes(pipeList));
 
         ArrayList<ArrayList<String>> methodsWordsSplitted = new ArrayList<>();
-        for (MethodBean m : toExtract.getMethodList()){
+        for (MethodBean m : toExtract.getMethodList()) {
             methodsWordsSplitted.add(extractCleanWords(m.getTextContent(), stopWords));
         }
 
