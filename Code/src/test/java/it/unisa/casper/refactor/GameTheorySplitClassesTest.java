@@ -1314,7 +1314,7 @@ public class GameTheorySplitClassesTest {
     }
 
     @Test
-    public void canComputePayoffs() {
+    public void canComputeTheRightNumberOfPayoffs() {
         Logger log = Logger.getLogger(getClass().getName());
 
         //given
@@ -1345,6 +1345,56 @@ public class GameTheorySplitClassesTest {
         //then
         log.info("\n" + (pm.getTotalPayoffs().size() == expected));
         assertEquals(pm.getTotalPayoffs().size(), expected);
+
+    }
+
+    @Test
+    public void canComputeTheRightPayoffs() {
+        Logger log = Logger.getLogger(getClass().getName());
+
+        //given
+        double [][] methodByMethodMatrix = new double[][]{
+                {1.00, 0.70, 0.21, 0.02, 0.10, 0.00},
+                {0.70, 1.00, 0.30, 0.06, 0.01, 0.03},
+                {0.21, 0.30, 1.00, 0.50, 0.40, 0.22},
+                {0.02, 0.06, 0.50, 1.00, 0.60, 0.30},
+                {0.10, 0.01, 0.40, 0.60, 1.00, 0.80},
+                {0.00, 0.03, 0.22, 0.30, 0.80, 1.00}
+        };
+
+        ArrayList<Integer> remainingMethods = new ArrayList<>(Arrays.asList(0, 2, 5));
+        ArrayList<ArrayList<Integer>> playerChoices = new ArrayList<>();
+        playerChoices.add(new ArrayList<>(List.of(1)));
+        playerChoices.add(new ArrayList<>(List.of(4)));
+        playerChoices.add(new ArrayList<>(List.of(3)));
+
+        PayoffMatrix pm = new PayoffMatrix(remainingMethods, playerChoices, methodByMethodMatrix, 0.5, 0.4);
+        ArrayList<Integer> possibleChoices = new ArrayList<>(remainingMethods);
+        possibleChoices.add(-1);
+
+        ArrayList<Integer> comb1 = new ArrayList<>(Arrays.asList(-1, -1, 2));
+        ArrayList<Integer> comb2 = new ArrayList<>(Arrays.asList(2, 0, 5));
+        ArrayList<Integer> comb3 = new ArrayList<>(Arrays.asList(2, -1, 0));
+        ArrayList<Integer> comb4 = new ArrayList<>(Arrays.asList(-1, -1, -1));
+
+        ArrayList<Double> expected1 = new ArrayList<>(Arrays.asList(0.2, 0.1, 0.1));
+        ArrayList<Double> expected2 = new ArrayList<>(Arrays.asList(-0.065, -0.5, 0.04));
+        ArrayList<Double> expected3 = new ArrayList<>(Arrays.asList(-0.4, 0.25, -0.48));
+        ArrayList<Double> expected4 = null;
+
+        //when
+        pm.computePayoffs(new ArrayList<>(), playerChoices.size(), 0, possibleChoices);
+
+        //then
+        log.info("\n" + (pm.getTotalPayoffs().get(comb1).equals(expected1)));
+        log.info("\n" + (pm.getTotalPayoffs().get(comb1).equals(expected1)));
+        log.info("\n" + (pm.getTotalPayoffs().get(comb1).equals(expected1)));
+        log.info("\n" + (pm.getTotalPayoffs().get(comb1).equals(expected1)));
+
+        assertEquals(pm.getTotalPayoffs().get(comb1), expected1);
+        assertEquals(pm.getTotalPayoffs().get(comb2), expected2);
+        assertEquals(pm.getTotalPayoffs().get(comb3), expected3);
+        assertEquals(pm.getTotalPayoffs().get(comb4), expected4);
 
     }
 
