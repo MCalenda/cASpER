@@ -55,8 +55,6 @@ public class GameTheorySplitClasses implements SplittingStrategy {
         }
 
         while (remainingMethods.size() != 0) {
-            System.out.println(playerChoices);
-            System.out.println(remainingMethods);
             ArrayList<Integer> nashEquilibrium = makeIteration(methodByMethodMatrix);
             System.out.println(nashEquilibrium);
             for (int move : nashEquilibrium) {
@@ -66,8 +64,6 @@ public class GameTheorySplitClasses implements SplittingStrategy {
                 }
             }
         }
-
-        System.out.println(playerChoices);
 
         String packageName = toSplit.getFullQualifiedName().substring(0, toSplit.getFullQualifiedName().lastIndexOf("."));
         for (int i = 0; i < playerChoices.size() ; i++) {
@@ -80,6 +76,14 @@ public class GameTheorySplitClasses implements SplittingStrategy {
         }
         return result;
     }
+
+    /**
+     * Make an iteration of the game returning the Nash Equilibrium
+     *
+     * @param methodByMethodMatrix a matrix of structural and semantic similarity measure between methods
+     * @return a list of choices namely the Nash Equilibrium
+     *
+     */
 
     private ArrayList<Integer> makeIteration(double[][] methodByMethodMatrix) {
         PayoffMatrix pm = new PayoffMatrix(remainingMethods, playerChoices, methodByMethodMatrix, 0.5, 0.4);
