@@ -1,3 +1,12 @@
+<div align = "center">
+<h1>What is the purpose of this fork?</h1>
+</div>
+
+
+This repository concerns the maintenance activities on the tool "cASpER" made for the "Software Dependability" and "Software Evolution and Maintenance" courses. In particular, two change requests are tracked from the proposal to the testing passing through the reverse engineering, the impact analysis and the developement. The activities are proposed in the issue #1 and #3. In the folder "/documents" are also provided the report/documentation from both the courses prospective.
+
+___
+
 ## How to install manually
 
 To be able to install cASpER it is essential to have on your device:
@@ -23,7 +32,3 @@ If not present, it is also necessary to define the startup configuration to comp
 
   1. :runIde in the "task" field
   2. -stacktrace in the "arguments" field
-
-## What is the purpose of this fork?
-
-This is a mixed project of the exams "Software Dependability" and "Ingegneria Gestione ed Evoluzione del software" made by Marco Calenda. The purpose of this project is the tracking of two change requests from the proposal to the testing passing through the analysis (withe Reverse Engineering and Impact Analysis) and the implementation. The two change requests are proposed in the issues #1 and #3. In the repository are also provided two .pdf (in the folder /documents) with two reports from both the exam's prospective (consider that the "Ingegneria Gestione ed Evoluzione del Software" report will be provided in italian while the "Software Dependability" one will be in english).
